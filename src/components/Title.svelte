@@ -20,8 +20,8 @@
 
 <a in:fly class="no-underline" href="/">
   <div class="flex items-center justify-center">
-    <h3 class="gradient pt-0 mt-3">
+    <h4 class="gradient pt-0 mt-3">
       ♦Театралий♦
-    </h3>
+    </h4>
   </div>
 </a>

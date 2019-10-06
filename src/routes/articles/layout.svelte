@@ -27,7 +27,7 @@
 <Date {post} />
 
 <div in:slide>
-<slot />
+  <slot />
 </div>
 
 <Share {post} />

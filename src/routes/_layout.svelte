@@ -49,7 +49,7 @@
 <Title />
 
 <main
-  class="container relative lg:max-w-3xl mx-auto mb-40 mt-6"
+  class="mx-auto mb-40 mt-6 relative"
 >
   <slot />
 </main>
