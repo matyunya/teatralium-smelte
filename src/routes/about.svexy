@@ -1,7 +1,0 @@
-```js exec
-	import Image from 'svelte-image';
-```
-
-## Good stuff in your markdown
-
-<Image src="images/ezhen.jpg" />

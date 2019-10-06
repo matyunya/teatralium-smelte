@@ -27,7 +27,7 @@
     "mdsvex": "^0.4.0",
     "sirv": "^0.4.0",
     "smelte": "^0.1.2",
-    "svelte-image": "^0.0.12",
+    "svelte-image": "^0.0.13",
     "tailwindcss-typography": "^2.2.0"
   },
   "devDependencies": {

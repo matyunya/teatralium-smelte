@@ -36,28 +36,29 @@
   }
 </style>
 
-<div class="wrapper cursor-pointer mb-4" on:click={() => disabled = false}>
+<div class="wrapper cursor-pointer mb-4" on:click={() => (disabled = false)}>
   {#if url}
-    <iframe class="absolute" src={url} frameBorder="0" allowFullScreen title="video" />
+    <iframe
+      class="absolute"
+      src={url}
+      frameBorder="0"
+      allowFullScreen
+      title="video" />
+  {:else if disabled}
+    <span>
+      <img
+        class="absolute"
+        src="https://img.youtube.com/vi/{id}/0.jpg"
+        alt="preview" />
+      <div class="disabled" />
+    </span>
   {:else}
-    {#if disabled}
-      <span>
-        <img
-          class="absolute"
-          src={`https://img.youtube.com/vi/${id}/0.jpg`}
-          alt="preview"
-        />
-          <div class="disabled" />
-      </span>
-    {:else}
-      <iframe
-        src={`https://www.youtube.com/embed/${id}?autoplay=1&start=${start}`}
-        title="video"
-        frameBorder="0"
-        allowFullScreen
-        allow="autoplay"
-      />
-    {/if}
+    <iframe
+      src="https://www.youtube.com/embed/{id}?autoplay=1&start={start}"
+      title="video"
+      frameBorder="0"
+      allowFullScreen
+      allow="autoplay" />
   {/if}
 </div>
 

@@ -103,3 +103,12 @@ h2.small {
 section {
   @apply mx-auto max-w-3xl;
 }
+
+.gallery {
+  max-width: 1200px;
+  @apply flex flex-wrap items-center justify-center;
+}
+
+.gallery img {
+  max-width: 600px;
+}

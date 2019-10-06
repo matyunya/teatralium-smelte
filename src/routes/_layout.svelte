@@ -30,16 +30,22 @@
 
 <svelte:head>
   <title>Театралии всех стран, соединяйтесь!</title>
-  <meta name="mobile-web-app-capable" content="yes"/>
-  <meta name="description" content="Театралии всех стран, соединяйтесь!"/>
-  <meta name="keywords" content="театр, театралий, teatralium, современный театр, несовременный театр"/>
-  <meta property="fb:app_id" content="1528916173863908"/>
-  <meta name="msapplication-TileColor" content="#ffffff"/>
-  <meta name="theme-color" content="#ffffff"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta property="og:title" content="«Театр — единственная возможность цивилизованной дискуссии» | Театралий"/>
-  
-  <link rel="sitemap" type="application/xml" href="//sitemap.xml"/>
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="description" content="Театралии всех стран, соединяйтесь!" />
+  <meta
+    name="keywords"
+    content="театр, театралий, teatralium, современный театр, несовременный
+    театр" />
+  <meta property="fb:app_id" content="1528916173863908" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    property="og:title"
+    content="«Театр — единственная возможность цивилизованной дискуссии» |
+    Театралий" />
+
+  <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
 </svelte:head>
 
 {#if $preloading}
@@ -48,8 +54,6 @@
 
 <Title />
 
-<main
-  class="mx-auto mb-40 mt-6 relative"
->
+<main class="mx-auto mb-40 mt-6 relative">
   <slot />
 </main>

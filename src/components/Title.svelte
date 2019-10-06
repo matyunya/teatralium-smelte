@@ -1,7 +1,5 @@
 <script>
   import { fly } from "svelte/transition";
-
-  
 </script>
 
 <style>
@@ -9,7 +7,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     background: #333399;
-    background: linear-gradient(to bottom, blue, #DF00FF, #DF00FF);
+    background: linear-gradient(to bottom, blue, #df00ff, #df00ff);
     font-weight: 100;
     background-clip: text;
     vertical-align: middle;
@@ -20,8 +18,6 @@
 
 <a in:fly class="no-underline" href="/">
   <div class="flex items-center justify-center">
-    <h4 class="gradient pt-0 mt-3">
-      ♦Театралий♦
-    </h4>
+    <h4 class="gradient pt-0 mt-3">♦Театралий♦</h4>
   </div>
 </a>
