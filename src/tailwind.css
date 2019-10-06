@@ -1,0 +1,97 @@
+@import 'smelte/src/tailwind';
+
+html,
+body {
+  width: 100%;
+}
+
+img {
+  @apply elevation-2;
+}
+
+img:hover {
+  @apply elevation-3;
+}
+
+body {
+  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+a {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 1.7em;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: 'Bodoni', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 4.236em;
+  line-height: 5.6rem;
+  text-align: inherit;
+}
+
+h2.small {
+  text-transform: uppercase;
+  font-size: 1.412rem;
+  letter-spacing: 0.4rem;
+  font-weight: normal;
+  line-height: 2.2rem;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url(/fonts/bodoni-regular.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url(/fonts/bodoni-bold.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  src: url(/fonts/bodoni-italic.woff2);
+  font-weight: normal;
+  font-style: italic;
+}
+
+.small {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  display: block;
+  @apply mb-10 mt-2;
+}
+
+.lead:first-letter {
+  display: block;
+  line-height: 4rem;
+  font-size: 6.5rem;
+  padding: 1.2rem;
+  padding-top: 1.8rem;
+  color: #ff93e8;
+  padding-right: 1.2rem;
+  float: left;
+
+  @apply mt-3 pb-2 font-bold;
+}
+
+.rest {
+  @apply small inline-block;
+}
