@@ -10,6 +10,7 @@
   import teatrModyVSovetskoyRossii from "./articles/teatr_mody_v_sovetskoy_rossii.json";
   import flanagan from "./articles/flanagan.json";
   import gaevskiy from "./articles/gaevskiy.json";
+  import vyrypaev from "./articles/ivan_vyrypaev_protiv_kritikov.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
@@ -25,7 +26,8 @@
     yaPosadilDerevo,
     iBratvaZaSlovaOtvechaet,
     flanagan,
-    gaevskiy
+    gaevskiy,
+    vyrypaev
   ];
 
   let selected = false;
