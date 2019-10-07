@@ -37,12 +37,12 @@
   }
 
   const chips = [
-    { name: 'article', label: 'Тексты', icon: 'local_bar' },
-    { name: 'mix', label: 'Миксы', icon: 'music_note' },
-    { name: 'play', label: 'Пьесы', icon: 'fingerprint' },
-    { name: 'review', label: 'Рицензии', icon: 'format_paint' },
-    { name: 'us', label: 'Мы', icon: 'pets' },
-  ]
+    { name: "article", label: "Тексты", icon: "local_bar" },
+    { name: "mix", label: "Миксы", icon: "music_note" },
+    { name: "play", label: "Пьесы", icon: "fingerprint" },
+    { name: "review", label: "Рицензии", icon: "format_paint" },
+    { name: "us", label: "Мы", icon: "pets" }
+  ];
 </script>
 
 <section>
