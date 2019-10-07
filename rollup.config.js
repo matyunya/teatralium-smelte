@@ -16,6 +16,8 @@ const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
 
+const extractor = require("smelte/src/utils/css-extractor.js");
+
 const postcssPlugins = (purge = false) => {
   return [
     require("postcss-import")(),
@@ -29,43 +31,15 @@ const postcssPlugins = (purge = false) => {
       }),
     purge &&
       require("@fullhuman/postcss-purgecss")({
-        content: ["./**/*.svelte"],
+        content: ["./**/*.svelte", "./**/*.svexy"],
         extractors: [
           {
-            extractor: content => {
-              const fromClasses = content.match(/class:[A-Za-z0-9-_]+/g) || [];
-
-              return [
-                ...(content.match(/[A-Za-z0-9-_:\/]+/g) || []),
-                ...fromClasses.map(c => c.replace("class:", ""))
-              ];
-            },
-            extensions: ["svelte"]
+            extractor,
+            extensions: ["svelte", "svexy"]
           }
         ],
-        whitelist: [
-          "html",
-          "body",
-          "ripple-gray",
-          "ripple-primary",
-          "ripple-white",
-          "cursor-pointer",
-          "navigation:hover",
-          "navigation.selected",
-          "outline-none",
-          "text-xs",
-          "transition"
-        ],
-        whitelistPatterns: [
-          /bg-gray/,
-          /text-gray/,
-          /yellow-a200/,
-          /language/,
-          /namespace/,
-          /token/,
-          // These are from button examples, infer required classes.
-          /(bg|ripple|text|border)-(red|teal|yellow|lime|primary)-(400|500|200|50)$/
-        ]
+        whitelist: ["lead", "body"],
+        whitelistPatterns: [/ripple/]
       })
   ].filter(Boolean);
 };
