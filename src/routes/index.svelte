@@ -67,7 +67,8 @@
     <a
       in:fade={{ duration: 100 }}
       out:slide={{ duration: 200 }}
-      href={article.url}>
+      href={article.url}
+      rel="prefetch">
       <h3>{article.title}</h3>
     </a>
   {/each}
