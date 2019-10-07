@@ -1,18 +1,18 @@
 <script>
   import { Chip } from "smelte";
   import { fade, fly, slide } from "svelte/transition";
-  import { _metadata as ezhen } from "./articles/ezhen.svexy";
-  import { _metadata as protokolPovsednevnost } from "./articles/protokol_povsednevnost.svexy";
-  import { _metadata as aktyoryTruppyNaOtlyote } from "./articles/aktyory_truppy_na_otlyote.svexy";
-  import { _metadata as estetikaVBytu } from "./articles/estetika_v_bytu.svexy";
-  import { _metadata as vsehToshnit } from "./articles/vseh_toshnit.svexy";
-  import { _metadata as vMoskveNaprimerAnalogovNet } from "./articles/v_moskve_naprimer_analogov_net.svexy";
-  import { _metadata as teatrModyVSovetskoyRossii } from "./articles/teatr_mody_v_sovetskoy_rossii.svexy";
-  import { _metadata as flanagan } from "./articles/flanagan.svexy";
-  import { _metadata as gaevskiy } from "./articles/gaevskiy.svexy";
+  import ezhen from "./articles/ezhen.json";
+  import protokolPovsednevnost from "./articles/protokol_povsednevnost.json";
+  import aktyoryTruppyNaOtlyote from "./articles/aktyory_truppy_na_otlyote.json";
+  import estetikaVBytu from "./articles/estetika_v_bytu.json";
+  import vsehToshnit from "./articles/vseh_toshnit.json";
+  import vMoskveNaprimerAnalogovNet from "./articles/v_moskve_naprimer_analogov_net.json";
+  import teatrModyVSovetskoyRossii from "./articles/teatr_mody_v_sovetskoy_rossii.json";
+  import flanagan from "./articles/flanagan.json";
+  import gaevskiy from "./articles/gaevskiy.json";
 
-  import { _metadata as yaPosadilDerevo } from "./music/ya_posadil_derevo.svexy";
-  import { _metadata as iBratvaZaSlovaOtvechaet } from "./music/i_bratva_za_slova_otvechaet.svexy";
+  import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
+  import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
 
   const articles = [
     ezhen,

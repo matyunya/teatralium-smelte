@@ -4,7 +4,6 @@ import commonjs from "rollup-plugin-commonjs";
 import svelte from "rollup-plugin-svelte";
 import babel from "rollup-plugin-babel";
 import { terser } from "rollup-plugin-terser";
-import { string } from "rollup-plugin-string";
 import json from "rollup-plugin-json";
 import config from "sapper/config/rollup.js";
 import getPreprocessor from "svelte-preprocess";
@@ -83,6 +82,7 @@ const preprocess = [
       typographer: true,
       linkify: true
     },
+    outputMeta: true,
     layout: "./src/layouts/article.svelte",
     parser: md => md.use(require("markdown-it-attrs"))
   }),
@@ -102,12 +102,10 @@ export default {
     input: config.client.input(),
     output: config.client.output(),
     plugins: [
+      json(),
       replace({
         "process.browser": true,
         "process.env.NODE_ENV": JSON.stringify(mode)
-      }),
-      string({
-        include: "**/*.txt"
       }),
       svelte({
         dev,
@@ -165,19 +163,16 @@ export default {
     input: config.server.input(),
     output: config.server.output(),
     plugins: [
+      json(),
       replace({
         "process.browser": false,
         "process.env.NODE_ENV": JSON.stringify(mode)
       }),
-      json(),
       svelte({
         generate: "ssr",
         dev,
         extensions: [".svelte", ".svexy", ".svx"],
         preprocess
-      }),
-      string({
-        include: "**/*.txt"
       }),
       resolve(),
       includePaths({ paths: ["./src", "./", "./node_modules/smelte/src/"] }),
