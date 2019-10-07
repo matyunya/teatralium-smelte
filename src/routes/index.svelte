@@ -1,34 +1,48 @@
 <script>
   import { Chip } from "smelte";
   import { fade, fly, slide } from "svelte/transition";
-  import { _metadata as ezhenMeta } from "./articles/ezhen.svexy";
-  import { _metadata as protokolPovsednevnostMeta } from "./articles/protokol_povsednevnost.svexy";
-  import { _metadata as aktyoryTruppyNaOtlyoteMeta } from "./articles/aktyory_truppy_na_otlyote.svexy";
-  import { _metadata as estetikaVBytuMeta } from "./articles/estetika_v_bytu.svexy";
-  import { _metadata as vsehToshnitMeta } from "./articles/vseh_toshnit.svexy";
-  import { _metadata as vMoskveNaprimerAnalogovNetMeta } from "./articles/v_moskve_naprimer_analogov_net.svexy";
-  import { _metadata as teatrModyVSovetskoyRossiiMeta } from "./articles/teatr_mody_v_sovetskoy_rossii.svexy";
+  import { _metadata as ezhen } from "./articles/ezhen.svexy";
+  import { _metadata as protokolPovsednevnost } from "./articles/protokol_povsednevnost.svexy";
+  import { _metadata as aktyoryTruppyNaOtlyote } from "./articles/aktyory_truppy_na_otlyote.svexy";
+  import { _metadata as estetikaVBytu } from "./articles/estetika_v_bytu.svexy";
+  import { _metadata as vsehToshnit } from "./articles/vseh_toshnit.svexy";
+  import { _metadata as vMoskveNaprimerAnalogovNet } from "./articles/v_moskve_naprimer_analogov_net.svexy";
+  import { _metadata as teatrModyVSovetskoyRossii } from "./articles/teatr_mody_v_sovetskoy_rossii.svexy";
+  import { _metadata as flanagan } from "./articles/flanagan.svexy";
+  import { _metadata as gaevskiy } from "./articles/gaevskiy.svexy";
 
-  import { _metadata as yaPosadilDerevoMeta } from "./music/ya_posadil_derevo.svexy";
-
-  let selected = false;
+  import { _metadata as yaPosadilDerevo } from "./music/ya_posadil_derevo.svexy";
+  import { _metadata as iBratvaZaSlovaOtvechaet } from "./music/i_bratva_za_slova_otvechaet.svexy";
 
   const articles = [
-    ezhenMeta,
-    protokolPovsednevnostMeta,
-    aktyoryTruppyNaOtlyoteMeta,
-    estetikaVBytuMeta,
-    vsehToshnitMeta,
-    vMoskveNaprimerAnalogovNetMeta,
-    teatrModyVSovetskoyRossiiMeta,
-    yaPosadilDerevoMeta
+    ezhen,
+    protokolPovsednevnost,
+    aktyoryTruppyNaOtlyote,
+    estetikaVBytu,
+    vsehToshnit,
+    vMoskveNaprimerAnalogovNet,
+    teatrModyVSovetskoyRossii,
+    yaPosadilDerevo,
+    iBratvaZaSlovaOtvechaet,
+    flanagan,
+    gaevskiy
   ];
+
+  let selected = false;
 
   $: filtered = selected ? articles.filter(a => a.type === selected) : articles;
 
   function toggle(type) {
     return () => (selected = selected === type ? false : type);
   }
+
+  const chips = [
+    { name: 'article', label: 'Тексты', icon: 'local_bar' },
+    { name: 'mix', label: 'Миксы', icon: 'music_note' },
+    { name: 'play', label: 'Пьесы', icon: 'fingerprint' },
+    { name: 'review', label: 'Рицензии', icon: 'format_paint' },
+    { name: 'us', label: 'Мы', icon: 'pets' },
+  ]
 </script>
 
 <section>
@@ -36,41 +50,15 @@
     in:fly={{ delay: 100 }}
     class="flex items-center justify-between font-sans mx-auto"
     style="width: 550px">
-    <Chip
-      selected={selected === 'article'}
-      selectable={false}
-      icon="local_bar"
-      on:click={toggle('article')}>
-      Тексты
-    </Chip>
-    <Chip
-      selected={selected === 'mix'}
-      selectable={false}
-      icon="music_note"
-      on:click={toggle('mix')}>
-      Миксы
-    </Chip>
-    <Chip
-      selected={selected === 'play'}
-      selectable={false}
-      icon="fingerprint"
-      on:click={toggle('play')}>
-      Пьесы
-    </Chip>
-    <Chip
-      selected={selected === 'review'}
-      selectable={false}
-      icon="format_paint"
-      on:click={toggle('review')}>
-      Рицензии
-    </Chip>
-    <Chip
-      selected={selected === 'us'}
-      selectable={false}
-      icon="pets"
-      on:click={toggle('us')}>
-      Мы
-    </Chip>
+    {#each chips as chip}
+      <Chip
+        selected={selected === chip.name}
+        selectable={false}
+        icon={chip.icon}
+        on:click={toggle(chip.name)}>
+        {chip.label}
+      </Chip>
+    {/each}
   </div>
 </section>
 
