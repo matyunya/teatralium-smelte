@@ -1,19 +1,21 @@
 ---
-layout: ./layout.svelte
 image: /images/blok/cover.jpg
 description: «По-моему, мы можем и должны немедленно выработать и продиктовать государственным театрам свой репертуар»
 date: 9 апреля 2018
-author: Настя Николаева
 url: articles/aktyory_truppy_na_otlyote
 title: "Александр Блок о репертуаре государственных театров"
+hideDate: true
 ---
 
 ```js exec
   import Image from "svelte-image";
   import Video from "components/Video.svelte";
+  import Cover from "covers/Blok.svelte";
 ```
 
- Блок любил театр, много смотрел и рецензировал, поначалу даже играл
+<Cover />
+
+Блок любил театр, много смотрел и рецензировал, поначалу даже играл
 в любительских постановках, не говоря уже о его собственных пьесах.
 5 июня 1918 года он написал статью [«О репертуаре коммунальных и государственных
 театров»](http://dugward.ru/library/blok/blok_o_repertuare_kommunalnyh.html),

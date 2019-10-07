@@ -1,18 +1,21 @@
 ---
-layout: ./layout.svelte
 image: /share/vilisov.jpg
 description: Отрывок из книги Виктора Вилисова.
 date: 11 января 2019
 author: Виктор Вилисов
 url: articles/vseh_toshnit
 title: "Голубой сад: темы гендера и сексуальности в российском театре"
+type: article
 ---
 
 ```js exec
   import Image from "svelte-image";
   import Note from "components/Note.svelte";
   import Video from "components/Video.svelte";
+  import Cover from "covers/VsehToshnit.svelte";
 ```
+
+<Cover />
 
 <section>
 
@@ -66,7 +69,7 @@ title: "Голубой сад: темы гендера и сексуальнос
 чувственности, а значит — нового знания о мире и новых
 впечатлений. К сожалению, сразу можно сказать, что потенциал этих
 явлений в преобразовании театральных методов в настоящее время
-вообще почти не реализуется. :<…>:{.rest}
+вообще почти не реализуется. <…>
 
 
 Принимаясь за разговор о российском положении явлений

@@ -23,6 +23,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  @apply text-alert-500 no-underline;
+}
+
 p {
   margin-bottom: 1.7em;
 }
@@ -83,21 +87,23 @@ h2.small {
   display: block;
   line-height: 4rem;
   font-size: 6.5rem;
-  padding: 1.2rem;
-  padding-top: 1.8rem;
-  color: #ff93e8;
-  padding-right: 1.2rem;
+  color: #df00ff;
   float: left;
 
-  @apply mt-3 pb-2 font-bold;
+  @apply mt-3 p-1 pr-4 font-bold;
+
+  text-shadow: 1px 1px 1px #b943b9,
+      1px 2px 1px #b943b9,
+      1px 3px 1px #b943b9,
+      1px 4px 1px #b943b9,
+  1px 15px 6px rgba(0,128,128,0.4),
+  1px 20px 20px rgba(0,128,128,0.2),
+  1px 25px 25px rgba(0,128,128,0.2),
+  1px 30px 35px rgba(0,128,128,0.4);
 }
 
 .lead {
   @apply mx-auto max-w-3xl;
-}
-
-.rest {
-  @apply small inline-block;
 }
 
 section {
@@ -109,6 +115,14 @@ section {
   @apply flex flex-wrap items-center justify-center;
 }
 
-.gallery img {
+.gallery > img {
   max-width: 600px;
+}
+
+.date {
+  @apply small-caps text-center text-sm py-6 font-sans;
+}
+
+ul {
+  list-style-type: square;
 }

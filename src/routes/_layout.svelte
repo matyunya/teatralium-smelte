@@ -54,6 +54,6 @@
 
 <Title />
 
-<main class="mx-auto mb-40 mt-6 relative">
+<main class="mx-auto mb-40 mt-6">
   <slot />
 </main>

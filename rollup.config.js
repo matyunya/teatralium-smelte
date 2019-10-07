@@ -83,8 +83,8 @@ const preprocess = [
       typographer: true,
       linkify: true
     },
-    parser: md =>
-      md.use(require("markdown-it-attrs")).use(require("markdown-it-span"))
+    layout: "./src/layouts/article.svelte",
+    parser: md => md.use(require("markdown-it-attrs"))
   }),
   image({
     sizes: [600, 900, 1200],

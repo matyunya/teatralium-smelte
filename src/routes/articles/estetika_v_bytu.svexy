@@ -1,17 +1,20 @@
 ---
-layout: ./layout.svelte
 image: /images/blok/cover.jpg
 description: «По-моему, мы можем и должны немедленно выработать и продиктовать государственным театрам свой репертуар»
 date: 9 апреля 2018
 author: Настя Николаева
-url: articles/aktyory_truppy_na_otlyote
-title: "Александр Блок о репертуаре государственных театров"
+url: articles/estetika_v_bytu
+title: Эстетика в быту
+type: article
 ---
 
 ```js exec
   import Image from "svelte-image";
   import Note from "components/Note.svelte";
+  import Cover from "covers/Estetika.svelte";
 ```
+
+<Cover />
 
 <section>
 
@@ -204,7 +207,7 @@ Essay on the Organisation of Experience». New York e. a., 1974)
 «магическому удвоению». Чтобы квалифицирующая быт воспроизводимость
 ощущалась, он постоянно испытывает себя на своей последней границе,
 не переступая ее, оборачивается цинизмом, который «не верит более в
-status quo :<…>:{.rest} но не дает надежды на какие-то радикальные
+status quo <…> но не дает надежды на какие-то радикальные
 изменения». Сдвигая быт в архаику, Маффесоли увековечивает его, как
 если бы он никогда не разрушался извне под ударами истории. «Смысл
 театральности», господствующей в повседневном поведении, «в том, что

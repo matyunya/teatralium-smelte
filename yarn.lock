@@ -2795,11 +2795,6 @@ markdown-it-attrs@^3.0.1:
   resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-3.0.1.tgz#5ce7b4405f2286190fbcf4c482aa9e3e2d55ece5"
   integrity sha512-fcpdmxdEsctDVJEunPyrirVtU/6zcTMxPxAu4Ofz51PKAa8vRMpmGQXsmXx1HTdIdUPoDonm/RhS/+jTNywj/Q==
 
-markdown-it-span@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-it-span/-/markdown-it-span-1.0.0.tgz#0ddc4808644d6b918c24207504538838aa6a6e25"
-  integrity sha512-6XZlFMqDfgvhIbs6wuT8cUAmkUjgZtETTe4W6ul8V8GoEFgTYPr6Lj6ybN5SfkCxQ+puFFu9b8SNiu4YWRu8lA==
-
 markdown-it@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-9.1.0.tgz#df9601c168568704d554b1fff9af0c5b561168d9"

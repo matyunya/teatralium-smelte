@@ -1,7 +1,3 @@
-<script>
-  import { fly } from "svelte/transition";
-</script>
-
 <style>
   @keyframes spin {
     0% {
@@ -22,6 +18,6 @@
   }
 </style>
 
-<div class="flex justify-center" in:fly={300}>
+<div class="flex justify-center">
   <a class="no-underline text-5xl" href="/">♦</a>
 </div>

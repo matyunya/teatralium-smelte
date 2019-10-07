@@ -1,17 +1,20 @@
 ---
-layout: ./layout.svelte
 image: /images/protokol/protokol1.jpg
 description: Даже если вы «вообще не театральный человек».
 date: 11 июля 2018
 author: Настя Николаева
 url: articles/protokol_povsednevnost
 title: "«Никому не рассказывайте, чем вы тут занимались»: почему всем нужно пройти через кружок «Протокол» в ЦИМе"
+type: article
 ---
 
 ```js exec
   import Image from "svelte-image";
   import Video from "components/Video.svelte";
+  import Cover from "covers/Protokol.svelte";
 ```
+
+<Cover />
 
 Спустя три месяца после отчетного показа кружка «Протокол.
 Повседневность» погода наконец позволила надеть пиджак, в котором я

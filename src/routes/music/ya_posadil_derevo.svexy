@@ -1,0 +1,59 @@
+---
+image: /images/otvechaet/avdeev.jpg
+description: Романтик-коллекшн от актера Гоголь-центра.
+date: 18 февраля 2018
+author: «За музыку отвечает»
+url: music/ya_posadil_derevo
+title: "Я посадил дерево: плейлист актера Филиппа Авдеева"
+type: mix
+---
+
+```js exec
+  import Image from "svelte-image";
+```
+
+
+<section>
+
+«За музыку в спектакле отвечает» — от этой фразы, которую критики
+очень любят использовать в рецензиях, у нормальных читателей
+случается либо уныние, либо приступ желания уничтожать. В связи с
+этим «Театралий» призывает разных людей, причастных к театральному
+делу, буквально ответить за музыку в соответствующей рубрике «За
+музыку отвечает». В прошлом выпуске мы слушали [духоподъемный микс
+комиссара Театра.doc Всеволода Лисовского](/music/playlist_komissara_vsevoloda_lisovskogo),
+а сегодня наш гость — актер Гоголь-центра Филипп Авдеев,
+выбор которого лучше всего подходит для каникул в жарких странах.{.lead}
+
+<Image src=/images/otvechaet/avdeev.jpg alt="Филипп Авдеев" />
+
+Филипп Авдеев {.small mb-10}
+
+«Треки Benjamin Damage и HVOB сопровождали меня в незабываемом
+путешествии на остров Ко Панган в 2013 году. Кино — это мое
+лето-2017. Хаски — новый опыт. Die Antwoord просто качает, David
+Lang вдохновляет, Bob Marley успокаивает, Sunsay переносит на море
+или туда, где тепло, а Pompeya — лучший трек для поездки летом на
+мопеде».
+
+<iframe
+  title="player"
+  scrolling="no"
+  width="100%"
+  height="60"
+  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&hide_artwork=1&feed=%2FTeatralium%2Fderevo-avdeev%2F"
+  frameBorder="0"
+/>
+
+- HVOB — «Dogs»
+- Кино — «Мои друзья»
+- David Lang — «I Lie»
+- Хаски — «Бэнг бэнг»
+- Die Antwoord — «Baby’s on fire»
+- Benjamin Damage — «Battleship»
+- Pompeya — «90»
+- Sunsay & John Forté — «Wind song»
+- Bob Marley — «Small Axe»
+- Кино — «Дерево»
+
+</section>
