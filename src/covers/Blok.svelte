@@ -14,7 +14,9 @@
     <span class="bg-black">Актеры труппы на отлете</span>
   </h1>
   <h2 class="text-left small">
-    <span class="bg-black">Александр Блок о репертуаре государственных театров</span>
+    <span class="bg-black">
+      Александр Блок о репертуаре государственных театров
+    </span>
   </h2>
 </section>
 

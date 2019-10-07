@@ -10,7 +10,7 @@
   export let author = null;
   export let url = null;
   export let title = null;
-  export let layout = '';
+  export let layout = "";
   export let type = null;
 
   const post = {

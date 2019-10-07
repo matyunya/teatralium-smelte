@@ -12,11 +12,11 @@
 </style>
 
 <section class="mb-6 h-screen relative text-white">
-  <h1 class="text-left uppercase mt-32 mb-16 text-black">
-    Голубой сад
-  </h1>
+  <h1 class="text-left uppercase mt-32 mb-16 text-black">Голубой сад</h1>
   <h2 class="text-left small">
-    <span class="bg-black">Темы гендера и сексуальности в российском театре</span>
+    <span class="bg-black">
+      Темы гендера и сексуальности в российском театре
+    </span>
   </h2>
 </section>
 
