@@ -12,14 +12,16 @@
   import gaevskiy from "./articles/gaevskiy.json";
   import velikoeRaznoobrazie from "./articles/velikoe_raznoobrazie.json";
   import pomoshZala from "./articles/pomosh_zala.json";
+  import lyubimovka from "./articles/lyubimovka.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
   import neperevodimiyRusskiyNadryv from "./interviews/neperevodimiy_russkiy_nadryv.json";
+  import poobshatsaSGospodinomOblomovym from "./interviews/poobshatsa_s_gospodinom_oblomovym.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
-  
+
   import iphuck from "./reviews/iphuck.json";
   import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
 
@@ -42,6 +44,8 @@
     sheshepop,
     neperevodimiyRusskiyNadryv,
     pomoshZala,
+    lyubimovka,
+    poobshatsaSGospodinomOblomovym
   ];
 
   let selected = false;
