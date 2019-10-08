@@ -9,10 +9,6 @@ img {
   @apply elevation-2;
 }
 
-img:hover {
-  @apply elevation-3;
-}
-
 body {
   font-family: Georgia, Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -24,7 +20,7 @@ a {
 }
 
 a:hover {
-  @apply text-alert-500 no-underline;
+  @apply text-alert-800 no-underline;
 }
 
 p {
@@ -112,10 +108,10 @@ section {
 
 .gallery {
   max-width: 1200px;
-  @apply flex flex-wrap items-center justify-center;
+  @apply flex flex-wrap items-center justify-center relative;
 }
 
-.gallery > img {
+.gallery img {
   max-width: 600px;
 }
 
@@ -125,4 +121,19 @@ section {
 
 ul {
   list-style-type: square;
+}
+
+.a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.q::before, .a::before {
+  content: "— ";
+  position: absolute;
+  margin-left: -26px;
+}
+
+.q {
+  font-weight: bold;
 }

@@ -1,7 +1,7 @@
 <script>
   export let top = 0;
   export let left = false;
-  export let bg = "secondary-50";
+  export let bg = "primary-50";
 </script>
 
 <style>

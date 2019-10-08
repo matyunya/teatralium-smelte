@@ -62,8 +62,9 @@
   {/if}
 </div>
 
-{#if desc}
-  <div class="small">
+<div class="small">
+  <slot />
+  {#if desc}
     {desc}
     {#if url}
       <a href={url}>{title}</a>
@@ -71,5 +72,6 @@
     {#if afterUrl}
       <span>{afterUrl}</span>
     {/if}
-  </div>
-{/if}
+  {/if}
+</div>
+

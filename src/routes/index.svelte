@@ -10,10 +10,18 @@
   import teatrModyVSovetskoyRossii from "./articles/teatr_mody_v_sovetskoy_rossii.json";
   import flanagan from "./articles/flanagan.json";
   import gaevskiy from "./articles/gaevskiy.json";
-  import vyrypaev from "./articles/ivan_vyrypaev_protiv_kritikov.json";
+  import velikoeRaznoobrazie from "./articles/velikoe_raznoobrazie.json";
+  import pomoshZala from "./articles/pomosh_zala.json";
+
+  import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
+  import sheshepop from "./interviews/sheshepop.json";
+  import neperevodimiyRusskiyNadryv from "./interviews/neperevodimiy_russkiy_nadryv.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
+  
+  import iphuck from "./reviews/iphuck.json";
+  import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
 
   const articles = [
     ezhen,
@@ -27,7 +35,13 @@
     iBratvaZaSlovaOtvechaet,
     flanagan,
     gaevskiy,
-    vyrypaev
+    vyrypaev,
+    iphuck,
+    yaneboyusskazat,
+    velikoeRaznoobrazie,
+    sheshepop,
+    neperevodimiyRusskiyNadryv,
+    pomoshZala,
   ];
 
   let selected = false;
@@ -40,6 +54,7 @@
 
   const chips = [
     { name: "article", label: "Тексты", icon: "local_bar" },
+    { name: "interview", label: "Интервью", icon: "person" },
     { name: "mix", label: "Миксы", icon: "music_note" },
     { name: "play", label: "Пьесы", icon: "fingerprint" },
     { name: "review", label: "Рицензии", icon: "format_paint" },
@@ -51,7 +66,7 @@
   <div
     in:fly={{ delay: 100 }}
     class="flex items-center justify-between font-sans mx-auto"
-    style="width: 550px">
+    style="width: 600px">
     {#each chips as chip}
       <Chip
         selected={selected === chip.name}
@@ -71,7 +86,7 @@
       out:slide={{ duration: 200 }}
       href={article.url}
       rel="prefetch">
-      <h3>{article.title}</h3>
+      <h4>{article.title}</h4>
     </a>
   {/each}
 </div>
