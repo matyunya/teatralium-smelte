@@ -14,6 +14,7 @@
   import pomoshZala from "./articles/pomosh_zala.json";
   import lyubimovka from "./articles/lyubimovka.json";
   import lektsii from "./articles/lektsii.json";
+  import kritiki from "./articles/kritiki.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -47,7 +48,8 @@
     pomoshZala,
     lyubimovka,
     poobshatsaSGospodinomOblomovym,
-    lektsii
+    lektsii,
+    kritiki
   ];
 
   let selected = false;
