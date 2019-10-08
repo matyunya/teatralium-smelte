@@ -13,6 +13,7 @@
   import velikoeRaznoobrazie from "./articles/velikoe_raznoobrazie.json";
   import pomoshZala from "./articles/pomosh_zala.json";
   import lyubimovka from "./articles/lyubimovka.json";
+  import lektsii from "./articles/lektsii.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -45,7 +46,8 @@
     neperevodimiyRusskiyNadryv,
     pomoshZala,
     lyubimovka,
-    poobshatsaSGospodinomOblomovym
+    poobshatsaSGospodinomOblomovym,
+    lektsii
   ];
 
   let selected = false;
