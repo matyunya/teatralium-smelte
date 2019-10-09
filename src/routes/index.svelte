@@ -16,6 +16,8 @@
   import lyubimovka from "./articles/lyubimovka.json";
   import lektsii from "./articles/lektsii.json";
   import kritiki from "./articles/kritiki.json";
+  import ozhilaKrasnayaStsena from "./articles/ozhila_krasnaya_stsena.json";
+  import yaRabotayuVTeatreZaytseva from "./articles/ya_rabotayu_v_teatre_zaytseva.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -29,6 +31,8 @@
 
   import iphuck from "./reviews/iphuck.json";
   import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
+  
+  import mestnye from "./plays/mestnye.json";
 
   const articles = [
     ezhen,
@@ -54,7 +58,10 @@
     lektsii,
     kritiki,
     abyuzNelzyaPomilovat,
-    miloserdie
+    miloserdie,
+    mestnye,
+    yaRabotayuVTeatreZaytseva,
+    ozhilaKrasnayaStsena,
   ];
 
   let selected = false;

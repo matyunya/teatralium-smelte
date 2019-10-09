@@ -25,6 +25,7 @@
 </script>
 
 <Head {post} />
+
 <Date {post} />
 
 <div>

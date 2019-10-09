@@ -3,6 +3,6 @@
 </script>
 
 <div class="date">
-  {post.date}
+  {post.date || ''}
   {#if post.author}, текст:&nbsp;{post.author}{/if}
 </div>
