@@ -1,6 +1,7 @@
 <script>
   import { Chip } from "smelte";
   import { fade, fly, slide } from "svelte/transition";
+
   import ezhen from "./articles/ezhen.json";
   import protokolPovsednevnost from "./articles/protokol_povsednevnost.json";
   import aktyoryTruppyNaOtlyote from "./articles/aktyory_truppy_na_otlyote.json";
@@ -20,6 +21,8 @@
   import sheshepop from "./interviews/sheshepop.json";
   import neperevodimiyRusskiyNadryv from "./interviews/neperevodimiy_russkiy_nadryv.json";
   import poobshatsaSGospodinomOblomovym from "./interviews/poobshatsa_s_gospodinom_oblomovym.json";
+  import abyuzNelzyaPomilovat from "./interviews/abyuz_nelzya_pomilovat.json";
+  import miloserdie from "./interviews/miloserdie.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
@@ -49,7 +52,9 @@
     lyubimovka,
     poobshatsaSGospodinomOblomovym,
     lektsii,
-    kritiki
+    kritiki,
+    abyuzNelzyaPomilovat,
+    miloserdie
   ];
 
   let selected = false;
@@ -88,13 +93,13 @@
 </section>
 
 <div class="pl-10 text-left flex flex-col mt-32">
-  {#each filtered as article}
+  {#each filtered as post}
     <a
       in:fade={{ duration: 100 }}
       out:slide={{ duration: 200 }}
-      href={article.url}
+      href={post.url}
       rel="prefetch">
-      <h4>{article.title}</h4>
+      <h4 class="pb-1">{post.title}</h4>
     </a>
   {/each}
 </div>
