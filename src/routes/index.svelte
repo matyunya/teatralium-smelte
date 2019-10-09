@@ -31,7 +31,7 @@
 
   import iphuck from "./reviews/iphuck.json";
   import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
-  
+
   import mestnye from "./plays/mestnye.json";
 
   const articles = [
@@ -61,7 +61,7 @@
     miloserdie,
     mestnye,
     yaRabotayuVTeatreZaytseva,
-    ozhilaKrasnayaStsena,
+    ozhilaKrasnayaStsena
   ];
 
   let selected = false;
