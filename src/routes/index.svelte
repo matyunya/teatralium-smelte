@@ -28,6 +28,10 @@
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
+  import playlistKomissaraVsevolodaLisovskogo from "./music/playlist_komissara_vsevoloda_lisovskogo.json";
+  import pahom from "./music/pahom.json";
+  import poteryanniyKray from "./music/poteryanniy_kray.json";
+  import vsyoDvizhetsya from "./music/vsyo_dvizhetsya.json";
 
   import iphuck from "./reviews/iphuck.json";
   import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
@@ -70,6 +74,10 @@
     dney28,
     zloveschayaDolina,
     vsyoVidnoYasno,
+    pahom,
+    playlistKomissaraVsevolodaLisovskogo,
+    poteryanniyKray,
+    vsyoDvizhetsya
   ];
 
   let selected = false;

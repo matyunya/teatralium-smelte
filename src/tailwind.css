@@ -116,7 +116,7 @@ section {
 }
 
 .date {
-  @apply small-caps text-center text-sm py-6 font-sans;
+  @apply small-caps text-center text-xs py-3 font-sans text-gray-400;
 }
 
 ul {
