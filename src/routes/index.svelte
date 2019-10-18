@@ -18,6 +18,8 @@
   import ozhilaKrasnayaStsena from "./articles/ozhila_krasnaya_stsena.json";
   import yaRabotayuVTeatreZaytseva from "./articles/ya_rabotayu_v_teatre_zaytseva.json";
   import dokumentalnayaHoreografiya from "./articles/dokumentalnaya_horeografiya.json";
+  import izVsehIskusstv from "./articles/iz_vseh_iskusstv.json";
+  import konNeValyalsya from "./articles/kon_ne_valyalsya.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -25,6 +27,7 @@
   import poobshatsaSGospodinomOblomovym from "./interviews/poobshatsa_s_gospodinom_oblomovym.json";
   import abyuzNelzyaPomilovat from "./interviews/abyuz_nelzya_pomilovat.json";
   import miloserdie from "./interviews/miloserdie.json";
+  import contemporaryArtists from "./interviews/contemporary_artists.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
@@ -77,7 +80,10 @@
     pahom,
     playlistKomissaraVsevolodaLisovskogo,
     poteryanniyKray,
-    vsyoDvizhetsya
+    vsyoDvizhetsya,
+    izVsehIskusstv,
+    contemporaryArtists,
+    konNeValyalsya
   ];
 
   let selected = false;

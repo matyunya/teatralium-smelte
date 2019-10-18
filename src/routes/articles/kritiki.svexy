@@ -12,6 +12,7 @@ type: article
   import Image from "svelte-image";
   import Video from "components/Video.svelte";
   import Note from "components/Note.svelte";
+  import Kiss from "components/Kiss.svelte";
 ```
 
 
@@ -78,8 +79,7 @@ Alexander Calder, «Blue Drop»{.small}
 счастливой. Когда я читаю, как кто-то понял и адекватно объяснил,
 это приводит меня в восторг.
 
-
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 Сам театр диктует критику язык. Если это современный спектакль,
 присвоивший себе перформативные практики или открытия, совершенные
@@ -165,7 +165,7 @@ Joan Miro, «Le grand jardin» {.small}
 организации диалога между зрителем и театром, разъяснения правил
 игры нового театра, обучения продвинутого зрителя.
 
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 <Note>
   <a href="/articles/ugadayte_kto_eto_napisal">
@@ -299,7 +299,7 @@ Gerhard Richter, «Aladin» {.small}
 болеть сильнее, чем за режиссеров с актерами.
 
 
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 
 <Note top="200px">
@@ -399,7 +399,7 @@ Joan Mitchell, «Trees IV» {.small}
 Откуда у вторых та же склонность к красивости, те же никуда не ведущие фразы?
 
 
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 Конфликт между критиками и блогерами, конечно, инспирирован. Кстати,
 больше половины тех, кто называет себя блогерами в материале
@@ -496,7 +496,7 @@ alt="Frank Stella, «Marrakech»" {.small}
 они дают гораздо больше, чем видео.
 
 
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 У меня все просто: я хочу, чтобы люди смотрели хороший театр и не
 смотрели плохой. Если надо выбрать, про какой из двух спектаклей
@@ -609,7 +609,7 @@ Jean Dubuffet, «Mire G72 (Boléro)» {.small}
 прежде всего становится йогом восприятия.
 
 
-<img class="elevation-0 mx-auto py-16" src="images/kiss.gif" alt="kiss">
+<Kiss />
 
 Но до театроведения как науки и до критики как искусства еще очень
 далеко. Причина — в необходимости стать необычайно
