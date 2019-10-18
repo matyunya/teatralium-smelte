@@ -3,7 +3,6 @@
   import { fade, fly, slide } from "svelte/transition";
 
   import ezhen from "./articles/ezhen.json";
-  import protokolPovsednevnost from "./articles/protokol_povsednevnost.json";
   import aktyoryTruppyNaOtlyote from "./articles/aktyory_truppy_na_otlyote.json";
   import estetikaVBytu from "./articles/estetika_v_bytu.json";
   import vsehToshnit from "./articles/vseh_toshnit.json";
@@ -18,6 +17,7 @@
   import kritiki from "./articles/kritiki.json";
   import ozhilaKrasnayaStsena from "./articles/ozhila_krasnaya_stsena.json";
   import yaRabotayuVTeatreZaytseva from "./articles/ya_rabotayu_v_teatre_zaytseva.json";
+  import dokumentalnayaHoreografiya from "./articles/dokumentalnaya_horeografiya.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -31,6 +31,10 @@
 
   import iphuck from "./reviews/iphuck.json";
   import yaneboyusskazat from "./reviews/ya_ne_boyus_skazat.json";
+  import dney28 from "./reviews/28dney.json";
+  import zloveschayaDolina from "./reviews/zloveschaya_dolina.json";
+  import protokolPovsednevnost from "./reviews/protokol_povsednevnost.json";
+  import vsyoVidnoYasno from "./reviews/vsyo_vidno_yasno.json";
 
   import mestnye from "./plays/mestnye.json";
 
@@ -61,7 +65,11 @@
     miloserdie,
     mestnye,
     yaRabotayuVTeatreZaytseva,
-    ozhilaKrasnayaStsena
+    ozhilaKrasnayaStsena,
+    dokumentalnayaHoreografiya,
+    dney28,
+    zloveschayaDolina,
+    vsyoVidnoYasno,
   ];
 
   let selected = false;
