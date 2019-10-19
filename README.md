@@ -8,7 +8,7 @@
 - [x] 28dney
 - [x] abbreviatura_ramt
 - [x] abyuz_nelzya_pomilovat
-- [] aktyora_nado_mordoy_v_govno
+- [x] aktyora_nado_mordoy_v_govno
 - [x] aktyory_truppy_na_otlyote
 - [x] contemporary_artists
 - [x] dokumentalnaya_horeografiya
@@ -33,7 +33,7 @@
 - [x] neperevodimiy_russkiy_nadryv
 - [] nespyashie_v_teatre
 - [] net_amnezii
-- [] nogi_zatekayut
+- [x] nogi_zatekayut
 - [x] ozhila_krasnaya_stsena
 - [x] pahom
 - [x] playlist_komissara_vsevoloda_lisovskogo

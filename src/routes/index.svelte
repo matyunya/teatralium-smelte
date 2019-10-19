@@ -25,6 +25,7 @@
   import morskoyTsarBelomor from "./articles/morskoy_tsar_belomor.json";
   import revolyutsiya from "./articles/revolyutsiya.json";
   import nogiZatekayut from "./articles/nogi_zatekayut.json";
+  import aktyoraNadoMordoyVGovno from "./articles/aktyora_nado_mordoy_v_govno.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -97,7 +98,8 @@
     abbreviaturaRamt,
     morskoyTsarBelomor,
     revolyutsiya,
-    nogiZatekayut
+    nogiZatekayut,
+    aktyoraNadoMordoyVGovno
   ];
 
   let selected = false;
