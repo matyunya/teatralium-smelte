@@ -29,7 +29,7 @@ type: review
 комьюнити москвичей и гостей столицы и организовать их в театр
 горожан.{.lead}
 
-<Image src="images/protokol/protokol1.jpg" c="max-w-100 my-16" />
+<Image src="images/protokol/protokol1.jpg" c="max-w-100" />
 
 <section>
 
@@ -111,7 +111,7 @@ type: review
 сложностей складывается жизнь (в основном из вечной беготни куда-то
 и опозданий).
 
-<Image src="images/protokol/protokol2.png" c="max-w-100 my-16" />
+<Image src="images/protokol/protokol2.png" c="max-w-100" />
 
 Каждый день, обнаруживая себя за деланием или обдумыванием чего-то,
 ловя себя на том, что весь прогон от «Нагатинской» до «Тульской» вы
@@ -161,7 +161,7 @@ type: review
 телесными реакциями, в каком-то смысле за инстинктами. Почему после
 огурцов ты направился именно к трусам и так далее.
 
-<Image src="images/protokol/protokol3.png" c="max-w-100 my-16" />
+<Image src="images/protokol/protokol3.png" c="max-w-100" />
 
 Фото: Екатерина Краева{.small mb10}
 

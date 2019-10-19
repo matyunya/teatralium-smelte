@@ -137,7 +137,7 @@ type: article
 наметил постмодернизм.
 </section>
 
-<Image c="max-w-100 my-16" src="images/estetika/1.jpg" alt="odin" />
+<Image c="max-w-100" src="images/estetika/1.jpg" alt="odin" />
 
 «Октавия. Трепанация», режиссер Борис Юхананов. Фото: Luciano Romano{.small mb-10}
 
@@ -309,7 +309,7 @@ aisthesis: типовое поведение либо подчиняется у�
 
 </section>
 
-<Image c="max-w-100 my-16" src="images/estetika/2.jpg" alt="dva" />
+<Image c="max-w-100" src="images/estetika/2.jpg" alt="dva" />
 
 «Октавия. Трепанация», режиссер Борис Юхананов. Фото: Luciano Romano{.small mb-10}
 
@@ -427,4 +427,4 @@ Theatrum mundi для него — та сцена, на которой он о�
 этом, как правило, заслуг по части обогащения смысла, пущенного в
 рост.
 
-<Image c="max-w-100 my-16" src="images/estetika/3.jpg" alt="tri" />
+<Image c="max-w-100" src="images/estetika/3.jpg" alt="tri" />

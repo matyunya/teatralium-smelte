@@ -1,6 +1,6 @@
 <script>
-  export let name = '';
-  export let quote = '';
+  export let name = "";
+  export let quote = "";
 </script>
 
 <div class="bg-gray-800 p-16 text-white text-center elevation-10 mb-16">
