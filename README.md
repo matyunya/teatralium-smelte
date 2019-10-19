@@ -29,7 +29,7 @@
 - [x] mestnye
 - [x] miloserdie
 - [] mne_ploho_mne_skuchno
-- [] morskoy_tsar_belomor
+- [x] morskoy_tsar_belomor
 - [x] neperevodimiy_russkiy_nadryv
 - [] nespyashie_v_teatre
 - [] net_amnezii

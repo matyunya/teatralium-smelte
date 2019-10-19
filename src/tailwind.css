@@ -20,7 +20,8 @@ a {
 }
 
 a:hover {
-  @apply text-alert-800 no-underline;
+  @apply text-blue-900 no-underline;
+  animation: hue-rotate 8s infinite;
 }
 
 p {
@@ -153,4 +154,9 @@ ul {
   padding-left: 2rem;
   font-family: 'Courier New';
   font-size: 1.2rem;
+}
+
+@keyframes hue-rotate {
+  0%, 100%  { filter: hue-rotate(0deg); }
+  50% { filter: hue-rotate(360deg); }
 }

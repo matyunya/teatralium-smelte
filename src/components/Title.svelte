@@ -9,6 +9,7 @@
     vertical-align: middle;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: hue-rotate 40s infinite;
   }
 </style>
 

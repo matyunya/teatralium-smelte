@@ -22,6 +22,7 @@
   import konNeValyalsya from "./articles/kon_ne_valyalsya.json";
   import svetDalyokihPlanet from "./articles/svet_dalyokih_planet.json";
   import abbreviaturaRamt from "./articles/abbreviatura_ramt.json";
+  import morskoyTsarBelomor from "./articles/morskoy_tsar_belomor.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -91,7 +92,8 @@
     pomolvka,
     zygar,
     svetDalyokihPlanet,
-    abbreviaturaRamt
+    abbreviaturaRamt,
+    morskoyTsarBelomor
   ];
 
   let selected = false;
