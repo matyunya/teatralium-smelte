@@ -164,3 +164,7 @@ ul {
 .hued {
   animation: hue-rotate 8s inifinite;
 }
+
+ul > li {
+  margin-left: 2rem;
+}
