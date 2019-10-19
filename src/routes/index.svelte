@@ -23,6 +23,7 @@
   import svetDalyokihPlanet from "./articles/svet_dalyokih_planet.json";
   import abbreviaturaRamt from "./articles/abbreviatura_ramt.json";
   import morskoyTsarBelomor from "./articles/morskoy_tsar_belomor.json";
+  import revolyutsiya from "./articles/revolyutsiya.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -93,7 +94,8 @@
     zygar,
     svetDalyokihPlanet,
     abbreviaturaRamt,
-    morskoyTsarBelomor
+    morskoyTsarBelomor,
+    revolyutsiya
   ];
 
   let selected = false;
@@ -105,11 +107,11 @@
   }
 
   const chips = [
-    { name: "article", label: "Тексты", icon: "local_bar" },
-    { name: "interview", label: "Интервью", icon: "person" },
-    { name: "mix", label: "Миксы", icon: "music_note" },
-    { name: "play", label: "Пьесы", icon: "fingerprint" },
-    { name: "review", label: "Рицензии", icon: "format_paint" },
+    { name: "article", label: "Тексты", icon: "directions_run" },
+    { name: "interview", label: "Интервью", icon: "call" },
+    { name: "mix", label: "Миксы", icon: "play_circle_filled" },
+    { name: "play", label: "Пьесы", icon: "format_clear" },
+    { name: "review", label: "«Рицензии»", icon: "restaurant_menu" },
     { name: "us", label: "Мы", icon: "pets" }
   ];
 </script>

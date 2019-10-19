@@ -42,7 +42,7 @@
 - [x] poobshatsa_s_gospodinom_oblomovym
 - [x] poteryanniy_kray
 - [x] protokol_povsednevnost
-- [] revolyutsiya
+- [x] revolyutsiya
 - [x] sheshepop
 - [x] svet_dalyokih_planet
 - [x] teatr_mody_v_sovetskoy_rossii
