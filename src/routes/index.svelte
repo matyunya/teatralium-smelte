@@ -20,6 +20,8 @@
   import dokumentalnayaHoreografiya from "./articles/dokumentalnaya_horeografiya.json";
   import izVsehIskusstv from "./articles/iz_vseh_iskusstv.json";
   import konNeValyalsya from "./articles/kon_ne_valyalsya.json";
+  import svetDalyokihPlanet from "./articles/svet_dalyokih_planet.json";
+  import abbreviaturaRamt from "./articles/abbreviatura_ramt.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -28,6 +30,7 @@
   import abyuzNelzyaPomilovat from "./interviews/abyuz_nelzya_pomilovat.json";
   import miloserdie from "./interviews/miloserdie.json";
   import contemporaryArtists from "./interviews/contemporary_artists.json";
+  import zygar from "./interviews/zygar.json";
 
   import yaPosadilDerevo from "./music/ya_posadil_derevo.json";
   import iBratvaZaSlovaOtvechaet from "./music/i_bratva_za_slova_otvechaet.json";
@@ -44,6 +47,7 @@
   import vsyoVidnoYasno from "./reviews/vsyo_vidno_yasno.json";
 
   import mestnye from "./plays/mestnye.json";
+  import pomolvka from "./plays/pomolvka.json";
 
   const articles = [
     ezhen,
@@ -83,7 +87,11 @@
     vsyoDvizhetsya,
     izVsehIskusstv,
     contemporaryArtists,
-    konNeValyalsya
+    konNeValyalsya,
+    pomolvka,
+    zygar,
+    svetDalyokihPlanet,
+    abbreviaturaRamt
   ];
 
   let selected = false;

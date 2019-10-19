@@ -147,3 +147,10 @@ ul {
 .skewed {
   animation: skew 0.8s linear infinite;
 }
+
+.poem {
+  color: #a669c8;
+  padding-left: 2rem;
+  font-family: 'Courier New';
+  font-size: 1.2rem;
+}
