@@ -40,6 +40,10 @@
   });
 </script>
 
+<svelte:head>
+  <link rel="preload" href="fonts/bodoni-italic.woff2" as="font" type="font/woff2">
+</svelte:head>
+
 <Head {post} />
 
 <Date {post} />

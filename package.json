@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev --ext '.svexy .svelte'",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy --ext '.svexy .svelte'",
+    "export": "sapper export --legacy --ext '.svexy .svelte' && npx subfont --in-place __sapper__/export/",
     "start": "node __sapper__/build",
     "serve": "serve __sapper__/export",
     "cy:run": "cypress run",
@@ -62,6 +62,7 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^4.0.4",
     "sapper": "^0.27.4",
+    "subfont": "^3.7.1",
     "svelte": "^3.7.12",
     "svelte-preprocess": "^2.9.0",
     "tailwindcss": "^1.0.1",
