@@ -1,10 +1,12 @@
 <script context="module">
   import posts from "components/articles.js";
+  import translit from "components/translit.js";
+
 
 	export async function preload(page, session) {
 		const { name } = page.params;
 
-		const filtered = posts.filter(a => (a.author || '').includes(name));
+		const filtered = posts.filter(a => translit(a.author || '').includes(name));
 
 		return {
 			posts: filtered,

@@ -1,4 +1,5 @@
 <script>
+  import translit from "components/translit";
   export let post = null;
 
   function text() {
@@ -10,7 +11,7 @@
   {post.date || ''}
   {#if post.author && !['Театралий', '«За музыку отвечает»'].includes(post.author)}
     , {text()}:&nbsp;
-    <a href="/authors/{[...(post.author || '').split(' ')].pop()}">
+    <a href={translit(post.author)}>
       {post.author}
     </a>
   {/if}
