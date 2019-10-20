@@ -41,7 +41,11 @@
 </script>
 
 <svelte:head>
-  <link rel="preload" href="fonts/bodoni-italic.woff2" as="font" type="font/woff2">
+  <link
+    rel="preload"
+    href="fonts/bodoni-italic.woff2"
+    as="font"
+    type="font/woff2" />
 </svelte:head>
 
 <Head {post} />
@@ -54,7 +58,7 @@
     <h2 class="text-center small">{title.split(':')[1] || ''}</h2>
 
     {#if type === 'mix'}
-      <div class="w-64 mx-auto relative">
+      <div class="w-64 mx-auto relative overflow-hidden">
         <Button
           class="mx-auto w-64"
           text
