@@ -2,9 +2,7 @@
   export let post = null;
 
   function text() {
-    return post.type === 'interview'
-      ? 'интервью'
-      : 'текст';
+    return post.type === "interview" ? "интервью" : "текст";
   }
 </script>
 
