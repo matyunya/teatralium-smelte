@@ -8,5 +8,10 @@
 
 <div class="date">
   {post.date || ''}
-  {#if post.author}, {text()}:&nbsp;{post.author}{/if}
+  {#if post.author}
+    ,
+    <a href="/authors/{[...(post.author || '').split(' ')].pop()}">
+      {text()}:&nbsp;{post.author}
+    </a>
+  {/if}
 </div>

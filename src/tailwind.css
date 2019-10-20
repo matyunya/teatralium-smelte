@@ -87,7 +87,7 @@ h2.small {
   color: #df00ff;
   float: left;
 
-  @apply mt-3 p-1 pr-4 font-bold;
+  @apply mt-3 p-1 pr-4 pb-3 font-bold;
 
   text-shadow: 1px 1px 1px #b943b9,
       1px 2px 1px #b943b9,
