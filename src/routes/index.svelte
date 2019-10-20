@@ -27,6 +27,8 @@
   import nogiZatekayut from "./articles/nogi_zatekayut.json";
   import aktyoraNadoMordoyVGovno from "./articles/aktyora_nado_mordoy_v_govno.json";
   import nespyashieVTeatre from "./articles/nespyashie_v_teatre.json";
+  import mnePlohoMneSkuchno from "./articles/mne_ploho_mne_skuchno.json";
+  import netAmnezii from "./articles/net_amnezii.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -101,7 +103,9 @@
     revolyutsiya,
     nogiZatekayut,
     aktyoraNadoMordoyVGovno,
-    nespyashieVTeatre
+    nespyashieVTeatre,
+    mnePlohoMneSkuchno,
+    netAmnezii
   ];
 
   let selected = false;

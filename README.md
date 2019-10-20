@@ -28,11 +28,11 @@
 - [x] lyubimovka
 - [x] mestnye
 - [x] miloserdie
-- [] mne_ploho_mne_skuchno
+- [x] mne_ploho_mne_skuchno
 - [x] morskoy_tsar_belomor
 - [x] neperevodimiy_russkiy_nadryv
 - [x] nespyashie_v_teatre
-- [] net_amnezii
+- [x] net_amnezii
 - [x] nogi_zatekayut
 - [x] ozhila_krasnaya_stsena
 - [x] pahom
