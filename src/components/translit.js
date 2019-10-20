@@ -41,10 +41,10 @@ export default function translit(name) {
       ru[str[i]] ||
         (ru[str[i].toLowerCase()] == undefined && str[i]) ||
         ru[str[i].toLowerCase()].replace(/^(.)/, function(match) {
-          return match.toUpperCase();
+          return match.toLowerCase();
         })
     );
   }
 
-  return `/authors/${n_str.join("")}`;
+  return `/authors/${n_str.join("")}/`;
 }
