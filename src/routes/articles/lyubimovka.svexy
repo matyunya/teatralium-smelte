@@ -112,6 +112,8 @@ type: article
 Шостаковича, 5», ненадрывная история о маете молодых, о смешном
 расхождении поколенческих идеалов.
 
+</section>
+
 <div class="gallery">
   <Image src="images/lyubimovka/1.jpg" alt="Любимовка" />
   <Image src="images/lyubimovka/2.jpg" alt="Любимовка" />
@@ -119,9 +121,10 @@ type: article
   <Image src="images/lyubimovka/4.jpg" alt="Любимовка" />
   <Image src="images/lyubimovka/5.jpg" alt="Любимовка" />
   <Image src="images/lyubimovka/6.jpg" alt="Любимовка" />
+  <div class="small">«Любимовка-2017». Фотографии Андрея Хиловского</div>
 </div>
 
-«Любимовка-2017». Фотографии Андрея Хиловского {.small}
+<section>
 
 Страшная история под Псковом, где так и непонятно как погибли
 подростки Катя и Денис, конечно, многих взбудоражила – встречались
@@ -169,7 +172,7 @@ type: article
 наблюдать, как рушатся стереотипы, как остывают первые реакции,
 основанные на страхе и гневе.
 
-<img src="images/ppp.gif" alt="ppPPp" />
+<img src="images/ppp.gif" alt="ppPPp" class="w-full rounded-full my-16" />
 
 #### Пьесы-призраки
 

@@ -109,11 +109,16 @@ section {
 
 .gallery {
   max-width: 1200px;
-  @apply flex flex-wrap items-center justify-center relative;
+  @apply flex flex-wrap items-center justify-center relative mx-auto;
 }
 
 .gallery img {
-  max-width: 600px;
+  max-width: 500px;
+}
+
+.gallery .wrapper {
+  max-width: 500px;
+  margin: 1rem;
 }
 
 .date {
