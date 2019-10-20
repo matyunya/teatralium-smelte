@@ -1,1 +1,4 @@
-<img src="images/masks.png" class="mx-auto elevation-0 skewed my-16" alt="masks">
+<img
+  src="images/masks.png"
+  class="mx-auto elevation-0 skewed my-16"
+  alt="masks" />

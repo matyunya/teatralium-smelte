@@ -29,6 +29,7 @@
   import nespyashieVTeatre from "./articles/nespyashie_v_teatre.json";
   import mnePlohoMneSkuchno from "./articles/mne_ploho_mne_skuchno.json";
   import netAmnezii from "./articles/net_amnezii.json";
+  import telegram_kanaly from "./articles/telegram_kanaly.json";
 
   import vyrypaev from "./interviews/ivan_vyrypaev_protiv_kritikov.json";
   import sheshepop from "./interviews/sheshepop.json";
@@ -105,7 +106,8 @@
     aktyoraNadoMordoyVGovno,
     nespyashieVTeatre,
     mnePlohoMneSkuchno,
-    netAmnezii
+    netAmnezii,
+    telegram_kanaly
   ];
 
   let selected = false;

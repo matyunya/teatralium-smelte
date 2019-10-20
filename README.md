@@ -46,7 +46,7 @@
 - [x] sheshepop
 - [x] svet_dalyokih_planet
 - [x] teatr_mody_v_sovetskoy_rossii
-- [] telegram_kanaly
+- [x] telegram_kanaly
 - [] ugadayte_kto_eto_napisal
 - [x] v_moskve_naprimer_analogov_net
 - [x] velikoe_raznoobrazie
