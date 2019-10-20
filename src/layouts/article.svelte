@@ -21,7 +21,7 @@
     author,
     url,
     title,
-    type,
+    type
   };
 </script>
 
