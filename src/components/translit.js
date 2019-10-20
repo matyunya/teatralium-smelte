@@ -1,5 +1,5 @@
 export default function translit(name) {
-  const str = [...(name || "").split(" ")].pop();
+  let str = [...(name || "").split(" ")].pop();
   var ru = {
       а: "a",
       в: "v",
