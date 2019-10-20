@@ -9,7 +9,7 @@
     "start": "node __sapper__/build",
     "serve": "serve __sapper__/export",
     "cy:run": "cypress run",
-    "lint": "prettier --write --plugin-search-dir=. ./src/**/*",
+    "lint": "prettier --write --ext .js,.svelte --plugin-search-dir=. ./src/**/*",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
     "now": "yarn build && now",

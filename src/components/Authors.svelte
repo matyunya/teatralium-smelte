@@ -7,6 +7,6 @@
 </script>
 
 {#each authors as author}
-  <a href="/authors/{[...author.split(' ')].pop()}">{author}</a>
+  <a href="/authors/{[...(author || '').split(' ')].pop()}">{author}</a>
   <br />
 {/each}

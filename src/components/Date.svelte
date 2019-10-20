@@ -8,10 +8,10 @@
 
 <div class="date">
   {post.date || ''}
-  {#if post.author}
-    ,
+  {#if post.author && !['Театралий', '«За музыку отвечает»'].includes(post.author)}
+    , {text()}:&nbsp;
     <a href="/authors/{[...(post.author || '').split(' ')].pop()}">
-      {text()}:&nbsp;{post.author}
+      {post.author}
     </a>
   {/if}
 </div>

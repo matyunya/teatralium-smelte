@@ -10,8 +10,5 @@
   href={post.url}
   rel="prefetch">
   <h2 class="my-0 py-0">{post.title}</h2>
-  <h5>
-    {post.description}
-    <i class="text-sm no-underline">{post.date || ''}</i>
-  </h5>
+  <h5>{post.description}</h5>
 </a>

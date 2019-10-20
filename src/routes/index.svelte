@@ -1,5 +1,6 @@
 <script>
   import { Chip } from "smelte";
+  import Waypoint from "svelte-waypoint";
   import { fly } from "svelte/transition";
   import { goto } from "@sapper/app";
 
@@ -8,11 +9,21 @@
 
   export let selected = false;
 
+  let page = 1;
+
   $: filtered = selected ? articles.filter(a => a.type === selected) : articles;
+
+  $: items = filtered.slice(0, page * 10);
+
+  $: console.log(page);
 
   function toggle(type) {
     return () => {
-      if (type === "us") goto("/about");
+      if (type === "us") {
+        goto("/about");
+      } else {
+        goto("/");
+      }
 
       return (selected = selected === type ? false : type);
     };
@@ -46,9 +57,10 @@
 </section>
 
 <div class="pl-10 text-left flex flex-col mt-32">
-  {#each filtered as post}
+  {#each items as post}
     <PostPreview {post} />
   {/each}
 </div>
 
+<Waypoint on:enter={() => (page += 1)} once={false} />
 <slot />
