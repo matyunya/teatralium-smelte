@@ -31,7 +31,7 @@
 - [] mne_ploho_mne_skuchno
 - [x] morskoy_tsar_belomor
 - [x] neperevodimiy_russkiy_nadryv
-- [] nespyashie_v_teatre
+- [x] nespyashie_v_teatre
 - [] net_amnezii
 - [x] nogi_zatekayut
 - [x] ozhila_krasnaya_stsena
