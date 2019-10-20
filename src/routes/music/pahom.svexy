@@ -6,6 +6,7 @@ author: «За музыку отвечает»
 url: music/pahom
 title: "Еще одна осталась ночь у нас с тобой"
 type: mix
+mix: еще-одна-осталась-ночь-у-нас-с-тобой-плейлист-пахома
 ---
 
 ```js exec
@@ -32,14 +33,6 @@ type: mix
 подъезде». Управлять действом будет художник и экстрасенс Пахом,
 который не только поделился с нами своими любимыми песнями, но и
 рассказал историю о каждой из них.{.lead}
-
-<iframe
-  scrolling="no"
-  width="100%"
-  height="60"
-  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FTeatralium%2F%D0%B5%D1%89%D0%B5-%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BE%D1%81%D1%82%D0%B0%D0%BB%D0%B0%D1%81%D1%8C-%D0%BD%D0%BE%D1%87%D1%8C-%D1%83-%D0%BD%D0%B0%D1%81-%D1%81-%D1%82%D0%BE%D0%B1%D0%BE%D0%B9-%D0%BF%D0%BB%D0%B5%D0%B9%D0%BB%D0%B8%D1%81%D1%82-%D0%BF%D0%B0%D1%85%D0%BE%D0%BC%D0%B0%2F"
-  frameBorder="0"
-/>
 
 
 - Борис Моисеев — «Голубая луна»

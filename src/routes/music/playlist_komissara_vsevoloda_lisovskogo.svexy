@@ -6,6 +6,7 @@ author: «За музыку отвечает»
 url: music/playlist_komissara_vsevoloda_lisovskogo
 title: "Миражи — это наша жизнь?: плейлист комиссара Всеволода Лисовского"
 type: mix
+mix: miracles-lisovskiy
 ---
 
 ```js exec
@@ -29,15 +30,6 @@ import Image from "svelte-image";
 детстве, чтобы отмазаться от фортепиано, я сказал, что ненавижу
 музыку, и отвечаю за базар. Но десять песен я могу набрать. Больше
 вспомнить не смог».
-
-<iframe
-  scrolling="no"
-  width="100%"
-  height="60"
-  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&hide_artwork=1&feed=%2FTeatralium%2Fmiracles-lisovskiy%2F"
-  frameBorder="0"
-/>
-
 
 - ДЖАНИК — «ФИДАЙН АВТОРИТЕТ»
 - Пласидо Доминго — «Марсельеза». Слова и музыка Клода Жозефа Руже де Лиля. <i>Осторожно, полная версия</i>

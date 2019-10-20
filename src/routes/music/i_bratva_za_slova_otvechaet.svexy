@@ -6,6 +6,7 @@ author: «За музыку отвечает»
 url: music/i_bratva_za_slova_otvechaet
 title: "И братва за слова отвечает как в лучшие дни: плейлист импресарио Федора Елютина"
 type: mix
+mix: bratva-za-slova-otvechaet
 ---
 
 ```js exec
@@ -36,15 +37,6 @@ type: mix
 вариант — это включить shuffle, когда треки выстреливают рандомным
 образом. Так что девиз: „По-разному, по-новому и фантазийно“. Вот
 так. Всех обнимаю и целую».
-
-<iframe
-  title="player"
-  scrolling="no"
-  width="100%"
-  height="60"
-  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2FTeatralium%2Fbratva-za-slova-otvechaet%2F"
-  frameBorder="0"
-/>
 
 - Blond:ish — «It starts now»
 - Jay Z — «4:44»

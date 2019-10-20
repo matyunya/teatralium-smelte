@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+  import { Button, Icon } from "smelte";
   import Head from "components/Head.svelte";
   import Date from "components/Date.svelte";
   import Share from "components/Share.svelte";
@@ -13,6 +15,9 @@
   export let layout = "";
   export let type = null;
   export let hasCover = false;
+  export let mix = null;
+
+  export let player = null;
 
   const post = {
     image,
@@ -23,6 +28,16 @@
     title,
     type
   };
+
+  onMount(async () => {
+    if (type === 'mix') {
+      player = await Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
+        light: true,
+        hide_artwork: true,
+        autoplay: true
+     });
+    }
+  })
 </script>
 
 <Head {post} />
@@ -33,6 +48,22 @@
   <div class="mb-6 h-screen sm:px-32">
     <h1 class="text-center uppercase my-20">{title.split(':')[0]}</h1>
     <h2 class="text-center small">{title.split(':')[1] || ''}</h2>
+
+    {#if type === 'mix'}
+      <div class="w-64 mx-auto relative">
+        <Button
+          class="mx-auto w-64"
+          text
+          light
+          flat
+          data-mixcloud-play-button="/Teatralium/{mix}/"
+        >
+          <Icon class="text-5xl text-primary-900">
+            play_circle_outline
+          </Icon>
+        </Button>
+      </div>
+    {/if}
   </div>
 {/if}
 
@@ -43,3 +74,8 @@
 <Share {post} />
 
 <HomeLink />
+
+{#if type === 'mix'}
+  <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" type="text/javascript">
+  </script>
+{/if}

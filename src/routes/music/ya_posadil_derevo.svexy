@@ -6,6 +6,7 @@ author: «За музыку отвечает»
 url: music/ya_posadil_derevo
 title: "Я посадил дерево: плейлист актера Филиппа Авдеева"
 type: mix
+mix: derevo-avdeev
 ---
 
 ```js exec
@@ -35,15 +36,6 @@ type: mix
 Lang вдохновляет, Bob Marley успокаивает, Sunsay переносит на море
 или туда, где тепло, а Pompeya — лучший трек для поездки летом на
 мопеде».
-
-<iframe
-  title="player"
-  scrolling="no"
-  width="100%"
-  height="60"
-  src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&hide_artwork=1&feed=%2FTeatralium%2Fderevo-avdeev%2F"
-  frameBorder="0"
-/>
 
 - HVOB — «Dogs»
 - Кино — «Мои друзья»
