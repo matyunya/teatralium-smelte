@@ -30,14 +30,14 @@
   };
 
   onMount(async () => {
-    if (type === 'mix') {
-      player = await Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
+    if (type === "mix" && window.Mixcloud) {
+      player = await window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
         light: true,
         hide_artwork: true,
         autoplay: true
-     });
+      });
     }
-  })
+  });
 </script>
 
 <Head {post} />
@@ -56,11 +56,8 @@
           text
           light
           flat
-          data-mixcloud-play-button="/Teatralium/{mix}/"
-        >
-          <Icon class="text-5xl text-primary-900">
-            play_circle_outline
-          </Icon>
+          data-mixcloud-play-button="/Teatralium/{mix}/">
+          <Icon class="text-5xl text-primary-900">play_circle_outline</Icon>
         </Button>
       </div>
     {/if}
@@ -76,6 +73,9 @@
 <HomeLink />
 
 {#if type === 'mix'}
-  <script src="//widget.mixcloud.com/media/js/footerWidgetApi.js" type="text/javascript">
+  <script
+    src="//widget.mixcloud.com/media/js/footerWidgetApi.js"
+    type="text/javascript">
+
   </script>
 {/if}
