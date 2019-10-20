@@ -14,7 +14,7 @@
 - [x] dokumentalnaya_horeografiya
 - [x] estetika_v_bytu
 - [x] ezhen
-- [] fioletoviy_sneg
+- [x] fioletoviy_sneg
 - [x] flanagan
 - [x] gaevskiy
 - [x] i_bratva_za_slova_otvechaet

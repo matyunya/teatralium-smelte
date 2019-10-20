@@ -12,6 +12,7 @@
   export let title = null;
   export let layout = "";
   export let type = null;
+  export let hasCover = false;
 
   const post = {
     image,
@@ -20,13 +21,20 @@
     author,
     url,
     title,
-    type
+    type,
   };
 </script>
 
 <Head {post} />
 
 <Date {post} />
+
+{#if !hasCover}
+  <div class="mb-6 h-screen sm:px-32">
+    <h1 class="text-center uppercase my-20">{title.split(':')[0]}</h1>
+    <h2 class="text-center small">{title.split(':')[1] || ''}</h2>
+  </div>
+{/if}
 
 <div>
   <slot />

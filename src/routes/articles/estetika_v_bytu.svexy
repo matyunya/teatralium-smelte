@@ -6,6 +6,7 @@ author: Настя Николаева
 url: articles/estetika_v_bytu
 title: Эстетика в быту
 type: article
+hasCover: true
 ---
 
 ```js exec

@@ -56,6 +56,7 @@
 
   import mestnye from "./plays/mestnye.json";
   import pomolvka from "./plays/pomolvka.json";
+  import fioletoviySneg from "./plays/fioletoviy_sneg.json";
 
   const articles = [
     ezhen,
@@ -107,7 +108,8 @@
     nespyashieVTeatre,
     mnePlohoMneSkuchno,
     netAmnezii,
-    telegram_kanaly
+    telegram_kanaly,
+    fioletoviySneg
   ];
 
   let selected = false;

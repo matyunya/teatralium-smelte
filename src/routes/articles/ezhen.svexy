@@ -6,6 +6,7 @@ author: Эжен Ионеско
 url: articles/ezhen
 title: Что хотел сказать автор? Отвечает Эжен Ионеско
 type: article
+hasCover: true
 ---
 
 ```js exec
