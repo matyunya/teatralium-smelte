@@ -109,7 +109,7 @@ section {
 
 .gallery {
   max-width: 1200px;
-  @apply flex flex-wrap items-center justify-center relative mx-auto;
+  @apply flex flex-wrap items-center justify-center relative mx-auto my-16;
 }
 
 .gallery img {

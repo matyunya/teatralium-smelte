@@ -278,7 +278,10 @@ Wiener Festwochen, куратором которого я работала, бы
 правда. Яна Росс придумала все это — от начала и до конца. Этот мир
 не существует, он совершенно придуманный.
 
-<Image src="images/davydova/1.jpg" alt="Фото: Clive Rose/Getty Images" />
+<Image
+  src="images/davydova/1.jpg"
+  alt="Фото: Clive Rose/Getty Images"
+/>
 Фото: Clive Rose/Getty Images {.small}
 
 ## Интерпретация интерпретаций {.text-center}

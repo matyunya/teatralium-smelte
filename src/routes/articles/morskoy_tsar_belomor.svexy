@@ -443,7 +443,10 @@ alt="Ида и Леонид Варпаховские"
 
 <Image src="images/belomor/gal1.jpg" />
 
-<Image src="images/belomor/gal2.jpg" alt="Театральный вагончик до начала спектакля" />
+<Image
+  src="images/belomor/gal2.jpg"
+  alt="Театральный вагончик до начала спектакля"
+/>
 Театральный вагончик до начала спектакля {.small}
 
 <Image

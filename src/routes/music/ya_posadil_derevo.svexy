@@ -26,7 +26,10 @@ mix: derevo-avdeev
 а сегодня наш гость — актер Гоголь-центра Филипп Авдеев,
 выбор которого лучше всего подходит для каникул в жарких странах.{.lead}
 
-<Image src=/images/otvechaet/avdeev.jpg alt="Филипп Авдеев" />
+<Image
+  src=/images/otvechaet/avdeev.jpg
+  alt="Филипп Авдеев"
+/>
 Филипп Авдеев {.small mb-10}
 
 «Треки Benjamin Damage и HVOB сопровождали меня в незабываемом
