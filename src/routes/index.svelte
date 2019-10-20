@@ -107,7 +107,7 @@
     morskoy_tsar_belomor,
     neperevodimiy_russkiy_nadryv,
     lyubimovka,
-    mne_ploho_mne_skuchno,
+    mne_ploho_mne_skuchno
   ];
 
   let selected = false;
@@ -154,7 +154,10 @@
       href={post.url}
       rel="prefetch">
       <h2 class="my-0 py-0">{post.title}</h2>
-      <h5>{post.description} <i class="text-sm no-underline">{post.date || ''}</i></h5>
+      <h5>
+        {post.description}
+        <i class="text-sm no-underline">{post.date || ''}</i>
+      </h5>
     </a>
   {/each}
 </div>
