@@ -71,11 +71,3 @@
 <Share {post} />
 
 <HomeLink />
-
-{#if type === 'mix'}
-  <script
-    src="//widget.mixcloud.com/media/js/footerWidgetApi.js"
-    type="text/javascript">
-
-  </script>
-{/if}
