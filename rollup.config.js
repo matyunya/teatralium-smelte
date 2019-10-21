@@ -66,7 +66,7 @@ const preprocess = [
     trace: {
       background: "transparent",
       color: "#D473D4",
-      threshold: 200
+      threshold: 50
     }
   })
 ];
