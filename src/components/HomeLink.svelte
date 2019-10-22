@@ -18,6 +18,6 @@
   }
 </style>
 
-<div class="flex justify-center">
+<div class="flex justify-center mb-32">
   <a class="no-underline text-5xl" href="/">♦</a>
 </div>

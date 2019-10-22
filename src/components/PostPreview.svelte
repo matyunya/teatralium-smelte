@@ -10,8 +10,7 @@
   href="{post.url}/"
   rel="prefetch">
   <h2 class="my-0 py-0">{post.title}</h2>
-  <h5>{post.description.substr(-1) === '.'
-    ? post.description.slice(0, -1)
-    : post.description
-  }</h5>
+  <h5>
+    {post.description.substr(-1) === '.' ? post.description.slice(0, -1) : post.description}
+  </h5>
 </a>
