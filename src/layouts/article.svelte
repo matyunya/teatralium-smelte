@@ -5,6 +5,8 @@
   import Date from "components/Date.svelte";
   import Share from "components/Share.svelte";
   import HomeLink from "components/HomeLink.svelte";
+  import Waypoint from "svelte-waypoint";
+  import Loadable from "svelte-loadable";;
 
   export let image = null;
   export let description = null;
@@ -79,3 +81,7 @@
 <Share {post} />
 
 <HomeLink />
+
+<Waypoint>
+  <Loadable loader={() => import('../routes/index.svelte')} />
+</Waypoint>

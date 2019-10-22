@@ -12,7 +12,7 @@
   let page = 1;
 
   $: filtered = selected ? articles.filter(a => a.type === selected) : articles;
-  $: items = filtered.slice(0, page * 10);
+  $: items = filtered.slice(0, page * 5);
 
   function toggle(type) {
     return () => {

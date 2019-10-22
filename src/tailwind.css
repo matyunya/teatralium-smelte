@@ -105,7 +105,7 @@ h2.small {
 }
 
 .lead {
-  @apply mx-auto max-w-3xl text-xl mt-16 mb-32;
+  @apply mx-auto max-w-3xl text-xl my-32;
 }
 
 section {

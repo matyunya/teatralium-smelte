@@ -99,8 +99,8 @@ const preprocess = [
       trace: {
         background: "transparent",
         color: "#D473D4",
-        threshold: 150,
-        size: 300
+        threshold: 200,
+        size: 350
       }
     })
   )
