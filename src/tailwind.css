@@ -105,7 +105,7 @@ h2.small {
 }
 
 .lead {
-  @apply mx-auto max-w-3xl text-xl my-32;
+  @apply mx-auto max-w-3xl text-xl my-32 px-3;
 }
 
 section {
@@ -172,7 +172,7 @@ ul {
 }
 
 .hued {
-  animation: hue-rotate 8s inifinite;
+  animation: hue-rotate 8s infinite;
 }
 
 ul > li {
@@ -197,7 +197,7 @@ ul {
   }
 
   section {
-    @apply px-2;
+    @apply px-4;
   }
 
   h1 {
