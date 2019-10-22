@@ -69,5 +69,4 @@
 <Waypoint on:enter={() => (page += 1)} once={false} />
 <slot />
 
-
 <HomeLink />
