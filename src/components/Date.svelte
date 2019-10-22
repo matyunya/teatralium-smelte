@@ -3,17 +3,18 @@
   export let post = null;
 
   function text() {
-    return post.type === "interview" ? "интервью" : "текст";
+    return post.type === "interview" ? ", интервью" : ", текст";
   }
 
   function hasAuthor({ author }) {
-    return author && !['Театралий', '«За музыку отвечает»'].includes(author);
+    return author && !["Театралий", "«За музыку отвечает»"].includes(author);
   }
 </script>
 
 <div class="date">
   {post.date || ''}
-  {#if hasAuthor(post)}, {text()}:&nbsp;
+  {#if hasAuthor(post)}
+    {text()}:&nbsp;
     <a href={translit(post.author)}>{post.author}</a>
   {/if}
 </div>
