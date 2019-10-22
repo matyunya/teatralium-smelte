@@ -35,6 +35,7 @@
 
     .note {
       width: 100%;
+      max-width: 100%;
     }
   }
 </style>
