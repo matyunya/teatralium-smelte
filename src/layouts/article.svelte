@@ -6,7 +6,7 @@
   import Share from "components/Share.svelte";
   import HomeLink from "components/HomeLink.svelte";
   import Waypoint from "svelte-waypoint";
-  import Loadable from "svelte-loadable";;
+  import Loadable from "svelte-loadable";
 
   export let image = null;
   export let description = null;
