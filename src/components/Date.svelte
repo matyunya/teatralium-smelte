@@ -5,12 +5,15 @@
   function text() {
     return post.type === "interview" ? "интервью" : "текст";
   }
+
+  function hasAuthor({ author }) {
+    return author && !['Театралий', '«За музыку отвечает»'].includes(author);
+  }
 </script>
 
 <div class="date">
   {post.date || ''}
-  {#if post.author && !['Театралий', '«За музыку отвечает»'].includes(post.author)}
-    , {text()}:&nbsp;
+  {#if hasAuthor(post)}, {text()}:&nbsp;
     <a href={translit(post.author)}>{post.author}</a>
   {/if}
 </div>

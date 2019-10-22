@@ -32,9 +32,9 @@
     type
   };
 
-  onMount(async () => {
+  onMount(() => {
     if (type === "mix" && window.Mixcloud) {
-      player = await window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
+      player = window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
         light: true,
         hide_artwork: true,
         autoplay: true
