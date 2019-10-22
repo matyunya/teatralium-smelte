@@ -11,17 +11,17 @@
   }
 
   .note {
-    width: 250px;
-    max-width: 250px;
+    width: 200px;
+    max-width: 200px;
   }
 
   .left {
-    margin-left: -300px;
+    margin-left: -220px;
     float: left;
   }
 
   .right {
-    margin-right: -300px;
+    margin-right: -220px;
     float: right;
   }
 

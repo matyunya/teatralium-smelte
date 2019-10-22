@@ -29,7 +29,7 @@ p {
 }
 
 h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
+  margin: 1.414em 0 0.707em;
   line-height: 1.2;
   font-weight: 600;
   font-family: 'Bodoni', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -82,7 +82,7 @@ h2.small {
   font-size: 0.8rem;
   line-height: 1.1rem;
   display: block;
-  @apply mb-10 mt-2;
+  @apply mb-10 mt-4;
 }
 
 .lead:first-letter {
@@ -146,7 +146,7 @@ ul {
 }
 
 .q {
-  font-weight: bold;
+  @apply font-bold text-primary-900;
 }
 
 @keyframes skew {

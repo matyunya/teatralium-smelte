@@ -21,8 +21,6 @@
     return () => {
       if (type === "us") {
         goto("/about");
-      } else {
-        goto("/");
       }
 
       return (selected = selected === type ? false : type);
