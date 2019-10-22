@@ -29,7 +29,7 @@ hideDate: true
 
 Актеры обращаются к публике. {.text-xl}
 
-<Note left background="white" top="-90px">
+<Note left background="white" top="-90">
 
 <a href="https://www.nlobooks.ru/books/drama/20690/">
   <Image src="images/pomolvka/book.jpeg" />
@@ -55,8 +55,7 @@ hideDate: true
 Актеры поднимают руки. Считают поднявших руки в публике. {.text-xl}
 
 
-
-<Note left background="white" top="-90px">
+<Note left background="white" top="-90">
 <a href="https://www.nlobooks.ru/books/drama/20691/">
   <Image src="images/pomolvka/book2.jpeg" />
 </a>

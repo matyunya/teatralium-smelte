@@ -29,7 +29,7 @@ She She Pop привезли спектакль «50 оттенков стыда
 нашем интервью.{.lead}
 
           
-<Note left bg="transparent" top="-90px">
+<Note left bg="transparent" top="-90">
   <Image c="rounded-full" src="images/sheshepop/6.jpg" />
 </Note>
 
@@ -155,6 +155,7 @@ Experiment, наш большой друг, за несколько лет по�
   src="images/sheshepop/1.jpg"
   alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment"
 />
+She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment {.small}
 
 То есть театр обязательно должен критиковать.{.q}
 
@@ -230,6 +231,7 @@ Experiment, наш большой друг, за несколько лет по�
   src="images/sheshepop/2.jpg"
   alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment"
 />
+She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment {.small}
 
 
 Для многих сама работа художника — это нечто размытое и
@@ -271,6 +273,7 @@ Experiment, наш большой друг, за несколько лет по�
   src="images/sheshepop/3.jpg"
   alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment"
 />
+She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment {.small}
 
 
 Но иногда отрицательные рецензии даже вдохновляют, потому что так ты
@@ -309,20 +312,10 @@ Experiment, наш большой друг, за несколько лет по�
 
 
 <div class="gallery">
-  <div>
-    <Image
-      src="images/sheshepop/4.jpg"
-      style="width: 400px"
-      alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment"
-    />
-  </div>
-
-  <div>
-    <Image
-      src="images/sheshepop/5.jpg"
-      alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment"
-    />
-  </div>
+  <Image src="images/sheshepop/4.jpg" alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment" />
+  <Image src="images/sheshepop/5.jpg" alt="She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment" />
+  
+  She She Pop, «50 оттенков стыда». Фото: Yoshikazu Inoue. Courtesy of Kyoto Experiment {.small}
 </div>
 
 <section>

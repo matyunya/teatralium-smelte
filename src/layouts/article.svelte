@@ -57,10 +57,16 @@
 
 {#if !hasCover}
   <div class="mb-6 h-screen sm:px-32">
-    <h1 class="text-center uppercase my-10">{@html title.split(':')[0]}</h1>
-    <h2 class="text-center small">{@html title.split(':')[1] || ''}</h2>
-    {#if subtitle}
-      <h2 class="text-center small">{@html subtitle}</h2>
+    <h1 class="text-center uppercase my-10">
+      {@html title.split(':')[0]}
+    </h1>
+    <h2 class="text-center small">
+      {@html title.split(':')[1] || ''}
+    </h2>
+    {#if subtitle && !title.includes(':')}
+      <h2 class="text-center small">
+        {@html subtitle}
+      </h2>
     {/if}
 
     {#if type === 'mix'}

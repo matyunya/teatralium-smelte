@@ -30,6 +30,10 @@
   out:fade={{ duration: 100 }}
   href="{post.url}/"
   rel="prefetch">
-  <h2 class="my-0 py-0">{@html t(post)}</h2>
-  <h5>{@html s(post)}</h5>
+  <h2 class="my-0 py-0">
+    {@html t(post)}
+  </h2>
+  <h5>
+    {@html s(post)}
+  </h5>
 </a>
