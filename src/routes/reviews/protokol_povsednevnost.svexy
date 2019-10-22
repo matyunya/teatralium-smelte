@@ -218,12 +218,15 @@ hasCover: true
 они, как могло быть в данном случае, остаются досуговой
 деятельностью)?
 
-<a href="https://www.facebook.com/wwweidenbaum/posts/10216839316601682" target="_blank">
-<img
-  src="https://media.giphy.com/media/fMA99Gn2q3mukhSdxQ/giphy.gif"
-  alt="fb post"
-  class="mx-auto max-w-lg"
-/></a>
+<a
+  class="my-16"
+  href="https://www.facebook.com/wwweidenbaum/posts/10216839316601682"
+  target="_blank">
+  <img
+    src="https://media.giphy.com/media/fMA99Gn2q3mukhSdxQ/giphy.gif"
+    alt="fb post"
+    class="mx-auto max-w-lg">
+</a>
 
 Чаще всего люди узнают о кружках на сайте ЦИМа либо от знакомых,
 которые уже через это прошли, и ведь сарафанный эффект подтверждает,

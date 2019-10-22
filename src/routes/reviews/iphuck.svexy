@@ -86,12 +86,9 @@ type: review
 </section>
 
 <div class="gallery">
-  <div class="w-64">
-    <Image src="images/iphuck/img1.jpg" alt="Фото: Владимир Яроцкий" />
-  </div>
-  <div class="w-64">
-    <Image src="images/iphuck/img2.jpg" alt="Фото: Владимир Яроцкий" />
-  </div>
+  <Image src="images/iphuck/img1.jpg" alt="Фото: Владимир Яроцкий" />
+
+  <Image src="images/iphuck/img2.jpg" alt="Фото: Владимир Яроцкий" />
 
   Фото: Владимир Яроцкий {.small}
 

@@ -40,27 +40,29 @@ const postcssPlugins = (purge = false) => {
           }
         ],
         whitelist: ["lead", "body"],
-        whitelistPatterns: [/ripple/]
+        whitelistPatterns: [/ripple-primary/]
       })
   ].filter(Boolean);
 };
 
 const cache = {};
 
-function cached({ markup }) {
+function cached(name, { markup }) {
   return {
     markup: ({ content, filename }) => {
+      const key = `${name}:${filename}`;
+
       if (
-        cache[filename] &&
+        cache[key] &&
         XXhash.hash(Buffer.from(content, "utf8"), 0xcafebabe) ===
-          cache[filename].hash
+          cache[key].hash
       ) {
-        return cache[filename].result;
+        return cache[key].result;
       }
 
       const result = markup({ content, filename });
 
-      cache[filename] = {
+      cache[key] = {
         hash: XXhash.hash(Buffer.from(content, "utf8"), 0xcafebabe),
         result
       };
@@ -77,6 +79,7 @@ const preprocess = [
     }
   }),
   cached(
+    "mdsvex",
     mdsvex({
       // you can add markdown-it options here, html is always true
       markdownOptions: {
@@ -88,15 +91,19 @@ const preprocess = [
       parser: md => md.use(require("markdown-it-attrs"))
     })
   ),
-  image({
-    sizes: [600, 900, 1200],
-    optimizeAll: false,
-    trace: {
-      background: "transparent",
-      color: "#D473D4",
-      threshold: 50
-    }
-  })
+  cached(
+    "image",
+    image({
+      sizes: [600, 900, 1200],
+      optimizeAll: false,
+      trace: {
+        background: "transparent",
+        color: "#D473D4",
+        threshold: 150,
+        size: 300
+      }
+    })
+  )
 ];
 
 export default {
