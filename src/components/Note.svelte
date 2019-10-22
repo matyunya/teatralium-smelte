@@ -26,7 +26,8 @@
   }
 
   @media (max-width: 640px) {
-    .right, .left {
+    .right,
+    .left {
       @apply my-4;
 
       margin-left: 0;

@@ -39,16 +39,17 @@
 <section>
   <div
     in:fly={{ delay: 100 }}
-    class="flex items-center justify-around font-sans mx-auto w-full flex-wrap"
-  >
+    class="flex items-center justify-around font-sans mx-auto w-full flex-wrap">
     {#each chips as chip}
-      <Chip
-        selected={selected === chip.name}
-        selectable={false}
-        icon={chip.icon}
-        on:click={toggle(chip.name)}>
-        {chip.label}
-      </Chip>
+      <span class="my-2">
+        <Chip
+          selected={selected === chip.name}
+          selectable={false}
+          icon={chip.icon}
+          on:click={toggle(chip.name)}>
+          {chip.label}
+        </Chip>
+      </span>
     {/each}
   </div>
 </section>
