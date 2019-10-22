@@ -24,10 +24,20 @@
     margin-right: -300px;
     float: right;
   }
+
+  @media (max-width: 640px) {
+    .right, .left {
+      @apply my-4;
+
+      margin-left: 0;
+      margin-right: 0;
+      float: none;
+    }
+  }
 </style>
 
 <div
-  class="bg-{bg} mb-4 p-8 text-xs note inline-block"
+  class="bg-{bg} mb-4 p-8 text-xs note md:inline-block sm:block"
   class:left
   class:right={!left}
   style="margin-top: {top}px">

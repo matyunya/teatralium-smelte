@@ -9,12 +9,11 @@
 <style>
   section {
     letter-spacing: 0.2rem;
-    width: 600px;
     margin: 0 auto;
   }
 </style>
 
-<section class="flex justify-between items-center small-caps py-32 sm:flex-col">
+<section class="flex justify-between items-center small-caps py-32 flex-col">
   <span class="text-gray-600 text-sm px-3">поделиться:</span>
   <a
     class="gradient text-md px-3"

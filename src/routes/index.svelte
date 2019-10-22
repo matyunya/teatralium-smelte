@@ -39,8 +39,8 @@
 <section>
   <div
     in:fly={{ delay: 100 }}
-    class="flex items-center justify-between font-sans mx-auto"
-    style="width: 600px">
+    class="flex items-center justify-around font-sans mx-auto w-full flex-wrap"
+  >
     {#each chips as chip}
       <Chip
         selected={selected === chip.name}
