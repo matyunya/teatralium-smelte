@@ -1,7 +1,7 @@
 <style>
   .cast {
     background: linear-gradient(lavender, lightGrey);
-    @apply p-4 elevation-4 mb-10 px-8;
+    @apply p-2 elevation-4 mb-10 px-4;
   }
 
   :global(.cast em) {
@@ -19,6 +19,6 @@
 </style>
 
 <div class="cast">
-  <h5 class="py-4 italic text-center">Создатели</h5>
+  <h5 class="pt-4 italic text-center">Создатели</h5>
   <slot />
 </div>

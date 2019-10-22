@@ -37,7 +37,6 @@ h1, h2, h3, h4 {
 
 h3 {
   @apply my-16;
-  font-style: italic;
 }
 
 h1 {
@@ -184,6 +183,10 @@ ul {
 }
 
 @media (max-width: 640px) {
+  .small {
+    font-size: 0.93rem;
+  }
+
   img {
     @apply mx-auto;
   }
@@ -229,4 +232,12 @@ ul {
     letter-spacing: normal;
     line-height: 1.5;
   }
+}
+
+.wrapper {
+  @apply mt-8 mb-4;
+}
+
+p.small {
+  @apply pt-4;
 }

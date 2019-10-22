@@ -36,7 +36,7 @@
   }
 </style>
 
-<div class="wrapper cursor-pointer mb-4" on:click={() => (disabled = false)}>
+<div class="wrapper cursor-pointer my-16" on:click={() => (disabled = false)}>
   {#if url}
     <iframe
       class="absolute"

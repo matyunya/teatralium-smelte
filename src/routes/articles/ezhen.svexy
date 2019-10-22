@@ -11,10 +11,7 @@ hasCover: true
 
 ```js exec
   import Image from "svelte-image";
-  import Cover from "covers/Ezhen.svelte";
 ```
-
-<Cover />
 
 Стоит только кому-нибудь написать сонет, водевиль, песню, роман или
 трагедию, журналисты тут же набрасываются на него, дабы узнать, что

@@ -2,8 +2,9 @@
 image: /share/remez.jpg
 description: «Если ты сволочь, это от тебя уже никуда не уйдет»
 url: plays/mestnye
-title: Фрагмент пьесы «Местные» Александра Ремеза
+subtitle: Фрагмент пьесы «Местные» Александра Ремеза
 type: play
+title: «Если ты сволочь, это от тебя уже никуда не уйдет»
 hideDate: true
 ---
 

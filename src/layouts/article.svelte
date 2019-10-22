@@ -59,7 +59,9 @@
   <div class="mb-6 h-screen sm:px-32">
     <h1 class="text-center uppercase my-10">{title.split(':')[0]}</h1>
     <h2 class="text-center small">{title.split(':')[1] || ''}</h2>
-    {#if subtitle}<h2 class="text-center small">{subtitle}</h2>{/if}
+    {#if subtitle}
+      <h2 class="text-center small">{subtitle}</h2>
+    {/if}
 
     {#if type === 'mix'}
       <div class="w-32 mx-auto relative overflow-hidden rounded-full">
