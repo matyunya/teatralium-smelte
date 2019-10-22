@@ -38,7 +38,7 @@
 </style>
 
 <div
-  class="bg-{bg} mb-4 p-8 text-xs note md:inline-block sm:block"
+  class="bg-{bg} mb-4 p-8 md:text-xs note md:inline-block sm:block"
   class:left
   class:right={!left}
   style="margin-top: {top}px">
