@@ -4,7 +4,7 @@
 </script>
 
 <a
-  class="p-10"
+  class="pt-10 px-4"
   in:fade={{ duration: 100 }}
   out:fade={{ duration: 100 }}
   href="{post.url}/"

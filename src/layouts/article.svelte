@@ -58,9 +58,9 @@
     <h2 class="text-center small">{title.split(':')[1] || ''}</h2>
 
     {#if type === 'mix'}
-      <div class="w-64 mx-auto relative overflow-hidden">
+      <div class="w-32 mx-auto relative overflow-hidden rounded-full">
         <Button
-          class="mx-auto w-64"
+          class="mx-auto w-32 relative overflow-hidden"
           text
           light
           flat

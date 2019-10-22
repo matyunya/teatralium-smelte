@@ -28,11 +28,13 @@
   @media (max-width: 640px) {
     .right,
     .left {
-      @apply my-4;
-
       margin-left: 0;
       margin-right: 0;
       float: none;
+    }
+
+    .note {
+      width: 100%;
     }
   }
 </style>

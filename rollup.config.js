@@ -11,6 +11,7 @@ import postcss from "rollup-plugin-postcss";
 import includePaths from "rollup-plugin-includepaths";
 import image from "svelte-image";
 import path from "path";
+import XXhash from "xxhash";
 import { mdsvex } from "mdsvex";
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
@@ -44,22 +45,49 @@ const postcssPlugins = (purge = false) => {
   ].filter(Boolean);
 };
 
+const cache = {};
+
+function cached({ markup }) {
+  return {
+    markup: ({ content, filename }) => {
+      if (
+        cache[filename] &&
+        XXhash.hash(Buffer.from(content, "utf8"), 0xcafebabe) ===
+          cache[filename].hash
+      ) {
+        return cache[filename].result;
+      }
+
+      const result = markup({ content, filename });
+
+      cache[filename] = {
+        hash: XXhash.hash(Buffer.from(content, "utf8"), 0xcafebabe),
+        result
+      };
+
+      return result;
+    }
+  };
+}
+
 const preprocess = [
   getPreprocessor({
     postcss: {
       plugins: postcssPlugins()
     }
   }),
-  mdsvex({
-    // you can add markdown-it options here, html is always true
-    markdownOptions: {
-      typographer: true,
-      linkify: true
-    },
-    outputMeta: true,
-    layout: "./src/layouts/article.svelte",
-    parser: md => md.use(require("markdown-it-attrs"))
-  }),
+  cached(
+    mdsvex({
+      // you can add markdown-it options here, html is always true
+      markdownOptions: {
+        typographer: true,
+        linkify: true
+      },
+      outputMeta: true,
+      layout: "./src/layouts/article.svelte",
+      parser: md => md.use(require("markdown-it-attrs"))
+    })
+  ),
   image({
     sizes: [600, 900, 1200],
     optimizeAll: false,
