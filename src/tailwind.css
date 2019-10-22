@@ -175,6 +175,14 @@ ul > li {
 }
 
 @media (max-width: 640px) {
+  .mt-32 {
+    margin-top: 3rem;
+  }
+
+  .mb-16 {
+    margin-bottom: 1.5rem;
+  }
+
   main {
     @apply px-2;
   }

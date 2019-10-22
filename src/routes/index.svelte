@@ -54,7 +54,7 @@
   </div>
 </section>
 
-<div class="pl-10 text-left flex flex-col mt-32">
+<div class="md:pl-10 text-left flex flex-col md:mt-32 sm:mt-10">
   {#each items as post}
     <PostPreview {post} />
   {/each}
