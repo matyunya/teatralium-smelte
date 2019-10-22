@@ -6,6 +6,7 @@
 
   import PostPreview from "components/PostPreview.svelte";
   import Masks from "components/Masks.svelte";
+  import HomeLink from "components/HomeLink.svelte";
   import articles from "components/articles.js";
 
   export let selected = false;
@@ -67,3 +68,6 @@
 
 <Waypoint on:enter={() => (page += 1)} once={false} />
 <slot />
+
+
+<HomeLink />
