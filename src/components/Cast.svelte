@@ -1,7 +1,7 @@
 <style>
   .cast {
     background: linear-gradient(lavender, lightGrey);
-    @apply p-2 elevation-4 mb-10 px-4;
+    @apply p-2 elevation-4 mb-10 px-4 pr-8;
   }
 
   :global(.cast em) {

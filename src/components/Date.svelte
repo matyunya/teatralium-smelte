@@ -9,9 +9,8 @@
 
 <div class="date">
   {post.date || ''}
-  {#if post.author && ![
-      'Театралий',
-      '«За музыку отвечает»'
-    ].includes(post.author)}, {text()}:&nbsp;<a href={translit(post.author)}>{post.author}</a>
+  {#if post.author && !['Театралий', '«За музыку отвечает»'].includes(post.author)}
+    , {text()}:&nbsp;
+    <a href={translit(post.author)}>{post.author}</a>
   {/if}
 </div>

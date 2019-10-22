@@ -241,3 +241,7 @@ ul {
 p.small {
   @apply pt-4;
 }
+
+.quote {
+  @apply w-full text-center italic py-32 px-64 bg-gray-50 my-8;
+}
