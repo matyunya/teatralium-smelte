@@ -10,7 +10,7 @@ img {
 }
 
 body {
-  font-family: Georgia, Helvetica, Arial, sans-serif;
+  font-family: 'Bodoni', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.75;
 }
@@ -179,7 +179,7 @@ ul > li {
 }
 
 ul {
-  @apply text-primary-500 py-16;
+  @apply text-primary-500;
 }
 
 @media (max-width: 640px) {
@@ -235,7 +235,7 @@ ul {
 }
 
 .wrapper {
-  @apply mt-8 mb-4;
+  @apply mt-2 mb-4;
 }
 
 p.small {

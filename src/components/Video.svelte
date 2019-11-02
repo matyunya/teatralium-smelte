@@ -67,7 +67,7 @@
   <slot />
   {#if desc}
     {desc}
-    {#if url}
+    {#if url && title}
       <a href={url}>{title}</a>
     {/if}
     {#if afterUrl}

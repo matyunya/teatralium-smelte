@@ -16,7 +16,7 @@
   }
 
   .note :global(ul) {
-    @apply text-black pt-4;
+    @apply text-black py-0;
   }
 
   .left {

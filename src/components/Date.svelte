@@ -21,11 +21,13 @@
   }
 </script>
 
-<div class="date">
-  <span>{post.date || ''}{hasAuthor(post) ? ',' : ''}</span>
-  <span>
-    {#if hasAuthor(post)}
-      {@html html()}
-    {/if}
-  </span>
+<div class="date mx-auto w-128">
+  <div class="rounded-full bg-white-transLight px-4">
+    <span>{post.date || ''}{hasAuthor(post) ? ',' : ''}</span>
+    <span>
+      {#if hasAuthor(post)}
+        {@html html()}
+      {/if}
+    </span>
+  </div>
 </div>

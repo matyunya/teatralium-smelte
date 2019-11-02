@@ -13,9 +13,9 @@
 
   let page = 1;
 
-  $: filtered = selected ? articles.filter(a => a.type === selected) : articles;
+  $: items = selected ? articles.filter(a => a.type === selected) : articles;
   // $: items = selected ? filtered.slice(0, page * 5) : filtered.slice(0, 5);
-  $: items = filtered.slice(0, page * 5);
+  // $: items = filtered.slice(0, page * 5);
 
   function toggle(type) {
     return () => {
@@ -64,7 +64,6 @@
   {/each}
 </div>
 
-<Waypoint on:enter={() => (page += 1)} once={false} />
 <slot />
 
 <HomeLink />
