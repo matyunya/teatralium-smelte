@@ -15,6 +15,10 @@
     max-width: 200px;
   }
 
+  .note :global(ul) {
+    @apply text-black pt-4;
+  }
+
   .left {
     margin-left: -220px;
     float: left;
@@ -41,7 +45,7 @@
 </style>
 
 <div
-  class="bg-{bg} mb-4 p-8 md:text-xs note md:inline-block sm:block"
+  class="bg-{bg} mb-4 p-4 md:text-xs note md:inline-block sm:block"
   class:left
   class:right={!left}
   style="margin-top: {top}px">

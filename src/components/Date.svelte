@@ -3,7 +3,7 @@
   export let post = null;
 
   function text() {
-    return post.type === "interview" ? ", интервью" : ", текст";
+    return post.type === "interview" ? "интервью" : "текст";
   }
 
   function hasAuthor({ author }) {
@@ -11,7 +11,7 @@
   }
 
   function html() {
-    if (post.author === 'Театралий') {
+    if (post.author === "Театралий") {
       return `${text()}:&nbsp;${post.author}</a>`;
     }
 
@@ -22,6 +22,10 @@
 </script>
 
 <div class="date">
-  <span>{post.date || ''}</span>
-  <span>{#if hasAuthor(post)}{@html html()}{/if}</span>
+  <span>{post.date || ''}{hasAuthor(post) ? ',' : ''}</span>
+  <span>
+    {#if hasAuthor(post)}
+      {@html html()}
+    {/if}
+  </span>
 </div>

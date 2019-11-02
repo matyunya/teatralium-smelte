@@ -32,7 +32,7 @@ hasCover: true
 
 <Image src="images/protokol/protokol1.jpg" c="max-w-100" />
 
-<section>
+<section class="mt-32">
 
 С «Протоколом» все настолько серьезно, что выпускники его зимней
 версии выступают перед экспертами «Золотой маски», а летней —
@@ -112,7 +112,9 @@ hasCover: true
 сложностей складывается жизнь (в основном из вечной беготни куда-то
 и опозданий).
 
-<Image src="images/protokol/protokol2.png" c="max-w-100" />
+<div class="mb-32 mx-auto">
+  <Image src="images/protokol/protokol2.png" />
+</div>
 
 Каждый день, обнаруживая себя за деланием или обдумыванием чего-то,
 ловя себя на том, что весь прогон от «Нагатинской» до «Тульской» вы
@@ -162,9 +164,10 @@ hasCover: true
 телесными реакциями, в каком-то смысле за инстинктами. Почему после
 огурцов ты направился именно к трусам и так далее.
 
-<Image src="images/protokol/protokol3.png" c="max-w-100" />
-
-Фото: Екатерина Краева{.small mb10}
+<Image
+  src="images/protokol/protokol3.png"
+  c="max-w-100" />
+Фото: Екатерина Краева{.small .mb-16}
 
 Вот из таких зафиксированных каждым участником попыток обрести себя
 в повседневности к концу месяца формируется пьеса. Последователи
@@ -219,7 +222,7 @@ hasCover: true
 деятельностью)?
 
 <a
-  class="my-16"
+  class="my-32"
   href="https://www.facebook.com/wwweidenbaum/posts/10216839316601682"
   target="_blank">
   <img
