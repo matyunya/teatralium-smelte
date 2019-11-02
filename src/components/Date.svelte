@@ -7,17 +7,21 @@
   }
 
   function hasAuthor({ author }) {
-    return author && !["Театралий", "«За музыку отвечает»"].includes(author);
+    return author && !["«За музыку отвечает»"].includes(author);
   }
 
   function html() {
-    return `${text()}:&nbsp;<a href=${translit(post.author)}>${post.author}</a>`;
+    if (post.author === 'Театралий') {
+      return `${text()}:&nbsp;${post.author}</a>`;
+    }
+
+    return `${text()}:&nbsp;<a href=${translit(post.author)}>${
+      post.author
+    }</a>`;
   }
 </script>
 
 <div class="date">
-  {post.date || ''}
-  {#if hasAuthor(post)}
-    {@html html()}
-  {/if}
+  <span>{post.date || ''}</span>
+  <span>{#if hasAuthor(post)}{@html html()}{/if}</span>
 </div>

@@ -27,7 +27,7 @@
     height: 0;
   }
 
-  .absolute {
+  .abs {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +39,7 @@
 <div class="wrapper cursor-pointer my-16" on:click={() => (disabled = false)}>
   {#if url}
     <iframe
-      class="absolute w-full h-full"
+      class="abs"
       src={url}
       frameBorder="0"
       allowFullScreen
@@ -47,7 +47,7 @@
   {:else if disabled}
     <span>
       <img
-        class="absolute"
+        class="abs"
         src="https://img.youtube.com/vi/{id}/0.jpg"
         alt="preview" />
       <div class="disabled" />
@@ -58,7 +58,7 @@
       title="video"
       frameBorder="0"
       allowFullScreen
-      class="w-full h-full"
+      class="abs"
       allow="autoplay" />
   {/if}
 </div>
