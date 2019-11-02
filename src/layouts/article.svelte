@@ -7,6 +7,7 @@
   import HomeLink from "components/HomeLink.svelte";
   import Waypoint from "svelte-waypoint";
   import Loadable from "svelte-loadable";
+  import s from "components/subtitle";
 
   export let image = null;
   export let description = null;
@@ -61,13 +62,8 @@
       {@html title.split(':')[0]}
     </h1>
     <h2 class="text-center small">
-      {@html title.split(':')[1] || ''}
+      {@html s(post)}
     </h2>
-    {#if subtitle && !title.includes(':')}
-      <h2 class="text-center small">
-        {@html subtitle}
-      </h2>
-    {/if}
 
     {#if type === 'mix'}
       <div class="w-32 mx-auto relative overflow-hidden rounded-full">

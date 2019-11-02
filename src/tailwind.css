@@ -81,7 +81,11 @@ h2.small {
   font-size: 0.8rem;
   line-height: 1.1rem;
   display: block;
-  @apply mb-10 mt-4;
+  @apply mb-10 mt-4 pl-4;
+}
+
+.small img {
+  padding-left: -1rem;
 }
 
 .lead:first-letter {

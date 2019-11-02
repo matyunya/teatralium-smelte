@@ -39,7 +39,7 @@
 <div class="wrapper cursor-pointer my-16" on:click={() => (disabled = false)}>
   {#if url}
     <iframe
-      class="absolute"
+      class="absolute w-full h-full"
       src={url}
       frameBorder="0"
       allowFullScreen
@@ -58,6 +58,7 @@
       title="video"
       frameBorder="0"
       allowFullScreen
+      class="w-full h-full"
       allow="autoplay" />
   {/if}
 </div>

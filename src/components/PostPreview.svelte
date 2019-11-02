@@ -1,5 +1,6 @@
 <script>
   import { fade } from "svelte/transition";
+  import s from "components/subtitle";
   export let post = {};
 
   function t({ title }) {
@@ -8,19 +9,6 @@
     }
 
     return title;
-  }
-
-  function s({ title, subtitle, description }) {
-    if (title.includes(":")) {
-      const tl = title.split(":")[1].trim();
-      return `${tl[0].toUpperCase()}${tl.slice(1)}`;
-    }
-
-    if (subtitle) return subtitle;
-
-    return post.description.substr(-1) === "."
-      ? post.description.slice(0, -1)
-      : post.description;
   }
 </script>
 

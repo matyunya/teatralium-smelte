@@ -9,12 +9,15 @@
   function hasAuthor({ author }) {
     return author && !["Театралий", "«За музыку отвечает»"].includes(author);
   }
+
+  function html() {
+    return `${text()}:&nbsp;<a href=${translit(post.author)}>${post.author}</a>`;
+  }
 </script>
 
 <div class="date">
   {post.date || ''}
   {#if hasAuthor(post)}
-    {text()}:&nbsp;
-    <a href={translit(post.author)}>{post.author}</a>
+    {@html html()}
   {/if}
 </div>
