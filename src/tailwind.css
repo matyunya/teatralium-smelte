@@ -70,13 +70,6 @@ h2.small {
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Bodoni';
-  src: url(/fonts/bodoni-italic.woff2);
-  font-weight: normal;
-  font-style: italic;
-}
-
 .small {
   font-size: 0.8rem;
   line-height: 1.1rem;

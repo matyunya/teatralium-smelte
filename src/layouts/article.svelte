@@ -52,6 +52,15 @@
     type="font/woff2" />
 </svelte:head>
 
+<style>
+@font-face {
+  font-family: 'Bodoni';
+  src: url(/fonts/bodoni-italic.woff2);
+  font-weight: normal;
+  font-style: italic;
+}
+</style>
+
 <Head {post} />
 
 <Date {post} />
