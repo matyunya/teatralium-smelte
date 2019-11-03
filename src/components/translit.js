@@ -46,5 +46,5 @@ export default function translit(name) {
     );
   }
 
-  return `/authors/${n_str.join("")}/`;
+  return `/authors/${n_str.join("")}`;
 }
