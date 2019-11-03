@@ -30,7 +30,7 @@ mix: derevo-avdeev
   src="images/otvechaet/avdeev.jpg"
   alt="Филипп Авдеев"
 />
-Филипп Авдеев {.small mb-10}
+Филипп Авдеев {.small .mb-10}
 
 «Треки Benjamin Damage и&nbsp;HVOB сопровождали меня в незабываемом
 путешествии на остров Ко Панган в 2013 году. Кино — это мое
