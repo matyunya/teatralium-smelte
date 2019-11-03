@@ -20,21 +20,21 @@
 
   const chips = [
     {
-      href: "/articles",
+      href: "/articles/",
       label: "Тексты",
       icon: "directions_run",
       type: "article"
     },
-    { href: "/interviews", label: "Интервью", icon: "call", type: "interview" },
-    { href: "/music", label: "Миксы", icon: "play_circle_filled", type: "mix" },
-    { href: "/plays", label: "Пьесы", icon: "local_bar", type: "play" },
+    { href: "/interviews/", label: "Интервью", icon: "call", type: "interview" },
+    { href: "/music/", label: "Миксы", icon: "play_circle_filled", type: "mix" },
+    { href: "/plays/", label: "Пьесы", icon: "local_bar", type: "play" },
     {
-      href: "/reviews",
+      href: "/reviews/",
       label: "«Рицензии»",
       icon: "restaurant_menu",
       type: "review"
     },
-    { href: "/about", label: "Мы", icon: "pets", type: "about" }
+    { href: "/about/", label: "Мы", icon: "pets", type: "about" }
   ];
 
   $: items = type
