@@ -140,22 +140,12 @@ export default {
       legacy &&
         babel({
           extensions: [".js", ".mjs", ".html", ".svelte"],
-          runtimeHelpers: true,
           exclude: ["node_modules/@babel/**"],
           presets: [
             [
               "@babel/preset-env",
               {
-                targets: "> 0.25%, ie >= 11, not dead"
-              }
-            ]
-          ],
-          plugins: [
-            "@babel/plugin-syntax-dynamic-import",
-            [
-              "@babel/plugin-transform-runtime",
-              {
-                useESModules: true
+                targets: "> 0.25%"
               }
             ]
           ]
