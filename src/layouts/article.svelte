@@ -38,9 +38,8 @@
       player = window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
         light: true,
         hide_artwork: true,
-        autoplay: false,
+        autoplay: false
       });
-
     }
   });
 </script>
@@ -55,6 +54,7 @@
 
   .cover {
     height: calc(100vh - 120px);
+    max-width: 1000px;
   }
 </style>
 
@@ -70,7 +70,7 @@
 <Date {post} />
 
 {#if !hasCover}
-  <div class="mb-6 cover sm:px-32 flex flex-col justify-center">
+  <div class="mb-6 cover sm:px-16 flex flex-col justify-center">
     <h1 class="text-center uppercase mb-10">
       {@html title.split(':')[0]}
     </h1>

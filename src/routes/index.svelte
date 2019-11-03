@@ -19,12 +19,10 @@
 
   function toggle(type) {
     return () => {
-      if (type === "us") {
-        goto("/about");
-      }
+      goto('/');
 
       return (selected = selected === type ? false : type);
-    };
+    }
   }
 
   const chips = [
@@ -42,6 +40,19 @@
     in:fly={{ delay: 100 }}
     class="flex items-center justify-around font-sans mx-auto w-full flex-wrap">
     {#each chips as chip}
+      {#if chip.name === 'us'}
+      <span class="my-2">
+        <a href="/about">
+          <Chip
+            selected={selected === chip.name}
+            selectable={false}
+            icon={chip.icon}
+          >
+            {chip.label}
+          </Chip>
+        </a>
+      </span>
+      {:else}
       <span class="my-2">
         <Chip
           selected={selected === chip.name}
@@ -51,6 +62,7 @@
           {chip.label}
         </Chip>
       </span>
+      {/if}
     {/each}
   </div>
 </section>
