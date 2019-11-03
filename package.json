@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev --ext '.svexy .svelte'",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy --ext '.svexy .svelte' && npx subfont --in-place __sapper__/export/",
+    "export": "sapper export --legacy --ext '.svexy .svelte'",
     "start": "node __sapper__/build",
     "serve": "serve __sapper__/export",
     "cy:run": "cypress run",

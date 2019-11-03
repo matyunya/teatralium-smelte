@@ -119,7 +119,7 @@ export default {
       svelte({
         dev,
         hydratable: true,
-        emitCss: true,
+        emitCss: false,
         extensions: [".svelte", ".svexy", ".svx"],
         preprocess
       }),
