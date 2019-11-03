@@ -38,8 +38,9 @@
       player = window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
         light: true,
         hide_artwork: true,
-        autoplay: true
+        autoplay: false,
       });
+
     }
   });
 </script>
