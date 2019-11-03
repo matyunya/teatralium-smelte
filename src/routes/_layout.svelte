@@ -12,19 +12,9 @@
 
   import Title from "components/Title.svelte";
 
-  import {
-    right,
-    elevation,
-    persistent,
-    showNav,
-    showNavMobile,
-    breakpoint
-  } from "smelte/src/stores.js";
-
   const { preloading, page } = stores();
 
   let selected = "";
-  const bp = breakpoint();
   $: path = $page.path;
 </script>
 
