@@ -41,13 +41,21 @@ type: article
 — объясняет режиссер. — Можно, конечно, попробовать сбежать, но
 далеко не убежишь».
 
-<Image src="images/naprimer/zal.jpg" />
+</section>
 
-<Image
-  src="images/naprimer/foye.jpg"
-  alt="Зал и&nbsp;фойе «Театра 18+»"
-/>
-Зал и&nbsp;фойе «Театра 18+»{.small .mb-10}
+<div class="gallery">
+  <Image
+    src="images/naprimer/zal.jpg"
+  />
+  <Image
+    src="images/naprimer/foye.jpg"
+    alt="Зал и&nbsp;фойе «Театра 18+»"
+  />
+
+  Зал и&nbsp;фойе «Театра 18+»{.small .mb-10}
+</div>
+
+<section>
 
 Главное, чего удалось добиться за пять лет, — это среда внутри и
 вокруг театра, считает Муравицкий: «У нас много друзей в Ростове,
@@ -112,13 +120,19 @@ type: article
 Муравицкий. — Столкновение с хтоническими силами. Хорошо, что жив
 остался».
 
-<Image src="images/naprimer/1.jpg" />
+</section>
 
-<Image
-  src="images/naprimer/2.jpg"
-  alt="«Исповедь мазохиста», режиссер Талгат Баталов"
-/>
-«Исповедь мазохиста», режиссер Талгат Баталов {.small .mb-10}
+<div class="gallery">
+  <Image src="images/naprimer/1.jpg" />
+  <Image
+    src="images/naprimer/2.jpg"
+    alt="«Исповедь мазохиста», режиссер Талгат Баталов"
+  />
+
+  «Исповедь мазохиста», режиссер Талгат Баталов {.small .mb-10}
+</div>
+
+<section>
 
 Отсутствие статуса государственного защищает «Театр 18+» от местных
 чиновников. Отношения устроены по принципу «мы ничего не просим, они
@@ -236,11 +250,7 @@ Makaronka с театром, выставочными пространствам
   анонсами на сайте театра.
 </Note>
 
-<img
-  src="https://media.giphy.com/media/28LNp7xUH7ZpSpqKPh/giphy.gif"
-  alt="hanana gif"
-  class="mx-auto max-w-md py-8"
->
+<img src="https://media.giphy.com/media/28LNp7xUH7ZpSpqKPh/giphy.gif" alt="hanana gif" class="mx-auto max-w-md py-8 elevation-0">
 
 Муравицкий не отрицает, что брать деньги у государства на
 общественно значимые и&nbsp;полезные проекты можно и&nbsp;нужно, но настаивает
