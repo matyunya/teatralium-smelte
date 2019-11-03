@@ -6,7 +6,7 @@
 
 <style>
   .funny {
-    text-shadow: -10px 0 rgba(0,255,255,0.2), 10px 0 rgba(255,0,255,0.2);
+    text-shadow: -10px 0 rgba(0, 255, 255, 0.2), 10px 0 rgba(255, 0, 255, 0.2);
     @apply font-normal uppercase text-2xl tracking-widest;
   }
 </style>
