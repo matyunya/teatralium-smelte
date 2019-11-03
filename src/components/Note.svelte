@@ -45,7 +45,7 @@
 </style>
 
 <div
-  class="bg-{bg} mb-4 p-4 md:text-xs note md:inline-block sm:block"
+  class="bg-{bg} mb-10 p-4 md:text-xs note block md:inline-block"
   class:left
   class:right={!left}
   style="margin-top: {top}px">

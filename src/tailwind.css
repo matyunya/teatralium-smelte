@@ -236,5 +236,11 @@ p.small {
 }
 
 .quote {
-  @apply w-full text-center italic py-32 px-64 bg-gray-50 my-8;
+  @apply w-full text-center italic py-8 bg-gray-50 my-8;
+}
+
+@media (min-width: 641px) {
+  .quote {
+    @apply py-32 px-64;
+  }
 }

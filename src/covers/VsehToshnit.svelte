@@ -20,6 +20,6 @@
   </h2>
 </section>
 
-<div class="absolute w-screen top-0 left-0 bg">
+<div class="absolute w-screen top-0 left-0 bg hidden sm:block">
   <Image alt="blok" src="images/vseh_toshnit/cover.jpg" />
 </div>

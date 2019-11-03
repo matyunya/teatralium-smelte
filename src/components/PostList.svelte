@@ -61,7 +61,7 @@
   </div>
 </section>
 
-<div class="md:pl-10 text-left flex flex-col md:mt-32 sm:mt-10">
+<div class="md:pl-10 text-left flex flex-col mt-10 md:mt-32">
   {#each items as post, i}
     <PostPreview {post} {i} />
     {#if i % 5 === 0 && i > 1}

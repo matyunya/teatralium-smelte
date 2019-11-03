@@ -135,7 +135,7 @@ type: article
 изображали аристократов в стилизованных под старину декорациях, но
 разница между ними была не столь велика, как может показаться.
 
-<div class="mx-auto" style="width: 400px">
+<div class="mx-auto max-w-md">
 
 <Image
   src="images/revolyutsiya/time.jpg"
