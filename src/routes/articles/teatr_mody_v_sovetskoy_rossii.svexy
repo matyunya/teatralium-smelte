@@ -12,6 +12,7 @@ type: article
   import Image from "svelte-image";
   import Note from "components/Note.svelte";
   import Video from "components/Video.svelte";
+  import Rest from "components/Rest.svelte";
 ```
 
 <section>
@@ -138,7 +139,7 @@ type: article
 Здесь работали десятки портновских мастерских и&nbsp;магазинов. Сюда
 ежедневно стекались богачки со всей красной столицы. Сеничева и
 Ламанова надеялись отбить клиентов у частников рекламой и&nbsp;высоким
-качеством одежды на заказ.<…>
+качеством одежды на заказ.<Rest />
 
 <div class="mx-auto max-w-sm">
 
@@ -295,7 +296,7 @@ type: article
 появлялась актриса Антонина Васильевна Нежданова, медленно, с
 достоинством дамы Прекрасной Эпохи, ходила и&nbsp;плавно поворачивалась,
 демонстрируя все прелести и&nbsp;ракурсы новых нарядов от Ателье мод.
-<…>
+<Rest />
 
 </section>
 

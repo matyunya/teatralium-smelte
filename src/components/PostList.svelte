@@ -16,19 +16,31 @@
     music: "mix",
     plays: "play",
     reviews: "review",
-    about: "about",
+    about: "about"
   };
 
   const chips = [
-    { href: "/articles", label: "Тексты", icon: "directions_run", type: "article" },
+    {
+      href: "/articles",
+      label: "Тексты",
+      icon: "directions_run",
+      type: "article"
+    },
     { href: "/interviews", label: "Интервью", icon: "call", type: "interview" },
     { href: "/music", label: "Миксы", icon: "play_circle_filled", type: "mix" },
     { href: "/plays", label: "Пьесы", icon: "local_bar", type: "play" },
-    { href: "/reviews", label: "«Рицензии»", icon: "restaurant_menu", type: "review" },
+    {
+      href: "/reviews",
+      label: "«Рицензии»",
+      icon: "restaurant_menu",
+      type: "review"
+    },
     { href: "/about", label: "Мы", icon: "pets", type: "about" }
   ];
 
-  $: items = type ? articles.filter(a => a.type === segmentTypes[type]) : articles;
+  $: items = type
+    ? articles.filter(a => a.type === segmentTypes[type])
+    : articles;
 </script>
 
 <section>
@@ -37,22 +49,20 @@
     class="flex items-center justify-around font-sans mx-auto w-full flex-wrap">
     {#each chips as chip}
       <span class="my-2">
-          <a href={segmentTypes[type] === chip.type ? '/' : chip.href}>
-            <Chip
-              selected={segmentTypes[type] === chip.type}
-              selectable={false}
-              icon={chip.icon}>
-              {chip.label}
-            </Chip>
-          </a>
-        </span>
+        <a href={segmentTypes[type] === chip.type ? '/' : chip.href}>
+          <Chip
+            selected={segmentTypes[type] === chip.type}
+            selectable={false}
+            icon={chip.icon}>
+            {chip.label}
+          </Chip>
+        </a>
+      </span>
     {/each}
   </div>
 </section>
 
-<div
-  class="md:pl-10 text-left flex flex-col md:mt-32 sm:mt-10"
->
+<div class="md:pl-10 text-left flex flex-col md:mt-32 sm:mt-10">
   {#each items as post, i}
     <PostPreview {post} {i} />
     {#if i % 5 === 0 && i > 1}
@@ -60,4 +70,3 @@
     {/if}
   {/each}
 </div>
-
