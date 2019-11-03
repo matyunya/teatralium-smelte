@@ -1,1 +1,1 @@
-<span class="whitespace-no-wrap">{"<…>"}</span>
+<span class="whitespace-no-wrap">{'<…>'}</span>
