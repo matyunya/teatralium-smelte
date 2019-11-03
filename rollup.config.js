@@ -16,35 +16,6 @@ import { mdsvex } from "mdsvex";
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
-
-const extractor = require("smelte/src/utils/css-extractor.js");
-
-const postcssPlugins = (purge = false) => {
-  return [
-    require("postcss-import")(),
-    require("postcss-url")(),
-    require("postcss-nesting")(),
-    require("tailwindcss")("./tailwind.config.js"),
-    require("autoprefixer")(),
-    purge &&
-      require("cssnano")({
-        preset: "default"
-      }),
-    purge &&
-      require("@fullhuman/postcss-purgecss")({
-        content: ["./**/*.svelte", "./**/*.svexy"],
-        extractors: [
-          {
-            extractor,
-            extensions: ["svelte", "svexy"]
-          }
-        ],
-        whitelist: ["lead", "body"],
-        whitelistPatterns: [/ripple-primary/]
-      })
-  ].filter(Boolean);
-};
-
 const cache = {};
 
 function cached(name, { markup }) {
@@ -75,7 +46,7 @@ function cached(name, { markup }) {
 const preprocess = [
   getPreprocessor({
     postcss: {
-      plugins: postcssPlugins()
+      plugins: require("./postcss.config.js")()
     }
   }),
   cached(
@@ -177,7 +148,7 @@ export default {
       includePaths({ paths: ["./src", "./", "./node_modules/smelte/src/"] }),
       commonjs(),
       postcss({
-        plugins: postcssPlugins(!dev),
+        plugins: require("./postcss.config.js")(!dev),
         extract: path.resolve(__dirname, "./static/global.css")
       })
     ],
