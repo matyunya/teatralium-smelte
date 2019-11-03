@@ -266,7 +266,7 @@ type: article
 
 </section>
 
-<Image src="images/ramt/bilet-(18).jpg" alt="bilet">
+<Image src="images/ramt/bilet-(18).jpg" alt="bilet" />
 
 <section class="mt-16">
 

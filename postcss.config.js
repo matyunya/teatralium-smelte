@@ -20,7 +20,14 @@ module.exports = (purge = false) => {
             extensions: ["svelte", "svexy"]
           }
         ],
-        whitelist: ["lead", "body", "bg-primary-100"],
+        whitelist: [
+          "lead",
+          "body",
+          "bg-primary-100",
+          "ripple",
+          "ripple-normal",
+          "bg-primary-trans"
+        ],
         whitelistPatterns: [/ripple-primary/]
       })
   ].filter(Boolean);
