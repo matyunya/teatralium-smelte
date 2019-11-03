@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/error"
+  to = "/"
   status = 404
 [[headers]]
   for = "*.js" # js files should be set this way
