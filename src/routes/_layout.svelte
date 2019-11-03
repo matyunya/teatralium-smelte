@@ -10,11 +10,14 @@
   import NavigationDrawer from "components/NavigationDrawer";
   import ProgressLinear from "components/ProgressLinear";
 
+  import PostList from "components/PostList.svelte";
   import Title from "components/Title.svelte";
+  import HomeLink from "components/HomeLink.svelte";
+
+  export let segment;
 
   const { preloading, page } = stores();
 
-  let selected = "";
   $: path = $page.path;
 </script>
 
@@ -45,5 +48,13 @@
 <Title />
 
 <main class="mx-auto mb-40 mt-6">
+  {#if segment === '/about'}
+    <PostList type={segment} />
+  {/if}
+
   <slot />
+
+  {#if segment !== '/about'}
+    <PostList type={segment} />
+  {/if}
 </main>

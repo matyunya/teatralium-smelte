@@ -42,7 +42,7 @@ module.exports = {
       transparent: "transparent",
       white: "#fff",
       "white-trans": "rgba(255,255,255,0.5)",
-      "white-transLight": "rgba(255,255,255,0.95)",
+      "white-transLight": "rgba(255,255,255,0.6)",
       "white-transDark": "rgba(255,255,255,0.2)",
       "black-trans": "rgba(0,0,0,0.5)",
       "black-transLight": "rgba(0,0,0,0.7)",

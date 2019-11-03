@@ -1,7 +1,8 @@
 <script>
-  import { fade } from "svelte/transition";
+  import { fly } from "svelte/transition";
   import s from "components/subtitle";
   export let post = {};
+  export let i = 0;
 
   function t({ title }) {
     if (title.includes(":")) {
@@ -14,8 +15,7 @@
 
 <a
   class="pt-10 px-4 no-underline"
-  in:fade={{ duration: 100 }}
-  out:fade={{ duration: 100 }}
+  transition:fly={{ delay: 50 * i, duration: 2000 }}
   href="{post.url}/"
   rel="prefetch">
   <h2 class="my-0 py-0">

@@ -1,6 +1,5 @@
 ---
 layout: ./index.svelte
-selected: us
 ---
 
 ```js exec
