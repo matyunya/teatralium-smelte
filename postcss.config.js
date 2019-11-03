@@ -27,6 +27,7 @@ module.exports = (purge = false) => {
           "ripple",
           "ripple-normal",
           "bg-primary-trans",
+          "hover:bg-primary-50",
           "h1",
           "h2",
           "h3",
