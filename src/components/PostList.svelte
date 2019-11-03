@@ -1,6 +1,5 @@
 <script>
   import { Chip } from "smelte";
-  import { goto } from "@sapper/app";
   import { fly } from "svelte/transition";
 
   import PostPreview from "components/PostPreview.svelte";

@@ -12,10 +12,7 @@
   }
 </script>
 
-<a
-  class="pt-10 px-4 no-underline"
-  href="{post.url}/"
-  rel="prefetch">
+<a class="pt-10 px-4 no-underline" href="{post.url}/" rel="prefetch">
   <h2 class="my-0 py-0">
     {@html t(post)}
   </h2>
