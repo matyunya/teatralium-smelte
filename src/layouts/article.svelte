@@ -70,7 +70,7 @@
 <Date {post} />
 
 {#if !hasCover}
-  <div class="mb-6 cover sm:px-16 flex flex-col justify-center">
+  <div class="mb-6 cover sm:px-16 mx-auto flex flex-col justify-center">
     <h1 class="text-center uppercase mb-10">
       {@html title.split(':')[0]}
     </h1>

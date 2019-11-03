@@ -24,8 +24,8 @@
   <meta name="description" content="Театралии всех стран, соединяйтесь!" />
   <meta
     name="keywords"
-    content="театр, театралий, teatralium, современный театр, несовременный театр"
-  />
+    content="театр, театралий, teatralium, современный театр, несовременный
+    театр" />
   <meta property="fb:app_id" content="1528916173863908" />
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="theme-color" content="#ffffff" />
