@@ -26,7 +26,13 @@ module.exports = (purge = false) => {
           "bg-primary-100",
           "ripple",
           "ripple-normal",
-          "bg-primary-trans"
+          "bg-primary-trans",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6"
         ],
         whitelistPatterns: [/ripple-primary/]
       })
