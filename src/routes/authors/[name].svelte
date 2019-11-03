@@ -34,7 +34,7 @@
 	{/each}
 </section>
 
-<section class="pt-16">
+<section class="pt-16 pb-32">
 	<h6>Все авторы:</h6>
 	<Authors />
 </section>

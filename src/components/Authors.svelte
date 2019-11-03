@@ -8,6 +8,5 @@
 </script>
 
 {#each authors as author}
-  <a href={translit(author)}>{author}</a>
-  <br />
+  <a class="block" href={translit(author)}>{author}</a>
 {/each}
