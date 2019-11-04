@@ -10,6 +10,7 @@ mix: derevo-avdeev
 ---
 
 ```js exec
+  import Play from "components/Play.svelte";
   import Image from "svelte-image";
 ```
 
@@ -38,6 +39,8 @@ mix: derevo-avdeev
 Lang вдохновляет, Bob Marley успокаивает, Sunsay переносит на море
 или туда, где тепло, а Pompeya — лучший трек для поездки летом на
 мопеде».
+
+<Play mix={_metadata.mix} />
 
 - HVOB — «Dogs»
 - Кино — «Мои друзья»

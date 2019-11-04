@@ -10,7 +10,7 @@ mix: bratva-za-slova-otvechaet
 ---
 
 ```js exec
-  import Image from "svelte-image";
+  import Play from "components/Play.svelte";
 ```
 
 <section>
@@ -37,6 +37,8 @@ mix: bratva-za-slova-otvechaet
 вариант — это включить shuffle, когда треки выстреливают рандомным
 образом. Так что девиз: „По-разному, по-новому и&nbsp;фантазийно“. Вот
 так. Всех обнимаю и&nbsp;целую».
+
+<Play mix={_metadata.mix} />
 
 - Blond:ish — «It starts now»
 - Jay Z — «4:44»

@@ -1,6 +1,5 @@
 <script>
   import { onMount } from "svelte";
-  import { Button, Icon } from "smelte";
   import Image from "svelte-image";
 
   import Head from "components/Head.svelte";
@@ -32,6 +31,7 @@
     author,
     url,
     title,
+    subtitle,
     type
   };
 
@@ -57,7 +57,7 @@
   }
 
   .cover {
-    height: calc(100vh - 100px);
+    height: 100vh;
     max-width: 1200px;
   }
   .bg {
@@ -65,12 +65,12 @@
     height: 100vh;
   }
 
-  .bg :global(.wrapper) {
+  .bg :global(.wrapper), .bg :global(.wrapper div) {
     margin-top: 0;
+    @apply h-screen;
   }
 
-  img {
-    @apply object-cover w-screen h-screen elevation-0;
+  .cover :global(img) {
     opacity: 1;
     animation: fadeIn 0.5s ease-out;
   }
@@ -107,84 +107,71 @@
       </span>
     </h2>
 
-    {#if type === 'mix'}
-      <div class="w-32 mx-auto relative overflow-hidden rounded-full">
-        <Button
-          class="mx-auto w-32 relative overflow-hidden"
-          text
-          light
-          flat
-          data-mixcloud-play-button="/Teatralium/{mix}/">
-          <Icon class="text-5xl text-primary-900">play_circle_outline</Icon>
-        </Button>
-      </div>
-    {/if}
-
     <Date {post} />
   </div>
 
   <div class="absolute w-screen top-0 left-0 bg h-screen">
     {#if name === 'aktyory_truppy_na_otlyote'}
-      <img src="images/blok/cover.jpg" alt={post.title} />
+      <Image src="images/blok/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'nogi_zatekayut'}
-      <img src="images/nogi/cover.jpg" alt={post.title} />
+      <Image src="images/nogi/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'dokumentalnaya_horeografiya'}
-      <img src="images/dok_hor/cover.jpg" alt={post.title} />
+      <Image src="images/dok_hor/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'zloveschaya_dolina'}
-      <img src="images/zloveschaya_dolina/cover.jpg" alt={post.title} />
+      <Image src="images/zloveschaya_dolina/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === '28dney'}
-      <img src="images/28dney/cover5.jpg" alt={post.title} />
+      <Image src="images/28dney/cover5.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'ya_ne_boyus_skazat'}
-      <img src="images/yaneboyusskazat/cover.jpg" alt={post.title} />
+      <Image src="images/yaneboyusskazat/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'iphuck'}
-      <img src="images/iphuck/333.jpg" alt={post.title} />
+      <Image src="images/iphuck/333.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'sheshepop'}
-      <img src="images/sheshepop/ccc.jpg" alt={post.title} />
+      <Image src="images/sheshepop/ccc.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'vseh_toshnit'}
-      <img src="images/vseh_toshnit/cover.jpg" alt={post.title} />
+      <Image src="images/vseh_toshnit/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'pomolvka'}
-      <img src="images/pomolvka/cover3.jpg" alt={post.title} />
+      <Image src="images/pomolvka/cover3.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'kritiki'}
-      <img src="images/kritiki/cover.jpg" alt={post.title} />
+      <Image src="images/kritiki/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'flanagan'}
-      <img src="images/hallie_flanagan/cover.jpg" alt={post.title} />
+      <Image src="images/hallie_flanagan/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'ya_rabotayu_v_teatre_zaytseva'}
-      <img src="images/zaytseva/cover-up.jpg" alt={post.title} />
+      <Image src="images/zaytseva/cover-up.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'contemporary_artists'}
-      <img
+      <Image
         src="images/contemporary_artists/cover_contemporary.jpg"
         alt={post.title} />
     {/if}
     {#if name === 'kon_ne_valyalsya'}
-      <img src="images/kon_ne_valyalsya/cover.jpg" alt={post.title} />
+      <Image src="images/kon_ne_valyalsya/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'telegram_kanaly'}
-      <img src="images/telegram_kanaly/cover.jpg" alt={post.title} />
+      <Image src="images/telegram_kanaly/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'net_amnezii'}
-      <img src="images/sonet/2.jpg" alt={post.title} />
+      <Image src="images/sonet/2.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'v_moskve_naprimer_analogov_net'}
-      <img src="images/naprimer/cover.jpg" alt={post.title} />
+      <Image src="images/naprimer/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'aktyora_nado_mordoy_v_govno'}
-      <img src="images/govno/cover.jpg" alt={post.title} />
+      <Image src="images/govno/cover.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'teatr_mody_v_sovetskoy_rossii'}
-      <img src="images/naryady/044.jpg" alt={post.title} />
+      <Image src="images/naryady/044.jpg" alt={post.title} c="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}

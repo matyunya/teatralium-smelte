@@ -10,7 +10,7 @@ mix: miracles-lisovskiy
 ---
 
 ```js exec
-import Image from "svelte-image";
+  import Play from "components/Play.svelte";
 ```
 
 <section>
@@ -30,6 +30,8 @@ import Image from "svelte-image";
 детстве, чтобы отмазаться от фортепиано, я сказал, что ненавижу
 музыку, и&nbsp;отвечаю за базар. Но десять песен я могу набрать. Больше
 вспомнить не смог».
+
+<Play mix={_metadata.mix} />
 
 - ДЖАНИК — «ФИДАЙН АВТОРИТЕТ»
 - Пласидо Доминго — «Марсельеза». Слова и&nbsp;музыка Клода Жозефа Руже де Лиля. <i>Осторожно, полная версия</i>

@@ -4,7 +4,9 @@ export default function subtitle({ title, subtitle, description }) {
     return `${tl[0].toUpperCase()}${tl.slice(1)}`;
   }
 
-  if (subtitle) return subtitle;
+  if (subtitle) {
+    return subtitle;
+  }
 
   return description.substr(-1) === "."
     ? description.slice(0, -1)
