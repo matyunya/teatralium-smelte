@@ -25,8 +25,18 @@
       icon: "directions_run",
       type: "article"
     },
-    { href: "/interviews/", label: "Интервью", icon: "call", type: "interview" },
-    { href: "/music/", label: "Миксы", icon: "play_circle_filled", type: "mix" },
+    {
+      href: "/interviews/",
+      label: "Интервью",
+      icon: "call",
+      type: "interview"
+    },
+    {
+      href: "/music/",
+      label: "Миксы",
+      icon: "play_circle_filled",
+      type: "mix"
+    },
     { href: "/plays/", label: "Пьесы", icon: "local_bar", type: "play" },
     {
       href: "/reviews/",
@@ -38,7 +48,7 @@
   ];
 
   $: items = type
-    ? articles.filter(a => a.type === segmentTypes[type])
+    ? articles.filter(a => a && a.type === segmentTypes[type])
     : articles;
 </script>
 

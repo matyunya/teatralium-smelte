@@ -742,7 +742,7 @@ benefit from racism, то есть имеют привилегии белых л
 </section>
 
 <div class="gallery">
-  <img src="https://mmr.ua/uploaded/materials/b5b0e6775b.jpg" alt="abuse">
+  <img class="max-w-md" src="https://mmr.ua/uploaded/materials/b5b0e6775b.jpg" alt="abuse">
   <Image
     src="images/abuse/7.jpg"
     alt="Плакат «Так выглядит сексизм» в Киеве и&nbsp;японская брошюра о домашнем насилии"

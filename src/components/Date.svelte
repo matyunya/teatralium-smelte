@@ -21,8 +21,8 @@
   }
 </script>
 
-<div class="date mx-auto max-w-sm">
-  <div class="rounded-full bg-white-transLight px-4">
+<div class="date mx-auto max-w-xs">
+  <div class="rounded-full px-4">
     <span>{post.date || ''}{hasAuthor(post) ? ',' : ''}</span>
     <span>
       {#if hasAuthor(post)}

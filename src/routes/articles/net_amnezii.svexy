@@ -6,6 +6,8 @@ url: articles/net_amnezii
 author: Настя Николаева
 title: "Нет амнезии: Вспоминаем спектакль «Наизусть» Тьяго Родригеса и&nbsp;заучиваем тридцатый сонет Шекспира"
 type: article
+coverClass: "text-secondary-a400"
+subClass: "bg-white-trans"
 ---
 
 ```js exec

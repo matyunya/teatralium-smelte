@@ -6,6 +6,7 @@ url: articles/kon_ne_valyalsya
 author: Театралий
 title: «В театре конь не валялся»
 type: article
+coverClass: "text-white"
 ---
 
 ```js exec

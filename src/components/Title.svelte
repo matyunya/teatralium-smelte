@@ -13,7 +13,7 @@
   }
 </style>
 
-<div class="flex items-center justify-center mt-2">
+<div class="flex items-center justify-center mt-3">
   <span class="rounded-full bg-white-transLight px-4">
     <a class="no-underline" href="/">
       <h4 class="gradient pt-0 mt-3 pl-3 mb-1">♦Театралий♦</h4>

@@ -7,6 +7,7 @@ url: interviews/sheshepop
 title: «Общество облажалось — это прекрасный стимул для художников»
 type: interview
 subtitle: Интервью с Себастьяном Барком из She She Pop
+coverClass: "text-white"
 ---
 
 ```js exec

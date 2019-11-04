@@ -6,16 +6,14 @@ url: articles/aktyory_truppy_na_otlyote
 title: "Александр Блок о репертуаре государственных театров"
 hideDate: true
 type: article
-hasCover: true
+coverClass: "text-white"
+subClass: "bg-black"
 ---
 
 ```js exec
   import Image from "svelte-image";
   import Video from "components/Video.svelte";
-  import Cover from "covers/Blok.svelte";
 ```
-
-<Cover />
 
 Блок любил театр, много смотрел и&nbsp;рецензировал, поначалу даже играл
 в любительских постановках, не говоря уже о его собственных пьесах.

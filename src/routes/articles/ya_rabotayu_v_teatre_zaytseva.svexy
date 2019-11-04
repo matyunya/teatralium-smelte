@@ -6,6 +6,7 @@ author: Наталья Зайцева
 url: articles/ya_rabotayu_v_teatre_zaytseva
 title: «Все постоянно репетируют и&nbsp;уносят твои чашки»
 type: article
+coverClass: "text-white"
 ---
 
 ```js exec
@@ -20,7 +21,7 @@ type: article
 
 # Сезон I {.text-center .uppercase .pt-16 .pb-4 .mb-0}
 
-<div class="mx-auto" style="width: 300px">
+<div class="mx-auto max-w-md">
   <Image c="rounded-full" src="images/zaytseva/sezon1.jpg" />
 </div>
 
@@ -71,7 +72,7 @@ type: article
 
 # Сезон II {.text-center .uppercase .pt-32 .pb-4 .mb-0}
 
-<div class="mx-auto" style="width: 300px">
+<div class="mx-auto max-w-md">
   <Image c="rounded-full" src="images/zaytseva/sezon2.jpg" />
 </div>
 
@@ -95,7 +96,7 @@ type: article
 
 # Сезон III {.text-center .uppercase .pt-16 .pb-4 .mb-0}
 
-<div class="mx-auto" style="width: 300px">
+<div class="mx-auto max-w-md">
   <Image c="rounded-full" src="images/zaytseva/sezon3.jpg" />
 </div>
 

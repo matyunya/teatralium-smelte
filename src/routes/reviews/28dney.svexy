@@ -6,6 +6,7 @@ author: Алина Чабдарова
 url: reviews/28dney
 title: "«Сказать со сцены «менструация»"
 type: review
+coverClass: "text-white"
 ---
 
 ```js exec

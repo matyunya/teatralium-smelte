@@ -6,6 +6,7 @@ url: articles/nogi_zatekayut
 author: Татьяна Тенькова, Арина Бойко
 title: "«Ноги затекают, а вообще это сплошное удовольствие»"
 type: article
+coverClass: "text-primary-a400"
 ---
 
 ```js exec

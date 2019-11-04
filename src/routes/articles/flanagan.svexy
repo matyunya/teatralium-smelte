@@ -6,6 +6,7 @@ author: Иван Курилла
 url: articles/flanagan
 title: "«Русские — очень талантливый народ»: как американцы создавали свой театр на советском примере"
 type: article
+coverClass: "text-alert-300"
 ---
 
 ```js exec
