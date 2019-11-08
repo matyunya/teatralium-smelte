@@ -47,7 +47,7 @@
 
 <Title />
 
-<main class="mx-auto mb-40 mt-6">
+<main class="mx-auto mb-40 mt-4 md:mt-0">
   {#if segment === 'about'}
     <PostList type={segment} />
   {/if}

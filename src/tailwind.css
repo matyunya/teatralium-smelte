@@ -43,8 +43,8 @@ h1 {
   margin-top: 0;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  font-size: 4.236em;
-  line-height: 5.6rem;
+  font-size: 4.096em;
+  line-height: 5.12rem;
   text-align: inherit;
 }
 
@@ -74,7 +74,7 @@ h2.small {
   font-size: 0.8rem;
   line-height: 1.1rem;
   display: block;
-  @apply mb-10 mt-4;
+  @apply mb-10 mt-4 text-center;
 }
 
 .lead:first-letter {
