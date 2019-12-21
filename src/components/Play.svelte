@@ -5,17 +5,15 @@
 
   let player = null;
 
-  async function enableMix() {
-    if (!window) return;
+  async function enablePlayer() {
+    if (!window || player) return;
 
     player = await window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
       light: true,
       hide_artwork: true,
-      autoplay: false
+      autoplay: true
     });
   }
-
-  $: if (mix) enableMix();
 </script>
 
 <div class="w-32 mx-auto relative overflow-hidden rounded-full pb-16">
@@ -24,10 +22,9 @@
     text
     light
     flat
-    data-mixcloud-play-button="/Teatralium/{mix}/">
-    <Icon
-      style="animation: spin 4s infinite;"
-      class="text-5xl text-primary-a400">
+    data-mixcloud-play-button="/Teatralium/{mix}/"
+    on:click={enablePlayer}>
+    <Icon class="text-5xl text-primary-a400">
       play_circle_outline
     </Icon>
   </Button>
