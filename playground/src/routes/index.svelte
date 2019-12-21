@@ -1,26 +1,40 @@
 <script>
   import Repl from "../components/Repl/Repl.svelte";
-  import { Dialog, Treeview, ProgressCircular } from "smelte";
+  import { Dialog, Treeview, ProgressCircular, Button, Scrim } from "smelte";
   import { onMount } from "svelte";
   import { stores } from '@sapper/app';
-  import { query, listQuery, sourceCodeQuery } from "../github";
+  import { query, listQuery, sourceCodeQuery, update } from "../github";
 
 	const { page } = stores();
   let repl;
 
-  let showDialog = true;
+  let showDialog = false;
+  let path = 'routes/articles/';
+  let selectedItem = '';
+  let sha = '';
+  let source = '';
 
-  let components = [];
+  let saving = false;
+
+  onMount(() => {
+    showDialog = true;
+  });
+
+  function updateSource({ detail }) {
+    source = detail.components.find(c => c.name === 'App').source;
+  }
 
   async function load(name) {
     const { data } = await query(sourceCodeQuery(name), $page.query.key);
+    sha = data.repository.object.oid;
+    source = data.repository.object.text;
 
     repl.set({
       components: [
         {
           type: "svexy",
           name: "App",
-          source: data.repository.object.text,
+          source,
         },
         {
           type: "svelte",
@@ -39,6 +53,11 @@
         },
         {
           type: "svelte",
+          name: "Person",
+          source: "<div><slot /></div>"
+        },
+        {
+          type: "svelte",
           name: "Rest",
           source: `<span class="whitespace-no-wrap">{'<…>'}</span>`
         },
@@ -53,7 +72,9 @@
   }
 
   async function selectItem(i) {
-    await load(`routes/articles/${i.detail.text}`);
+    selectedItem = i.detail.text;
+
+    await load(`${path}${selectedItem}`);
 
     showDialog = false;
   }
@@ -61,7 +82,8 @@
 </script>
 
 <Dialog value={showDialog}>
-  {#await query(listQuery('routes/articles/'), $page.query.key)} <ProgressCircular />
+  {#await query(listQuery(path), $page.query.key)}
+    <ProgressCircular />
   {:then data}
     <div style="height: 500px" class="overflow-scroll">
       <Treeview items={process(data)} on:select={selectItem} />
@@ -71,4 +93,26 @@
   {/await}
 </Dialog>
 
-<Repl bind:this={repl} />
+{#if !showDialog}
+<div class="fixed ma-5 z-50 right-0">
+  <div class="w-32">
+    <Button color="secondary" icon="menu" bind:value={showDialog} />  
+    <Button
+      color="primary"
+      icon="save"
+      bind:value={saving}
+      on:click={() => update(
+        {
+          message: "test",
+          sha,
+          content: btoa(unescape(encodeURIComponent(source))),
+        },
+        `${path}${selectedItem}`,
+        $page.query.key
+      )}
+    />
+  </div>
+</div>
+{/if}
+
+<Repl bind:this={repl} on:change={updateSource} />

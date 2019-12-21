@@ -1,6 +1,9 @@
 <script>
-  import * as yootils from "yootils";
   import { createEventDispatcher } from "svelte";
+
+  function clamp(num, min, max) {
+    return num < min ? min : num > max ? max : num;
+  }
 
   const dispatch = createEventDispatcher();
 
@@ -18,7 +21,7 @@
 
     const extents = type === "vertical" ? [top, bottom] : [left, right];
 
-    const px = yootils.clamp(
+    const px = clamp(
       type === "vertical" ? event.clientY : event.clientX,
       extents[0] + min,
       extents[1] - min
@@ -61,7 +64,7 @@
   $: dimension = type === "horizontal" ? "width" : "height";
 </script>
 
-<style>
+<style scoped>
   .container {
     position: relative;
     width: 100%;
@@ -148,6 +151,10 @@
   }
   .bottom {
     bottom: 0;
+  }
+
+  :global(section) {
+    max-width: 60rem;
   }
 </style>
 

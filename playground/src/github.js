@@ -1,5 +1,8 @@
 export const API = "https://api.github.com/graphql";
 
+const REST_API =
+  "https://api.github.com/repos/matyunya/teatralium-smelte/contents/src/";
+
 const REPO = `owner:"matyunya", name: "teatralium-smelte"`;
 
 export const listQuery = i => `
@@ -22,6 +25,7 @@ export const sourceCodeQuery = i => `
     object(expression: "master:src/${i}") {
       ...on Blob {
         text
+        oid
       }
     }
   }
@@ -40,4 +44,16 @@ export async function query(query, key) {
   });
 
   return data.json();
+}
+
+export async function update(query, path, key) {
+  const data = await fetch(REST_API + path, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+      Authorization: `bearer ${key}`
+    },
+    body: JSON.stringify(query)
+  });
 }
