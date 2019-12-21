@@ -48,13 +48,13 @@
 <Title />
 
 <main class="mx-auto mb-40 mt-4 md:mt-0">
-  {#if segment === 'about'}
+  {#if ['about', 'authors'].includes(segment)}
     <PostList type={segment} />
   {/if}
 
   <slot />
 
-  {#if segment !== 'about'}
+  {#if !['about', 'authors'].includes(segment)}
     <PostList type={segment} />
   {/if}
 </main>

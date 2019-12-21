@@ -2,7 +2,6 @@
   import posts from "components/articles.js";
   import translit from "components/translit.js";
 
-
 	export async function preload(page, session) {
 		const { name } = page.params;
 
