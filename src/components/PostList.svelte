@@ -52,7 +52,7 @@
     : articles;
 </script>
 
-<section>
+<section class="mt-5">
   <div
     in:fly={{ delay: 100 }}
     class="flex items-center justify-around font-sans mx-auto w-full flex-wrap">
