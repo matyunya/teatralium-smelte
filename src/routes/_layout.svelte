@@ -16,6 +16,10 @@
 
   export let segment;
 
+  onMount(() => {
+    window.history.scrollRestoration = 'auto';
+  })
+
   const { preloading, page } = stores();
 
   $: path = $page.path;
@@ -49,12 +53,12 @@
 
 <main class="mx-auto mb-40 mt-4 md:mt-0">
   {#if ['about', 'authors'].includes(segment)}
-    <PostList type={segment} />
+    <PostList type={segment} {page} />
   {/if}
 
   <slot />
 
   {#if !['about', 'authors'].includes(segment)}
-    <PostList type={segment} />
+    <PostList type={segment} {page} />
   {/if}
 </main>

@@ -13172,6 +13172,10 @@ p.small {
   }
 }
 
+.article-body h2 {
+  text-align: center;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

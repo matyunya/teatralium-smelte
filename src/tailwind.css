@@ -258,3 +258,7 @@ p.small {
     color: rgba(0, 255, 255, 1);
   }
 }
+
+.article-body h2 {
+  text-align: center;
+}

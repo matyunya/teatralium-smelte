@@ -8,6 +8,7 @@
   import articles from "components/articles.js";
 
   export let type = false;
+  export let page = false;
 
   const segmentTypes = {
     articles: "article",
@@ -47,9 +48,11 @@
     { href: "/about/", label: "Мы", icon: "pets", type: "about" }
   ];
 
-  $: items = type
+  $: items = (type
     ? articles.filter(a => a && a.type === segmentTypes[type])
-    : articles;
+    : articles)
+      .filter(a => !$page.path.includes(a.url));
+
 </script>
 
 <section class="mt-5">

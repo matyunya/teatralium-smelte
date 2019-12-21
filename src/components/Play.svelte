@@ -2,6 +2,20 @@
   import { Button, Icon } from "smelte";
 
   export let mix = "";
+
+  let player = null;
+
+  async function enableMix() {
+    if (!window) return;
+
+    player = await window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
+      light: true,
+      hide_artwork: true,
+      autoplay: false
+    });
+  }
+
+  $: if (mix) enableMix();
 </script>
 
 <div class="w-32 mx-auto relative overflow-hidden rounded-full pb-16">

@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount, setContext } from "svelte";
   import Image from "svelte-image";
 
   import Head from "components/Head.svelte";
@@ -22,8 +22,6 @@
   export let coverClass = "";
   export let subClass = "";
 
-  export let player = null;
-
   const post = {
     image,
     description,
@@ -35,15 +33,7 @@
     type
   };
 
-  onMount(() => {
-    if (type === "mix" && window.Mixcloud) {
-      player = window.Mixcloud.FooterWidget(`/Teatralium/${mix}/`, {
-        light: true,
-        hide_artwork: true,
-        autoplay: false
-      });
-    }
-  });
+  
 
   const name = url.split("/")[1];
 </script>
@@ -60,6 +50,11 @@
     height: 100vh;
     max-width: 1200px;
   }
+
+  .cover h1 {
+    font-size: 3.75rem;
+  }
+
   .bg {
     z-index: -10;
     height: 100vh;
@@ -234,7 +229,7 @@
   </div>
 {/if}
 
-<div>
+<div class="article-body">
   <slot />
 </div>
 
