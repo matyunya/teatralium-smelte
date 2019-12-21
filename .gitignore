@@ -4,4 +4,3 @@ yarn-error.log
 /cypress/screenshots/
 /__sapper__/
 mmmm.code-workspace
-static/global.css
