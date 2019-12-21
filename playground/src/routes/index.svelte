@@ -3,42 +3,17 @@
   import { Dialog, Treeview, ProgressCircular } from "smelte";
   import { onMount } from "svelte";
   import { stores } from '@sapper/app';
+  import { query, listQuery, sourceCodeQuery } from "../github";
 
 	const { page } = stores();
   let repl;
 
   let showDialog = true;
 
-  const API = 'https://api.github.com/graphql';
-
-  const listQuery = `
-    {
-      repository(owner:"matyunya", name: "teatralium-smelte") {
-        object(expression: "master:src/routes/articles") {
-          ...on Tree {
-            entries {
-              name
-              type
-            }
-          }
-        }
-      }
-    }`;
-
-  const itemQuery = i => `
-    {
-    repository(owner:"matyunya", name: "teatralium-smelte") {
-      object(expression: "master:src/routes/articles/${i}") {
-        ...on Blob {
-          text
-        }
-      }
-    }
-  }
-  `;
+  let components = [];
 
   async function load(name) {
-    const { data } = await query(itemQuery(name));
+    const { data } = await query(sourceCodeQuery(name), $page.query.key);
 
     repl.set({
       components: [
@@ -47,22 +22,28 @@
           name: "App",
           source: data.repository.object.text,
         },
+        {
+          type: "svelte",
+          name: "Image",
+          source: "<div>test</div>"
+        },
+        {
+          type: "svelte",
+          name: "Video",
+          source: "<div>test</div>"
+        },
+        {
+          type: "svelte",
+          name: "Note",
+          source: "<div>test</div>"
+        },
+        {
+          type: "svelte",
+          name: "Rest",
+          source: "<div>test</div>"
+        },
       ]
     }); 
-  }
-
-  async function query(query) {
-    const data = await fetch(API, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-        'Authorization': `bearer ${$page.query.key}`,
-      },
-      body: JSON.stringify({ query })
-    })
-
-    return data.json();
   }
 
   function process({ data }) {
@@ -72,7 +53,7 @@
   }
 
   async function selectItem(i) {
-    await load(i.detail.text);
+    await load(`routes/articles/${i.detail.text}`);
 
     showDialog = false;
   }
@@ -80,7 +61,7 @@
 </script>
 
 <Dialog value={showDialog}>
-  {#await query(listQuery)} <ProgressCircular />
+  {#await query(listQuery('routes/articles/'), $page.query.key)} <ProgressCircular />
   {:then data}
     <div style="height: 500px" class="overflow-scroll">
       <Treeview items={process(data)} on:select={selectItem} />
