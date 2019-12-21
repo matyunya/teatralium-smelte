@@ -207,7 +207,7 @@
 <div class="container" class:orientation>
   <SplitPane
     type={orientation === 'rows' ? 'vertical' : 'horizontal'}
-    pos={50}
+    pos={45}
     {fixed}>
     <section slot="a">
       <ModuleEditor
