@@ -11,8 +11,6 @@
   export let svelteUrl;
   export let sourceErrorLoc = null;
   export let runtimeError = null;
-  export let embedded = false;
-  export let relaxed = false;
   export let injectedJS;
   export let injectedCSS;
 
@@ -76,7 +74,6 @@
   <Viewer
     bind:this={viewer}
     bind:error={runtimeError}
-    {relaxed}
     {injectedJS}
     {injectedCSS} />
 </div>

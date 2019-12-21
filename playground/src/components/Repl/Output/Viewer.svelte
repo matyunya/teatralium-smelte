@@ -16,7 +16,6 @@
 		proxy.setProp(prop, value);
 	}
 
-	export let relaxed = false;
 	export let injectedJS = '';
 	export let injectedCSS = '';
 

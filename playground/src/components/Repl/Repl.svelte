@@ -14,7 +14,6 @@
   export let rollupUrl = "https://unpkg.com/rollup/dist/rollup.browser.js";
   export let embedded = false;
   export let orientation = "columns";
-  export let relaxed = false;
   export let fixed = false;
   export let fixedPos = 50;
   export let injectedJS = "";
@@ -216,7 +215,7 @@
     </section>
 
     <section slot="b" style="height: 100%;">
-      <Output {svelteUrl} {embedded} {relaxed} {injectedJS} {injectedCSS} />
+      <Output {svelteUrl} {injectedJS} {injectedCSS} />
     </section>
   </SplitPane>
 </div>
