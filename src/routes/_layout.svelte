@@ -17,8 +17,8 @@
   export let segment;
 
   onMount(() => {
-    window.history.scrollRestoration = 'auto';
-  })
+    window.history.scrollRestoration = "auto";
+  });
 
   const { preloading, page } = stores();
 

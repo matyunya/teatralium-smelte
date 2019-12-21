@@ -58,6 +58,11 @@
         },
         {
           type: "svelte",
+          name: "Kiss",
+          source: "<div><slot /></div>"
+        },
+        {
+          type: "svelte",
           name: "Rest",
           source: `<span class="whitespace-no-wrap">{'<…>'}</span>`
         },

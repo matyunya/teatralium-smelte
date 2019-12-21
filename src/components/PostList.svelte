@@ -50,9 +50,8 @@
 
   $: items = (type
     ? articles.filter(a => a && a.type === segmentTypes[type])
-    : articles)
-      .filter(a => !$page.path.includes(a.url));
-
+    : articles
+  ).filter(a => !$page.path.includes(a.url));
 </script>
 
 <section class="mt-5">

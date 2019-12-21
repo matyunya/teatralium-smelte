@@ -33,8 +33,6 @@
     type
   };
 
-  
-
   const name = url.split("/")[1];
 </script>
 
