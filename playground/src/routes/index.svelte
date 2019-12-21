@@ -24,23 +24,23 @@
         },
         {
           type: "svelte",
-          name: "Image",
-          source: "<div>test</div>"
+          name: "svelte-image",
+          source: "<img {...$$props}>"
         },
         {
           type: "svelte",
           name: "Video",
-          source: "<div>test</div>"
+          source: "<video {...$$props} />"
         },
         {
           type: "svelte",
           name: "Note",
-          source: "<div>test</div>"
+          source: "<div><slot /></div>"
         },
         {
           type: "svelte",
           name: "Rest",
-          source: "<div>test</div>"
+          source: `<span class="whitespace-no-wrap">{'<…>'}</span>`
         },
       ]
     }); 

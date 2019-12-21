@@ -44,8 +44,6 @@ function worker_fn() {
     ssr: {}
   };
 
-  const is_svelte_module = id => id === "svelte" || id.startsWith("svelte/");
-
   const cache = new Map();
   function fetch_if_uncached(url) {
     if (!cache.has(url)) {
@@ -73,17 +71,12 @@ function worker_fn() {
       bundle = await rollup.rollup({
         input: "./App.svexy",
         external: id => {
-          if (id[0] === ".") return false;
-          if (is_svelte_module(id)) return false;
-          if (id.startsWith("http://")) return false;
-          if (id.startsWith("https://")) return false;
-          return true;
+          return false;
         },
         plugins: [
           {
             resolveId(importee, importer) {
               // v3 hack
-              // console.log(importer, importee)
               if (importee === `svelte`) return `${svelteUrl}/index.mjs`;
               if (importee.startsWith(`svelte/`))
                 return `${svelteUrl}/${importee.slice(7)}/index.mjs`;
@@ -111,10 +104,15 @@ function worker_fn() {
               if (id in lookup) return lookup[id].source;
             },
             transform(code, id) {
-              if (!/\.svelte$|\.svexy$/.test(id)) return null;
-              const name = id
+              if (!/\.svelte$|\.svexy$|svelte-image/.test(id)) return null;
+              let name = id
                 .replace(/^\.\//, "")
+                .replace(/^components\//, "")
                 .replace(/\.svelte$|\.svexy$/, "");
+
+              if (id === "svelte-image") {
+                name = "Image";
+              }
 
               const result =
                 cache[id] && cache[id].code === code
@@ -172,7 +170,17 @@ function worker_fn() {
 
     const lookup = {};
     components.forEach(component => {
-      const path = `./${component.name}.${component.type}`;
+      if (component.name === "svelte-image") {
+        lookup["svelte-image"] = component;
+        return;
+      }
+
+      if (component.name === "App") {
+        lookup[`./${component.name}.${component.type}`] = component;
+        return;
+      }
+
+      const path = `components/${component.name}.${component.type}`;
       lookup[path] = component;
     });
 
