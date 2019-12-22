@@ -33,7 +33,7 @@ export const sourceCodeQuery = i => `
 `;
 
 export async function query(query, key) {
-  const data = await fetch(API, {
+  const data = await window.fetch(API, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -47,7 +47,7 @@ export async function query(query, key) {
 }
 
 export async function update(query, path, key) {
-  const data = await fetch(REST_API + path, {
+  const data = await window.fetch(REST_API + path, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",

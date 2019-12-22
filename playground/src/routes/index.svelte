@@ -1,33 +1,58 @@
 <script>
   import Repl from "../components/Repl/Repl.svelte";
-  import { Dialog, Treeview, ProgressCircular, Button, Scrim } from "smelte";
+  import { Dialog, Treeview, ProgressCircular, Button } from "smelte";
   import { onMount } from "svelte";
-  import { stores } from '@sapper/app';
+  import { stores } from "@sapper/app";
   import { query, listQuery, sourceCodeQuery, update } from "../github";
 
 	const { page } = stores();
   let repl;
 
-  let showDialog = false;
-  let path = 'routes/articles/';
-  let selectedItem = '';
-  let sha = '';
-  let source = '';
+  let showDialog = true;
+  let path = "routes/articles/";
+  let selectedItem = "";
+  let sha = "";
+  let source = "";
 
   let saving = false;
 
-  onMount(() => {
-    showDialog = true;
-  });
+  const getImports = a => a.match(/import(.*)\n/gm) || [];
 
-  function updateSource({ detail }) {
-    source = detail.components.find(c => c.name === 'App').source;
+  const trim = i => i.replace(/("|;|\n)/g, "");
+
+  async function fetchComponentsSource(source) {
+    return Promise.all(
+      getImports(source)
+        .filter(i => !i.includes("svelte-image"))
+        .map(async i => ({
+          type: trim(i.split(".")[1]),
+          name: i.split(" ")[1],
+          source: await getSourceCode(trim(i.split(" ")[3])),
+        }))
+      ) || [];
   }
 
-  async function load(name) {
-    const { data } = await query(sourceCodeQuery(name), $page.query.key);
+  function updateSource({ detail }) {
+    source = detail.components.find(c => c.name === "App").source;
+  }
+
+  async function loadComponent(name) {
+    return query(sourceCodeQuery(name), $page.query.key);
+  }
+
+  async function getSourceCode(name) {
+    const { data } = await loadComponent(name);
+
+    return data.repository.object.text;
+  }
+
+  async function loadMainComponent(name) {
+    const { data } = await loadComponent(name);
+
     sha = data.repository.object.oid;
     source = data.repository.object.text;
+
+    const components = await fetchComponentsSource(source);
 
     repl.set({
       components: [
@@ -41,45 +66,21 @@
           name: "svelte-image",
           source: "<img {...$$props}>"
         },
-        {
-          type: "svelte",
-          name: "Video",
-          source: "<video {...$$props} />"
-        },
-        {
-          type: "svelte",
-          name: "Note",
-          source: "<div><slot /></div>"
-        },
-        {
-          type: "svelte",
-          name: "Person",
-          source: "<div><slot /></div>"
-        },
-        {
-          type: "svelte",
-          name: "Kiss",
-          source: "<div><slot /></div>"
-        },
-        {
-          type: "svelte",
-          name: "Rest",
-          source: `<span class="whitespace-no-wrap">{'<…>'}</span>`
-        },
+        ...components,
       ]
     }); 
   }
 
   function process({ data }) {
     return data.repository.object.entries
-      .filter(a => a.name.includes('svexy'))
+      .filter(a => a.name.includes("svexy"))
       .map(d => ({ text: d.name }));
   }
 
   async function selectItem(i) {
     selectedItem = i.detail.text;
 
-    await load(`${path}${selectedItem}`);
+    await loadMainComponent(`${path}${selectedItem}`);
 
     showDialog = false;
   }
@@ -108,9 +109,13 @@
       bind:value={saving}
       on:click={() => update(
         {
-          message: "test",
+          message: `Edited ${path}${selectedItem}`,
           sha,
-          content: btoa(unescape(encodeURIComponent(source))),
+          content: window.btoa(
+            window.unescape(
+              encodeURIComponent(source)
+            )
+          ),
         },
         `${path}${selectedItem}`,
         $page.query.key
