@@ -24,8 +24,6 @@
     flat
     data-mixcloud-play-button="/Teatralium/{mix}/"
     on:click={enablePlayer}>
-    <Icon class="text-5xl text-primary-a400">
-      play_circle_outline
-    </Icon>
+    <Icon class="text-5xl text-primary-a400">play_circle_outline</Icon>
   </Button>
 </div>

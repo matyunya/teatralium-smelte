@@ -20,12 +20,12 @@
   }
 
   .left {
-    margin-left: -220px;
+    margin-left: -270px;
     float: left;
   }
 
   .right {
-    margin-right: -220px;
+    margin-right: -270px;
     float: right;
   }
 
