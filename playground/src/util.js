@@ -1,6 +1,6 @@
-import { query, sourceCodeQuery } from "./github";
+import { query, sourceCodeQuery, listQuery } from "./github";
 
-export const getImports = a => a.match(/import(.*)\n/gm) || [];
+export const getImports = a => (a || "").match(/import(.*)\n/gm) || [];
 
 export const trim = i => i.replace(/("|;|\n)/g, "");
 
@@ -28,15 +28,18 @@ export async function getSourceCode(name) {
   return data.repository.object.text;
 }
 
-export async function process(resp) {
-  const { data } = await resp;
+export async function getTreeData(path) {
+  const { data } = await query(listQuery(path));
 
   if (!data || !data.repository) {
     return [];
   }
 
-  return data.repository.object.entries.map(d => ({
-    text: d.name,
-    ...d
-  }));
+  return Promise.all(
+    data.repository.object.entries.map(async d => ({
+      text: d.name,
+      path: `${path}${d.name}`,
+      items: d.type === "tree" ? await getTreeData(`${path}${d.name}/`) : null
+    }))
+  );
 }

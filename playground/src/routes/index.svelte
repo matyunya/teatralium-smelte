@@ -3,7 +3,7 @@
   import { Dialog, Treeview, ProgressCircular, Button, TextField } from "smelte";
   import { onMount } from "svelte";
   import { stores, goto } from "@sapper/app";
-  import { query, listQuery, update, setKey, setRepo } from "../github";
+  import { update, setKey, setRepo } from "../github";
   import SettingsDialog from "./SettingsDialog.svelte";
   import {
     getImports,
@@ -11,7 +11,7 @@
     fetchComponentsSource,
     loadComponent,
     getSourceCode,
-    process,
+    getTreeData,
   } from "../util";
 
 	const { page } = stores();
@@ -36,8 +36,8 @@
     source = detail.components.find(c => c.name === "App").source;
   }
 
-  async function loadMainComponent(name, meta) {
-    const { data } = await loadComponent(name);
+  async function loadMainComponent(component, meta) {
+    const { data } = await loadComponent(component.path);
 
     sha = data.repository.object.oid;
     source = data.repository.object.text;
@@ -62,29 +62,15 @@
   }
 
   async function selectItem(i) {
-    selectedItem = i.detail.text;
+    selectedItem = i.detail.path;
 
-    if (i.detail.type === 'tree') {
-      const treeData = await getTree(`${path}${selectedItem}`);
-
-      const index = tree.findIndex(a => a === i.detail);
-      tree[index].items = treeData;
-
-      path = `${path}${selectedItem}/`;
-      return;
-    }
-
-    await loadMainComponent(`${path}${selectedItem}`, i.detail);
+    await loadMainComponent(i.detail);
 
     showDialog = false;
   }
 
-  async function getTree(p) {
-    return process(query(listQuery(p || path)));
-  }
-
   async function getInitialTree() {
-    tree = await getTree();
+    tree = await getTreeData(path);
 
     loading = false;
 
@@ -119,7 +105,7 @@
       bind:value={loading}
       on:click={() => update(
         {
-          message: `Edited ${path}${selectedItem}`,
+          message: `Edited ${selectedItem}`,
           sha,
           content: window.btoa(
             window.unescape(
@@ -127,7 +113,7 @@
             )
           ),
         },
-        `${path}${selectedItem}`
+        `${selectedItem}`
       )}
     />
     <Button
