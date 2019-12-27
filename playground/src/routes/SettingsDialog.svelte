@@ -5,7 +5,7 @@
 
   export let key = "";
   export let repo = "";
-  export let value = false;
+  export let value = true;
 
   function navigate() {
     goto(`/?key=${key}&repo=${repo}`);

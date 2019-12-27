@@ -23,13 +23,14 @@
   let sha = "";
   let source = "";
   let showSettingsDialog = false;
-  let saving = false;
   let key = $page.query.key || '';
   let repo = $page.query.repo || 'matyunya/teatralium-smelte';
+  let loading = key && repo;
   let tree = {};
 
   $: setKey($page.query.key);
   $: setRepo($page.query.repo);
+  $: showSettingsDialog = !tree.length && !loading;
 
   function updateSource({ detail }) {
     source = detail.components.find(c => c.name === "App").source;
@@ -85,6 +86,8 @@
   async function getInitialTree() {
     tree = await getTree();
 
+    loading = false;
+
     return tree;
   }
  
@@ -99,17 +102,12 @@
       <div style="height: 500px; min-width: 400px;" class="overflow-scroll">
         <Treeview dense items={tree} on:select={selectItem} />
       </div>
-      {:else}
-        Empty response.
-        <SettingsDialog {key} {repo} value={showSettingsDialog} />
       {/if}
     {/await}
-  {:else}
-    <SettingsDialog {key} {repo} value={showSettingsDialog} />
   {/if}
 </Dialog>
 
-<SettingsDialog {key} {repo} value={showSettingsDialog} />
+<SettingsDialog {key} {repo} bind:value={showSettingsDialog} />
 
 {#if !showDialog}
 <div class="fixed ma-5 z-50 right-0">
@@ -118,7 +116,7 @@
     <Button
       color="primary"
       icon="save"
-      bind:value={saving}
+      bind:value={loading}
       on:click={() => update(
         {
           message: `Edited ${path}${selectedItem}`,
