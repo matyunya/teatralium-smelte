@@ -1596,10 +1596,10 @@ sirv@^0.4.0:
     "@polka/url" "^0.5.0"
     mime "^2.3.1"
 
-smelte@^0.1.12:
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.12.tgz#c3cff9657a77de87733fcc3fc7f9fc60bd46ccab"
-  integrity sha512-4pNSJ2x5oYKbOUIgp1AFkXZuqd2SFqlvp+e4KumIO7f5bXbTMZMF7oxOThZ6vQP7QsNH7SR54Q1nPdW23Vs6mA==
+smelte@^0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.16.tgz#2b2f5982b36736bf250a08ac971b2d3f23370606"
+  integrity sha512-BWmbRXCUf8u2dVKoInw/7tU65Q1YZuTzZ3l5HLgjKuCmqZEVg4Hf9iKWaL2Vonx7OudYVaCk1dSsrgUSZDGZvQ==
   dependencies:
     svelte-waypoint "^0.1.2"
     tinycolor2 "^1.4.1"

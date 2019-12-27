@@ -1,13 +1,27 @@
 export const API = "https://api.github.com/graphql";
 
-const REST_API =
-  "https://api.github.com/repos/matyunya/teatralium-smelte/contents/src/";
+export let key = "";
 
-const REPO = `owner:"matyunya", name: "teatralium-smelte"`;
+export function setKey(k) {
+  key = k;
+}
+
+export let repo = "";
+
+export function setRepo(k) {
+  if (!k) return;
+
+  repo = k;
+}
+
+const REST_API = () => `https://api.github.com/repos/${repo}/contents/src/`;
+
+const REPO = () =>
+  `owner:"${repo.split("/")[0]}", name: "${repo.split("/")[1]}"`;
 
 export const listQuery = i => `
   {
-    repository(${REPO}) {
+    repository(${REPO()}) {
       object(expression: "master:src/${i}") {
         ...on Tree {
           entries {
@@ -21,7 +35,7 @@ export const listQuery = i => `
 
 export const sourceCodeQuery = i => `
   {
-  repository(${REPO}) {
+  repository(${REPO()}) {
     object(expression: "master:src/${i}") {
       ...on Blob {
         text
@@ -32,7 +46,9 @@ export const sourceCodeQuery = i => `
 }
 `;
 
-export async function query(query, key) {
+export async function query(query) {
+  if (!window) return null;
+
   const data = await window.fetch(API, {
     method: "POST",
     headers: {
@@ -46,8 +62,10 @@ export async function query(query, key) {
   return data.json();
 }
 
-export async function update(query, path, key) {
-  const data = await window.fetch(REST_API + path, {
+export async function update(query, path) {
+  if (!window) return null;
+
+  return window.fetch(REST_API() + path, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
