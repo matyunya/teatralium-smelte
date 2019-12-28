@@ -1596,12 +1596,12 @@ sirv@^0.4.0:
     "@polka/url" "^0.5.0"
     mime "^2.3.1"
 
-smelte@^0.1.16:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.16.tgz#2b2f5982b36736bf250a08ac971b2d3f23370606"
-  integrity sha512-BWmbRXCUf8u2dVKoInw/7tU65Q1YZuTzZ3l5HLgjKuCmqZEVg4Hf9iKWaL2Vonx7OudYVaCk1dSsrgUSZDGZvQ==
+smelte@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.18.tgz#6daf574deb9890d1785e3f7a90ee5220f9673cfa"
+  integrity sha512-30QwkGqCe/9wZRE4Pjhhe3zd2CZG5t/1o6s2KHVKuk8L8Td+ZSYCtoCDL0GF1Y10sLznH7djqsiYE1EZNAuENw==
   dependencies:
-    svelte-waypoint "^0.1.2"
+    svelte-waypoint "^0.1.4"
     tinycolor2 "^1.4.1"
 
 source-map-support@~0.5.10:
@@ -1691,10 +1691,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-waypoint@^0.1.2:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.3.tgz#4095ac4ebf2f675fde4f72f3a63b5da7c014bed4"
-  integrity sha512-YwPFy6iekwKy5DzF/2586Domq1IAZPEH3VSkNzGjWK9VpwzeVj7FxA7WSlRNPsEhnVoQ93w0QJFyy0QaMY8ANQ==
+svelte-waypoint@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.4.tgz#ab467bed08c5f38716709872cf53d3f9da17831b"
+  integrity sha512-UEqoXZjJeKj2sWlAIsBOFjxjMn+KP8aFCc/zjdmZi1cCOE59z6T2C+I6ZaAf8EmNQqNzfZVB/Lci4Ci9spzXAw==
 
 svelte@^3.7.1:
   version "3.9.1"

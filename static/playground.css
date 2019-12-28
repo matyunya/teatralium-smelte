@@ -7,45 +7,17 @@
 -----------------------------------------------
 */
 :root {
-	--nav-h:       6rem;
-	--top-offset:  6rem;
-	--sidebar-w:  30rem;
-	--sidebar-mid-w: 36rem;
-	--sidebar-large-w: 48rem;
-	--main-width: 80rem;
-	--code-w:      72em;
-	--side-nav:  3.2rem;
-	--side-page:   var(--side-nav);
 	--second: rgba(95, 158, 160, 0.5);
-	/* easings */
-	--in-cubic:    cubic-bezier(0.55, 0.055, 0.675, 0.19);
-	--out-cubic:   cubic-bezier(0.215, 0.61, 0.355, 1);
-	--inout-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
 
-	--in-back:     cubic-bezier(0.6, -0.28, 0.735, 0.045);
-	--out-back:    cubic-bezier(0.175, 0.885, 0.32, 1.275);
-	--inout-back:  cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	--back:       	#ffffff;
+	--back:       	lavender;
 	--back-light: 	#f6fafd;
 	--back-api: 		#eff8ff;
-	--prime:     	cadetblue;
+	--prime:     	lavender;
 	--second:     	#676778;
 	--flash:      	#40b3ff;
 	--heading:	var(--second);
 	--text:      		#444;
-	--sidebar-text: rgba(255, 255, 255, .75);
-	--border-w:  		.3rem; /* border-width  */
-	--border-r:  		.4rem; /* border-radius */
-	--unit:     .8rem;
-	--code-fs: 1.4rem;
-	--h6:      1.4rem;
-	--h5:      1.6rem;
-	--h4:      1.8rem; /* default font-size */
-	--h3:      2.6rem;
-	--h2:        3rem;
-	--h1:      3.2rem;
-	--linemax:   42em; /* max line-length */
-	--lh:  		 	  1.5; /* base line-height */
+	--code-fs: 0.8rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,14 +42,10 @@ body {
 	font-family: 'Fira Mono';
 	font-style: normal;
 	font-weight: 400;
-	
 }
 
 /*	base reset ----------------------------- */
 html {
-	font-size: 62.5%;
-	-ms-text-size-adjust: 62.5%;
-	-webkit-text-size-adjust: 62.5%;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 	box-sizing: border-box;
 	border-collapse: collapse;
@@ -337,54 +305,3 @@ table code, table span {
 .bg-prime   { background-color: var(--prime) !important }
 .bg-second  { background-color: var(--second) !important }
 .bg-flash   { background-color: var(--flash) !important }
-
-/*	inputs --------------------------------- */
-input[type="checkbox"] {
-	/* display: block; */
-	position: relative;
-	height: 1em;
-	width: calc(100% - 0.6em);
-	max-width: 2em;
-	top: -2px;
-	border-radius: 0.5em;
-	-webkit-appearance: none;
-	outline: none;
-	margin: 0 0.6em 0 0;
-}
-
-input[type="checkbox"]::before {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 100%;
-	width: 100%;
-	padding: 2px;
-	border-radius: 1em;
-	top: 0;
-	left: 0;
-	background: var(--second);
-	/* box-sizing: border-box; */
-	box-sizing: content-box;
-}
-
-input[type="checkbox"]:checked::before {
-	background: var(--prime);
-}
-
-input[type="checkbox"]::after {
-	content: "";
-	position: absolute;
-	display: block;
-	height: 1em;
-	width: 1em;
-	top: 2px;
-	left: 2px;
-	border-radius: 1em;
-	background: white;
-	box-shadow: 0 0px 1px rgba(0,0,0,.4), 0 4px 2px rgba(0,0,0,.1);
-	-webkit-transition: background .2s ease-out, left .2s ease-out;
-}
-
-input[type="checkbox"]:checked::after {
-	left: calc(100% - 9px);
-}

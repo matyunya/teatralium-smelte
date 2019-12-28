@@ -65,7 +65,7 @@
 </script>
 
 <style scoped>
-  .container {
+  .pane-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -152,13 +152,9 @@
   .bottom {
     bottom: 0;
   }
-
-  :global(section) {
-    max-width: 60rem;
-  }
 </style>
 
-<div class="container" bind:this={refs.container}>
+<div class="pane-container" bind:this={refs.container}>
   <div class="pane" style="{dimension}: {pos}%;">
     <slot name="a" />
   </div>

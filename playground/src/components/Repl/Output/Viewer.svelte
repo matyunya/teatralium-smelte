@@ -18,6 +18,7 @@
 
 	export let injectedJS = '';
 	export let injectedCSS = '';
+	export let zoom = 75;
 
 	let iframe;
 	let pending_imports = 0;
@@ -99,11 +100,12 @@
 		inited = true;
 	}
 
-	$: if (ready) apply_bundle($bundle);
+	$: if (ready || zoom) apply_bundle($bundle);
 
-	$: styles = injectedCSS && `{
+	$: styles = (injectedCSS || zoom) && `{
 		const style = document.createElement('style');
 		style.textContent = ${JSON.stringify(injectedCSS)};
+		style.textContent += "html { zoom: ${zoom}%; }";
 		document.head.appendChild(style);
 	}`;
 </script>

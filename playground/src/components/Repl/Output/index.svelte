@@ -13,8 +13,7 @@
   export let runtimeError = null;
   export let injectedJS;
   export let injectedCSS;
-
-  let foo; // TODO workaround for https://github.com/sveltejs/svelte/issues/2122
+  export let zoom = 75;
 
   register_output({
     set: async (selected, options) => {
@@ -75,5 +74,6 @@
     bind:this={viewer}
     bind:error={runtimeError}
     {injectedJS}
+    {zoom}
     {injectedCSS} />
 </div>

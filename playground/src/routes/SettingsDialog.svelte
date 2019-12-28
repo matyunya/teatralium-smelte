@@ -1,11 +1,12 @@
 <script>
   import { goto } from "@sapper/app";
   import { fly } from "svelte/transition";
-  import { TextField, Button, Dialog } from "smelte";
+  import { TextField, Button, Dialog, Slider } from "smelte";
 
   export let key = "";
   export let repo = "";
   export let value = true;
+  export let zoom;
   
   let keyError = "";
   let repoError = "";
@@ -28,8 +29,9 @@
 
 <Dialog bind:value persistent>
   <div style="width: 500px" class="relative">
+    <Slider label="Zoom" bind:value={zoom} />
     <TextField error={keyError} label="Github authorization token" bind:value={key} />
     <TextField error={repoError} label="Repository name"  bind:value={repo} />
-    <Button color="primary" class="float-right" on:click={navigate}>OK</Button>
+    <Button block color="primary" on:click={navigate}>OK</Button>
   </div>
 </Dialog>

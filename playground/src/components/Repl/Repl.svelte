@@ -18,6 +18,7 @@
   export let fixedPos = 50;
   export let injectedJS = "";
   export let injectedCSS = "";
+  export let zoom = 75;
 
   const mds = mdsvex({
     // you can add markdown-it options here, html is always true
@@ -175,20 +176,20 @@
 </script>
 
 <style scoped>
-  .container {
+  .playground-container {
     position: relative;
     width: 100%;
     height: 100%;
   }
 
-  .container :global(section) {
+  .playground-container .pane {
     position: relative;
     padding: 42px 0 0 0;
     height: 100%;
     box-sizing: border-box;
   }
 
-  .container :global(section) > :global(*):first-child {
+  .playground-container .pane > :global(*):first-child {
     position: absolute;
     top: 0;
     left: 0;
@@ -197,25 +198,25 @@
     box-sizing: border-box;
   }
 
-  .container :global(section) > :global(*):last-child {
+  .playground-container .pane > :global(*):last-child {
     width: 100%;
     height: 100%;
   }
 </style>
 
-<div class="container" class:orientation>
+<div class="playground-container" class:orientation>
   <SplitPane
     type={orientation === 'rows' ? 'vertical' : 'horizontal'}
     pos={45}
     {fixed}>
-    <section slot="a">
+    <div class="pane" slot="a">
       <ModuleEditor
         bind:this={input}
         errorLoc={sourceErrorLoc} />
-    </section>
+    </div>
 
-    <section slot="b" style="height: 100%;">
-      <Output {svelteUrl} {injectedJS} {injectedCSS} />
-    </section>
+    <div class="pane" slot="b" style="height: 100%;">
+      <Output {zoom} {svelteUrl} {injectedJS} {injectedCSS} />
+    </div>
   </SplitPane>
 </div>

@@ -1,6 +1,6 @@
 <script>
   import Repl from "../components/Repl/Repl.svelte";
-  import { Dialog, Treeview, ProgressCircular, Button, TextField } from "smelte";
+  import { Dialog, Treeview, ProgressCircular, Button, TextField, Slider } from "smelte";
   import { onMount } from "svelte";
   import { stores, goto } from "@sapper/app";
   import { update, setKey, setRepo } from "../github";
@@ -22,15 +22,15 @@
   let selectedItem = "";
   let sha = "";
   let source = "";
-  let showSettingsDialog = false;
   let key = $page.query.key || '';
   let repo = $page.query.repo || 'matyunya/teatralium-smelte';
   let loading = key && repo;
   let tree = {};
+  let showSettingsDialog = (!tree.length && !loading) || (!key || !repo);
+  let zoom = 75;
 
-  $: setKey($page.query.key);
-  $: setRepo($page.query.repo);
-  $: showSettingsDialog = !tree.length && !loading;
+  $: setKey(key || $page.query.key);
+  $: setRepo(repo || $page.query.repo);
 
   function updateSource({ detail }) {
     source = detail.components.find(c => c.name === "App").source;
@@ -41,8 +41,6 @@
 
     sha = data.repository.object.oid;
     source = data.repository.object.text;
-
-    const components = await fetchComponentsSource(source);
 
     repl.set({
       components: [
@@ -56,12 +54,14 @@
           name: "svelte-image",
           source: "<img {...$$props}>"
         },
-        ...components,
+        ...await fetchComponentsSource(source),
       ]
     }); 
   }
 
   async function selectItem(i) {
+    if (i.detail.items) return;
+
     selectedItem = i.detail.path;
 
     await loadMainComponent(i.detail);
@@ -79,8 +79,8 @@
  
 </script>
 
-<Dialog value={showDialog}>
-  {#if $page.query.key && $page.query.repo}
+<Dialog persistent={!selectedItem} value={showDialog}>
+  {#if key && repo}
     {#await getInitialTree()}
       <ProgressCircular />
     {:then}
@@ -93,15 +93,20 @@
   {/if}
 </Dialog>
 
-<SettingsDialog {key} {repo} bind:value={showSettingsDialog} />
+<SettingsDialog
+  {key}
+  {repo}
+  bind:zoom
+  bind:value={showSettingsDialog} />
 
-{#if !showDialog}
 <div class="fixed ma-5 z-50 right-0">
   <div class="w-32">
     <Button color="secondary" icon="list" bind:value={showDialog} />  
+    <Button color="primary" icon="settings" bind:value={showSettingsDialog} />
     <Button
       color="primary"
       icon="save"
+      disabled={!selectedItem}
       bind:value={loading}
       on:click={() => update(
         {
@@ -116,13 +121,13 @@
         `${selectedItem}`
       )}
     />
-    <Button
-      color="primary"
-      icon="settings"
-      bind:value={showSettingsDialog}
-    />
   </div>
 </div>
-{/if}
 
-<Repl bind:this={repl} on:change={updateSource} />
+{#if selectedItem}
+  <Repl
+    bind:this={repl}
+    on:change={updateSource}
+    {zoom}
+  />
+{/if}

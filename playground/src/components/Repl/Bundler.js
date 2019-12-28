@@ -71,6 +71,8 @@ function worker_fn() {
       bundle = await rollup.rollup({
         input: "./App.svexy",
         external: id => {
+          if (id === "smelte") return true;
+
           return false;
         },
         plugins: [
