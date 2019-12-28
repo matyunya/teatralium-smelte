@@ -38,7 +38,7 @@ subtitle: Разработчик искусственного интеллект
 </Cast>
 
 <Image
-  c="rounded-full"
+  class="rounded-full"
   src="images/zloveschaya_dolina/author.jpg"
   alt="YANGEL"
 />{.w-64 .mx-auto .py-16}

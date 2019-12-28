@@ -62,7 +62,7 @@ coverClass: "text-alert-300"
 <div class="mx-auto max-w-md">
 
 <Image
-  c="max-w-64"
+  class="max-w-64"
   src="images/hallie_flanagan/flanagan.jpg"
   alt="Холли Флэнаган"
 />

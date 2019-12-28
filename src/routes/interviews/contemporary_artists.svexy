@@ -33,7 +33,7 @@ author: Настя Николаева
 
 <div class="my-16" style="background: #ff4747">
   <div class="mx-auto w-64 py-8">
-    <Image src="images/contemporary_artists/fedor.jpg" c="skewed elevation-0" />
+    <Image src="images/contemporary_artists/fedor.jpg" class="skewed elevation-0" />
   </div>
 </div>
 
@@ -153,7 +153,7 @@ author: Настя Николаева
 
 <div class="my-16" style="background: #8ba2ff">
   <div class="mx-auto w-64 py-8">
-    <Image src="images/contemporary_artists/semen.jpg" c="skewed elevation-0" />
+    <Image src="images/contemporary_artists/semen.jpg" class="skewed elevation-0" />
   </div>
 </div>
 
@@ -288,7 +288,7 @@ author: Настя Николаева
 
 <div class="my-16" style="background: #90ff48">
   <div class="mx-auto w-64 py-8">
-    <Image src="images/contemporary_artists/kroytor.jpg" c="skewed elevation-0" />
+    <Image src="images/contemporary_artists/kroytor.jpg" class="skewed elevation-0" />
   </div>
 </div>
 
@@ -344,7 +344,7 @@ author: Настя Николаева
 
 <div class="my-16" style="background: #fdff44">
   <div class="mx-auto w-64 py-8">
-    <Image src="images/contemporary_artists/lisokot.jpg" c="skewed elevation-0" />
+    <Image src="images/contemporary_artists/lisokot.jpg" class="skewed elevation-0" />
   </div>
 </div>
 
@@ -393,7 +393,7 @@ author: Настя Николаева
 
 <div class="my-16" style="background: #ffccdb">
   <div class="mx-auto w-64 py-8">
-    <Image src="images/contemporary_artists/temen.jpg" c="skewed elevation-0" />
+    <Image src="images/contemporary_artists/temen.jpg" class="skewed elevation-0" />
   </div>
 </div>
 

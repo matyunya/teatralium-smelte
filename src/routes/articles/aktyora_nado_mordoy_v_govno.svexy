@@ -26,7 +26,7 @@ coverClass: text-secondary-a200
 
 
 <Person funny name="Екатерина Строгова, актриса, окончила ГИТИС" quote="«Мне понадобился не один год, чтобы собрать себя заново»">
-  <Image c="rounded-full" src="images/govno/1.jpg" />
+  <Image class="rounded-full" src="images/govno/1.jpg" />
 </Person>
 
 
@@ -195,7 +195,7 @@ coverClass: text-secondary-a200
 </section>
 
 <Person funny name="Олег Кармунин, журналист, окончил театроведческий факультет СПбГАТИ" quote="«Это было похлеще раунда Гнойного против Оксимирона»">
-  <Image c="rounded-full" src="images/govno/2.jpg" />
+  <Image class="rounded-full" src="images/govno/2.jpg" />
 </Person>
 
 <section>
@@ -337,7 +337,7 @@ coverClass: text-secondary-a200
   name="Виолетта Никитик, психолог, училась на режиссера в Белорусском
   государственном университете культуры и&nbsp;искусств, ушла с третьего курса"
   quote="«После театральной среды психологическое сообщество кажется санаторием»">
-  <Image c="rounded-full" src="images/govno/3.jpg" />
+  <Image class="rounded-full" src="images/govno/3.jpg" />
 </Person>
 
 <section>

@@ -23,7 +23,7 @@ type: article
 ## [t.me/apollonia](https://telegram.dog/apollonia) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0 .tracking-widest}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/1.jpg"
   alt="Yuichi Inoue, «Yume»"
 />
@@ -67,7 +67,7 @@ Yuichi Inoue, «Yume»{.small .pt-0}
 ## [t.me/bolotyanpishet](https://telegram.dog/bolotyanpishet) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/2.jpg"
   alt="Yuumi Domoto, «Ikiru»"
 />
@@ -107,7 +107,7 @@ Yuumi Domoto, «Ikiru»{.small .pt-0}
 ## [t.me/NemirovichandDanchenko](https://telegram.dog/NemirovichandDanchenko) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/3.jpg"
   alt="Toshinobu Onosato, «Untitled»"
 />
@@ -154,7 +154,7 @@ Toshinobu Onosato, «Untitled»{.small .pt-0}
 ## [t.me/postpostdrama](https://telegram.dog/postpostdrama) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/4.png"
   alt="Nobuhiko Nukata, «White Belt»"
 />
@@ -195,7 +195,7 @@ Nobuhiko Nukata, «White Belt»{.small .pt-0}
 ## [t.me/teatrvkus](https://telegram.dog/teatrvkus) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/5.jpg"
   alt="Manika Nagare, «Cicada Chirps»"
 />
@@ -227,7 +227,7 @@ Manika Nagare, «Cicada Chirps»{.small .pt-0}
 ## [t.me/pshperform](https://telegram.dog/pshperform) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/6.jpg"
   alt="Hamada Kiyoshi, «15-E-16»"
 />
@@ -259,7 +259,7 @@ Hamada Kiyoshi, «15-E-16»{.small .pt-0}
 ## [t.me/theaterundtrauma](https://telegram.dog/theaterundtrauma) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/7.jpg"
   alt="Lee Ufan, «From Line»"
 />
@@ -294,7 +294,7 @@ Lee Ufan, «From Line»{.small .pt-0}
 ## [t.me/spectator_as_author](https://telegram.dog/spectator_as_author) {.mb-0 .text-xl .uppercase .font-normal .text-center .pb-0}
 
 <Image
-  c="elevation-0"
+  class="elevation-0"
   src="images/telegram_kanaly/8.jpg"
   alt="Yamada Masaaki, «E. 279»"
 />

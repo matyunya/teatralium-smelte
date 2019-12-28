@@ -41,7 +41,7 @@ coverClass: "text-white"
 </Cast>
 
 <Image
-  c="rounded-full"
+  class="rounded-full"
   src="images/28dney/chabdarova.jpg"
   alt="CHABDAROVA"
 />{.w-64 .mx-auto .py-16}

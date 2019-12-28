@@ -115,7 +115,7 @@ subject, который становится вменяемым, структу�
 ## Думающие иррациональные интуитивисты{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-1.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-1.jpg" />
 </div>
 
 Смотрят только артхаус, эксперимент, андерграунд и&nbsp;все выходящее за
@@ -147,7 +147,7 @@ subject, который становится вменяемым, структу�
 ## Думающие рациональные интуитивисты{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-2.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-2.jpg" />
 </div>
 
 Это лучшие театроведы, большинство экспертов «Золотой маски». А
@@ -168,7 +168,7 @@ subject, который становится вменяемым, структу�
 
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-3.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-3.jpg" />
 </div>
 
 За вычетом думающих рациональных интуитивистов — примерно 98&nbsp;%
@@ -207,7 +207,7 @@ subject, который становится вменяемым, структу�
 ## Думающие фрактальные рассудочники{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-5.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-5.jpg" />
 </div>
 
 Способны рассматривать мизансцены одновременно во всех плоскостях,
@@ -222,7 +222,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Думающие стохастические рассудочники{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-4.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-4.jpg" />
 </div>
 
 Воспринимают все на слух, поэтому их намного меньше. Живут скорее в
@@ -253,7 +253,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Недумающие ощущательные{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-6.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-6.jpg" />
 </div>
 
 Нулевой уровень присутствия — элементарное ощущение «без признаков
@@ -266,7 +266,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Недумающие восприятийные{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-7.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-7.jpg" />
 </div>
 
 Когда в дело вступает внутреннее осознание, инициированное внешним
@@ -281,7 +281,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Недумающие эмоциональные{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-8.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-8.jpg" />
 </div>
 
 При более сильном импульсе зритель просыпается и&nbsp;начинает
@@ -293,7 +293,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Недумающие чувствующие{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-9.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-9.jpg" />
 </div>
 
 При осознании эмоции возникает чувство. То есть внимание к
@@ -304,7 +304,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 ## Недумающие спящие{.small .text-center .pt-8}
 
 <div class="mx-auto w-64">
-  <Image c="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-10.jpg" />
+  <Image class="elevation-0 skewed" src="images/nespyashie/zriteli/zritel-10.jpg" />
 </div>
 
 Полнота присутствия зрителя на спектакле возникает при вспыхивании
@@ -340,7 +340,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 
 
 
-<Image c="w-64" src="images/nespyashie/10.png" />
+<Image class="w-64" src="images/nespyashie/10.png" />
 
 
 <Kiss />
@@ -425,7 +425,7 @@ Protokoll и&nbsp;на «Неявных воздействиях» Лисовс�
 революции, а не только важным пунктом развития театра.
 
 <Image
-  c="w-64"
+  class="w-64"
   src="images/nespyashie/abd.jpg"
   alt="«Жестокие игры»"
 />

@@ -52,7 +52,7 @@ subClass: "bg-white-trans"
 <section>
 
 <Image
-  c="elevation-0 mx-auto"
+  class="elevation-0 mx-auto"
   src="images/sonet/3.jpg"
   alt="Учить наизусть по-португальски будет aprenda de cor, а украшать — decorar. Родригес использует это в спектакле как метафору: заучивание — украшение внутреннего жилища."
 />
@@ -76,7 +76,7 @@ subClass: "bg-white-trans"
 <section>
 
 <Image
-  c="elevation-0 mx-auto"
+  class="elevation-0 mx-auto"
   src="images/sonet/2.jpg"
   alt="Одна из героинь истории Родригеса — Надежда Мандельштам, которая сохранила наследие мужа, выучив его стихотворения в разных версиях."
 />
@@ -100,7 +100,7 @@ subClass: "bg-white-trans"
 <section>
 
 <Image
-  c="elevation-0 mx-auto"
+  class="elevation-0 mx-auto"
   src="images/sonet/1.jpg"
   alt="Родригес также рассказывает о раввине, знавшем Тору наизусть. Во время Холокоста он звал верующих к себе, чтобы те читали его как книгу."
 />
@@ -131,7 +131,7 @@ subClass: "bg-white-trans"
 <section>
 
 <Image
-  c="elevation-0 mx-auto"
+  class="elevation-0 mx-auto"
   src="images/sonet/4.jpg"
   alt="В конце спектакля, когда сонет выучен и&nbsp;прочитан, десять зрителей получают его текст, напечатанный на тонком тесте. Выучить наизусть — то есть буквально съесть, проглотить, впустить внутрь физически."
 />
@@ -184,7 +184,7 @@ subClass: "bg-white-trans"
 <section>
 
 <Image
-  c="elevation-0 mx-auto"
+  class="elevation-0 mx-auto"
   src="images/sonet/5.jpg"
 />
 

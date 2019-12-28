@@ -47,7 +47,7 @@ hasCover: true
 Когда вы поняли, что хотите заниматься театром?{.q}
 
 <Note left bg="transparent" top="-120">
-  <Image c="rounded-full" src="images/sebastian/3.jpg" alt="SEBASTIAN" />
+  <Image class="rounded-full" src="images/sebastian/3.jpg" alt="SEBASTIAN" />
 </Note>
 
 Это связано непосредственно с «Фольксбюне» и&nbsp;политической

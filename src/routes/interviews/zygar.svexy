@@ -36,7 +36,7 @@ author: Антон Хитров
 ## «Наша задача — разработать полноценный жанр»
 
 <Note left bg="transparent" top="90">
-  <Image c="rounded-full w-32" src="images/zygar/zygar4.jpg" />
+  <Image class="rounded-full w-32" src="images/zygar/zygar4.jpg" />
 </Note>
 
 Мобильный художественный театр — почему такое название?{.q}

@@ -6349,15 +6349,15 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-image@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.1.4.tgz#7417c39914a3121147674c9879fa5c7a9aa39576"
-  integrity sha512-M3FKWmcHtKPosRrZR0TQhDhqWhjHJzhA893soUxA1klvTMzuPhOqaiS2Rvu98CmqRB+apFjBHqImKJjxYKjHxg==
+svelte-image@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.1.8.tgz#157c67b02fe0a4a02b5b992cf22b0c8e136d568f"
+  integrity sha512-ZfEIsTeqKIP/54xvbGZhYNygwc8pc0dNmT5i6Y6PS9VS1oz/3UepNmeNasGObVImDepwr9Nj1xyqBtLmO6NdSA==
   dependencies:
     potrace "^2.1.2"
     sharp "^0.22.1"
     svelte "^3.12.1"
-    svelte-waypoint "^0.1.3"
+    svelte-waypoint "^0.1.4"
     svgo "^1.2.2"
 
 svelte-preprocess@^2.9.0:
@@ -6369,10 +6369,15 @@ svelte-preprocess@^2.9.0:
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
 
-svelte-waypoint@^0.1.2, svelte-waypoint@^0.1.3:
+svelte-waypoint@^0.1.2:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.3.tgz#4095ac4ebf2f675fde4f72f3a63b5da7c014bed4"
   integrity sha512-YwPFy6iekwKy5DzF/2586Domq1IAZPEH3VSkNzGjWK9VpwzeVj7FxA7WSlRNPsEhnVoQ93w0QJFyy0QaMY8ANQ==
+
+svelte-waypoint@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.4.tgz#ab467bed08c5f38716709872cf53d3f9da17831b"
+  integrity sha512-UEqoXZjJeKj2sWlAIsBOFjxjMn+KP8aFCc/zjdmZi1cCOE59z6T2C+I6ZaAf8EmNQqNzfZVB/Lci4Ci9spzXAw==
 
 svelte@^3.12.1:
   version "3.12.1"

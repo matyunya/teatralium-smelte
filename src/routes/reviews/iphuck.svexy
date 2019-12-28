@@ -48,7 +48,7 @@ subtitle: "Литературный критик Александр Гаврил
 </Cast>
 
 <Image
-  c="rounded-full"
+  class="rounded-full"
   src="images/iphuck/gavrilov.jpg"
   alt="GAVRILOV"
 />{.w-64 .mx-auto .py-16}

@@ -31,7 +31,7 @@ coverClass: "text-primary-a400"
 </section>
 
 <Person name="Екатерина Ярмахова, PR-агент" quote="«Я определенно стала храбрее и&nbsp;спокойнее»">
-  <Image c="rounded-full" src="images/nogi/yar.jpg" />
+  <Image class="rounded-full" src="images/nogi/yar.jpg" />
 </Person>
 
 <section>
@@ -123,7 +123,7 @@ coverClass: "text-primary-a400"
 </section>
 
 <Person name="Вероника Кандаурова, PR-директор" quote="«Ты реальный элемент, из-за которого может рухнуть труд твоих коллег»">
-  <Image c="rounded-full" src="images/nogi/kan.jpg" />
+  <Image class="rounded-full" src="images/nogi/kan.jpg" />
 </Person>
 
 <section>
@@ -186,7 +186,7 @@ coverClass: "text-primary-a400"
 </section>
 
 <Person name="Анастасия Железнова, коммуникационный стратег" quote="«Это одно из самых сильных и&nbsp;противоречивых ощущений, которые может дать современный русский театр»">
-  <Image c="rounded-full" src="images/nogi/zhel.jpg" />
+  <Image class="rounded-full" src="images/nogi/zhel.jpg" />
 </Person>
 
 <section>
@@ -258,7 +258,7 @@ coverClass: "text-primary-a400"
 </section>
 
 <Person name="Наталья Зайцева, драматург" quote="«Твое тело превращается и&nbsp;в инструмент, и&nbsp;в того, кто на нем играет»">
-  <Image c="rounded-full" src="images/nogi/zay.jpg" />
+  <Image class="rounded-full" src="images/nogi/zay.jpg" />
 </Person>
 
 <section>
@@ -331,7 +331,7 @@ coverClass: "text-primary-a400"
 </section>
 
 <Person name="Кристина Бережнова, продюсер" quote="«Люди думают, что тебе тяжело, а ты глазами пытаешься показать, что тебе клево»">
-  <Image c="rounded-full" src="images/nogi/ber.jpg" />
+  <Image class="rounded-full" src="images/nogi/ber.jpg" />
 </Person>
 
 <section>

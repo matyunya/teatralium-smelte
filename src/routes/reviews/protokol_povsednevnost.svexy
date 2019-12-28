@@ -26,7 +26,7 @@ type: review
 комьюнити москвичей и&nbsp;гостей столицы и&nbsp;организовать их в театр
 горожан.{.lead}
 
-<Image src="images/protokol/protokol1.jpg" c="max-w-100" />
+<Image src="images/protokol/protokol1.jpg" class="max-w-100" />
 
 <section class="mt-32">
 
@@ -162,7 +162,7 @@ type: review
 
 <Image
   src="images/protokol/protokol3.png"
-  c="max-w-100" />
+  class="max-w-100" />
 Фото: Екатерина Краева{.small .mb-16}
 
 Вот из таких зафиксированных каждым участником попыток обрести себя

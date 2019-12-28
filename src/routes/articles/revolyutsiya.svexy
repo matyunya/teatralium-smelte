@@ -310,7 +310,7 @@ type: article
 <Image
   src="images/revolyutsiya/zanaves.jpg"
   alt="Маскарадный занавес, эскиз декорации Александра Головина"
-  c="hued"
+  class="hued"
 />
 Маскарадный занавес, эскиз декорации Александра Головина {.small}
 

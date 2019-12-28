@@ -28,7 +28,7 @@ coverClass: "text-white"
 Директор Императорских театров{.italic .text-center}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/1.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/1.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/1376">
@@ -47,7 +47,7 @@ coverClass: "text-white"
 Актер, режиссер, руководитель Студенческой драматической студии, которая в 1921 году стала 3-й Студией МХТ, а с 1926 года — Театром им. Евгения Вахтангова{.italic .text-center}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/2.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/2.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/345">
@@ -65,7 +65,7 @@ coverClass: "text-white"
 Композитор {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/3.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/3.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/175">
@@ -85,7 +85,7 @@ coverClass: "text-white"
 Жена и&nbsp;хранительница архива Михаила Булгакова {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/4.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/4.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/21">
@@ -123,7 +123,7 @@ coverClass: "text-white"
 Драматург и&nbsp;сценарист, в 1934—1937 годах работал в Театре Мейерхольда {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/5.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/5.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/229">
@@ -142,7 +142,7 @@ coverClass: "text-white"
 Актриса Ярославского театра им. Волкова, была разведчицей во время Второй мировой войны {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/6.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/6.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/268">
@@ -164,7 +164,7 @@ coverClass: "text-white"
 Актер театра им. Моссовета {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/7.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/7.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/48">
@@ -183,7 +183,7 @@ coverClass: "text-white"
 Актер Театра на Таганке {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/8.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/8.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/102">
@@ -213,7 +213,7 @@ coverClass: "text-white"
 Композитор {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/9.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/9.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/939">
@@ -232,7 +232,7 @@ coverClass: "text-white"
 Завлит {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/10.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/10.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/1547">
@@ -256,7 +256,7 @@ coverClass: "text-white"
 Ведущий специалист литературной части Санкт-Петербургского театра Музкомедии {.italic .text-center .mb-4}
 
 <div class="mx-auto max-w-md">
-  <Image c="elevation-6" src="images/kon_ne_valyalsya/11.jpg" />
+  <Image class="elevation-6" src="images/kon_ne_valyalsya/11.jpg" />
 </div>
 
 <a class="text-center" target="_blank" href="http://prozhito.org/person/2338">

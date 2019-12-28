@@ -31,7 +31,7 @@ subtitle: Драматург Нана Гринштейн и&nbsp;режиссе�
 
 
 <Note left bg="transparent">
-  <Image c="rounded-full" src="images/dok_hor/1.png" />
+  <Image class="rounded-full" src="images/dok_hor/1.png" />
 </Note>
 
 <Note>
@@ -54,7 +54,7 @@ subtitle: Драматург Нана Гринштейн и&nbsp;режиссе�
 
 
 <Note left bg="transparent">
-  <Image c="rounded-full" src="images/miloserdie/nana.jpg" />
+  <Image class="rounded-full" src="images/miloserdie/nana.jpg" />
 </Note>
 
 **Нана Гринштейн:** Исследователь Михаил Колчин нашел в казанском архиве дело

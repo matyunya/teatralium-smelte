@@ -31,7 +31,7 @@ She She Pop привезли спектакль «50 оттенков стыда
 
           
 <Note left bg="transparent" top="-90">
-  <Image c="rounded-full" src="images/sheshepop/6.jpg" />
+  <Image class="rounded-full" src="images/sheshepop/6.jpg" />
 </Note>
 
 Какое-то время назад приоритетными темами для европейского театра
@@ -127,7 +127,7 @@ Experiment, наш большой друг, за несколько лет по�
 <Note>
   <a href="https://kyoto-ex.jp/home/eng/" target="_blank">
     <Image
-      c="elevation-0"
+      class="elevation-0"
       src="images/sheshepop/7.jpg"
     />
     Kyoto Experiment:

@@ -41,7 +41,7 @@ author: Настя Николаева
 проект и&nbsp;хочу о нем поговорить. {.q}
 
 <Note left bg="transparent">
- <Image c="rounded-full" src="images/abuse/natasha.jpg" />
+ <Image class="rounded-full" src="images/abuse/natasha.jpg" />
 </Note>
 
 **Наталья Зайцева:** Дело в том, что я 33 года сидела на печи,
@@ -67,7 +67,7 @@ author: Настя Николаева
 хорошее, что в нем есть.
 
 <Note left bg="transparent">
- <Image c="rounded-full" src="images/abuse/nika.jpg" />
+ <Image class="rounded-full" src="images/abuse/nika.jpg" />
 </Note>
 
 **Ника Водвуд:** Никаких атак, no hard stuff. Мы понимаем, что

@@ -109,79 +109,79 @@
       <Image
         src="images/blok/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'nogi_zatekayut'}
       <Image
         src="images/nogi/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'dokumentalnaya_horeografiya'}
       <Image
         src="images/dok_hor/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'zloveschaya_dolina'}
       <Image
         src="images/zloveschaya_dolina/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === '28dney'}
       <Image
         src="images/28dney/cover5.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'ya_ne_boyus_skazat'}
       <Image
         src="images/yaneboyusskazat/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'iphuck'}
       <Image
         src="images/iphuck/333.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'sheshepop'}
       <Image
         src="images/sheshepop/ccc.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'vseh_toshnit'}
       <Image
         src="images/vseh_toshnit/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'pomolvka'}
       <Image
         src="images/pomolvka/cover3.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'kritiki'}
       <Image
         src="images/kritiki/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'flanagan'}
       <Image
         src="images/hallie_flanagan/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'ya_rabotayu_v_teatre_zaytseva'}
       <Image
         src="images/zaytseva/cover-up.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'contemporary_artists'}
       <Image
@@ -192,37 +192,37 @@
       <Image
         src="images/kon_ne_valyalsya/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'telegram_kanaly'}
       <Image
         src="images/telegram_kanaly/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'net_amnezii'}
       <Image
         src="images/sonet/2.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'v_moskve_naprimer_analogov_net'}
       <Image
         src="images/naprimer/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'aktyora_nado_mordoy_v_govno'}
       <Image
         src="images/govno/cover.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
     {#if name === 'teatr_mody_v_sovetskoy_rossii'}
       <Image
         src="images/naryady/044.jpg"
         alt={post.title}
-        c="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}

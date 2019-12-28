@@ -34,7 +34,7 @@ coverClass: "text-primary-a100"
 
 <Image
   src="images/dok_hor/1.png"
-  c="rounded-full"
+  class="rounded-full"
   alt="Анастасия Патлай, куратор лаборатории"
 />
 Анастасия Патлай, куратор лаборатории{.small}
@@ -80,7 +80,7 @@ coverClass: "text-primary-a100"
 <Image
   alt="Анастасия Прошутинская, куратор лаборатории"
   src="images/dok_hor/2.jpg"
-  c="rounded-full"
+  class="rounded-full"
 />
 Анастасия Прошутинская, куратор лаборатории {.small}
 
