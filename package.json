@@ -25,7 +25,7 @@
     "markdown-it-attrs": "^3.0.1",
     "mdsvex": "^0.4.0",
     "sirv": "^0.4.0",
-    "smelte": "^0.1.9",
+    "smelte": "^0.1.18",
     "svelte-image": "^0.1.8",
     "tailwindcss-typography": "^2.2.0",
     "xxhash": "^0.3.0"

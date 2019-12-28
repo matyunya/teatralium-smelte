@@ -5998,12 +5998,12 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-smelte@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.9.tgz#e8a4656296e5afc071f6653e9262ac027699fef7"
-  integrity sha512-nnSGKrEnFWd5Z3Pz4bFVSWZwpce80EGiqVg1IxOTbSISyDVf1WYPT6aAd9VHHBDBVL/l9GeY+tX6xVixeVrBJw==
+smelte@^0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/smelte/-/smelte-0.1.18.tgz#6daf574deb9890d1785e3f7a90ee5220f9673cfa"
+  integrity sha512-30QwkGqCe/9wZRE4Pjhhe3zd2CZG5t/1o6s2KHVKuk8L8Td+ZSYCtoCDL0GF1Y10sLznH7djqsiYE1EZNAuENw==
   dependencies:
-    svelte-waypoint "^0.1.2"
+    svelte-waypoint "^0.1.4"
     tinycolor2 "^1.4.1"
 
 socketerrors@^0.3.0:
@@ -6368,11 +6368,6 @@ svelte-preprocess@^2.9.0:
     detect-indent "^6.0.0"
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
-
-svelte-waypoint@^0.1.2:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/svelte-waypoint/-/svelte-waypoint-0.1.3.tgz#4095ac4ebf2f675fde4f72f3a63b5da7c014bed4"
-  integrity sha512-YwPFy6iekwKy5DzF/2586Domq1IAZPEH3VSkNzGjWK9VpwzeVj7FxA7WSlRNPsEhnVoQ93w0QJFyy0QaMY8ANQ==
 
 svelte-waypoint@^0.1.4:
   version "0.1.4"
