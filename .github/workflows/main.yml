@@ -1,8 +1,6 @@
-name: CI
-
 on:
   schedule:
-  - cron: "*/15 * * * *"
+  - cron: "*/30 * * * *"
 
 jobs:
   checkChangesInDocs:
@@ -10,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: echo "test"
-    - run: echo "test"
+      run: echo "test"
