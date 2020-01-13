@@ -6,6 +6,7 @@ author: Антон Хитров
 url: reviews/vsyo_vidno_yasno
 title: "Все видно ясно, но не заблудитесь!"
 type: review
+published: true
 ---
 
 ```js exec

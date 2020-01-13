@@ -7,6 +7,7 @@ url: articles/estetika_v_bytu
 title: Эстетика в быту
 subtitle: Как театр помогает нам выжить в повседневности
 type: article
+published: true
 ---
 
 ```js exec

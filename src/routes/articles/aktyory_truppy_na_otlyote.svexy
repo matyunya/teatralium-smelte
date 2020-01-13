@@ -6,6 +6,7 @@ url: articles/aktyory_truppy_na_otlyote
 title: "Александр Блок о репертуаре государственных театров"
 hideDate: true
 type: article
+published: true
 coverClass: "text-white"
 subClass: "bg-black"
 ---
