@@ -9,6 +9,8 @@
   }
 </style>
 
-<main>
-  <slot />
-</main>
+{#if process.browser}
+  <main>
+    <slot />
+  </main>
+{/if}

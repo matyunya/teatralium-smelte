@@ -57,7 +57,7 @@ export async function query(query) {
     body: JSON.stringify({ query })
   });
 
-  return data.json();
+  return data.json ? data.json() : {};
 }
 
 export async function update(query, path) {
