@@ -12723,10 +12723,6 @@ button:focus, input:focus, li:focus, div:focus, textarea:focus {
   outline: 0;
 }
 
-html {
-  font-family: "Roboto", sans-serif;
-}
-
 .list {
   position: absolute;
   left: 0;
@@ -12751,6 +12747,10 @@ html {
   color: #14146b;
   border-radius: 0.125rem;
   padding: 0.25rem;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 input[type='number'] {
