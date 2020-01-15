@@ -1,10 +1,19 @@
 <script>
   import Repl from "../components/Repl/Repl.svelte";
-  import { Dialog, Treeview, ProgressCircular, Button, TextField, Slider } from "smelte";
+  import {
+    Treeview,
+    ProgressCircular,
+    Button,
+    TextField,
+    Slider,
+    Notifications,
+  } from "smelte";
   import { onMount } from "svelte";
   import { stores, goto } from "@sapper/app";
   import { update, setKey, setRepo } from "../github";
-  import SettingsDialog from "./SettingsDialog.svelte";
+  import SettingsDialog from "../components/SettingsDialog.svelte";
+  import CreateDialog from "../components/CreateDialog.svelte";
+  import Dialog from "../components/Dialog.svelte";
   import {
     getImports,
     trim,
@@ -17,15 +26,16 @@
 	const { page } = stores();
   
   let repl;
-  let showDialog = true;
+  let showInitialDialog = true;
+  let showCreateDialog = false;
   let path = "routes/";
-  let selectedItem = "";
+  let selectedPath = "";
   let sha = "";
   let source = "";
   let key = $page.query.key || '';
   let repo = $page.query.repo || 'matyunya/teatralium-smelte';
   let loading = key && repo;
-  let tree = {};
+  let tree = [];
   let showSettingsDialog = (!tree.length && !loading) || (!key || !repo);
   let zoom = 75;
 
@@ -52,7 +62,7 @@
         {
           type: "svelte",
           name: "svelte-image",
-          source: "<img {...$$props}>"
+          source: "<img alt=1 {...$$props}>"
         },
         ...await fetchComponentsSource(source),
       ]
@@ -62,11 +72,11 @@
   async function selectItem(i) {
     if (i.detail.items) return;
 
-    selectedItem = i.detail.path;
+    selectedPath = i.detail.path;
 
     await loadMainComponent(i.detail);
 
-    showDialog = false;
+    showInitialDialog = false;
   }
 
   async function getInitialTree() {
@@ -79,7 +89,7 @@
  
 </script>
 
-<Dialog persistent={!selectedItem} value={showDialog}>
+<Dialog title="Select item to edit" persistent={!selectedPath} value={showInitialDialog}>
   {#if key && repo}
     {#await getInitialTree()}
       <ProgressCircular />
@@ -93,6 +103,11 @@
   {/if}
 </Dialog>
 
+<CreateDialog
+  items={tree}
+  bind:value={showCreateDialog}
+  on:create={selectItem} />
+
 <SettingsDialog
   {key}
   {repo}
@@ -101,33 +116,33 @@
 
 <div class="fixed ma-5 z-50 right-0">
   <div class="w-32">
-    <Button color="secondary" icon="list" bind:value={showDialog} />  
-    <Button color="primary" icon="settings" bind:value={showSettingsDialog} />
+    <Button color="gray" dark icon="list" bind:value={showInitialDialog} />
     <Button
-      color="primary"
+      color="gray"
+      dark
       icon="save"
-      disabled={!selectedItem}
+      disabled={!selectedPath}
       bind:value={loading}
       on:click={() => update(
         {
-          message: `Edited ${selectedItem}`,
+          message: `Edited ${selectedPath}`,
           sha,
-          content: window.btoa(
-            window.unescape(
-              encodeURIComponent(source)
-            )
-          ),
+          content: source,
         },
-        `${selectedItem}`
+        selectedPath
       )}
     />
+    <Button color="gray" dark icon="settings" bind:value={showSettingsDialog} />
+    <Button color="gray" dark icon="add" bind:value={showCreateDialog} />
   </div>
 </div>
 
-{#if selectedItem}
+{#if selectedPath}
   <Repl
     bind:this={repl}
     on:change={updateSource}
     {zoom}
   />
 {/if}
+
+<Notifications />

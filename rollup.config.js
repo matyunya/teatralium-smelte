@@ -58,7 +58,7 @@ const preprocess = [
         linkify: true
       },
       outputMeta: a => a.replace("src/routes", "src/meta"),
-      forceRewriteMeta: process.env.GENERATE_META,
+      forceRewriteMeta: true,
       layout: "./src/layouts/article.svelte",
       parser: md => md.use(require("markdown-it-attrs"))
     })

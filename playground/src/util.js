@@ -39,7 +39,8 @@ export async function getTreeData(path) {
     data.repository.object.entries.map(async d => ({
       text: d.name,
       path: `${path}${d.name}`,
-      items: d.type === "tree" ? await getTreeData(`${path}${d.name}/`) : null
+      items: d.type === "tree" ? await getTreeData(`${path}${d.name}/`) : null,
+      type: d.type
     }))
   );
 }

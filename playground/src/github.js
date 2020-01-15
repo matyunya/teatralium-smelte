@@ -68,6 +68,9 @@ export async function update(query, path) {
       Accept: "application/json",
       Authorization: `bearer ${key}`
     },
-    body: JSON.stringify(query)
+    body: JSON.stringify({
+      ...query,
+      content: window.btoa(window.unescape(encodeURIComponent(query.content)))
+    })
   });
 }
