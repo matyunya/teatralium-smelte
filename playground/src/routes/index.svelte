@@ -7,6 +7,7 @@
     TextField,
     Slider,
     Notifications,
+    notifier
   } from "smelte";
   import { onMount } from "svelte";
   import { stores, goto } from "@sapper/app";
@@ -86,6 +87,23 @@
 
     return tree;
   }
+
+  async function save() {
+    const result = await update(
+      {
+        message: `Edited ${selectedPath}`,
+        sha,
+        content: source,
+      },
+      selectedPath
+    );
+
+    if (result.status >= 200 && result.status <= 300) {
+      notifier.notify("File was saved successfully");
+    } else {
+      notifier.notify(result.error || result.toString());
+    }
+  }
  
 </script>
 
@@ -123,14 +141,7 @@
       icon="save"
       disabled={!selectedPath}
       bind:value={loading}
-      on:click={() => update(
-        {
-          message: `Edited ${selectedPath}`,
-          sha,
-          content: source,
-        },
-        selectedPath
-      )}
+      on:click={save}
     />
     <Button color="gray" dark icon="settings" bind:value={showSettingsDialog} />
     <Button color="gray" dark icon="add" bind:value={showCreateDialog} />
