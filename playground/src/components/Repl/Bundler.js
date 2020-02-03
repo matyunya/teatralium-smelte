@@ -296,7 +296,7 @@ export default class Bundler {
         type: "bundle",
         components
       });
-    });
+    }).catch(e => console.log(e));
   }
 
   destroy() {
