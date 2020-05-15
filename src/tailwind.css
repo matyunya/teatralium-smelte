@@ -97,11 +97,11 @@ h2.small {
 }
 
 .lead {
-  @apply mx-auto max-w-3xl text-xl my-32 px-3;
+  @apply mx-auto max-w-2xl text-xl my-32 px-3;
 }
 
 section {
-  @apply mx-auto max-w-3xl;
+  @apply mx-auto max-w-2xl;
 }
 
 .gallery {

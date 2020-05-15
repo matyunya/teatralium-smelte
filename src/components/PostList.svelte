@@ -1,5 +1,5 @@
 <script>
-  import { Chip } from "smelte";
+  import { Chip, Icon } from "smelte";
   import { fly } from "svelte/transition";
 
   import PostPreview from "components/PostPreview.svelte";
@@ -45,7 +45,7 @@
       icon: "restaurant_menu",
       type: "review"
     },
-    { href: "/about/", label: "Мы", icon: "pets", type: "about" }
+    { href: "/about/", label: " ", icon: "pets", type: "about" }
   ];
 
   $: items = (type
@@ -57,16 +57,23 @@
 <section class="mt-5">
   <div
     in:fly={{ delay: 100 }}
-    class="flex items-center justify-around font-sans mx-auto w-full flex-wrap">
+    class="flex items-center justify-around mx-auto w-full flex-wrap">
     {#each chips as chip}
       <span class="my-2">
         <a href={segmentTypes[type] === chip.type ? '/' : chip.href}>
-          <Chip
-            selected={segmentTypes[type] === chip.type}
-            selectable={false}
-            icon={chip.icon}>
-            {chip.label}
-          </Chip>
+          {#if chip.type === 'about'}
+            <Icon class="ml-2 rounded-full hover:bg-primary-100 bg-gray-300 text-sm rounded-full p-3">
+              pets
+            </Icon>
+          {:else}
+            <Chip
+              add="uppercase"
+              selected={segmentTypes[type] === chip.type}
+              selectable={false}
+              icon={chip.icon}>
+              {chip.label}
+            </Chip>
+          {/if}
         </a>
       </span>
     {/each}
