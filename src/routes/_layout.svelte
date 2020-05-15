@@ -57,7 +57,8 @@
   {/if}
 </main>
 
-
 <marquee bgcolor="lavender" class="uppercase bg-red-500 text-primary-500">
-  ***** Пишите нам на <a href="mailto:meow@teatralium.com">meow@teatralium.com</a> *****
+  ***** Пишите нам на
+  <a href="mailto:meow@teatralium.com">meow@teatralium.com</a>
+  *****
 </marquee>
