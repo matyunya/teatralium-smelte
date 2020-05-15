@@ -27,7 +27,7 @@
 	<title>{name}</title>
 </svelte:head>
 
-<h5 class="text-center">Автор: {name}</h5>
+<h5 class="text-center">Эти тексты написал_а {name}</h5>
 
 <section>
 	{#each posts as post}
