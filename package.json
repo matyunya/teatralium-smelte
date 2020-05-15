@@ -26,7 +26,7 @@
     "mdsvex": "^0.4.0",
     "sirv": "^0.4.0",
     "smelte": "^0.1.18",
-    "svelte-image": "^0.1.8",
+    "svelte-image": "^0.2.3",
     "tailwindcss-typography": "^2.2.0",
     "xxhash": "^0.3.0"
   },
@@ -64,7 +64,7 @@
     "rollup-plugin-terser": "^4.0.4",
     "sapper": "^0.27.4",
     "subfont": "^3.7.1",
-    "svelte": "^3.12.1",
+    "svelte": "^3.22.2",
     "svelte-preprocess": "^2.9.0",
     "tailwindcss": "^1.0.1",
     "tailwindcss-elevation": "^0.3.0"

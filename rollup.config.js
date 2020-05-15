@@ -67,7 +67,6 @@ const preprocess = [
     "image",
     image({
       sizes: [600, 900, 1200],
-      optimizeAll: true,
       trace: {
         background: "transparent",
         color: "#D473D4",
