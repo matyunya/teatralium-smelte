@@ -1,6 +1,15 @@
+
+<script context="module">
+  import { writable } from "svelte/store";
+
+  export const playing = writable(false);
+</script>
+
 <script>
   import { stores } from "@sapper/app";
   import { onMount } from "svelte";
+  import { slide } from "svelte/transition";
+  import { Icon } from "smelte";
 
   import ProgressLinear from "components/ProgressLinear";
 
@@ -45,7 +54,7 @@
 
 <Title />
 
-<main class="mx-auto mb-40 mt-4 md:mt-0">
+<main class="mx-auto mb-0 mt-4 md:mt-0">
   {#if ['about', 'authors'].includes(segment)}
     <PostList type={segment} {page} />
   {/if}
@@ -57,8 +66,21 @@
   {/if}
 </main>
 
-<marquee bgcolor="lavender" class="uppercase bg-red-500 text-primary-500">
+<marquee bgcolor="lavender" class="uppercase text-primary-500">
   ***** Пишите нам на
   <a href="mailto:meow@teatralium.com">meow@teatralium.com</a>
   *****
 </marquee>
+
+{#if $playing}
+  <button class="fixed right-0 mr-20" on:click={() => $playing = false}><Icon>ref</Icon></button>
+  <iframe
+    class="fixed w-full bottom-0 left-0 hidden"
+    title="player"
+    width="100%"
+    height="60"
+    src={$playing}
+    frameborder="0"
+    allow="autoplay"
+  />
+{/if}

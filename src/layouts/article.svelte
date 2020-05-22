@@ -15,10 +15,10 @@
   export let url = null;
   export let title = null;
   export let subtitle = null;
-  export let layout = "";
+  export const layout = "";
   export let type = null;
   export let hasCover = false;
-  export let mix = null;
+  export const mix = null;
   export let coverClass = "";
   export let subClass = "";
 

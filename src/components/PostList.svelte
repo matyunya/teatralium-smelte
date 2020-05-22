@@ -63,8 +63,7 @@
         <a href={segmentTypes[type] === chip.type ? '/' : chip.href}>
           {#if chip.type === 'about'}
             <Icon
-              class="ml-2 rounded-full hover:bg-primary-100 bg-gray-300 text-sm
-              rounded-full p-3">
+              class="ml-2 rounded-full hover:bg-primary-100 bg-gray-300 text-sm p-3">
               pets
             </Icon>
           {:else}
