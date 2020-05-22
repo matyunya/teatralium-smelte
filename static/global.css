@@ -13184,7 +13184,7 @@ p.small {
 }
 
 .text-shadow {
-  text-shadow: 0 4px 10px  rgba(102,51,153,.68);
+  text-shadow: 0 4px 10px  rgba(102,51,153,1);
 }
 
 .blend {

@@ -10,7 +10,6 @@ import velikoe_raznoobrazie from "meta/articles/velikoe_raznoobrazie.json";
 import pomosh_zala from "meta/articles/pomosh_zala.json";
 import lyubimovka from "meta/articles/lyubimovka.json";
 import lektsii from "meta/articles/lektsii.json";
-import kritiki from "meta/articles/kritiki.json";
 import ozhila_krasnaya_stsena from "meta/articles/ozhila_krasnaya_stsena.json";
 import ya_rabotayu_v_teatre_zaytseva from "meta/articles/ya_rabotayu_v_teatre_zaytseva.json";
 import dokumentalnaya_horeografiya from "meta/articles/dokumentalnaya_horeografiya.json";
@@ -34,6 +33,7 @@ import abyuz_nelzya_pomilovat from "meta/interviews/abyuz_nelzya_pomilovat.json"
 import miloserdie from "meta/interviews/miloserdie.json";
 import contemporary_artists from "meta/interviews/contemporary_artists.json";
 import zygar from "meta/interviews/zygar.json";
+import kritiki from "meta/interviews/kritiki.json";
 
 import ya_posadil_derevo from "meta/music/ya_posadil_derevo.json";
 import i_bratva_za_slova_otvechaet from "meta/music/i_bratva_za_slova_otvechaet.json";

@@ -9,7 +9,8 @@ type: review
 published: true
 subtitle: "Литературный критик Александр Гаврилов — о спектакле «Ай&nbsp;Фак.&nbsp;Трагедия»"
 bgColor: "#d0bfff"
-coverClass: "text-secondary-700 blend
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec

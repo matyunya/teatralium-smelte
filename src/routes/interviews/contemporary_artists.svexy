@@ -33,7 +33,7 @@ author: Настя Николаева
 
 
 <div class="my-16" style="background: #ff4747">
-  <div class="mx-auto w-64 py-8">
+  <div class="mx-auto w-40 py-8">
     <Image src="images/contemporary_artists/fedor.jpg" class="skewed elevation-0" />
   </div>
 </div>
