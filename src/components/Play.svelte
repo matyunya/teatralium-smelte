@@ -6,27 +6,29 @@
   export let mix = "";
 
   let player = null;
-  $: console.lo
+  $: console.lo;
 
   $: src = `https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=/Teatralium/${mix}/`;
 </script>
 
 <div class="flex items-center justify-center my-10 mb-20">
   <span class="rounded-full bg-white-transLight px-4">
-      <button
-        transition:scale
-        class="w-64 rounded-full m-auto select-none"
-        on:click={() => {
-          if ($playing !== src) {
-            $playing = src;
-            $paused = false;
-          } else {
-            $paused = !$paused;
-          }
-        }}>
-        <i
-          class="material-icons text-5xl transition text-primary-500 hover:text-secondary-500"
-        >{$playing === src && !$paused ? 'pause' : 'play_arrow'}</i>
-      </button>
+    <button
+      transition:scale
+      class="w-64 rounded-full m-auto select-none"
+      on:click={() => {
+        if ($playing !== src) {
+          $playing = src;
+          $paused = false;
+        } else {
+          $paused = !$paused;
+        }
+      }}>
+      <i
+        class="material-icons text-5xl transition text-primary-500
+        hover:text-secondary-500">
+        {$playing === src && !$paused ? 'pause' : 'play_arrow'}
+      </i>
+    </button>
   </span>
 </div>

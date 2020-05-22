@@ -21,7 +21,7 @@
 
 <div class="pt-4">
   <div class="by">
-    {by}{#if action} <div class="action">{action}.</div>{:else}.{/if}
+    {by}{#if action} <span class="action">{action}.</span>{:else}.{/if}
   </div>
   <div class="pl-4"><slot /></div>
 </div>

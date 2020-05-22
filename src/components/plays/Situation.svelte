@@ -4,7 +4,6 @@
 
 <style>
   .situation {
-    padding: 0.8rem 0;
     font-style: italic;
     font-size: 1.2rem;
   }
@@ -13,7 +12,7 @@
 
 
 <div
-  class="situation text-center italic"
+  class="situation text-center italic py-4"
 >
   <slot />
 </div>

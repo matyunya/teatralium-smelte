@@ -10,14 +10,73 @@ hideDate: true
 ---
 
 ```js exec
+  import { onMount } from "svelte";
   import Line from "components/plays/Line.svelte";
   import Situation from "components/plays/Situation.svelte";
   import Note from "components/Note.svelte";
+
+  function draw(ctx, images, x, y, w, h) {
+    ctx.clearRect(0, 0, w + 1000, h + 1000);
+
+    y -= Math.random() * 2;
+
+    images.forEach((image, i) => {
+      ctx.rotate(i);
+      ctx.drawImage(image, x + i * 400, y - Math.random() * 1, 150, 150);
+    })
+
+    setTimeout(() => window.requestAnimationFrame(() => draw(ctx, images, x, y, w, h)), 75);
+  }
+
+  onMount(() => {
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const x = 100;
+    const y = 2000;
+
+    const covers = [
+      "/images/kart2.png",
+      "/images/kart3.png",
+      "/images/kart4.png",
+      "/images/kart1.png",
+      "/images/kart2.png",
+      "/images/kart3.png",
+      "/images/kart4.png",
+      "/images/kart1.png",
+      "/images/kart2.png",
+      "/images/kart3.png",
+      "/images/kart4.png",
+      "/images/kart1.png"
+    ];
+
+    const images = covers.map(i => {
+      const img = new Image();
+      img.src = i;
+      img.onload = function() {
+        ctx.drawImage(img, x, y);
+      };
+      return img;
+    });
+
+    draw(ctx, images, 100, 300, canvas.width, canvas.height);
+  })
 ```
+
+```css style
+  section {
+    background-color: rgba(255,255,255,0.5);
+    font-size: 1.2rem;
+  }
+```
+
+<canvas id="canvas" style="position: fixed; top: 0; left: 0; height: 100%; width: 100%; opacity: 0.1; z-index: -1;" />
 
 <section>
 
-«Я удивлялся Сашиному таланту. 
+«Я удивлялся Сашиному таланту.
 Он писал смело, пользовался сюжетами, которыми в те времена из страха или стыда никто не пользовался», —
 рассказывает Анатолий Васильев в предисловии [сборника пьес Александра Ремеза](https://www.nlobooks.ru/books/drama/20951/).
 Его пьесой «Путь» в середине 1980-х открылась Малая сцена МХАТа.
@@ -504,7 +563,7 @@ hideDate: true
 
 <Situation>Пауза.</Situation>
 
-Ты что — слышишь плохо? 
+Ты что — слышишь плохо?
 
 </Line>
 
@@ -991,7 +1050,7 @@ hideDate: true
 
 
 
-<Situation>ПОЛЕТАЕВ подошел, взял транзистор, стал его крутить. Транзистор трещит, стонет, какие-то воющие помехи заглушают слова ВЕРЕНИКИНА. Свет медленно гаснет. Еще из темноты — радио отстукивает одиннадцать часов. 
+<Situation>ПОЛЕТАЕВ подошел, взял транзистор, стал его крутить. Транзистор трещит, стонет, какие-то воющие помехи заглушают слова ВЕРЕНИКИНА. Свет медленно гаснет. Еще из темноты — радио отстукивает одиннадцать часов.
 <br/>Кто-то чиркнул спичкой — зажегся свет. На нарах, в привычных уже позах, сидят трое: КИРСАНОВ, ОРЕШНИКОВ и&nbsp;ПОЛЕТАЕВ.</Situation>
 
 <Line by="ПОЛЕТАЕВ">Ну все… Пробил час… Одиннадцать ровно.</Line>
@@ -1621,7 +1680,7 @@ hideDate: true
 
 <Line by="ОРЕШНИКОВ" action="(не выдержал)"> А в армии это называется…</Line>
 
-<Line by="ВЕРЕНИКИН" action="(резко повернулся, крикнул)"> Правильно! Но я демобилизовался год тому назад, пора бы знать. (Ушел, хлопнув дверью.)</Line>
+<Line by="ВЕРЕНИКИН" action="(резко повернулся, крикнул)"> Правильно! Но я демобилизовался год тому назад, пора бы знать. <i>(Ушел, хлопнув дверью.)</i></Line>
 
 
 <Situation>Пауза.</Situation>
@@ -1752,14 +1811,14 @@ hideDate: true
 
 <Situation>
 Вбежал мокрый ОРЕШНИКОВ. Остановился.<br>
-Смотрит непонимающе. Потом неохотно, тоскливо ползет под нары. 
+Смотрит непонимающе. Потом неохотно, тоскливо ползет под нары.
 Он долго там ползает, потом вытаскивает свой рюкзак, открывает его, начинает выкладывать книги.
 </Situation>
 
 <Line by="ОРЕШНИКОВ">Зачем я столько взял? Тут же половина ненужных.</Line>
 
 
-<i>Схватил рюкзак и&nbsp;— направо, туда, куда ушли все.</i>
+<i class="text-center">Схватил рюкзак и&nbsp;— направо, туда, куда ушли все.</i>
 
 Неожиданно слева появляется мокрая и&nbsp;красивая девушка лет семнадцати. Зовут ее Ира (но это другая Ира). ИРА оглядела барак, прошлась по нему. Сняла куртку, повесила. и&nbsp;тут заговорило радио. Противный женский голос сообщил: «Говорит Москва, московское время три минуты первого». ИРА вздрогнула, тут только и&nbsp;заметила транзистор. Тогда она забралась с ногами на нары и&nbsp;села слушать. и&nbsp;приятный мужской голос сказал: «В эфире музыкальная передача „После полуночи“». и&nbsp;зазвучала какая-то грустная, протяжная песня. Сперва погас один прожектор, потом другой. Когда они оба погасли — кончилось первое действие.
 

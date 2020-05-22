@@ -49,8 +49,13 @@
 </svelte:head>
 
 {#if $playing}
-  <button transition:scale class="fixed top-0 right-0 mr-20 mt-20" on:click={() => ($paused = !$paused)}>
-    <i class="material-icons text-2xl opacity-50 hover:opacity-100 transition text-primary-500 hover:text-secondary-500">
+  <button
+    transition:scale
+    class="fixed top-0 right-0 mr-20 mt-20"
+    on:click={() => ($paused = !$paused)}>
+    <i
+      class="material-icons text-2xl opacity-50 hover:opacity-100 transition
+      text-primary-500 hover:text-secondary-500">
       {$paused ? 'play_arrow' : 'pause'}
     </i>
   </button>
@@ -63,7 +68,6 @@
     frameborder="0"
     allow="autoplay" />
 {/if}
-
 
 {#if $preloading}
   <ProgressLinear app />
