@@ -13178,6 +13178,24 @@ p.small {
   text-align: center;
 }
 
+.with-shadow {
+  -webkit-box-shadow: 1px -4px 20px -5px rgba(102,51,153,.68);
+          box-shadow: 1px -4px 20px -5px rgba(102,51,153,.68);
+}
+
+.text-shadow {
+  text-shadow: 0 4px 10px  rgba(102,51,153,.68);
+}
+
+.blend {
+  background: inherit;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

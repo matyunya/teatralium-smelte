@@ -87,8 +87,10 @@
   {/if}
 </main>
 
-<marquee bgcolor="lavender" class="uppercase text-primary-500">
-  ***** Пишите нам на
-  <a href="mailto:meow@teatralium.com">meow@teatralium.com</a>
-  *****
-</marquee>
+<div class="mt-16">
+  <marquee bgcolor="lavender" class="uppercase text-primary-500">
+    ***** Пишите нам на
+    <a href="mailto:meow@teatralium.com">meow@teatralium.com</a>
+    *****
+  </marquee>
+</div>

@@ -9,6 +9,7 @@ subtitle: Журналистка Настя Красильникова — о с
 type: review
 published: true
 coverClass: "text-white"
+bgColor: "#d0bfff"
 ---
 
 ```js exec

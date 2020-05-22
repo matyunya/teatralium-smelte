@@ -65,13 +65,6 @@ hideDate: true
   })
 ```
 
-```css style
-  section {
-    background-color: rgba(255,255,255,0.5);
-    font-size: 1.2rem;
-  }
-```
-
 <canvas id="canvas" style="position: fixed; top: 0; left: 0; height: 100%; width: 100%; opacity: 0.1; z-index: -1;" />
 
 <section>

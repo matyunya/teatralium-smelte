@@ -3,7 +3,7 @@
 </script>
 
 <figure class="mb-16 mt-8">
-  <blockquote class="italic">
+  <blockquote class="pl-8 italic">
     <slot />
   </blockquote>
   {#if author}

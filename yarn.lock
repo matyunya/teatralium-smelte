@@ -4047,10 +4047,9 @@ mdn-data@~1.1.0:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.4.tgz#50b5d4ffc4575276573c4eedb8780812a8419f01"
   integrity sha512-FSYbp3lyKjyj3E7fMl6rYvUdX0FBXaluGqlFoYESWQlyUTq8R+wp0rkFxoYFqZlHCvsUXGjyJmLQSnXToYhOSA==
 
-mdsvex@^0.4.0:
+"mdsvex@git://github.com/matyunya/mdsvex#6696300a74fcd48c5845096e7334bf283859a208":
   version "0.4.0"
-  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.4.0.tgz#2407da9cf5476910631bb61906ba61ae68696988"
-  integrity sha512-A9SR+KaJnhZ0p3milpFVqKEukyEBEKMO9cEX4nWfTV9NTCz3BeQCL+2YV+1HwHvfErFQ0JKBcZl9dKjbWyI75g==
+  resolved "git://github.com/matyunya/mdsvex#6696300a74fcd48c5845096e7334bf283859a208"
   dependencies:
     entities "^2.0.0"
     front-matter "^3.0.1"

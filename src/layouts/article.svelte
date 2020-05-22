@@ -6,6 +6,7 @@
   import Date from "components/Date.svelte";
   import Share from "components/Share.svelte";
   import HomeLink from "components/HomeLink.svelte";
+  import ColoredBg from "components/ColoredBg.svelte";
   import s from "components/subtitle";
 
   export let image = null;
@@ -21,6 +22,7 @@
   export const mix = null;
   export let coverClass = "";
   export let subClass = "";
+  export let bgColor = "";
 
   const post = {
     image,
@@ -234,3 +236,7 @@
 <Share {post} />
 
 <HomeLink />
+
+{#if bgColor}
+  <ColoredBg colors={bgColor} />
+{/if}

@@ -8,6 +8,8 @@ title: "«Дарья Мороз с прямой спиной сидит крас
 type: review
 published: true
 subtitle: "Литературный критик Александр Гаврилов — о спектакле «Ай&nbsp;Фак.&nbsp;Трагедия»"
+bgColor: "#d0bfff"
+coverClass: "text-secondary-700 blend
 ---
 
 ```js exec
@@ -132,7 +134,7 @@ subtitle: "Литературный критик Александр Гаврил
   class="rounded-full"
   src="https://media.giphy.com/media/i2OdBrZMAsgGvknnU2/giphy.gif"
   alt="pelevin"
-/>{.w-64 .mx-auto .py-16}
+/>{.max-w-xl .mx-auto .py-16}
 
 Иногда кажется, что работы художников (особенно Екатерины Щегловой и
 Дианы Мачулиной), выставленные в пространстве спектакля, находятся с

@@ -264,3 +264,18 @@ p.small {
 .article-body h2 {
   text-align: center;
 }
+
+.with-shadow {
+  box-shadow: 1px -4px 20px -5px rgba(102,51,153,.68);
+}
+
+.text-shadow {
+  text-shadow: 0 4px 10px  rgba(102,51,153,.68);
+}
+
+.blend {
+  background: inherit;
+  background-clip: text;
+  color: transparent;
+  filter: invert(1);
+}

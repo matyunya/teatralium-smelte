@@ -1,6 +1,6 @@
 ---
 image: /share/28dney.jpg
-description: Блогерка Алина Чабдарова — о спектакле «28 дней».
+description: Блогерка Алина Чабдарова — о спектакле «28 дней» Светланы Михалищевой и Юрия Муравицкого.
 date: 28 марта 2019
 author: Алина Чабдарова
 url: reviews/28dney
@@ -8,6 +8,7 @@ title: "«Сказать со сцены «менструация»"
 type: review
 published: true
 coverClass: "text-white"
+bgColor: "#F38A16"
 ---
 
 ```js exec
