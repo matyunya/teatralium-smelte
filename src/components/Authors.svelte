@@ -8,8 +8,8 @@
     )
     .reduce((acc, a) => [...acc, ...a.split(",")], [])
     .sort((a, b) => {
-      const [, last1] = a.split(' ');
-      const [, last2] = b.split(' ');
+      const [, last1] = a.split(" ");
+      const [, last2] = b.split(" ");
 
       if (last2 > last1) return -1;
       if (last2 < last1) return 1;

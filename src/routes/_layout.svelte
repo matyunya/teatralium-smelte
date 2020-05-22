@@ -1,14 +1,14 @@
-
 <script context="module">
   import { writable } from "svelte/store";
 
   export const playing = writable(false);
+  export const paused = writable(false);
 </script>
 
 <script>
   import { stores } from "@sapper/app";
   import { onMount } from "svelte";
-  import { slide } from "svelte/transition";
+  import { slide, scale } from "svelte/transition";
   import { Icon } from "smelte";
 
   import ProgressLinear from "components/ProgressLinear";
@@ -48,6 +48,23 @@
   <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
 </svelte:head>
 
+{#if $playing}
+  <button transition:scale class="fixed top-0 right-0 mr-20 mt-20" on:click={() => ($paused = !$paused)}>
+    <i class="material-icons text-2xl opacity-50 hover:opacity-100 transition text-primary-500 hover:text-secondary-500">
+      {$paused ? 'play_arrow' : 'pause'}
+    </i>
+  </button>
+  <iframe
+    class="hidden"
+    title="player"
+    width="100%"
+    height="60"
+    src={!$paused && $playing}
+    frameborder="0"
+    allow="autoplay" />
+{/if}
+
+
 {#if $preloading}
   <ProgressLinear app />
 {/if}
@@ -71,16 +88,3 @@
   <a href="mailto:meow@teatralium.com">meow@teatralium.com</a>
   *****
 </marquee>
-
-{#if $playing}
-  <button class="fixed right-0 mr-20" on:click={() => $playing = false}><Icon>ref</Icon></button>
-  <iframe
-    class="fixed w-full bottom-0 left-0 hidden"
-    title="player"
-    width="100%"
-    height="60"
-    src={$playing}
-    frameborder="0"
-    allow="autoplay"
-  />
-{/if}

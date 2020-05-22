@@ -1,27 +1,32 @@
-
-
 <script>
   import { Button, Icon } from "smelte";
-  import { playing } from "../routes/_layout.svelte";
+  import { scale } from "svelte/transition";
+  import { playing, paused } from "../routes/_layout.svelte";
 
   export let mix = "";
 
   let player = null;
+  $: console.lo
 
   $: src = `https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=/Teatralium/${mix}/`;
-
 </script>
 
-<button
-  class="w-32 mx-auto relative overflow-hidden rounded-full"
-  on:click={() => {
-    if ($playing === src) {
-      $playing === false;
-    } else {
-      $playing = src;
-    }
-  }}
->
-  <Icon class="text-5xl text-primary-a400">play_circle_outline</Icon>
-</button>
-
+<div class="flex items-center justify-center my-10 mb-20">
+  <span class="rounded-full bg-white-transLight px-4">
+      <button
+        transition:scale
+        class="w-64 rounded-full m-auto select-none"
+        on:click={() => {
+          if ($playing !== src) {
+            $playing = src;
+            $paused = false;
+          } else {
+            $paused = !$paused;
+          }
+        }}>
+        <i
+          class="material-icons text-5xl transition text-primary-500 hover:text-secondary-500"
+        >{$playing === src && !$paused ? 'pause' : 'play_arrow'}</i>
+      </button>
+  </span>
+</div>
