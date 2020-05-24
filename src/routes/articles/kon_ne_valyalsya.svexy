@@ -8,6 +8,7 @@ title: «В театре конь не валялся»
 type: article
 published: true
 coverClass: "text-white"
+subClass: with-shadow bg-primary-900
 ---
 
 ```js exec

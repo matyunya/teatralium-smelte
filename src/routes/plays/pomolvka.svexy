@@ -15,7 +15,7 @@ bgColor: "#FFFF31"
 ```
 
 ```css style
-.q {
+#pomolvka .q {
   color: black;
 }
 ```

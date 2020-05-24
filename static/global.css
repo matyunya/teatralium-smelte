@@ -13069,6 +13069,10 @@ ul {
 }
 
 @media (max-width: 640px) {
+  .cover h1 {
+    font-size: 2rem;
+  }
+
   .small {
     font-size: 0.93rem;
   }

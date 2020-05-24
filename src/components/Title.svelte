@@ -3,13 +3,13 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     background: #333399;
-    background: linear-gradient(to bottom, blue, #df00ff, #df00ff);
+    background: linear-gradient(to bottom, black, #df00ff, #df00ff);
     font-weight: 100;
     background-clip: text;
     vertical-align: middle;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: hue-rotate 40s infinite;
+    animation: hue-rotate 5s infinite;
   }
 </style>
 

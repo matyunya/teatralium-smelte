@@ -52,9 +52,7 @@
     max-width: 1200px;
   }
 
-  .cover h1 {
-    font-size: 3.75rem;
-  }
+
 
   .bg {
     z-index: -10;
@@ -93,7 +91,7 @@
 
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
-    <h1 class="text-center uppercase mb-10 pt-10">
+    <h1 class="text-center uppercase mb-10 pt-10 sm:text-lg md:text-2xl">
       <span class={subClass}>
         {@html customTitle || title.split(':')[0]}
       </span>
@@ -247,6 +245,11 @@
         src="images/govno/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'neperevodimiy_russkiy_nadryv'}
+      <Image
+        src="images/np1.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {:else if name === 'nespyashie_v_teatre'}
       <div
         alt={post.title}
@@ -263,7 +266,7 @@
   </div>
 {/if}
 
-<div class="article-body">
+<div class="article-body" id={name}>
   <slot />
 </div>
 
