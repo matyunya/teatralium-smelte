@@ -1,5 +1,5 @@
 ---
-image: /images/nespyashie/zriteli/zriteli/zritel-8.jpg
+image: /images/nespyashie/zriteli/zritel-8.jpg
 description: Дмитрий Лисин проецирует древнеиндийские варны на зрительный зал.
 date: 18 марта 2018
 url: articles/nespyashie_v_teatre
@@ -7,6 +7,7 @@ author: Дмитрий Лисин
 title: "Неспящие в театре: типы зрителей на основе индуистской философии"
 type: article
 published: true
+subClass: bg-white border border-primary-900
 ---
 
 ```js exec

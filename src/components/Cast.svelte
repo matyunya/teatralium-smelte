@@ -18,6 +18,8 @@
 </style>
 
 <div class="cast font-mono">
-  <h5 class="pt-4 italic text-center text-xl uppercase tracking-widest mb-8">Создатели</h5>
+  <h5 class="pt-4 italic text-center text-xl uppercase tracking-widest mb-8">
+    Создатели
+  </h5>
   <slot />
 </div>

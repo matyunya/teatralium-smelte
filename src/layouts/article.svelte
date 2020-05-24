@@ -247,6 +247,12 @@
         src="images/govno/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'nespyashie_v_teatre'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(white, #D473D4),
+        url(/images/nespyashie/zriteli/zritel-8.jpg); background-blend-mode: difference; background-size: 300px;"
+        class="bg-repeat h-screen" />
     {:else if name === 'teatr_mody_v_sovetskoy_rossii'}
       <Image
         src="images/naryady/044.jpg"
