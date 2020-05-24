@@ -85,7 +85,11 @@
     as="font"
     type="font/woff2" />
   <meta name="description" content="Театралий :: {title} :: {description}" />
-  <meta name="keywords" content="Театралий, Театр, Современный Театр, Несовременный Театр, {title.split(' ').join(',')}" />
+  <meta
+    name="keywords"
+    content="Театралий, Театр, Современный Театр, Несовременный Театр, {title
+      .split(' ')
+      .join(',')}" />
 </svelte:head>
 <Head {post} />
 
