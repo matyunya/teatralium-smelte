@@ -52,8 +52,6 @@
     max-width: 1200px;
   }
 
-
-
   .bg {
     z-index: -10;
     height: 100vh;
