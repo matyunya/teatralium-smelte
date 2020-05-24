@@ -25,5 +25,9 @@
 {/if}
 
 <div class="my-56">
-  <marquee bgcolor="lavender" class="text-primary-a400 my-16 text-5xl bg-primary-100">П Р О И З О Ш Л А  КАКАЯ_ТО УЖАСНАЯ   О Ш И Б К А</marquee>
+  <marquee
+    bgcolor="lavender"
+    class="text-primary-a400 my-16 text-5xl bg-primary-100">
+    П Р О И З О Ш Л А КАКАЯ_ТО УЖАСНАЯ О Ш И Б К А
+  </marquee>
 </div>

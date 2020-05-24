@@ -29,9 +29,9 @@
 </script>
 
 <svelte:head>
-  <title>Театралии всех стран, соединяйтесь!</title>
+  <title>Интересней, чем в театре</title>
   <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="description" content="Театралии всех стран, соединяйтесь!" />
+  <meta name="description" content="Интересней, чем в театре" />
   <meta
     name="keywords"
     content="театр, театралий, teatralium, современный театр, несовременный
