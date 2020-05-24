@@ -19,5 +19,5 @@
   <meta property="og:type" content="article" />
   <meta property="og:description" content="{post.title} | Театралий" />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
-  <meta property="og:image" content="https://teatralium.com/{post.image}" />
+  <meta property="og:image" content="https://teatralium.com{post.image}" />
 </svelte:head>
