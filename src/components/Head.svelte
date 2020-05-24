@@ -20,4 +20,11 @@
   <meta property="og:description" content="{post.title} | Театралий" />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
   <meta property="og:image" content="https://teatralium.com{post.image}" />
+  <link rel="canonical" href="https://teatralium.com/{post.url}" />
+  <meta
+    name="keywords"
+    content="Театралий, Театр, Современный Театр, Несовременный Театр, {post.title
+      .split(' ')
+      .filter(i => i.length > 1)
+      .join(',')}" />
 </svelte:head>
