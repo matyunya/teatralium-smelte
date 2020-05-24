@@ -89,7 +89,7 @@
 
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
-    <h1 class="text-center uppercase mb-10 pt-10 sm:text-lg md:text-2xl">
+    <h1 class="text-center uppercase mb-10 pt-10">
       <span class={subClass}>
         {@html customTitle || title.split(':')[0]}
       </span>
