@@ -8,6 +8,8 @@ title: "Я посадил дерево: плейлист актера Филип
 type: mix
 published: true
 mix: derevo-avdeev
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec

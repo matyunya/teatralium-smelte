@@ -8,6 +8,8 @@ title: "Миражи — это наша жизнь?: плейлист коми�
 type: mix
 published: true
 mix: miracles-lisovskiy
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec

@@ -12841,6 +12841,11 @@ a:hover {
           animation: hue-rotate 8s infinite;
 }
 
+.hue-rotate {
+  -webkit-animation: hue-rotate 8s infinite;
+          animation: hue-rotate 8s infinite;
+}
+
 p {
   margin-bottom: 1.7em;
 }
@@ -13194,6 +13199,10 @@ p.small {
   color: transparent;
   -webkit-filter: invert(1);
           filter: invert(1);
+}
+
+.bg-white-transLight {
+  background: rgba(255,255,255,0.1);
 }
 
 @media (min-width: 640px) {

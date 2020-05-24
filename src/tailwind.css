@@ -26,6 +26,10 @@ a:hover {
   animation: hue-rotate 8s infinite;
 }
 
+.hue-rotate {
+  animation: hue-rotate 8s infinite;
+}
+
 p {
   margin-bottom: 1.7em;
 }
@@ -278,4 +282,8 @@ p.small {
   background-clip: text;
   color: transparent;
   filter: invert(1);
+}
+
+.bg-white-transLight {
+  background: rgba(255,255,255,0.1);
 }

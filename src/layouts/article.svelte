@@ -112,115 +112,126 @@
         src="images/blok/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'nogi_zatekayut'}
+    {:else if name === 'playlist_komissara_vsevoloda_lisovskogo'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/lisovsky.gif); background-blend-mode: multiply;"
+        class="bg-repeat h-screen opacity-50" />
+    {:else if name === 'ya_posadil_derevo'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/avdeev_cover.jpg); background-blend-mode: multiply;"
+        class="bg-repeat h-screen" />
+    {:else if name === 'i_bratva_za_slova_otvechaet'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/elutin.jpg); background-blend-mode: multiply;"
+        class="bg-repeat h-screen" />
+    {:else if name === 'poteryanniy_kray'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #c960c9), url(/images/bogomolov/bogomolov_cover.jpg); background-blend-mode: multiply;"
+        class="bg-repeat h-screen" />
+    {:else if name === 'vsyo_dvizhetsya'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #D473D4), url(/images/shmykova/small.jpg); background-blend-mode: multiply;"
+        class="bg-repeat h-screen" />
+    {:else if name === 'pahom'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(black, #D473D4), url(g/images/pahom/cover-600.jpg); background-blend-mode: multiply;"
+        class="bg-repeat h-screen" />
+    {:else if name === 'nogi_zatekayut'}
       <Image
         src="images/nogi/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'dokumentalnaya_horeografiya'}
+    {:else if name === 'dokumentalnaya_horeografiya'}
       <Image
         src="images/dok_hor/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'zloveschaya_dolina'}
+    {:else if name === 'zloveschaya_dolina'}
       <Image
         src="images/zloveschaya_dolina/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === '28dney'}
+    {:else if name === '28dney'}
       <Image
         src="images/28dney/cover5.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'ya_ne_boyus_skazat'}
+    {:else if name === 'ya_ne_boyus_skazat'}
       <Image
         src="images/yaneboyusskazat/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'iphuck'}
+    {:else if name === 'iphuck'}
       <Image
         src="images/iphuck/333.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'sheshepop'}
+    {:else if name === 'sheshepop'}
       <Image
         src="images/sheshepop/ccc.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'vseh_toshnit'}
+    {:else if name === 'vseh_toshnit'}
       <Image
         src="images/vseh_toshnit/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'pomolvka'}
+    {:else if name === 'pomolvka'}
       <Image
         src="images/pomolvka/cover3.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'kritiki'}
+    {:else if name === 'kritiki'}
       <Image
         src="images/kritiki/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'flanagan'}
+    {:else if name === 'flanagan'}
       <Image
         src="images/hallie_flanagan/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'ya_rabotayu_v_teatre_zaytseva'}
+    {:else if name === 'ya_rabotayu_v_teatre_zaytseva'}
       <Image
         src="images/zaytseva/cover-up.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'contemporary_artists'}
+    {:else if name === 'contemporary_artists'}
       <Image
         src="images/contemporary_artists/cover_contemporary.jpg"
         alt={post.title} />
-    {/if}
-    {#if name === 'kon_ne_valyalsya'}
+    {:else if name === 'kon_ne_valyalsya'}
       <Image
         src="images/kon_ne_valyalsya/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'telegram_kanaly'}
+    {:else if name === 'telegram_kanaly'}
       <Image
         src="images/telegram_kanaly/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'net_amnezii'}
+    {:else if name === 'net_amnezii'}
       <Image
         src="images/sonet/2.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'v_moskve_naprimer_analogov_net'}
+    {:else if name === 'v_moskve_naprimer_analogov_net'}
       <Image
         src="images/naprimer/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'aktyora_nado_mordoy_v_govno'}
+    {:else if name === 'aktyora_nado_mordoy_v_govno'}
       <Image
         src="images/govno/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
-    {/if}
-    {#if name === 'teatr_mody_v_sovetskoy_rossii'}
+    {:else if name === 'teatr_mody_v_sovetskoy_rossii'}
       <Image
         src="images/naryady/044.jpg"
         alt={post.title}

@@ -8,6 +8,8 @@ title: "Еще одна осталась ночь у нас с тобой"
 type: mix
 published: true
 mix: еще-одна-осталась-ночь-у-нас-с-тобой-плейлист-пахома
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec

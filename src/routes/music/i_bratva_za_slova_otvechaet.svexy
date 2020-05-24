@@ -8,6 +8,8 @@ title: "И братва за слова отвечает как в лучшие 
 type: mix
 published: true
 mix: bratva-za-slova-otvechaet
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec
