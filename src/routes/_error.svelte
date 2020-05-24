@@ -5,24 +5,22 @@
   const dev = process.env.NODE_ENV === "development";
 </script>
 
-<style>
-  h1,
-  p {
-    @apply mx-auto my-0;
-  }
-</style>
 
 <svelte:head>
   <title>{status}</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div class="container mx-auto">
+  <h1>{status}</h1>
 
-<p>{error.message}</p>
+  <p>{error.message}</p>
 
-{#if dev && error.stack}
-  <pre>{error.stack}</pre>
-{/if}
+  <h2>****Попробуйте перезагрузить компьютер****</h2>
+
+  {#if dev && error.stack}
+    <pre>{error.stack}</pre>
+  {/if}
+</div>
 
 <div class="my-56">
   <marquee

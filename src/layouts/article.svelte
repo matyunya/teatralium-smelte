@@ -84,6 +84,8 @@
     href="fonts/bodoni-italic.woff2"
     as="font"
     type="font/woff2" />
+  <meta name="description" content="Театралий :: {title} :: {description}" />
+  <meta name="keywords" content="Театралий, Театр, Современный Театр, Несовременный Театр, {title.split(' ').join(',')}" />
 </svelte:head>
 <Head {post} />
 
