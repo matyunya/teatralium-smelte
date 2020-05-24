@@ -7,7 +7,8 @@ author: Дмитрий Лисин
 title: "Неспящие в театре: типы зрителей на основе индуистской философии"
 type: article
 published: true
-subClass: bg-white border border-primary-900
+coverClass: text-white
+subClass: bg-white text-black px-2 border border-primary-900
 ---
 
 ```js exec
