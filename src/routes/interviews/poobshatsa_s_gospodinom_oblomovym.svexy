@@ -14,15 +14,17 @@ hasCover: true
   import Image from "svelte-image";
   import Note from "components/Note.svelte";
   import Video from "components/Video.svelte";
+  import Date from "components/Date.svelte";
 ```
 
-<div class="mb-6 cover sm:px-32 flex flex-col justify-center">
-  <h2 class="text-center small">
+<div class="mb-6 h-screen sm:px-32 flex flex-col justify-center">
+  <h2 class="text-center small pt-4">
     Себастьян Кайзер:
   </h2>
-  <h1 class="text-center uppercase mb-10">
+  <h1 class="text-center text-3xl uppercase mb-10">
     «Нам всем нужно пообщаться с господином Обломовым»
   </h1>
+  <Date post={_metadata} />
 </div>
 
 <section>
@@ -194,7 +196,7 @@ hasCover: true
 под вопрос — так действует механизм вытеснения и&nbsp;исключения, города
 структурируются не по социальному запросу, а денежными потоками.
 Там, где я родился, коренные берлинцы практически не живут. Они
-просто не могут себе этого позволить. 
+просто не могут себе этого позволить.
 
 Возвращаясь к альтернативе: когда мы в России слышим разговоры
 европейцев или американцев о том, что, возможно, есть какая-то

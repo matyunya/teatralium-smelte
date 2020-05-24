@@ -19,11 +19,9 @@ import abbreviatura_ramt from "meta/articles/abbreviatura_ramt.json";
 import morskoy_tsar_belomor from "meta/articles/morskoy_tsar_belomor.json";
 import revolyutsiya from "meta/articles/revolyutsiya.json";
 import nogi_zatekayut from "meta/articles/nogi_zatekayut.json";
-import aktyora_nado_mordoy_v_govno from "meta/articles/aktyora_nado_mordoy_v_govno.json";
 import nespyashie_v_teatre from "meta/articles/nespyashie_v_teatre.json";
 import mne_ploho_mne_skuchno from "meta/articles/mne_ploho_mne_skuchno.json";
 import net_amnezii from "meta/articles/net_amnezii.json";
-import telegram_kanaly from "meta/articles/telegram_kanaly.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -34,6 +32,8 @@ import miloserdie from "meta/interviews/miloserdie.json";
 import contemporary_artists from "meta/interviews/contemporary_artists.json";
 import zygar from "meta/interviews/zygar.json";
 import kritiki from "meta/interviews/kritiki.json";
+import telegram_kanaly from "meta/interviews/telegram_kanaly.json";
+import aktyora_nado_mordoy_v_govno from "meta/interviews/aktyora_nado_mordoy_v_govno.json";
 
 import ya_posadil_derevo from "meta/music/ya_posadil_derevo.json";
 import i_bratva_za_slova_otvechaet from "meta/music/i_bratva_za_slova_otvechaet.json";

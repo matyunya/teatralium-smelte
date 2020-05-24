@@ -5,9 +5,10 @@ date: 23 октября 2017
 author: Эжен Ионеско
 url: articles/ezhen
 title: Что хотел сказать автор? Отвечает Эжен Ионеско
+customTitle: Что хотел сказать автор?
+subtitle: Отвечает Эжен Ионеско
 type: article
 published: true
-hasCover: true
 ---
 
 ```js exec

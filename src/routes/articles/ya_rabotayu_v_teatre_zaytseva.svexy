@@ -22,7 +22,7 @@ coverClass: "text-white"
 
 # Сезон I {.text-center .uppercase .pt-16 .pb-4 .mb-0}
 
-<div class="mx-auto max-w-md">
+<div class="mx-auto w-64">
   <Image class="rounded-full" src="images/zaytseva/sezon1.jpg" />
 </div>
 
@@ -73,7 +73,7 @@ coverClass: "text-white"
 
 # Сезон II {.text-center .uppercase .pt-32 .pb-4 .mb-0}
 
-<div class="mx-auto max-w-md">
+<div class="mx-auto w-64">
   <Image class="rounded-full" src="images/zaytseva/sezon2.jpg" />
 </div>
 
@@ -97,7 +97,7 @@ coverClass: "text-white"
 
 # Сезон III {.text-center .uppercase .pt-16 .pb-4 .mb-0}
 
-<div class="mx-auto max-w-md">
+<div class="mx-auto w-64">
   <Image class="rounded-full" src="images/zaytseva/sezon3.jpg" />
 </div>
 

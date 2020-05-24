@@ -1,11 +1,10 @@
 <style>
   .cast {
-    background: linear-gradient(lavender, lightGrey);
-    @apply p-2 elevation-4 mb-10 px-4 pr-8;
+    @apply p-2 mb-10 px-4 pr-8 py-10 border border-primary-900;
   }
 
-  :global(.cast em) {
-    @apply small-caps text-sm text-color-unset border-none;
+  :global(.cast strong) {
+    @apply small-caps text-sm text-color-unset text-black border-none;
   }
 
   :global(.cast ul) {
@@ -18,7 +17,7 @@
   }
 </style>
 
-<div class="cast">
-  <h5 class="pt-4 italic text-center">Создатели</h5>
+<div class="cast font-mono">
+  <h5 class="pt-4 italic text-center text-xl uppercase tracking-widest mb-8">Создатели</h5>
   <slot />
 </div>

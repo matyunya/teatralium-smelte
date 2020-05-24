@@ -15,6 +15,7 @@
   export let author = null;
   export let url = null;
   export let title = null;
+  export let customTitle = null;
   export let subtitle = null;
   export const layout = "";
   export let type = null;
@@ -92,9 +93,9 @@
 
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
-    <h1 class="text-center uppercase mb-10">
+    <h1 class="text-center uppercase mb-10 pt-10">
       <span class={subClass}>
-        {@html title.split(':')[0]}
+        {@html customTitle || title.split(':')[0]}
       </span>
     </h1>
     <h2 class="text-center small">
@@ -111,36 +112,50 @@
       <Image
         src="images/blok/cover.jpg"
         alt={post.title}
-        class="object-cover elevation-0 h-screen" />
+        class="object-cover elevation-0 opacity-75 h-screen" />
+    {:else if name === 'miloserdie'}
+      <div
+        alt={post.title}
+        style="background-image: linear-gradient(white, #D473D4, black),
+        url(/images/miloserdie/cover.jpg); background-blend-mode: difference;"
+        class="bg-repeat h-screen" />
     {:else if name === 'playlist_komissara_vsevoloda_lisovskogo'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/lisovsky.gif); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #D473D4),
+        url(/images/otvechaet/lisovsky.gif); background-blend-mode: multiply;"
         class="bg-repeat h-screen opacity-50" />
     {:else if name === 'ya_posadil_derevo'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/avdeev_cover.jpg); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #D473D4),
+        url(/images/otvechaet/avdeev_cover.jpg); background-blend-mode:
+        multiply;"
         class="bg-repeat h-screen" />
     {:else if name === 'i_bratva_za_slova_otvechaet'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #D473D4), url(/images/otvechaet/elutin.jpg); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #D473D4),
+        url(/images/otvechaet/elutin.jpg); background-blend-mode: multiply;"
         class="bg-repeat h-screen" />
     {:else if name === 'poteryanniy_kray'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #c960c9), url(/images/bogomolov/bogomolov_cover.jpg); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #c960c9),
+        url(/images/bogomolov/bogomolov_cover.jpg); background-blend-mode:
+        multiply;"
         class="bg-repeat h-screen" />
     {:else if name === 'vsyo_dvizhetsya'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #D473D4), url(/images/shmykova/small.jpg); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #D473D4),
+        url(/images/shmykova/small.jpg); background-blend-mode: multiply;"
         class="bg-repeat h-screen" />
     {:else if name === 'pahom'}
       <div
         alt={post.title}
-        style="background-image: linear-gradient(black, #D473D4), url(g/images/pahom/cover-600.jpg); background-blend-mode: multiply;"
+        style="background-image: linear-gradient(black, #D473D4),
+        url(g/images/pahom/cover-600.jpg); background-blend-mode: multiply;"
         class="bg-repeat h-screen" />
     {:else if name === 'nogi_zatekayut'}
       <Image
@@ -204,6 +219,7 @@
         class="object-cover elevation-0 h-screen" />
     {:else if name === 'contemporary_artists'}
       <Image
+        class="object-cover"
         src="images/contemporary_artists/cover_contemporary.jpg"
         alt={post.title} />
     {:else if name === 'kon_ne_valyalsya'}

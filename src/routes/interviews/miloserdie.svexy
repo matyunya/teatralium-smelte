@@ -8,6 +8,8 @@ type: interview
 published: true
 author: Анастасия Фоломеева
 subtitle: Драматург Нана Гринштейн и&nbsp;режиссер Анастасия Патлай — о том, как и&nbsp;зачем делать исторические спектакли
+coverClass: "text-white"
+subClass: "text-shadow"
 ---
 
 ```js exec
