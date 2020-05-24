@@ -85,8 +85,8 @@
     as="font"
     type="font/woff2" />
   <meta name="description" content="Театралий :: {title} :: {description}" />
-  <meta property="og:url" content="https://teatralium.com/articles/{name}" />
-  <link rel="canonical" href="https://teatralium.com/articles/{name}"/>
+  <meta property="og:url" content="https://teatralium.com/{url}" />
+  <link rel="canonical" href="https://teatralium.com/articles/{name}" />
   <meta
     name="keywords"
     content="Театралий, Театр, Современный Театр, Несовременный Театр, {title
