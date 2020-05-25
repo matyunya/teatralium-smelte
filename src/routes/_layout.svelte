@@ -64,7 +64,7 @@
     title="player"
     width="100%"
     height="60"
-    sandbox
+    sandbox="allow-scripts"
     src={!$paused && $playing}
     frameborder="0"
     allow="autoplay" />
