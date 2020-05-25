@@ -21,6 +21,10 @@
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
   <meta property="og:image" content="https://teatralium.com{post.image}" />
   <link rel="canonical" href="https://teatralium.com/{post.url}" />
+   <meta
+    property="og:title"
+    content="Театралий *** {post.title} ***"
+  />
   <meta
     name="keywords"
     content="Театралий, Театр, Современный Театр, Несовременный Театр, {post.title

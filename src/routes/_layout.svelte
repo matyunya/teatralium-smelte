@@ -42,8 +42,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta
     property="og:title"
-    content="«Театр — единственная возможность цивилизованной дискуссии» |
-    Театралий" />
+    content="Театралий *** Интересней, чем в театре ***"
+  />
 
   <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
 </svelte:head>
