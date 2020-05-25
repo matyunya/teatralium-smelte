@@ -1,8 +1,6 @@
 <script>
   import { onMount, setContext } from "svelte";
   import Image from "svelte-image";
-
-  import Head from "components/Head.svelte";
   import Date from "components/Date.svelte";
   import Share from "components/Share.svelte";
   import HomeLink from "components/HomeLink.svelte";
@@ -85,8 +83,20 @@
     as="font"
     type="font/woff2" />
   <meta name="description" content="Театралий :: {title} :: {description}" />
+  <title>{post.title}</title>
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="{post.title} | Театралий" />
+  <meta property="og:url" content="https://teatralium.com/{post.url}" />
+  <meta property="og:image" content="https://teatralium.com{post.image}" />
+  <link rel="canonical" href="https://teatralium.com/{post.url}" />
+  <meta property="og:title" content="Театралий *** {post.title} ***" />
+  <meta
+    name="keywords"
+    content="Театралий, Театр, Современный Театр, Несовременный Театр, {post.title
+      .split(' ')
+      .filter(i => i.length > 1)
+      .join(',')}" />
 </svelte:head>
-<Head {post} />
 
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
