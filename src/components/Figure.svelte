@@ -3,7 +3,7 @@
 </script>
 
 <figure class="mb-16 mt-8">
-  <blockquote class="pl-8 italic">
+  <blockquote class="pl-8 italic {$$props.class || ''}">
     <slot />
   </blockquote>
   {#if author}
