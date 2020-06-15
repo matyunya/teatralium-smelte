@@ -8,7 +8,7 @@
   let player = null;
   $: console.lo;
 
-  $: src = `https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=/Teatralium/${mix}/`;
+  $: src = `/Teatralium/${mix}/`;
 </script>
 
 <div class="flex items-center justify-center my-10 mb-20">

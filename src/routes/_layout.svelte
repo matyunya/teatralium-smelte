@@ -3,6 +3,8 @@
 
   export const playing = writable(false);
   export const paused = writable(false);
+
+  let widget;
 </script>
 
 <script>
@@ -19,14 +21,31 @@
 
   export let segment;
 
+  let player;
+
   onMount(() => {
     window.history.scrollRestoration = "auto";
-    window.onbeforeunload = null;
+
+    widget = Mixcloud.PlayerWidget(player);
+    console.log(widget, 'WIDGET');
+    widget.ready.then(function() {
+      console.log('READYL');
+    });
   });
 
   const { preloading, page } = stores();
 
   $: path = $page.path;
+
+  $: if ($playing) {
+    widget.load($playing, true);
+  }
+
+  $: if ($paused) {
+    widget && widget.pause();
+  } else {
+    widget && widget.play();
+  }
 </script>
 
 <svelte:head>
@@ -46,6 +65,7 @@
     content="Театралий *** Интересней, чем в театре ***" />
 
   <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
+  <script src="//widget.mixcloud.com/media/js/widgetApi.js" type="text/javascript"></script>
 </svelte:head>
 
 {#if $playing}
@@ -59,16 +79,15 @@
       {$paused ? 'play_arrow' : 'pause'}
     </i>
   </button>
-  <iframe
-    class="hidden"
-    title="player"
-    width="100%"
-    height="60"
-    sandbox="allow-scripts"
-    src={!$paused && $playing}
-    frameborder="0"
-    allow="autoplay" />
 {/if}
+
+<iframe
+  bind:this={player}
+  class="hidden"
+  title="player"
+  width="100%"
+  frameborder="0"
+/>
 
 {#if $preloading}
   <ProgressLinear app />
