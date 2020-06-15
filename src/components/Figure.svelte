@@ -8,6 +8,6 @@
   </blockquote>
 
   <figcaption class="text-sm text-right">
-    <slot name="author">{author && author || ''}</slot>
+    <slot name="author">{(author && author) || ''}</slot>
   </figcaption>
 </figure>
