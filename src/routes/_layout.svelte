@@ -25,15 +25,17 @@
 
   onMount(() => {
     window.history.scrollRestoration = "auto";
-
-    widget = Mixcloud.PlayerWidget(player);
+    player.onload = (e) => {
+      console.log(e, 'EEEE');
+      mountApi();
+    }
   });
 
   const { preloading, page } = stores();
 
   $: path = $page.path;
 
-  $: if ($playing) {
+  $: if ($playing && widget) {
     widget.load($playing, true);
   }
 
@@ -41,6 +43,12 @@
     widget && widget.pause();
   } else {
     widget && widget.play();
+  }
+
+  function mountApi() {
+    console.log('CALLLED');
+    widget = Mixcloud.PlayerWidget(player);
+    console.log(widget);
   }
 </script>
 
@@ -61,11 +69,6 @@
     content="Театралий *** Интересней, чем в театре ***" />
 
   <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
-  <script
-    src="//widget.mixcloud.com/media/js/widgetApi.js"
-    type="text/javascript">
-
-  </script>
 </svelte:head>
 
 {#if $playing}
@@ -83,8 +86,9 @@
 
 <iframe
   bind:this={player}
-  class="hidden"
   title="player"
+  onload={mountApi}
+  srcdoc="<html></html>"
   width="100%"
   frameborder="0" />
 
