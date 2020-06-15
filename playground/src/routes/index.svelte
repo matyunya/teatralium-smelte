@@ -107,6 +107,7 @@
 
   async function listenSave(e) {
     if (e.code === 'KeyS' && e.metaKey) {
+      e.preventDefault();
       await save();
     }
   }

@@ -6,7 +6,8 @@
   <blockquote class="pl-8 italic {$$props.class || ''}">
     <slot />
   </blockquote>
-  {#if author}
-    <figcaption class="text-sm text-right">{author}</figcaption>
-  {/if}
+
+  <figcaption class="text-sm text-right">
+    <slot name="author">{author && author || ''}</slot>
+  </figcaption>
 </figure>
