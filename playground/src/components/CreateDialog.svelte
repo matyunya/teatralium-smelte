@@ -18,13 +18,13 @@
 // TODO: templates
   const content = `---
 published: true
-author: AUTHOR
-url: articles/*URL*
+author: Виктория Костюкевич
+url: articles/***
 type: article
-title: TITLE
-description: DESC
-date: PUBLISH_DATE
-image: /images/*SHARE_URL*
+title: «Я ушла веселенькая, потому что зрителям понравилось»
+description: Виктория Костюкевич — о создании фестиваля новой драмы во Владивостоке
+type: article
+date: 15 июня 2020
 ---
 
 \`\`\`js exec

@@ -5,6 +5,8 @@ url: articles/metadrama
 title: «Я ушла веселенькая, потому что зрителям понравилось»
 description: Виктория Костюкевич — о создании фестиваля новой драмы во Владивостоке
 type: article
+date: 15 июня 2020
+image: share/metadrama.jpg
 ---
 
 ```js exec
@@ -35,7 +37,6 @@ type: article
 <div class="gallery">
   <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/dsc_2755.jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
   <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/rs_e_(6).jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
-	<Image src="https://primtheatre.ru/uploads/assets/2019/12/12/1-0234.jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
   <div class="small">
 		«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019». Фото: 	https://primtheatre.ru/metadrama
 	</div>
