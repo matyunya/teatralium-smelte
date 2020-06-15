@@ -25,10 +25,15 @@
 
   onMount(() => {
     window.history.scrollRestoration = "auto";
-    player.onload = (e) => {
-      console.log(e, 'EEEE');
-      mountApi();
-    }
+    const promise = Mixcloud.FooterWidget(
+      "/Teatralium/еще-одна-осталась-ночь-у-нас-с-тобой-плейлист-пахома/",
+      {disablePushstate: true}
+    );
+    console.log(promise, 'EEE', Mixcloud);
+    promise.then(function(w) {
+        widget = w;
+        w.play();
+    });
   });
 
   const { preloading, page } = stores();
@@ -36,19 +41,17 @@
   $: path = $page.path;
 
   $: if ($playing && widget) {
-    widget.load($playing, true);
+    console.log($playing, widget, 'callled');
+    widget.load($playing, true).then(() => {
+      console.log('LOADEDDD', widget);
+      widget.togglePlay();
+    });
   }
 
   $: if ($paused) {
-    widget && widget.pause();
+    widget && widget.togglePlay();
   } else {
-    widget && widget.play();
-  }
-
-  function mountApi() {
-    console.log('CALLLED');
-    widget = Mixcloud.PlayerWidget(player);
-    console.log(widget);
+    widget && widget.togglePlay();
   }
 </script>
 
@@ -83,14 +86,6 @@
     </i>
   </button>
 {/if}
-
-<iframe
-  bind:this={player}
-  title="player"
-  onload={mountApi}
-  srcdoc="<html></html>"
-  width="100%"
-  frameborder="0" />
 
 {#if $preloading}
   <ProgressLinear app />

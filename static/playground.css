@@ -8,11 +8,8 @@
 */
 :root {
 	--second: rgba(95, 158, 160, 0.5);
-
-	--back:       	lavender;
 	--back-light: 	#f6fafd;
 	--back-api: 		#eff8ff;
-	--prime:     	lavender;
 	--second:     	#676778;
 	--flash:      	#40b3ff;
 	--heading:	var(--second);
@@ -167,32 +164,6 @@ blockquote p {
 blockquote :last-child {
 	margin: 0;
 }
-
-/*  links ------------------------------------- */
-a {
-	position: relative;
-	padding: 0 0 1px 0;
-	border-bottom: 1px solid currentColor;
-	user-select: none;
-	color: var(--prime);
-	transition: color .2s, border .2s, padding .2s;
-}
-
-a:hover  {
-	color: var(--flash);
-}
-
-a:hover {
-	padding: 0;
-	border-bottom: 2px solid currentColor;
-}
-
-a.no-underline {
-	border-bottom: none;
-	padding: 0;
-}
-
-/* a:hover:not(.disabled) > .icon { stroke: var(--flash) } */
 
 /*  lists ---------------------------------- */
 .listify ol,
