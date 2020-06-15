@@ -27,10 +27,6 @@
     window.history.scrollRestoration = "auto";
 
     widget = Mixcloud.PlayerWidget(player);
-    console.log(widget, 'WIDGET');
-    widget.ready.then(function() {
-      console.log('READYL');
-    });
   });
 
   const { preloading, page } = stores();
@@ -65,7 +61,11 @@
     content="Театралий *** Интересней, чем в театре ***" />
 
   <link rel="sitemap" type="application/xml" href="//sitemap.xml" />
-  <script src="//widget.mixcloud.com/media/js/widgetApi.js" type="text/javascript"></script>
+  <script
+    src="//widget.mixcloud.com/media/js/widgetApi.js"
+    type="text/javascript">
+
+  </script>
 </svelte:head>
 
 {#if $playing}
@@ -86,8 +86,7 @@
   class="hidden"
   title="player"
   width="100%"
-  frameborder="0"
-/>
+  frameborder="0" />
 
 {#if $preloading}
   <ProgressLinear app />
