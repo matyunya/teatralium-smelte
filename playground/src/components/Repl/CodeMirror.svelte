@@ -167,6 +167,7 @@
       indentWithTabs: true,
       indentUnit: 2,
       tabSize: 2,
+      keyMap: 'sublime',
       value: "",
       mode: modes[mode] || {
         name: mode

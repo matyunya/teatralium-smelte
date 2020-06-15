@@ -9,5 +9,6 @@ import 'codemirror/mode/gfm/gfm.js';
 
 import 'codemirror/mode/xml/xml.js';
 import 'codemirror/mode/css/css.js';
+import 'codemirror/keymap/sublime';
 
 export default CodeMirror;

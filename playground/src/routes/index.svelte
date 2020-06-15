@@ -25,7 +25,7 @@
   } from "../util";
 
 	const { page } = stores();
-  
+
   let repl;
   let showInitialDialog = true;
   let showCreateDialog = false;
@@ -67,7 +67,7 @@
         },
         ...await fetchComponentsSource(source),
       ]
-    }); 
+    });
   }
 
   async function selectItem(i) {
@@ -104,8 +104,16 @@
       notifier.notify(result.error || result.toString());
     }
   }
- 
+
+  async function listenSave(e) {
+    if (e.code === 'KeyS' && e.metaKey) {
+      await save();
+    }
+  }
+
 </script>
+
+<svelte:window on:keydown={listenSave} />
 
 <Dialog title="Select item to edit" persistent={!selectedPath} value={showInitialDialog}>
   {#if key && repo}
