@@ -25,34 +25,11 @@
 
   onMount(() => {
     window.history.scrollRestoration = "auto";
-    // const promise = Mixcloud.FooterWidget(
-    //   "/Teatralium/еще-одна-осталась-ночь-у-нас-с-тобой-плейлист-пахома/",
-    //   { disablePushstate: true }
-    // );
-    // console.log(promise, "EEE", Mixcloud);
-    // promise.then(function(w) {
-    //   widget = w;
-    //   w.play();
-    // });
   });
 
   const { preloading, page } = stores();
 
   $: path = $page.path;
-
-  $: if ($playing && widget) {
-    // console.log($playing, widget, "callled");
-    widget.load($playing, true).then(() => {
-      // console.log("LOADEDDD", widget);
-      widget.togglePlay();
-    });
-  }
-
-  $: if ($paused) {
-    widget && widget.togglePlay();
-  } else {
-    widget && widget.togglePlay();
-  }
 </script>
 
 <svelte:head>
