@@ -2,7 +2,6 @@
   let widget;
 </script>
 
-
 <script>
   import { onMount } from "svelte";
   import { Button, Icon } from "smelte";
@@ -13,6 +12,7 @@
 
   $: src = `/Teatralium/${mix}/`;
 </script>
+
 <div class="flex items-center justify-center my-10 mb-20">
   <span class="rounded-full bg-white-transLight px-4">
     <iframe
