@@ -1,13 +1,3 @@
----
-published: true
-author: Наталья Зайцева
-url: articles/rasteniya
-type: article
-title: Продуктивность и забота
-description: Чему растения могут научить театр
-date: 28 июня 2020
----
-
 ```js exec
   import Image from "svelte-image";
   import Video from "components/Video.svelte";
