@@ -83,25 +83,6 @@ h2.small {
   @apply mb-10 mt-4 text-center;
 }
 
-.lead:first-letter {
-  display: block;
-  line-height: 4rem;
-  font-size: 6.5rem;
-  color: #df00ff;
-  float: left;
-
-  @apply mt-3 p-1 pr-4 pb-3 font-bold;
-
-  text-shadow: 1px 1px 1px #b943b9,
-      1px 2px 1px #b943b9,
-      1px 3px 1px #b943b9,
-      1px 4px 1px #b943b9,
-  1px 15px 6px rgba(0,128,128,0.4),
-  1px 20px 20px rgba(0,128,128,0.2),
-  1px 25px 25px rgba(0,128,128,0.2),
-  1px 30px 35px rgba(0,128,128,0.4);
-}
-
 .lead {
   @apply mx-auto max-w-2xl text-xl my-32 px-3;
 }
@@ -171,6 +152,12 @@ ul {
 
 .hued {
   animation: hue-rotate 8s infinite;
+}
+
+.lead:first-letter {
+  color: #ff2aff;
+  line-height: 0.001;
+  @apply font-bold text-4xl;
 }
 
 ul > li {

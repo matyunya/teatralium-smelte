@@ -24,6 +24,7 @@ import mne_ploho_mne_skuchno from "meta/articles/mne_ploho_mne_skuchno.json";
 import net_amnezii from "meta/articles/net_amnezii.json";
 import ponizovsky from "meta/articles/ponizovsky.json";
 import metadrama from "meta/articles/metadrama.json";
+import nim from "meta/articles/nim.json";
 import pokazhi_mne_svoy_urozhay from "meta/articles/pokazhi_mne_svoy_urozhay.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
@@ -58,6 +59,7 @@ import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
 export default [
   pokazhi_mne_svoy_urozhay,
+  nim,
   metadrama,
   ponizovsky,
   zygar,

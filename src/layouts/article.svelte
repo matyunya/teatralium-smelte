@@ -1,5 +1,5 @@
 <script>
-  import { onMount, setContext } from "svelte";
+  import { onMount } from "svelte";
   import Image from "svelte-image";
   import Date from "components/Date.svelte";
   import Share from "components/Share.svelte";
@@ -35,6 +35,12 @@
   };
 
   const name = url.split("/")[1];
+
+  onMount(() => {
+    const lead = document.querySelector('.lead');
+
+    lead.innerHTML = `<span class="hued">${lead.innerHTML[0]}</span>` + lead.innerHTML.slice(1);
+  })
 </script>
 
 <style>
