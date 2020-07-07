@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount } from "svelte";
 
   onMount(() => {
     new Demo({ a: 0.9, b: 0.7, c: -1, d: -1 });
@@ -13,18 +13,23 @@
 
   function renderFragmentShader(gl) {
     const shader = gl.createShader(gl.FRAGMENT_SHADER);
-    gl.shaderSource(shader, `
+    gl.shaderSource(
+      shader,
+      `
   void main() {
     gl_FragColor = vec4(0.0, 0.05, 0.01, 0.1);
   }
-  `);
+  `
+    );
     gl.compileShader(shader);
     return shader;
   }
 
   function renderVertexShader(gl) {
     const shader = gl.createShader(gl.VERTEX_SHADER);
-    gl.shaderSource(shader, `
+    gl.shaderSource(
+      shader,
+      `
   uniform sampler2D u_image;
   uniform vec2 u_size;
   attribute vec2 a_position;
@@ -32,26 +37,32 @@
     gl_Position = vec4(texture2D(u_image, a_position / u_size).xy, 0.0, ${Math.PI});
     gl_PointSize = 1.;
   }
-  `);
+  `
+    );
     gl.compileShader(shader);
     return shader;
   }
 
   function timestepVertexShader(gl) {
     const shader = gl.createShader(gl.VERTEX_SHADER);
-    gl.shaderSource(shader, `
+    gl.shaderSource(
+      shader,
+      `
   attribute vec2 a_position;
   void main() {
     gl_Position = vec4(a_position, 0.0, 1.0);
   }
-  `);
+  `
+    );
     gl.compileShader(shader);
     return shader;
   }
 
   function timestepFragmentShader(gl) {
     const shader = gl.createShader(gl.FRAGMENT_SHADER);
-    gl.shaderSource(shader, `
+    gl.shaderSource(
+      shader,
+      `
   precision mediump float;
   uniform sampler2D u_image;
   uniform vec2 u_size;
@@ -70,7 +81,8 @@
       0.0001
     ) * 1.5;
   }
-  `);
+  `
+    );
     gl.compileShader(shader);
     return shader;
   }
@@ -81,7 +93,7 @@
     gl.attachShader(program, renderFragmentShader(gl));
     gl.linkProgram(program);
     gl.useProgram(program);
-    gl.uniform2f(gl.getUniformLocation(program, 'u_size'), K, K);
+    gl.uniform2f(gl.getUniformLocation(program, "u_size"), K, K);
     gl.useProgram(null);
     return program;
   }
@@ -92,11 +104,11 @@
     gl.attachShader(program, timestepFragmentShader(gl));
     gl.linkProgram(program);
     gl.useProgram(program);
-    const param_a = gl.getUniformLocation(program, 'u_a');
-    const param_b = gl.getUniformLocation(program, 'u_b');
-    const param_c = gl.getUniformLocation(program, 'u_c');
-    const param_d = gl.getUniformLocation(program, 'u_d');
-    const param_time = gl.getUniformLocation(program, 'u_time');
+    const param_a = gl.getUniformLocation(program, "u_a");
+    const param_b = gl.getUniformLocation(program, "u_b");
+    const param_c = gl.getUniformLocation(program, "u_c");
+    const param_d = gl.getUniformLocation(program, "u_d");
+    const param_time = gl.getUniformLocation(program, "u_time");
     gl.useProgram(null);
     return {
       program,
@@ -116,7 +128,17 @@
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, K, K, 0, gl.RGBA, gl.FLOAT, this.a1);
+      gl.texImage2D(
+        gl.TEXTURE_2D,
+        0,
+        gl.RGBA,
+        K,
+        K,
+        0,
+        gl.RGBA,
+        gl.FLOAT,
+        this.a1
+      );
       gl.bindTexture(gl.TEXTURE_2D, null);
 
       return texture;
@@ -129,7 +151,17 @@
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
       gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
-      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, K, K, 0, gl.RGBA, gl.FLOAT, null);
+      gl.texImage2D(
+        gl.TEXTURE_2D,
+        0,
+        gl.RGBA,
+        K,
+        K,
+        0,
+        gl.RGBA,
+        gl.FLOAT,
+        null
+      );
       gl.bindTexture(gl.TEXTURE_2D, null);
       return texture;
     }
@@ -159,7 +191,14 @@
           this.gl.bindTexture(this.gl.TEXTURE_2D, this.t1);
         }
         this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.qb);
-        this.gl.vertexAttribPointer(this.timestepPosition, 2, this.gl.FLOAT, false, 0, 0);
+        this.gl.vertexAttribPointer(
+          this.timestepPosition,
+          2,
+          this.gl.FLOAT,
+          false,
+          0,
+          0
+        );
         this.gl.drawArrays(this.gl.TRIANGLE_STRIP, 0, 4);
         if (i < 7) continue;
 
@@ -168,20 +207,30 @@
         this.gl.enable(this.gl.BLEND);
         this.gl.bindFramebuffer(this.gl.FRAMEBUFFER, null);
         this.gl.bindBuffer(this.gl.ARRAY_BUFFER, this.ib);
-        this.gl.vertexAttribPointer(this.renderPosition, 2, this.gl.UNSIGNED_SHORT, false, 0, 0);
+        this.gl.vertexAttribPointer(
+          this.renderPosition,
+          2,
+          this.gl.UNSIGNED_SHORT,
+          false,
+          0,
+          0
+        );
         this.gl.drawArrays(this.gl.POINTS, 0, K * K);
       }
 
-      setTimeout(
-        () => requestAnimationFrame(this.draw.bind(this)),
-        400
-      );
+      setTimeout(() => requestAnimationFrame(this.draw.bind(this)), 400);
     }
 
     setFb2(gl) {
       const framebuffer = gl.createFramebuffer();
       gl.bindFramebuffer(gl.FRAMEBUFFER, framebuffer);
-      gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, this.t2, 0);
+      gl.framebufferTexture2D(
+        gl.FRAMEBUFFER,
+        gl.COLOR_ATTACHMENT0,
+        gl.TEXTURE_2D,
+        this.t2,
+        0
+      );
       gl.bindFramebuffer(gl.FRAMEBUFFER, null);
       return framebuffer;
     }
@@ -189,7 +238,13 @@
     setFb1(gl) {
       const framebuffer = gl.createFramebuffer();
       gl.bindFramebuffer(gl.FRAMEBUFFER, framebuffer);
-      gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, this.t1, 0);
+      gl.framebufferTexture2D(
+        gl.FRAMEBUFFER,
+        gl.COLOR_ATTACHMENT0,
+        gl.TEXTURE_2D,
+        this.t1,
+        0
+      );
       gl.bindFramebuffer(gl.FRAMEBUFFER, null);
       return framebuffer;
     }
@@ -208,7 +263,11 @@
     setQb(gl) {
       const buffer = gl.createBuffer();
       gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]), gl.STATIC_DRAW);
+      gl.bufferData(
+        gl.ARRAY_BUFFER,
+        new Float32Array([-1, -1, 1, -1, -1, 1, 1, 1]),
+        gl.STATIC_DRAW
+      );
       gl.bindBuffer(gl.ARRAY_BUFFER, null);
       return buffer;
     }
@@ -235,9 +294,13 @@
 
       canvas.width = window.innerWidth * devicePixelRatio;
       canvas.height = window.innerHeight * devicePixelRatio;
-      const gl = canvas.value = canvas.getContext('webgl', { antialias: false, depth: false, preserveDrawingBuffer: true });
+      const gl = (canvas.value = canvas.getContext("webgl", {
+        antialias: false,
+        depth: false,
+        preserveDrawingBuffer: true
+      }));
       this.gl = gl;
-      gl.getExtension('OES_texture_float');
+      gl.getExtension("OES_texture_float");
       gl.blendFunc(gl.ONE, gl.ONE);
 
       this.update(props);
@@ -276,21 +339,24 @@
 
       this.timestepProgram = program;
       this.gl.useProgram(program);
-      this.timestepPosition = this.gl.getAttribLocation(this.timestepProgram, 'a_position');
-      this.gl.uniform2f(this.gl.getUniformLocation(this.timestepProgram, 'u_size'), K, K);
+      this.timestepPosition = this.gl.getAttribLocation(
+        this.timestepProgram,
+        "a_position"
+      );
+      this.gl.uniform2f(
+        this.gl.getUniformLocation(this.timestepProgram, "u_size"),
+        K,
+        K
+      );
       this.gl.useProgram(null);
 
       this.renderProgram = renderProgram(this.gl);
-      this.renderPosition = this.gl.getAttribLocation(this.renderProgram, 'a_position');
-
+      this.renderPosition = this.gl.getAttribLocation(
+        this.renderProgram,
+        "a_position"
+      );
     }
   }
-
 </script>
 
-
-
-<canvas
-  bind:this={canvas}
-  class="absolute w-full h-screen top-0 left-0"
-/>
+<canvas bind:this={canvas} class="absolute w-full h-screen top-0 left-0" />

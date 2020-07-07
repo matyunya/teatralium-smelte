@@ -37,10 +37,12 @@
   const name = url.split("/")[1];
 
   onMount(() => {
-    const lead = document.querySelector('.lead');
+    const lead = document.querySelector(".lead");
 
-    lead.innerHTML = `<span class="hued">${lead.innerHTML[0]}</span>` + lead.innerHTML.slice(1);
-  })
+    lead.innerHTML =
+      `<span class="hued">${lead.innerHTML[0]}</span>` +
+      lead.innerHTML.slice(1);
+  });
 </script>
 
 <style>
