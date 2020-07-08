@@ -3,7 +3,9 @@
   export let post = {};
   export let i = 0;
 
-  function t({ title }) {
+  function t({ title, customTitle }) {
+    if (customTitle) return customTitle;
+
     if (title.includes(":")) {
       return title.split(":")[0];
     }
