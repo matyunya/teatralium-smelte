@@ -40,7 +40,7 @@
     const lead = document.querySelector(".lead");
 
     lead.innerHTML =
-      `<span class="hued">${lead.innerHTML[0]}</span>` +
+      `<span class="hued first-letter">${lead.innerHTML[0]}</span>` +
       lead.innerHTML.slice(1);
   });
 </script>

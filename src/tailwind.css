@@ -154,7 +154,7 @@ ul {
   animation: hue-rotate 8s infinite;
 }
 
-.lead:first-letter {
+.first-letter {
   color: #ff2aff;
   line-height: 0.001;
   @apply font-bold text-4xl;
