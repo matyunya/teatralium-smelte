@@ -7,7 +7,7 @@
 
   let canvas;
 
-  const K = 256 * (devicePixelRatio > 1 ? 2 : 1);
+  const K = process.browser && 256 * (devicePixelRatio > 1 ? 2 : 1);
 
   const delay = t => new Promise(r => setTimeout(() => r(), t));
 
