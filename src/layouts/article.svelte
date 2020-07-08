@@ -31,7 +31,7 @@
     url,
     title,
     subtitle,
-    type,
+    type
   };
 
   const name = url.split("/")[1];

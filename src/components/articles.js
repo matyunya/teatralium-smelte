@@ -26,6 +26,7 @@ import ponizovsky from "meta/articles/ponizovsky.json";
 import metadrama from "meta/articles/metadrama.json";
 import nim from "meta/articles/nim.json";
 import pokazhi_mne_svoy_urozhay from "meta/articles/pokazhi_mne_svoy_urozhay.json";
+import rabota_nad_oshibkami from "meta/articles/rabota_nad_oshibkami.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -61,6 +62,7 @@ export default [
   pokazhi_mne_svoy_urozhay,
   nim,
   metadrama,
+  rabota_nad_oshibkami,
   ponizovsky,
   zygar,
   mestnye,
