@@ -154,6 +154,10 @@ ul {
   animation: hue-rotate 8s infinite;
 }
 
+.darken {
+  backdrop-filter: brightness(10%);
+}
+
 .first-letter {
   color: #ff2aff;
   line-height: 0.001;

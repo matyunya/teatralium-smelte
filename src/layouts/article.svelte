@@ -177,6 +177,11 @@
         src="images/nogi/cover.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'devyanostye'}
+      <Image
+        src="https://akhe.ru/wp-content/uploads/2019/04/IMG_009-1.png"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen hued darken" />
     {:else if name === 'dokumentalnaya_horeografiya'}
       <Image
         src="images/dok_hor/cover.jpg"
