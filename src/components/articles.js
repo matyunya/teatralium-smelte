@@ -27,6 +27,7 @@ import metadrama from "meta/articles/metadrama.json";
 import nim from "meta/articles/nim.json";
 import pokazhi_mne_svoy_urozhay from "meta/articles/pokazhi_mne_svoy_urozhay.json";
 import rabota_nad_oshibkami from "meta/articles/rabota_nad_oshibkami.json";
+import ecodrama from "meta/articles/ecodrama.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -61,6 +62,7 @@ import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
 export default [
+  ecodrama,
   transpersony,
   devyanostye,
   pokazhi_mne_svoy_urozhay,
