@@ -1,12 +1,11 @@
 ---
 published: true
-author: Виктория Костюкевич
-url: articles/***
+author: Наталья Зайцева
+url: articles/ecodrama
+title: Вишневый сад против эрозии почвы
+description: Что такое sustainable theatre и экодрама
 type: article
-title: «Я ушла веселенькая, потому что зрителям понравилось»
-description: Виктория Костюкевич — о создании фестиваля новой драмы во Владивостоке
-type: article
-date: 15 июня 2020
+date: 21 июля 2020
 ---
 
 ```js exec
