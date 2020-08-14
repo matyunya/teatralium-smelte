@@ -36,8 +36,8 @@ image: /share/metadrama.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/dsc_2755.jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/rs_e_(6).jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/11/dsc_2755.jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/11/rs_e_(6).jpg" alt="«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019»" />
   <div class="small">
 		«Служанки» по пьесе Жана Жене южнокорейского театра DOMO на «Метадраме-2019». Фото: 	<a href="https://primtheatre.ru/metadrama">https://primtheatre.ru/metadrama</a>
 	</div>
@@ -58,9 +58,9 @@ image: /share/metadrama.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/12/1-0230.jpg" alt="перформанс «Anti Theatre»" />
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/12/1-0125.jpg" alt="перформанс «Anti Theatre»" />
-	<Image src="https://primtheatre.ru/uploads/assets/2019/12/12/1-0234.jpg" alt="перформанс «Anti Theatre»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/12/1-0230.jpg" alt="перформанс «Anti Theatre»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/12/1-0125.jpg" alt="перформанс «Anti Theatre»" />
+	<Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/12/1-0234.jpg" alt="перформанс «Anti Theatre»" />
   <div class="small">
 		Творческая группа Ассоциации актеров Куала-Лумпура, перформанс «Anti Theatre». Фото: <a href="https://primtheatre.ru/metadrama">https://primtheatre.ru/metadrama</a>
 	</div>
@@ -80,8 +80,8 @@ image: /share/metadrama.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/1-9958.jpg" alt="Променад «Рашен лалабай»" />
-  <Image src="https://primtheatre.ru/uploads/assets/2019/12/11/1-9918.jpg" alt="Променад «Рашен лалабай»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/11/1-9958.jpg" alt="Променад «Рашен лалабай»" />
+  <Image src="https://aiger.s3-ap-northeast-1.amazonaws.com/primtheatre/uploads/assets/2019/12/11/1-9918.jpg" alt="Променад «Рашен лалабай»" />
   <div class="small">
 		Променад «Рашен лалабай», Приморский краевой драматический театр молодежи. Фото: <a href="https://primtheatre.ru/metadrama">https://primtheatre.ru/metadrama</a>.
 	</div>
