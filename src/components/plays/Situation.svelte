@@ -1,7 +1,3 @@
-<script>
-  export let center = false;
-</script>
-
 <style>
   .situation {
     font-style: italic;

@@ -42,6 +42,7 @@ import telegram_kanaly from "meta/interviews/telegram_kanaly.json";
 import aktyora_nado_mordoy_v_govno from "meta/interviews/aktyora_nado_mordoy_v_govno.json";
 import devyanostye from "meta/interviews/devyanostye.json";
 import transpersony from "meta/interviews/transpersony.json";
+import postupleniya from "meta/interviews/postupleniya.json";
 
 import ya_posadil_derevo from "meta/music/ya_posadil_derevo.json";
 import i_bratva_za_slova_otvechaet from "meta/music/i_bratva_za_slova_otvechaet.json";
@@ -62,6 +63,7 @@ import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
 export default [
+  postupleniya,
   ecodrama,
   transpersony,
   devyanostye,
@@ -119,5 +121,5 @@ export default [
   morskoy_tsar_belomor,
   neperevodimiy_russkiy_nadryv,
   lyubimovka,
-  mne_ploho_mne_skuchno
+  mne_ploho_mne_skuchno,
 ];
