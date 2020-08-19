@@ -284,6 +284,13 @@
         src="images/naryady/044.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'soznatelniy_kasting'}
+      <div class="fixed left-0 top-0 w-screen h-screen">
+        <Image
+          src="images/skinnnn.jpg"
+          alt={post.title}
+          class="object-cover elevation-0 h-screen w-screen skin" />
+      </div>
     {/if}
   </div>
 {/if}

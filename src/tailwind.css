@@ -1,4 +1,4 @@
-@import 'smelte/src/tailwind';
+@import "smelte/src/tailwind";
 
 html,
 body {
@@ -12,7 +12,7 @@ img {
 }
 
 body {
-  font-family: 'Bodoni', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Bodoni", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.75;
 }
@@ -34,11 +34,14 @@ p {
   margin-bottom: 1.7em;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1.414em 0 0.707em;
   line-height: 1.2;
   font-weight: 600;
-  font-family: 'Bodoni', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Bodoni", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h3 {
@@ -63,14 +66,14 @@ h2.small {
 }
 
 @font-face {
-  font-family: 'Bodoni';
+  font-family: "Bodoni";
   src: url(/fonts/bodoni-regular.woff2);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Bodoni';
+  font-family: "Bodoni";
   src: url(/fonts/bodoni-bold.woff2);
   font-weight: bold;
   font-style: normal;
@@ -118,7 +121,8 @@ ul {
   color: inherit;
 }
 
-.q::before, .a::before {
+.q::before,
+.a::before {
   content: "— ";
   position: absolute;
   margin-left: -26px;
@@ -129,9 +133,15 @@ ul {
 }
 
 @keyframes skew {
-  0%   { transform: skew(0deg, 0deg) }
-  50%   { transform: skew(5deg) }
-  100%   { transform: skew(0deg, 0deg) }
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  50% {
+    transform: skew(5deg);
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+  }
 }
 
 .skewed {
@@ -141,17 +151,36 @@ ul {
 .poem {
   color: #a669c8;
   padding-left: 2rem;
-  font-family: 'Courier New';
+  font-family: "Courier New";
   font-size: 1.6rem;
 }
 
 @keyframes hue-rotate {
-  0%, 100%  { filter: hue-rotate(0deg); }
-  50% { filter: hue-rotate(360deg); }
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(360deg);
+  }
 }
 
 .hued {
   animation: hue-rotate 8s infinite;
+}
+
+@keyframes sepia-rotate {
+  0%,
+  100% {
+    filter: sepia(100%) saturate(80%) contrast(90%);
+  }
+  50% {
+    filter: sepia(0) saturate(120%) contrast(120%);
+  }
+}
+
+.skin {
+  animation: sepia-rotate 500s infinite;
 }
 
 .darken {
@@ -265,11 +294,11 @@ p.small {
 }
 
 .with-shadow {
-  box-shadow: 1px -4px 20px -5px rgba(102,51,153,.68);
+  box-shadow: 1px -4px 20px -5px rgba(102, 51, 153, 0.68);
 }
 
 .text-shadow {
-  text-shadow: 0 4px 10px  rgba(102,51,153,1);
+  text-shadow: 0 4px 10px rgba(102, 51, 153, 1);
 }
 
 .blend {
@@ -280,5 +309,11 @@ p.small {
 }
 
 .bg-white-transLight {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#soznatelniy_kasting section,
+#soznatelniy_kasting .lead {
+  background: rgba(0, 0, 0, 0.7);
+  @apply p-4 text-white;
 }
