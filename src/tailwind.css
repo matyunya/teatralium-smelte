@@ -169,20 +169,6 @@ ul {
   animation: hue-rotate 8s infinite;
 }
 
-@keyframes sepia-rotate {
-  0%,
-  100% {
-    filter: sepia(100%) saturate(80%) contrast(90%);
-  }
-  50% {
-    filter: sepia(0) saturate(120%) contrast(120%);
-  }
-}
-
-.skin {
-  animation: sepia-rotate 500s infinite;
-}
-
 .darken {
   backdrop-filter: brightness(10%);
 }
@@ -310,10 +296,4 @@ p.small {
 
 .bg-white-transLight {
   background: rgba(255, 255, 255, 0.2);
-}
-
-#soznatelniy_kasting section,
-#soznatelniy_kasting .lead {
-  background: rgba(0, 0, 0, 0.7);
-  @apply p-4 text-white;
 }
