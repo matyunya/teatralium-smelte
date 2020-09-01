@@ -33,33 +33,7 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0 hued">
-
-<div class="my-16 flex overflow-hidden h-32">
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/edvard-munch.png/" />
-	</div>
-	</div>
-
-
+<div style="background: #80ffbf; background-image: url(https://img.icons8.com/nolan/256/edvard-munch.png/); background-size: 8rem" class="py-0 hued h-32 my-20 bg-repeat-x w-full">
 </div>
 
 <section>
@@ -83,32 +57,7 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0 hued">
-
-<div class="my-16 flex overflow-hidden h-32">
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/homer-simpson.png/" />
-	</div>
-	</div>
-
+<div style="background: #80ffbf; background-image: url(https://img.icons8.com/nolan/256/homer-simpson.png/); background-size: 8rem" class="py-0 hued h-32 my-20 bg-repeat-x w-full">
 </div>
 
 <section>
@@ -121,13 +70,13 @@ date: 21 августа 2020
 В статье «Дифференциация постановки...» впервые в прямой связи с фактами театральной истории автор говорил о герменевтике, методологически объясняя принципиальную неисчерпаемость возможных интерпретаций классических произведений. Но более важна для нашей темы вторая работа Шпета: «Театр как искусство» (автор представил ее впервые на лекции в Камерном театре у Таирова). В ней Шпет вслед за Зиммелем рассматривал театр как самостоятельную художественную практику, споря с теми, кто ставил под сомнение принадлежность сцены к искусству:
 </section>
 
-<div style="background: #80ffbf">
+<div style="background: #80ffdf" class="pt-8 pb-4 my-16 font-mono">
 
 <section>
-<div class="py-8">
+
 
 «Театральное действие есть <...> какое-то условное, символическое действие, есть знак чего-то, а не само действительное что-то, произведенное <...> Проблема этой <i>условности</i> и есть собственно проблема театра: театр как таковой ищет ее практического решения, всякая теория театра как искусства ищет ее теоретического оправдания, — писал Шпет. — Материал сценического искусства требует размещения во времени и трехмерном пространстве. <...> Художественное творчество и в своем смысле, и в своем осуществлении есть искусство созидания внутренних форм. <...> Та „действительность“, которая создается искусством, не есть окружающая нас действительность нашего жизненно-практического опыта <...> а есть действительность особых свойств и <i>особого</i> восприятия — действительность <i>отрешенная</i>».
-</div>
+
 
 </section>
 
@@ -141,13 +90,12 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0">
+<div style="background: #80ffdf" class="pt-8 pb-4 my-16 font-mono">
 
 <section>
-<div class="py-8">
+
 
 «Театр представляет из себя самостоятельное искусство. Специфичность его состоит в том, что предмет искусства дан в трехмерном пространстве и во времени, что материал, из которого он строится, своеобразен и неповторим, что внутренние формы, которые этот материал оформляют, отличны от внутренних форм всех других искусств».
-</div>
 
 </section>
 
@@ -159,13 +107,12 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0">
+<div style="background: #80ffdf" class="pt-8 pb-4 my-16 font-mono">
 
 <section>
-<div class="py-8">
+
 
 «Театральное действие есть изображение человеческих характеров с душевным строем. Все средства актера служат целям такой экспрессии. Воспринимаемый нами предмет есть экспрессивность, получившая художественное оформление. Т. к. всякое выразительное, экспрессивное движение есть жест в широком смысле слова, то все театральное действие может быть определено как развернутый жест. Анализируя понятие жеста, взятого в таком смысле, исследуя ему присущие формы, мы можем открыть существо театрального действия».
-</div>
 
 </section>
 
@@ -187,32 +134,7 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0 hued">
-
-<div class="my-16 flex overflow-hidden h-32">
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	<div class="w-40">
-		<Image src="https://img.icons8.com/nolan/256/reddit.png" />
-	</div>
-	</div>
-
+<div style="background: #80ffbf; background-image: url(https://img.icons8.com/nolan/256/reddit.png); background-size: 8rem" class="py-0 hued h-32 my-20 bg-repeat-x w-full">
 </div>
 
 <section>
@@ -231,32 +153,7 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0 hued">
-
-<div class="my-16 flex overflow-hidden h-32">
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	<div class="w-40 h-24">
-		<Image src="https://img.icons8.com/nolan/256/starbucks.png" />
-	</div>
-	</div>
-
+<div style="background: #80ffbf; background-image: url(https://img.icons8.com/nolan/256/starbucks.png); background-size: 8rem" class="py-0 hued h-32 my-20 bg-repeat-x w-full">
 </div>
 
 <section>
@@ -288,13 +185,12 @@ date: 21 августа 2020
 
 </section>
 
-<div style="background: #80ffbf" class="py-0">
+<div style="background: #80ffdf" class="pt-8 pb-4 my-16 font-mono">
 
 <section>
-<div class="py-8">
+
 
 «Пора отказаться от положения, что в театре наряду с жестом мы имеем слово, имеем музыку и т. д. Стихия театра есть жест. Это есть не декларация, а указание специфичности предмета. Контекст театра есть сфера игры, осознаваемой как представление и как воплощение лиц. Это принципиально заставляет нас интерпретировать всю действительность театра в аспекте жеста — будет ли это слово, декорация, музыка и т. д. Анализ жеста может вскрыть весь предмет театра. В жесте даются многочисленные „мы“, строящие театр. Эти формы могут даваться и в иных носителях — в декорациях, музыке, слове и т.д. Иного пути для раскрытия театра как целого — нет. <...> Задача исследования — читать само целостное выражение». <...>
-</div>
 
 </section>
 
@@ -304,8 +200,7 @@ date: 21 августа 2020
 
 Итак, позиции людей театра и теоретиков искусства разошлись. Философы полагали, что предмет театра ничем не отличен от прочих искусств и потому может быть изучаем так же, как они (Шор, Жинкин, Якобсон). Люди же театра исходили из убеждения, что театр столь же непознаваем, как сновидение. <...>
 
-<br>
-<br>
+
 <a href="https://icons8.com/icon/63745/numbers">Numbers icon by Icons8</a>
 
 </section>
