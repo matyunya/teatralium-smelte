@@ -29,6 +29,7 @@ import pokazhi_mne_svoy_urozhay from "meta/articles/pokazhi_mne_svoy_urozhay.jso
 import rabota_nad_oshibkami from "meta/articles/rabota_nad_oshibkami.json";
 import ecodrama from "meta/articles/ecodrama.json";
 import soznatelniy_kasting from "meta/articles/soznatelniy_kasting.json";
+import teatralnaya_sekciya_gahn from "meta/articles/teatralnaya_sekciya_gahn.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -64,6 +65,7 @@ import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
 export default [
+  teatralnaya_sekciya_gahn,
   soznatelniy_kasting,
   postupleniya,
   ecodrama,

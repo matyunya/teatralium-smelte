@@ -6469,10 +6469,10 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-image@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.2.6.tgz#88da8f819386c4ad88ef6b97b25df45ea9cee5ae"
-  integrity sha512-VzA/iNg++LuYBMdhWoPwCze+X9taTaZvz/7g1Cdhb84OIWuUY2Lz+yTR75sm3ZUXklJVqatC6xAJzjJBrwee+g==
+svelte-image@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.2.7.tgz#ab03372ecc20afbae84e2693756030eb2508417c"
+  integrity sha512-/d2Qf9ZIZ/4qeguvcTO0u65vkh91AgXCSNT7sgELKPQvCzH47gvo0eRpMIJtZIPMtZflnvhvU8biIwFps4SZAA==
   dependencies:
     axios "^0.19.2"
     potrace latest
