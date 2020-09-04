@@ -18,7 +18,7 @@ date: 2 сентября 2020
 
 <section>
 
-<div class="font-mono text-sm my-4 p-6 border-black border-2">
+<div class="font-mono text-sm my-4 p-6 border-primary-500 border-2">
 
 **ПРОЧИТАЙТЕ ВНИМАТЕЛЬНО ИНФОРМАЦИЮ!**
 
@@ -32,7 +32,7 @@ date: 2 сентября 2020
 
 </div>
 
-<div class="font-mono text-sm my-4 p-6 border-black border-2">
+<div class="font-mono text-sm my-4 p-6 border-secondary-500 border-2">
 
 Москва и Московская область‼ **Срочно**❗
 
@@ -40,7 +40,7 @@ date: 2 сентября 2020
 
 </div>
 
-<div class="font-mono text-sm my-4 p-6 border-black border-2">
+<div class="font-mono text-sm my-4 p-6 border-alert-500 border-2">
 
 **Требуются: азиатка.**
 1 женщина 25–45 лет. По сюжету официантка в японском ресторане (наливает чай). <i>Желательно с опытом работы.</i>
@@ -48,13 +48,13 @@ date: 2 сентября 2020
 
 </div>
 
-<div class="font-mono text-sm my-4 p-6 border-black border-2">
+<div class="font-mono text-sm my-4 p-6 border-blue-500 border-2">
 
 Нужен мужчина 30–50 лет. Кавказской либо азиатской внешности. По сюжету продавец шаурмы. <i>Возможно, будет пара фраз.</i>
 
 </div>
 
-<div class="font-mono text-sm my-4 p-6 border-black border-2">
+<div class="font-mono text-sm my-4 p-6 border-primary-a200 border-2">
 
 Для съемки популярного сериала «Кухня» ТРЕБУЕТСЯ:
 Мужчина 24–30 лет, азиатской внешности, спортивного телосложения, подкачанный, игровой! По сюжету массажист в отеле, нужно будет выкладывать камни на спину актера. **Будет реплика!**
@@ -63,10 +63,10 @@ date: 2 сентября 2020
 
 </section>
 
-### Азиз Бейшеналиев {.text-center .mt-16 .mb-4}
+### Азиз Бейшеналиев {.text-center .mt-24 .mb-8}
 
 <div class="m-auto max-w-full mb-8" style="width: 20rem">
-  <Image src="images/neformat_dok/aziz.jpg" />
+  <Image src="images/neformat_dok/aziz_.jpg" />
 </div>
 
 <section>
@@ -82,10 +82,10 @@ date: 2 сентября 2020
 </section>
 
 
-### Джан Бадмаев {.text-center .mt-16 .mb-4}
+### Джан Бадмаев {.text-center .mt-24 .mb-8}
 
 <div class="m-auto max-w-full mb-8" style="width: 20rem">
-  <Image src="images/neformat_dok/djan.jpg" />
+  <Image src="images/neformat_dok/djan_.jpg" />
 </div>
 
 <section>
@@ -101,10 +101,10 @@ date: 2 сентября 2020
 </section>
 
 
-### Рафаэль Дурноян {.text-center .mt-16 .mb-4}
+### Рафаэль Дурноян {.text-center .mt-24 .mb-8}
 
 <div class="m-auto max-w-full mb-8" style="width: 20rem">
-  <Image src="images/neformat_dok/rafael.jpg" />
+  <Image src="images/neformat_dok/rafael_.jpg" />
 </div>
 
 <section>
@@ -120,10 +120,10 @@ date: 2 сентября 2020
 </section>
 
 
-### Наргис Абдуллаева {.text-center .mt-16 .mb-4}
+### Наргис Абдуллаева {.text-center .mt-24 .mb-8}
 
 <div class="m-auto max-w-full mb-8" style="width: 20rem">
-  <Image src="images/neformat_dok/nargis.jpg" />
+  <Image src="images/neformat_dok/nargis_.jpg" />
 </div>
 
 <section>
@@ -137,10 +137,10 @@ date: 2 сентября 2020
 </section>
 
 
-### Феруза Рузиева {.text-center .mt-16 .mb-4}
+### Феруза Рузиева {.text-center .mt-24 .mb-8}
 
 <div class="m-auto max-w-full mb-8" style="width: 20rem">
-  <Image src="images/neformat_dok/feruza.jpg" />
+  <Image src="images/neformat_dok/feruza_.jpg" />
 </div>
 
 <section>
