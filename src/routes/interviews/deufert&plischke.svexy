@@ -1,11 +1,12 @@
 ---
 published: true
-author: Виктория Костюкевич
-url: articles/deufert&plischke
+author: Ольга Тараканова
+url: interviews/deufert&plischke
 type: interview
 title: «Все в восторге от Фабра и Кастеллуччи. А мы думаем: „Зачем?“»
 description: Интервью с немецкой командой deufert&plischke
 date: 17 сентября 2020
+image: /share/devyanostye.png
 ---
 
 ```js exec
