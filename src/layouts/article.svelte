@@ -14,6 +14,7 @@
   export let url = null;
   export let title = null;
   export let customTitle = null;
+  export let useDescription = null;
   export let subtitle = null;
   export const layout = "";
   export let type = null;
@@ -31,7 +32,8 @@
     url,
     title,
     subtitle,
-    type
+    type,
+    useDescription,
   };
 
   const name = url.split("/")[1];
@@ -102,7 +104,7 @@
     name="keywords"
     content="Театралий, Театр, Современный Театр, Несовременный Театр, {post.title
       .split(' ')
-      .filter(i => i.length > 1)
+      .filter((i) => i.length > 1)
       .join(',')}" />
 </svelte:head>
 

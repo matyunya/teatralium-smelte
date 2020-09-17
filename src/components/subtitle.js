@@ -1,4 +1,11 @@
-export default function subtitle({ title, subtitle, description }) {
+export default function subtitle({
+  title,
+  subtitle,
+  description,
+  useDescription,
+}) {
+  if (useDescription) return description;
+
   if (subtitle !== null && subtitle !== undefined) {
     return subtitle;
   }
