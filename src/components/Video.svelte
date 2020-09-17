@@ -37,7 +37,7 @@
 </style>
 
 <div class="wrapper cursor-pointer my-16" on:click={() => (disabled = false)}>
-  {#if url}
+  {#if url && !id}
     <iframe
       class="abs"
       src={url}

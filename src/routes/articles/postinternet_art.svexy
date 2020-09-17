@@ -6,6 +6,7 @@ type: article
 title: Настоящие жирафы не такие большие и яркие
 description: Как интернет-образы работают в реальном мире
 date: 15 сентября 2020
+image: /share/postinternet.jpg
 ---
 
 ```js exec
@@ -31,10 +32,10 @@ date: 15 сентября 2020
 </section>
 
 <div class="gallery">
-  <Image src="http://www.newgalerie.com/artists/14/images/1992.jpg" alt="Арти Виркант, «Image Objects»" />
+  <img src="http://www.newgalerie.com/artists/14/images/1992.jpg" alt="Арти Виркант, «Image Objects»" />
 	<div class="small">
 		Арти Виркант, «Image Objects»
-		</div>
+	</div>
   <Image src="https://miro.medium.com/max/5860/1*EcDNLPip2nQLZm8Bw16q_A.jpeg" alt="Петра Кортрайт, «Celebrity addresses/fiji firing tour squad»" />
   <div class="small">
 		Петра Кортрайт, «Celebrity addresses/fiji firing tour squad»

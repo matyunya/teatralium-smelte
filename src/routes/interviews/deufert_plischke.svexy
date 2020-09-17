@@ -5,9 +5,12 @@ url: interviews/deufert_plischke
 type: interview
 title: >
   «Все в восторге от Фабра и Кастеллуччи. А мы думаем: „Зачем?“»
+customTitle: >
+  «Все в восторге от Фабра и Кастеллуччи. А мы думаем: „Зачем?“»
+subtitle: " "
 description: Интервью с немецкой командой deufert&plischke
 date: 17 сентября 2020
-image: /share/devyanostye.png
+image: /share/deufert.jpg
 ---
 
 ```js exec
@@ -18,13 +21,13 @@ image: /share/devyanostye.png
 
 В подводке к этому интервью просто хочется сказать, что это очень приятное интервью. Оно войдет в топ лучших интервью, что вы прочтете за этот год. Все потому, что в нем deufert&plischke, немецкий танцевально-семейный дуэт, рассказывает о том, как жить, работать и общаться друг с другом. Ладно, еще они ругают одежду из масс-маркета, режиссера Ромео Кастеллуччи, американский танцевальный постмодерн, устные дискуссии и стремление режиссеров «создавать образы». Но это самая добрая критика, которую вы можете представить. Каттрин Дойферт и Томас Плишке встретились двадцать лет назад и с тех пор делают коллаборативный, а не режиссерский театр. Они не так известны, как [Rimini Protokoll](https://teatralium.com/reviews/zloveschaya_dolina/) или [She She Pop](https://teatralium.com/interviews/sheshepop/), зато они очень подробно описывают свои художественные методы, так что эти так называемые протоколы любой легко может применить в творчестве, работе и вообще везде.{.lead}
 
+<section>
+
 <div class="my-16" style="background: #ffccdb">
   <div class="mx-auto w-46 py-8">
-    <Image src="https://spark.adobe.com/page/n1CLhRiFf6pxZ/images/f34ac602-bfda-44bc-ab32-a2a3fa2dd7b2.jpg?asset_id=02f6d204-731c-4a94-9f72-4a3008095c0d&img_etag=%22ebc35e8c5ffe92ae435c4eb7e9710e77%22&size=1024" class="skewed elevation-0" />
+    <Image src="images/deufert.jpg" class="skewed elevation-0" />
   </div>
 </div>
-
-<section>
 
 <img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-16  mt-32" />
 
@@ -181,7 +184,8 @@ images/СКРИН.jpg
 
 <Image
 	src="https://spark.adobe.com/page/n1CLhRiFf6pxZ/images/ff3ab7ba-8860-4677-9329-e7bac1e23d20.jpg?asset_id=e1d21d99-5637-4edd-a8d2-8a72843e6516&img_etag=%221014316b81c2e72ef99a0fb0723bba4d%22&size=1024"
-	alt="What Are You Afraid of?"/>
+	alt="What Are You Afraid of?"
+/>
 Перформанс «Чего ты боишься? / What Are You Afraid of?» показывали в Музее русского импрессионизма{.small}
 
 Но работа с Лизой отличалась от обычной работы с ассистентом. Мы объясняли каждый элемент перформанса, чтобы, когда у перформеров возникали вопросы, она могла на них ответить. Или у персонала музея: например, им обычно не нравится, когда в их пространстве используют маркеры, и нужно было объяснять, что картины мы не испортим. Но самое ценное — дискуссии, которые возникают в процессе. Мы рассказывали перформерам о нашем подходе к феминизму, Лиза тоже дополняла. Перформанс — это не только продукт, который видят зрители, это еще и все эти мелочи в процессе.
