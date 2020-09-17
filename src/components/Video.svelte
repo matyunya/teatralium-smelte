@@ -36,7 +36,9 @@
   }
 </style>
 
-<div class="wrapper cursor-pointer my-16" on:click={() => (disabled = false)}>
+<div
+  class="wrapper cursor-pointer my-16 {$$props.class}"
+  on:click={() => (disabled = false)}>
   {#if url && !id}
     <iframe
       class="abs"
