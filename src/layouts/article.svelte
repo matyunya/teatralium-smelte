@@ -33,7 +33,7 @@
     title,
     subtitle,
     type,
-    useDescription,
+    useDescription
   };
 
   const name = url.split("/")[1];
@@ -104,7 +104,7 @@
     name="keywords"
     content="Театралий, Театр, Современный Театр, Несовременный Театр, {post.title
       .split(' ')
-      .filter((i) => i.length > 1)
+      .filter(i => i.length > 1)
       .join(',')}" />
 </svelte:head>
 
