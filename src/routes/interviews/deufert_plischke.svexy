@@ -32,12 +32,12 @@ image: /share/deufert.jpg
   </div>
 </div>
 
-<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-40 mx-auto rounded-full my-1 mt-32" />
-
 </section>
 
+	
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-32" />
 
-### «Письма — политически значимая форма общения»{.text-center}
+#### «Письма — политически значимая форма общения»{.text-center .bg-alert-100 .p-8 .uppercase .tracking-wider .mt-4 .mb-12}
 
 <section>
 
@@ -104,7 +104,7 @@ image: /share/deufert.jpg
 
 </section>
 
-### «Мы хотим не иллюстрировать идеи, а вносить вклад в теорию средствами перформанса»{.text-center}
+#### «Мы хотим не иллюстрировать идеи, а вносить вклад в теорию средствами перформанса»{.text-center .bg-alert-100 .p-8 .uppercase .tracking-wider .mt-4 .mb-12}
 
 <section>
 
@@ -137,7 +137,7 @@ image: /share/deufert.jpg
 
 </section>
 
-### «Семья — это минимальная политическая единица, в которой у нас есть возможность строить другое завтра»{.text-center}
+#### «Семья — это минимальная политическая единица, в которой у нас есть возможность строить другое завтра»{.text-center .bg-alert-100 .p-8 .uppercase .tracking-wider .mt-4 .mb-12}
 
 <section>
 
@@ -180,7 +180,7 @@ image: /share/deufert.jpg
 
 </section>
 
-### «Сколько, оказывается, денег у государства! В каких подвалах они раньше держали все эти деньги?»{.text-center}
+#### «Сколько, оказывается, денег у государства! В каких подвалах они раньше держали все эти деньги?»{.text-center .bg-alert-100 .p-8 .uppercase .tracking-wider .mt-4 .mb-12}
 
 <section>
 
@@ -220,7 +220,7 @@ image: /share/deufert.jpg
 
 </section>
 
-### «Мы вышли из университетских кругов и порвали все связи с ними»{.text-center}
+#### «Мы вышли из университетских кругов и порвали все связи с ними»{.text-center .bg-alert-100 .p-8 .uppercase .tracking-wider .mt-4 .mb-12}
 
 <section>
 
