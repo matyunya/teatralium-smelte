@@ -9,7 +9,7 @@ customTitle: >
   «Все в восторге от Фабра и Кастеллуччи. А мы думаем: „Зачем?“»
 useDescription: true
 description: Интервью с немецкой командой deufert&plischke
-date: 17 сентября 2020
+date: 18 сентября 2020
 image: /share/deufert.jpg
 ---
 
@@ -62,7 +62,7 @@ image: /share/deufert.jpg
 <div class="gallery p-6" style="background: #ffccdb">
   <Image src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/fe9a7eeb0941ba9091adf8788e0f7b6c/2aa9abac-7aee-4f60-8b0b-b856f1f46d87_rw_600.jpg?h=c6b5e5c2c258c36f72dc0fc1574f8f0a" alt="«KonSequenzen»" />
   <Image src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/fe9a7eeb0941ba9091adf8788e0f7b6c/9fd22443-ffc4-4953-a134-aae470ff42e5_rw_600.jpg?h=11da499e46cfb2eac6da9659831a0e19" alt="«KonSequenzen»" />
-	<Image src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/fe9a7eeb0941ba9091adf8788e0f7b6c/c5b6e9-cbaf-4db5-aa13-497cb24308fe_rw_600.jpg?h=a435d2478c744666b0cb18c1b5f85a96" alt="«KonSequenzen»" />
+	<Image src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/fe9a7eeb0941ba9091adf8788e0f7b6c/08f0e1081e30017bc5b8ba7a.jpg?h=e3e7ce191150d40d0a61fca5d7cb9fa2" alt="«KonSequenzen»" />
 	<Image src="https://pro2-bar-s3-cdn-cf3.myportfolio.com/fe9a7eeb0941ba9091adf8788e0f7b6c/43278aab-c1ba-426f-8b1a-60bac71778c4_rw_600.jpg?h=8ab4aaf6d5cb074eef20b6b411b0ec08" alt="«KonSequenzen»" />
   <div class="small">
 		«KonSequenzen», фото: <a href="https://deufertandplischke.net/konsequenzen">deufertandplischke.net</a>
@@ -107,7 +107,7 @@ image: /share/deufert.jpg
 
 </section>
 
-<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12 leading-4">
+<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12 leading-8">
 <img src="https://64.media.tumblr.com/5797e23a620fabfbcab57cad59703a83/9c98c96321223ea3-4d/s400x600/e367ea7a951618a5f534aac8ee2a3309b09f6018.gifv" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
 	
 #### «Мы хотим не иллюстрировать идеи, а вносить вклад в теорию средствами перформанса»
@@ -144,7 +144,7 @@ image: /share/deufert.jpg
 
 </section>
 
-<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12">
+<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12 leading-8">
 <img src="https://64.media.tumblr.com/af83dcc07f5b5d984985ba6fb9967968/b7098f1f87d8474d-6e/s500x750/eaf27206215d8303372417e79b2be54f9389ba75.gifv" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
 	
 #### «Семья — это минимальная политическая единица, в которой у нас есть возможность строить другое завтра»
@@ -189,7 +189,7 @@ image: /share/deufert.jpg
 
 </section>
 
-<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12">
+<div class="text-center bg-blue-100 p-8 uppercase tracking-wider mt-16 mb-12 leading-8">
 <img src="https://64.media.tumblr.com/6fd633a42e417813d74e13ce40af12c9/7321d5cb8e99e58f-0d/s540x810/18b75023dfa0f69b94aa5b6b728e9a22718ac380.gifv" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
 	
 #### «Сколько, оказывается, денег у государства! В каких подвалах они раньше держали все эти деньги?»
