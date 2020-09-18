@@ -95,8 +95,8 @@
   <meta name="description" content="Театралий :: {title} :: {description}" />
   <title>{post.title}</title>
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="{post.description} | Театралий" />
-  <meta property="og:title" content={post.title} />
+  <meta property="og:description" content="{post.description.replace(/\n/g, "")} | Театралий" />
+  <meta property="og:title" content={post.title.replace(/\n/g, "")} />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
   <meta property="og:image" content="https://teatralium.com{post.image}" />
   <link rel="canonical" href="https://teatralium.com/{post.url}" />
