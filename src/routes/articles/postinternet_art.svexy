@@ -50,15 +50,15 @@ image: /share/postinternet.jpg
 
 <div class="gallery">
 	<div class="small">
-  <Image src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idP9NQt6CZCs/v0/1000x-1.jpg" alt="Матьё Трамблен, «Watermark»" />
+  	<Image src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/idP9NQt6CZCs/v0/1000x-1.jpg" alt="Матьё Трамблен, «Watermark»" />
 		Матьё Трамблен, «Watermark»
-		</div>
+	</div>
 	<div class="small">
-  <Image src="https://images.squarespace-cdn.com/content/v1/56e33409d210b8a4c7e973c9/1536092401069-MFG2OJFANNX02CC2L6LR/ke17ZwdGBToddI8pDm48kPg3kkMSlDqGprD-21e6kCJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIpppx-FWaxK7i6rVdWZNGy6SGN0ZVlswpj22aI6j1zesKMshLAGzx4R3EDFOm1kBS/masuda-toshiya-1.jpg" alt="Тосия Масуда, «Low pixel CG»" />
+		<Image src="https://images.squarespace-cdn.com/content/v1/56e33409d210b8a4c7e973c9/1536092401069-MFG2OJFANNX02CC2L6LR/ke17ZwdGBToddI8pDm48kPg3kkMSlDqGprD-21e6kCJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIpppx-FWaxK7i6rVdWZNGy6SGN0ZVlswpj22aI6j1zesKMshLAGzx4R3EDFOm1kBS/masuda-toshiya-1.jpg" alt="Тосия Масуда, «Low pixel CG»" />
 		Тосия Масуда, «Low pixel CG»
 	</div>
 	<div class="small">
-	<Image src="https://64.media.tumblr.com/b8695a80617e8292eda43730bf44c555/tumblr_ordlh6aVAU1t3t6f3o2_r2_500.jpg" alt="Майкл Педерсон, «Suspended text»" />
+		<Image src="https://64.media.tumblr.com/b8695a80617e8292eda43730bf44c555/tumblr_ordlh6aVAU1t3t6f3o2_r2_500.jpg" alt="Майкл Педерсон, «Suspended text»" />
 		Майкл Педерсон, «Suspended text»
 	</div>
 </div>
@@ -77,15 +77,15 @@ image: /share/postinternet.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://i.pinimg.com/originals/b5/fc/c1/b5fcc14567b281c17216307a5914a0fc.jpg" alt="Рой Лихтенштейн, «Drowning Girl»" />
 	<div class="small">
+  	<Image src="https://i.pinimg.com/originals/b5/fc/c1/b5fcc14567b281c17216307a5914a0fc.jpg" alt="Рой Лихтенштейн, «Drowning Girl»" />
 		Рой Лихтенштейн, «Drowning Girl»
-		</div>
-  <Image src="https://upload.wikimedia.org/wikipedia/ru/4/46/%D0%91%D1%83-%D1%83%D1%85%21_%28%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0%29.jpg" alt="Рой Лихтенштейн, «Whaam!»" />
+	</div>
   <div class="small">
+  	<Image src="https://upload.wikimedia.org/wikipedia/ru/4/46/%D0%91%D1%83-%D1%83%D1%85%21_%28%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%B0%29.jpg" alt="Рой Лихтенштейн, «Whaam!»" />
 		Рой Лихтенштейн, «Whaam!»
 	</div>
-		</div>
+</div>
 
 <section>
 
@@ -96,15 +96,15 @@ image: /share/postinternet.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://www.museothyssen.org/sites/default/files/imagen/obras/1977.93_cabinas-telefonicas.jpg" alt="Ричард Эстес, «Телефонные будки»" />
 	<div class="small">
+  <Image src="https://www.museothyssen.org/sites/default/files/imagen/obras/1977.93_cabinas-telefonicas.jpg" alt="Ричард Эстес, «Телефонные будки»" />
 		Ричард Эстес, «Телефонные будки»
 		</div>
-  <Image src="https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5c48b19da5aa2c830c8b4567/ec8669468a3dac5ace1fd10f1c55f1e7.jpeg" alt="Ральф Гоингс, «Закусочная Ральфа»" />
   <div class="small">
+  <Image src="https://s3.amazonaws.com/files.collageplatform.com.prod/image_cache/2020x1160_fit/5c48b19da5aa2c830c8b4567/ec8669468a3dac5ace1fd10f1c55f1e7.jpeg" alt="Ральф Гоингс, «Закусочная Ральфа»" />
 		Ральф Гоингс, «Закусочная Ральфа»
 	</div>
-		</div>
+</div>
 
 <section>
 
@@ -128,10 +128,12 @@ image: /share/postinternet.jpg
 </section>
 
 <div class="gallery">
-  <Image src="http://abikh.art/wp-content/uploads/2020/05/subs_02.jpg" alt="Владимир Абих, «Как в кино»" />
-  <Image src="http://abikh.art/wp-content/uploads/2020/07/applause.jpg" alt="Владимир Абих, «Как в кино»" />
   <div class="small">
+  	<Image src="http://abikh.art/wp-content/uploads/2020/05/subs_02.jpg" alt="Владимир Абих, «Как в кино»" />
 		Владимир Абих, «Как в кино»
+	</div>
+	<div class="small">
+  	<Image src="http://abikh.art/wp-content/uploads/2020/07/applause.jpg" alt="Владимир Абих, «Как в кино»" />
 	</div>
 </div>
 
@@ -146,15 +148,16 @@ image: /share/postinternet.jpg
 </section>
 
 <div class="gallery">
-  <Image src="http://abikh.art/wp-content/uploads/2018/09/concentration_02.jpg" alt="Владимир Абих, «Concentration»" />
 	<div class="small">
+  	<Image src="http://abikh.art/wp-content/uploads/2018/09/concentration_02.jpg" alt="Владимир Абих, «Concentration»" />
 		Владимир Абих, «Concentration»
-		</div>
-  <Image src="http://abikh.art/wp-content/uploads/2017/10/condetris_01.jpg" alt="Владимир Абих, «Тетрис»" />
+	</div>
+
   <div class="small">
+  	<Image src="http://abikh.art/wp-content/uploads/2017/10/condetris_01.jpg" alt="Владимир Абих, «Тетрис»" />
 		Владимир Абих, «Тетрис»
 	</div>
-		</div>
+</div>
 
 <section>
 
@@ -171,21 +174,21 @@ image: /share/postinternet.jpg
 
 <div class="gallery">
 	<div class="small">
-  <Image src="https://static.tildacdn.com/tild3663-3537-4137-b838-383737646539/11_Motherland_Window.jpg" alt="Данини, «Motherland Windows»" />
+  	<Image src="https://static.tildacdn.com/tild3663-3537-4137-b838-383737646539/11_Motherland_Window.jpg" alt="Данини, «Motherland Windows»" />
 		Данини, «Motherland Windows»
-		</div>
+	</div>
 	<div class="small">
-  <Image src="https://static.tildacdn.com/tild3430-3632-4161-b038-386462353362/05_bmp.jpg" alt="Данини, «Незабудки.bmp»" />
+  	<Image src="https://static.tildacdn.com/tild3430-3632-4161-b038-386462353362/05_bmp.jpg" alt="Данини, «Незабудки.bmp»" />
 		Данини, «Незабудки.bmp»
 	</div>
 	<div class="small">
-	<Image src="https://static.tildacdn.com/tild3263-6535-4162-b563-393637303230/IMG_3470.JPG" alt="Данини, «Аааа!»" />
+		<Image src="https://static.tildacdn.com/tild3263-6535-4162-b563-393637303230/IMG_3470.JPG" alt="Данини, «Аааа!»" />
 		Данини, «Аааа!»
 	</div>
-	<div class="small">
+		<div class="small">
 		<Image src="https://static.tildacdn.com/tild3035-3831-4738-b231-643234663239/web_DSC_0055.jpg" alt="Данини, перформанс «Падик (Красная книга героев меча и магии)»" />
 		Данини, перформанс «Падик (Красная книга героев меча и магии)»
-		</div>
+	</div>
 	</div>
 
 <section>
@@ -195,9 +198,11 @@ image: /share/postinternet.jpg
 </section>
 
 <div class="gallery">
-  <Image src="https://static.tildacdn.com/tild3163-6434-4063-b035-383662613134/09_BSoD.jpg" alt="Данини, «BSOD»" />
 	<div class="small">
-  <Image src="https://static.tildacdn.com/tild6136-3964-4330-b333-326635346437/TIMA1815_sm.jpg" alt="Данини, «BSOD»" />
+		<Image src="https://static.tildacdn.com/tild3163-6434-4063-b035-383662613134/09_BSoD.jpg" alt="Данини, «BSOD»" />
+	</div>
+	<div class="small">
+		<Image src="https://static.tildacdn.com/tild6136-3964-4330-b333-326635346437/TIMA1815_sm.jpg" alt="Данини, «BSOD»" />
 		Данини, «BSOD»
 	</div>
 </div>

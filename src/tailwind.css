@@ -100,16 +100,34 @@ section {
 }
 
 .gallery img {
-  max-width: 500px;
+  max-width: 570px;
 }
 
 .gallery .wrapper {
-  max-width: 500px;
-  margin: 1rem;
+  max-width: 570px;
+  margin: 0.2rem;
 }
 
 .date {
   @apply small-caps text-center text-xs py-3 pb-5 font-sans;
+}
+
+#postinternet_art .gallery {
+  max-width: 1200px;
+  justify-content: space-between;
+  @apply flex flex-wrap items-center relative mx-auto my-8;
+}
+
+#postinternet_art .gallery .small, #postinternet_art .gallery .wrapper {
+  @apply w-1/2 text-center flex flex-col items-center;
+}
+
+#postinternet_art .gallery .small .wrapper {
+  @apply w-full;
+}
+
+#postinternet_art .gallery .wrapper {
+  @apply p-2;
 }
 
 ul {

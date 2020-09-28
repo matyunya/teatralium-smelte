@@ -30,7 +30,7 @@ import rabota_nad_oshibkami from "meta/articles/rabota_nad_oshibkami.json";
 import ecodrama from "meta/articles/ecodrama.json";
 import soznatelniy_kasting from "meta/articles/soznatelniy_kasting.json";
 import teatralnaya_sekciya_gahn from "meta/articles/teatralnaya_sekciya_gahn.json";
-// // import postinternet_art from "meta/articles/postinternet_art.json";
+import postinternet_art from "meta/articles/postinternet_art.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -68,7 +68,7 @@ import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
 export default [
-  // postinternet_art,
+  postinternet_art,
   deufert_plischke,
   neformat_dok,
   teatralnaya_sekciya_gahn,
