@@ -131,6 +131,10 @@ section {
   @apply p-2;
 }
 
+#postinternet_art h1 {
+  @apply mt-20;
+}
+
 ul {
   list-style-type: square;
 }
