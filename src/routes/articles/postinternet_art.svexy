@@ -28,9 +28,9 @@ image: /share/postinternet.jpg
 <div class="bg-primary-100 text-secondary-800 py-16">
 
 <section>
-	
+
 # Что такое постинтернет
-	
+
 </section>
 	</div>
 
@@ -83,9 +83,9 @@ image: /share/postinternet.jpg
 <div class="bg-primary-100 text-secondary-800 py-16">
 
 <section>
-	
+
 # Поп-арт и цифровая реальность
-	
+
 </section>
 	</div>
 
@@ -141,7 +141,7 @@ image: /share/postinternet.jpg
 <section>
 
 Нынешние наследники Уорхола и Лихтенштейна тоже имеют дело с готовыми изображениями всего чего угодно и вовсю пользуются приемами своих предшественников. Но иногда они все-таки расходятся с классиками поп-арта кое в чем очень важном.
-	
+
 </section>
 	</div>
 
@@ -151,8 +151,8 @@ image: /share/postinternet.jpg
 
 # Зачем художнику делать работу за машину
 
-	</section>
-	</div>
+</section>
+</div>
 
 <div class="bg-primary-50 text-secondary-800 py-16">
 
@@ -169,7 +169,7 @@ image: /share/postinternet.jpg
 
 </div>
 
-<div class="bg-primary-100 text-secondary-800 py-16">
+<div class="bg-primary-100 text-secondary-800 py-1">
 
 <section>
 
@@ -232,12 +232,12 @@ image: /share/postinternet.jpg
 <section>
 
 Помимо инфошума, художника занимает проблема доверия к медиа. На его персональном сайте можно пройти тест [«Надпись на экране»](http://abikh.art/projects/outdoors/nadpis-na-ekrane): нужно отличать настоящий стрит-арт от фотошопа, причем реальный результат вы так и не узнаете. Автор исходил из идеи, что уличное искусство, несмотря на название, сегодня живет в интернете, его главная публика — подписчики в соцсетях. Большинство из них никогда не увидят оригинальную работу. А значит, сам факт ее существования вытекает из негласного договора между художником и зрителем: давайте вместе представим, что это правда где-то нарисовано. Но ничто не мешает художнику этот договор нарушить.
-	
+
 </section>
 
 </div>
 
-<div class="bg-primary-100 text-secondary-800 py-16">
+<div class="bg-primary-100 text-secondary-800 py-1">
 
 <section>
 
@@ -311,16 +311,16 @@ image: /share/postinternet.jpg
 Данини, «Ошибочка вышла» {.small}
 
 «Окна» — в какой-то мере проект о гражданском контроле, точнее о том, как россиянам его не хватает. Интерфейсы типа «человек — город» и «человек — государство» у нас либо сломаны, либо никогда не работали как надо — и фрустрируют не меньше, чем зависший ПК.
-	
-	</section>
-	</div>
 
-<div class="bg-primary-100 text-secondary-800 py-16">
+</section>
+</div>
+
+<div class="bg-primary-100 text-secondary-800 py-1">
 
 <section>
 
 ### Ampparito: виртуальная урбанистика
-	
+
 </section>
 
 </div>
@@ -344,14 +344,14 @@ image: /share/postinternet.jpg
 	<Image src="https://images.squarespace-cdn.com/content/v1/54d2381de4b045060556a03b/1545814352540-YHVX8Y8XMUE64UF641G9/ke17ZwdGBToddI8pDm48kH0BRrkCSna_itMDJb1bUUp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1gzyCmLQOWRAG6JD6Exmudbz40Jqmj5sDHXOJpLhSyBZA/hosp5.jpg?format=500w" alt="ampparito/murals" />
 </div>
 
-<div class="bg-primary-100 text-secondary-800 py-16">
+<div class="bg-primary-100 text-secondary-800 py-1">
 
 <section>
 
 ### Корнелия Паркер: цифровая утопия
-	
-	</section>
-	</div>
+
+</section>
+</div>
 
 <div class="bg-primary-50 text-secondary-800 py-16">
 
@@ -370,7 +370,7 @@ image: /share/postinternet.jpg
 Больше всех вышивали заключенные — 36 человек, которых обеспечивает заказами благотворительный фонд Fine Cell Work. Для Паркер было важно, чтобы над памятником демократии работали самые несвободные люди в стране. Британские тюрьмы не чета нидерландским или скандинавским, они самые населенные и неэффективные в Западной Европе. Среди вышивальщиков были люди, заключенные по ошибке — как ирландец Падди Хилл, один из «бирмингемской шестерки»: в 1974 году их под пытками заставили признаться в теракте, которого они не совершали.
 
 Проект, хоть и приуроченный к торжественной дате, по существу критический. Художница напомнила, что в сетевом сообществе демократические ценности реализованы куда лучше, чем в ее стране, и что Британии с ее 800-летней правовой традицией предстоит еще немало тяжелой работы.
-	
+
 </section>
 
 </div>
@@ -380,9 +380,10 @@ image: /share/postinternet.jpg
 <section>
 
 # Сила интерактива
-	
-	</section>
-	</div>
+
+</section>
+
+</div>
 
 <div class="bg-primary-50 text-secondary-800 py-16">
 

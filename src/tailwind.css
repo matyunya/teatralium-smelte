@@ -135,6 +135,10 @@ section {
   @apply mt-20;
 }
 
+#postinternet_art h3, #postinternet_art h1 {
+  @apply font-mono;
+}
+
 ul {
   list-style-type: square;
 }
