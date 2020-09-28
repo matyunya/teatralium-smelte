@@ -1,5 +1,6 @@
 @import "smelte/src/tailwind";
 
+/*! purgecss start ignore */
 html,
 body {
   width: 100%;
@@ -315,3 +316,5 @@ p.small {
 .bg-white-transLight {
   background: rgba(255, 255, 255, 0.2);
 }
+
+/*! purgecss end ignore */
