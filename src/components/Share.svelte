@@ -18,9 +18,10 @@
   <div class="bg-primary-100 p-1 font-mono text-center py-12">
     <img
       src="https://s3.amazonaws.com/pbblogassets/uploads/2020/04/19153018/Vaporwave-and-Synthwave-Free-Pack-VHS-Look.gif"
-      alt="ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ" class="w-48 mx-auto rounded-lg my-8"
-    >
-    ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ: <a href="t.me/teatralium">https://t.me/teatralium</a>
+      alt="ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ"
+      class="w-48 mx-auto rounded-lg my-8" />
+    ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ:
+    <a href="t.me/teatralium tracking-tight">t.me/teatralium</a>
   </div>
 
 </section>

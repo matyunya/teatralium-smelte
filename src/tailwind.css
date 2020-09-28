@@ -215,6 +215,30 @@ ul {
 }
 
 @media (max-width: 640px) {
+
+
+  #postinternet_art .gallery {
+    max-width: 100%;
+    @apply flex-col my-4;
+  }
+
+  #postinternet_art .gallery .small, #postinternet_art .gallery .wrapper {
+    @apply w-full;
+  }
+
+  #postinternet_art .gallery .small .wrapper {
+    @apply w-full;
+  }
+
+  .gallery img {
+    max-width: 100%;
+  }
+
+  .gallery .wrapper {
+    max-width: 100%;
+    margin: 0.2rem;
+  }
+
   .cover h1 {
     font-size: 2rem;
   }

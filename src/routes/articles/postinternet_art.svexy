@@ -47,7 +47,7 @@ image: /share/postinternet.jpg
 
 <div class="gallery">
 	<div class="small">
-  <img src="http://www.newgalerie.com/artists/14/images/1992.jpg" alt="Арти Виркант, «Image Objects»" />
+  <Image src="http://www.newgalerie.com/artists/14/images/1992.jpg" alt="Арти Виркант, «Image Objects»" />
 		Арти Виркант, «Image Objects»
 	</div>
 	<div class="small">
