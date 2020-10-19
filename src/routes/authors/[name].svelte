@@ -2,7 +2,7 @@
   import allPosts from "components/articles.js";
   import translit from "components/translit.js";
 
-	export async function preload(page, session) {
+	export async function preload(page) {
 		const { name } = page.params;
 
 		const filtered = ["tenkova", "boyko"].includes(name)

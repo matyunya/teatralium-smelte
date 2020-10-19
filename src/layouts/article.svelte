@@ -296,7 +296,7 @@
   <slot />
 </div>
 
-<Share {post} />
+<Share url={post.url} />
 
 <HomeLink />
 

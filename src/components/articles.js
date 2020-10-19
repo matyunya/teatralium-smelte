@@ -67,7 +67,10 @@ import mestnye from "meta/plays/mestnye.json";
 import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 
+import idite_na from "meta/tests/idite_na.json";
+
 export default [
+  idite_na,
   postinternet_art,
   deufert_plischke,
   neformat_dok,

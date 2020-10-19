@@ -10,26 +10,19 @@
 <script>
   import { stores } from "@sapper/app";
   import { onMount } from "svelte";
-  import { slide, scale } from "svelte/transition";
-  import { Icon } from "smelte";
-
+  import { scale } from "svelte/transition";
   import ProgressLinear from "components/ProgressLinear";
 
   import PostList from "components/PostList.svelte";
   import Title from "components/Title.svelte";
-  import HomeLink from "components/HomeLink.svelte";
 
   export let segment;
-
-  let player;
 
   onMount(() => {
     window.history.scrollRestoration = "auto";
   });
 
   const { preloading, page } = stores();
-
-  $: path = $page.path;
 </script>
 
 <svelte:head>

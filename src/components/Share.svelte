@@ -1,7 +1,7 @@
 <script>
-  export let post = null;
+  export let url = null;
 
-  if (!post.url) {
+  if (!url) {
     throw new Error("Share: no post url");
   }
 </script>
@@ -30,12 +30,12 @@
   <span class="text-gray-600 text-sm px-3">поделиться:</span>
   <a
     class="gradient text-md px-3"
-    href="https://www.facebook.com/sharer/sharer.php?u=https://www.teatralium.com/{post.url}">
+    href="https://www.facebook.com/sharer/sharer.php?u=https://www.teatralium.com/{url}">
     facebook
   </a>
   <a
     class="gradient text-md px-3"
-    href="http://vkontakte.ru/share.php?url=https://www.teatralium.com/{post.url}">
+    href="http://vkontakte.ru/share.php?url=https://www.teatralium.com/{url}">
     vkontakte
   </a>
 </section>

@@ -4,7 +4,6 @@
 
   import PostPreview from "components/PostPreview.svelte";
   import Masks from "components/Masks.svelte";
-  import HomeLink from "components/HomeLink.svelte";
   import articles from "components/articles.js";
 
   export let type = false;
@@ -16,7 +15,8 @@
     music: "mix",
     plays: "play",
     reviews: "review",
-    about: "about"
+    about: "about",
+    tests: "test",
   };
 
   const chips = [
@@ -45,6 +45,12 @@
       icon: "restaurant_menu",
       type: "review"
     },
+    {
+      href: "/tests/",
+      label: "Тесты",
+      icon: "rowing",
+      type: "test"
+    },
     { href: "/about/", label: " ", icon: "pets", type: "about" }
   ];
 
@@ -54,7 +60,7 @@
   ).filter(a => !$page.path.includes(a.url));
 </script>
 
-<section class="mt-5">
+<div class="mt-5 max-w-4xl mx-auto">
   <div
     in:fly={{ delay: 100 }}
     class="flex items-center justify-around mx-auto w-full flex-wrap">
@@ -80,7 +86,7 @@
       </span>
     {/each}
   </div>
-</section>
+</div>
 
 <div class="md:pl-10 text-left flex flex-col mt-10 md:mt-32">
   {#each items as post, i}
