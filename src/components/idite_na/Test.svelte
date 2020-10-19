@@ -33,7 +33,7 @@
   }
 </style>
 
-{#each "АБВГД" as res}
+{#each "abcde" as res}
   <a href="/tests/idite_na_2020/{res}" class="hidden">{res}</a>
 {/each}
 

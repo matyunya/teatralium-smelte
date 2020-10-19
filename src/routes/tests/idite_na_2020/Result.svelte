@@ -2,7 +2,7 @@
   import results from "./results.js";
   import Share from "components/Share.svelte";
 
-  const mapping = 'АБВГД';
+  const mapping = 'abcde';
 
   export let id;
 
