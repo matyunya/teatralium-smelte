@@ -11,8 +11,11 @@
   $: if ($current && currentAnswer !== undefined) {
     answers.add(currentAnswer);
     currentAnswer = undefined;
-    const q = document.getElementById('q-' + $current);
-    if (q) q.scrollIntoView();
+
+    if (window.innerWidth < 768) {
+      const q = document.getElementById('q-' + $current);
+      if (q) q.scrollIntoView();
+    }
   }
 
   $: if ($current === 8) {
@@ -31,6 +34,15 @@
   li:hover {
     @apply italic;
   }
+
+  @media screen and (min-width: 768px) {
+    .half {
+      @apply w-1/2 px-1;
+    }
+    .half-wrapper {
+      @apply flex flex-wrap;
+    }
+  }
 </style>
 
 {#each "abcde" as res}
@@ -47,16 +59,15 @@
   <section>
     {#each questions as question, idx}
       <div class:block={idx === $current} class:hidden={idx !== $current}>
+        <div id="q-{idx}" class="italic text-base text-center font-sans font-normal mb-2">{idx + 1}/8</div>
 
-        <div id="q-{idx}" class="mb-4 font-bold font-mono text-lg">
+        <div class="mb-4 font-bold font-mono text-lg">
           {question.question}
         </div>
 
-        <div class="italic text-base text-center font-sans font-normal">{idx + 1}/8</div>
-
-        <ul class="text-black list-none mx-0 mt-4">
+        <ul class="text-black list-none mx-0 mt-4" class:half-wrapper={idx === 5}>
           {#each question.answers as [answer, text]}
-            <li class="mb-2 ml-0">
+            <li class="mb-2 ml-0" class:half={idx === 5}>
               <input
                 class="cursor-pointer mr-3"
                 type="radio"
