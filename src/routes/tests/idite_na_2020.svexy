@@ -9,7 +9,7 @@ published: true
 ---
 
 ```js exec
-  import Test from "components/idite/Test.svelte";
+  import Test from "components/idite_na/Test.svelte";
 ```
 
 <Test />
