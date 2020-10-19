@@ -16,7 +16,7 @@
     plays: "play",
     reviews: "review",
     about: "about",
-    tests: "test",
+    tests: "test"
   };
 
   const chips = [

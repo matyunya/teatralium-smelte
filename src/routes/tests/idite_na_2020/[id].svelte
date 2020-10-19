@@ -7,7 +7,7 @@
 </script>
 
 <script>
-	import Result from "components/idite/Result.svelte";
+	import Result from "./Result.svelte";
 
 	export let id;
 </script>
