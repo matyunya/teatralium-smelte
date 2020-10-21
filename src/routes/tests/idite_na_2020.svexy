@@ -6,6 +6,7 @@ url: tests/idite_na_2020
 title: "Идите на: С какого спектакля вам начать сезон"
 type: test
 published: true
+image: /share/iditena2020.jpg
 ---
 
 ```js exec
