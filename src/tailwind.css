@@ -119,7 +119,8 @@ section {
   @apply flex flex-wrap items-center relative mx-auto my-8;
 }
 
-#postinternet_art .gallery .small, #postinternet_art .gallery .wrapper {
+#postinternet_art .gallery .small,
+#postinternet_art .gallery .wrapper {
   @apply w-1/2 text-center flex flex-col items-center;
 }
 
@@ -135,7 +136,8 @@ section {
   @apply mt-20;
 }
 
-#postinternet_art h3, #postinternet_art h1 {
+#postinternet_art h3,
+#postinternet_art h1 {
   @apply font-mono;
 }
 
@@ -215,14 +217,13 @@ ul {
 }
 
 @media (max-width: 640px) {
-
-
   #postinternet_art .gallery {
     max-width: 100%;
     @apply flex-col my-4;
   }
 
-  #postinternet_art .gallery .small, #postinternet_art .gallery .wrapper {
+  #postinternet_art .gallery .small,
+  #postinternet_art .gallery .wrapper {
     @apply w-full;
   }
 
@@ -347,6 +348,49 @@ p.small {
 
 .bg-white-transLight {
   background: rgba(255, 255, 255, 0.2);
+}
+
+#curtain-left {
+  user-select: none;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: -500px;
+  z-index: 100;
+  animation-name: fadeLeft;
+  animation-iteration-count: 1;
+  animation-duration: 6s;
+}
+
+@keyframes fadeRight {
+  0% {
+    transform: translateX(-110%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+#curtain-right {
+  user-select: none;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  right: -500px;
+  position: absolute;
+  z-index: 100;
+  animation-name: fadeRight;
+  animation-iteration-count: 1;
+  animation-duration: 5.5s;
+}
+
+@keyframes fadeLeft {
+  0% {
+    transform: translateX(110%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 /*! purgecss end ignore */

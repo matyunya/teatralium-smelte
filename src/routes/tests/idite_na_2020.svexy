@@ -12,5 +12,10 @@ published: true
   import Test from "components/idite_na/Test.svelte";
 ```
 
+<div id="curtains" style="height: 100%; width: 100%; z-index: 3; pointer-events: none" class="fixed top-0 left-0">
+  <img src="images/mask-left.jpg" id="curtain-left" alt="left curtain">
+  <img src="images/mask-right.jpg" id="curtain-right" alt="right curtain">
+</div>
+
 <Test />
 

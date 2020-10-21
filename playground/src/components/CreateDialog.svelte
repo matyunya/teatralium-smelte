@@ -1,6 +1,4 @@
 <script>
-  import { goto } from "@sapper/app";
-  import { fly } from "svelte/transition";
   import { createEventDispatcher } from 'svelte';
   import { TextField, Button, Dialog, Treeview, notifier, Icon, Spacer } from "smelte";
   import { update } from "../github";

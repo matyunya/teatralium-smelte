@@ -12,7 +12,7 @@
     answers.add(currentAnswer);
     currentAnswer = undefined;
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 768 || $current === 6) {
       const q = document.getElementById('q-' + $current);
       if (q) q.scrollIntoView();
     }
@@ -51,7 +51,8 @@
 
 {#if $current === 0}
   <p class="lead">
-    А вот и традиционное гадание «Театралия». В России, несмотря ни на что, стартовал новый театральный сезон. Ответьте на вопросы и узнайте, с какого спектакля начать его будет приятнее всего.
+    А вот и традиционное гадание «Театралия». В России, несмотря ни на что, стартовал новый театральный сезон.
+    Ответьте на вопросы и узнайте, с какого спектакля начать его будет приятнее всего.
   </p>
 {/if}
 
@@ -59,10 +60,9 @@
   <section>
     {#each questions as question, idx}
       <div class:block={idx === $current} class:hidden={idx !== $current}>
-        <div id="q-{idx}" class="italic text-base text-center font-sans font-normal mb-2">{idx + 1}/8</div>
 
-        <div class="mb-4 font-bold font-mono text-lg">
-          {question.question}
+        <div id="q-{idx}" class="mb-4 font-bold font-mono text-xl md:text-3xl relative">
+          {idx + 1}/8 {question.question}
         </div>
 
         <ul class="text-black list-none mx-0 mt-4" class:half-wrapper={idx === 5}>
