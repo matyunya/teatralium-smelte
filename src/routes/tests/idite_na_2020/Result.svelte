@@ -29,12 +29,12 @@
 <section class="flex border-secondary-300 border-4 p-4 justify-between items-center mb-32 mt-12 flex-col">
   <span class="text-gray-600 text-xl uppercase font-bold px-3">поделитесь результатом:</span>
   <a
-    class="gradient text-2xl px-3"
+    class="gradient text-lg md:text-2xl px-3"
     href="https://www.facebook.com/sharer/sharer.php?u=https://www.teatralium.com/tests/idite_na_2020/{id}">
     facebook
   </a>
   <a
-    class="gradient text-2xl px-3"
+    class="gradient text-lg md:text-2xl px-3"
     href="http://vkontakte.ru/share.php?url=https://www.teatralium.com/tests/idite_na_2020/{id}">
     vkontakte
   </a>
