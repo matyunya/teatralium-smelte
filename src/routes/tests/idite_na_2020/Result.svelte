@@ -17,7 +17,7 @@
 {#if winner}
   <h4 class="font-xl font-serif">Идите на...</h4>
   <div class="font-mono border-dashed border-alert-800 border-4 p-4">
-    <h3 class="text-center font-mono text-3xl">{winner.heading}</h3>
+    <h3 class="text-center font-mono md:text-3xl text-lg">{winner.heading}</h3>
 
     <div class="text-lg text-secondary-700 font-mono mt-8">
       <div class="text-center" style="font-size: 12rem; line-height: 1.2">{winner.emoji}</div>
