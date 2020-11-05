@@ -295,6 +295,11 @@
         src="https://img.techpowerup.org/201029/privalova-big.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'sem_yazykov_kazahstanskogo_teatra'}
+      <Image
+        src="https://img.techpowerup.org/201104/kazakhstan.png"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen hued darken" />
     {/if}
   </div>
 {/if}
