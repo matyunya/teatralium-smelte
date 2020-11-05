@@ -100,7 +100,9 @@
     content="{post.description.replace(/\n/g, '')} | Театралий" />
   <meta property="og:title" content={post.title.replace(/\n/g, '')} />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
-  <meta property="og:image" content="{(image.startsWith('/') ? 'https://teatralium.com' : '') + post.image}" />
+  <meta
+    property="og:image"
+    content={(image.startsWith('/') ? 'https://teatralium.com' : '') + post.image} />
   <link rel="canonical" href="https://teatralium.com/{post.url}" />
   <meta
     name="keywords"
