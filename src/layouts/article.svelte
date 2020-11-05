@@ -100,7 +100,7 @@
     content="{post.description.replace(/\n/g, '')} | Театралий" />
   <meta property="og:title" content={post.title.replace(/\n/g, '')} />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
-  <meta property="og:image" content="https://teatralium.com{post.image}" />
+  <meta property="og:image" content="{(image.startsWith('/') ? 'https://teatralium.com' : '') + post.image}" />
   <link rel="canonical" href="https://teatralium.com/{post.url}" />
   <meta
     name="keywords"
@@ -286,6 +286,11 @@
     {:else if name === 'teatr_mody_v_sovetskoy_rossii'}
       <Image
         src="images/naryady/044.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
+    {:else if name === 'hochesh_letet_leti'}
+      <Image
+        src="https://img.techpowerup.org/201029/privalova-big.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {/if}

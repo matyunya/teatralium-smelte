@@ -55,6 +55,7 @@ import playlist_komissara_vsevoloda_lisovskogo from "meta/music/playlist_komissa
 import pahom from "meta/music/pahom.json";
 import poteryanniy_kray from "meta/music/poteryanniy_kray.json";
 import vsyo_dvizhetsya from "meta/music/vsyo_dvizhetsya.json";
+import hochesh_letet_leti from "meta/music/hochesh_letet_leti.json";
 
 import iphuck from "meta/reviews/iphuck.json";
 import ya_ne_boyus_skazat from "meta/reviews/ya_ne_boyus_skazat.json";
@@ -70,6 +71,7 @@ import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  hochesh_letet_leti,
   idite_na,
   postinternet_art,
   deufert_plischke,
