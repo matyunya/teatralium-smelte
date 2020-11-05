@@ -21,7 +21,7 @@
       alt="ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ"
       class="w-48 mx-auto rounded-lg my-8" />
     ПОДПИСЫВАЙТЕСЬ НА НАС В ТЕЛЕГРАМЕ:
-    <a href="t.me/teatralium tracking-tight">t.me/teatralium</a>
+    <a href="https://t.me/teatralium" class="tracking-tight">t.me/teatralium</a>
   </div>
 
 </section>
