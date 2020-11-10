@@ -49,6 +49,7 @@ import transpersony from "meta/interviews/transpersony.json";
 import postupleniya from "meta/interviews/postupleniya.json";
 import neformat_dok from "meta/interviews/neformat_dok.json";
 import deufert_plischke from "meta/interviews/deufert_plischke.json";
+import ya_idu_iskat from "meta/interviews/ya_idu_iskat.json";
 
 import ya_posadil_derevo from "meta/music/ya_posadil_derevo.json";
 import i_bratva_za_slova_otvechaet from "meta/music/i_bratva_za_slova_otvechaet.json";
@@ -72,6 +73,7 @@ import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  ya_idu_iskat,
   sem_yazykov_kazahstanskogo_teatra,
   hochesh_letet_leti,
   idite_na,
