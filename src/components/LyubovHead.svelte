@@ -17,7 +17,7 @@
     property="og:description"
     content="Спецпроект и опен колл пьес о сложностях родительства" />
   <meta property="og:title" content="Табу на нелюбовь" />
-  <meta property="og:url" content="https://teatralium.com/lyubov" />
+  <meta property="og:url" content="https://teatralium.com/nelyubov" />
   <meta
     property="og:image"
     content="https://i.ibb.co/JQTFcTY/taboomainbig.png" />
