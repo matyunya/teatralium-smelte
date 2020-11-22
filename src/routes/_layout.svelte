@@ -63,7 +63,7 @@
 
 <Title />
 
-<a class="hidden" href="/nelyuvov">dd</a>
+<a class="hidden" href="/nelyubov">dd</a>
 
 <main class="mx-auto mb-0 mt-4 md:mt-0">
   {#if ['about', 'authors'].includes(segment)}
