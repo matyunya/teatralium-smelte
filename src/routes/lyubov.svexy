@@ -1,0 +1,138 @@
+---
+layout: ./index.svelte
+published: true
+---
+
+```js exec
+  import { onMount } from "svelte";
+  import LyubovHead from "components/LyubovHead.svelte";
+  import Image from "svelte-image";
+
+  onMount(() => {
+    document.body.style.backgroundImage = "url('https://i.pinimg.com/564x/cc/53/85/cc5385319bf580915753525bd745d706.jpg')";
+    document.body.classList.toggle("bg-repeat");
+  });
+```
+
+```css style
+#spets h3 {
+  margin: 0.5rem auto;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: left;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+```
+
+<LyubovHead />
+
+<div class="mb-6 h-screen sm:px-32 flex flex-col justify-center trans-bg shadow">
+  <h1 class="text-center text-3xl uppercase mb-10 z-10">
+    Табу на нелюбовь
+  </h1>
+  <h2 class="text-center small pt-4 z-10 max-w-xl mx-auto">
+    Второй сезон проекта «Гуманитарный театр» Фонда «Четверг» на «Театралии»
+  </h2>
+  <img src="chetverg.svg" alt="chetverg" class="w-32 mx-auto" style="box-shadow: none">
+</div>
+
+<section>
+
+<a href="https://chetverg-fond.ru/projects/humanitarian-theater/">«Гуманитарный театр»</a> — проект Фонда «Четверг», исследующий табуированные территории современной культуры. Участники проекта — кураторы, художники, драматурги и режиссеры — вместе размышляют о том, что сегодня лежит по ту сторону нормативности. В первом сезоне независимые кураторы создали выставочные проекты и превратили табу в визуальные образы. Во втором сезоне Фонд запускает спецпроект и конкурс пьес вместе с «Театралием», чтобы продолжить разговор о болезненных и неудобных темах, которых все еще избегают в разных культурных пространствах — в том числе в российском театре. {.lead .trans-bg}
+
+
+</section>
+
+<div style="background: #FFF00A" class="py-8 font-mono shadow">
+
+<section>
+
+## Опен колл {.font-mono .text-center .tracking-widest .pulsate-fwd}
+
+Когда мы говорим о табу, то чаще всего имеем в виду запрет, который нельзя оспорить, проговорить или объяснить. Нам говорят «нельзя — значит нельзя» или «надо, потому что надо». Табу, когда-то защищавшие общество от угроз, сегодня упрощают то, как мы видим окружающий мир. А страх и невозможность диалога приводят к автоматизации отношений между людьми.
+
+Так общество требует от детей безусловной любви к родителям, от родителя — автоматической любви к своему ребенку. Нелюбовь к детям табуирована и приводит к осуждению любого, кто признается в нарушении этого запрета — будь то мать новорожденного, приемный родитель, школьный учитель или человек, определяющий себя как чайлдфри.
+
+Почему отсутствие любви к детям остается табуированной темой? Какие опасности несет любовь, которая навязывается культурными кодами, но не всегда проживается?  И можем ли мы деавтоматизировать это чувство?
+
+Фонд «Четверг» и «Театралий» объявляют опен колл пьес для тех, кто готов искать ответы на эти вопросы вместе с нами. В результате конкурса Фонд организует читки трех лучших пьес и приобретет права на постановку одной из них. Опен колл открывается 4 декабря — принять участие в конкурсе можно на сайте Фонда.
+
+</section>
+
+
+</div>
+
+<div id="spets" class="flex md:flex-wrap md:flex-row flex-col items-stretch justify-between max-w-5xl mx-auto mt-16 font-mono">
+
+
+<div class="flex w-full md:w-1/3 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<img lazy src="https://i.pinimg.com/originals/a1/8c/58/a18c58f2139d6530510f022c11a39fd2.gif" class="">
+
+### Хватит избегать {.font-mono .mb-4 .italic}
+
+Журналист, театральный критик Антон Хитров перечисляет темы, которых российский театр все еще избегает, но самое время перестать. {.text-lg}
+
+</div>
+
+<div class="flex w-full md:w-2/3 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<Image src="https://i.pinimg.com/564x/3a/e7/06/3ae706f3d5c56b95a5612646c4ec225b.jpg" class=" shadow" />
+
+### Как прервать молчание
+
+Создательницы популярных блогов и других проектов о сложностях материнства рассказывают, как решились заговорить про это публично, стоило ли оно того, и рассуждают о необходимости культурных инициатив на тему.
+
+</div>
+
+<div class="flex w-full md:w-3/5 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<img lazy src="https://i.pinimg.com/564x/ce/c6/bb/cec6bbaded4059dcfe74a8dc7618c709.jpg" class="">
+
+### Пространство рефлексии {.font-mono .mb-2}
+
+Театральный критик Павел Руднев объясняет, почему театр — подходящее место для разговора на табурованные темы, и разбирает российские и мировые примеры таких спектаклей.
+
+</div>
+
+<div class="flex w-full md:w-2/5 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<img lazy src="https://i.pinimg.com/originals/93/4d/a2/934da2768f461cc0fdc5231b62095dc1.gif" class="" />
+
+### Большое интервью с Викой Приваловой
+
+Режиссер самых сентиментальных, трогательных и откровенных театральных проектов — о том, как создавать безопасные пространства общения и почему это самое важное, чем сегодня может заниматься искусство.
+
+</div>
+
+<div class="flex w-full md:w-3/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<Image src="https://vintagestockphotos.com/sample/65493/two-costumes.jpg" class="" />
+
+### Мазерхуд {.text-2xl .font-mono}
+
+Разбираемся, как менялся образ материнства в культуре и способ говорить на темы, связанные со сложностями родительства. {.text-xl}
+
+</div>
+
+<div class="flex w-full md:w-1/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<Image src="https://64.media.tumblr.com/ba1b4c763330abcc15f8d0576e8fee23/tumblr_pitq5bFKvf1vzsfz8o1_640.jpg" class="" />
+
+### «Просто еще одна хорошая тема для театра» {.italic .font-mono .font-normal .text-lg}
+
+Драматурги и режиссеры — о том, как совмещать художественное и социальное в театральных текстах, и возможностях драматургии в разговоре на сложные темы. {.md:text-sm}
+
+</div>
+
+</div>
+
+<section style="background: #FFF00A" class="py-8 font-mono shadow mt-8 px-4">
+
+##### Картинки:
+
+<a href="https://menciazagarella.tumblr.com/">menciazagarella.tumblr.com</a>, <a href="https://vintagestockphotos.com">vintagestockphotos.com</a>, <a href="http://vincentferranephotography.com/">Vincent Ferrané</a>, <a href="https://www.instagram.com/boccaccinimeadows/">Sara Boccaccini Meadows</a>, George Romney, «Portrait of Anne Barbara Russell and Sir Henry Russell» {.text-lg}
+
+</section>
