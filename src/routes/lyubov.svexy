@@ -11,6 +11,11 @@ published: true
   onMount(() => {
     document.body.style.backgroundImage = "url('https://i.pinimg.com/564x/cc/53/85/cc5385319bf580915753525bd745d706.jpg')";
     document.body.classList.toggle("bg-repeat");
+
+    return () => {
+      document.body.style.backgroundImage = "";
+      document.body.classList.toggle("bg-repeat");
+    }
   });
 ```
 

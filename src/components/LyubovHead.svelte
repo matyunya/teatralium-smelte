@@ -4,8 +4,14 @@
     href="fonts/bodoni-italic.woff2"
     as="font"
     type="font/woff2" />
-  <meta name="description" content="Табу на нелюбовь: Второй сезон проекта «Гуманитарный театр» Фонда «Четверг» на «Театралии»" />
-  <title>Табу на нелюбовь: Второй сезон проекта «Гуманитарный театр» Фонда «Четверг» на «Театралии»</title>
+  <meta
+    name="description"
+    content="Табу на нелюбовь: Второй сезон проекта «Гуманитарный театр» Фонда
+    «Четверг» на «Театралии»" />
+  <title>
+    Табу на нелюбовь: Второй сезон проекта «Гуманитарный театр» Фонда «Четверг»
+    на «Театралии»
+  </title>
   <meta property="og:type" content="article" />
   <meta
     property="og:description"
