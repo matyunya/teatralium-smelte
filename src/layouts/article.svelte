@@ -300,6 +300,11 @@
         src="images/kazakhstan.png"
         alt={post.title}
         class="object-cover elevation-0 h-screen hued darken" />
+    {:else if name === 'teatr_online_2020'}
+      <Image
+        src="https://img.techpowerup.org/201123/online2020main.png"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}

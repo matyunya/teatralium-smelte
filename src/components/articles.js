@@ -32,6 +32,7 @@ import soznatelniy_kasting from "meta/articles/soznatelniy_kasting.json";
 import teatralnaya_sekciya_gahn from "meta/articles/teatralnaya_sekciya_gahn.json";
 import postinternet_art from "meta/articles/postinternet_art.json";
 import sem_yazykov_kazahstanskogo_teatra from "meta/articles/sem_yazykov_kazahstanskogo_teatra.json";
+import teatr_online_2020 from "meta/articles/teatr_online_2020.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -73,6 +74,7 @@ import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  teatr_online_2020,
   ya_idu_iskat,
   sem_yazykov_kazahstanskogo_teatra,
   hochesh_letet_leti,

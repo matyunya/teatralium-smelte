@@ -6,6 +6,7 @@ type: article
 title: Ответственные театралии
 description: Что смотреть, если не хотите заразиться
 date: 23 ноября 2020
+image: https://img.techpowerup.org/201123/online2020share.png
 ---
 
 ```js exec
@@ -18,226 +19,226 @@ date: 23 ноября 2020
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/2020-11-23-12-59-34.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «100 дней»
-### <a href="https://www.facebook.com/transformator.centre">transformator.centre</a><br>
+### <a target="_blank" href="https://www.facebook.com/transformator.centre">transformator.centre</a><br>
 Всеволод Лисовский, «Трансформатор»<br>
 На улицах Москвы и не только, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
-«100 дней» — это тотальный спектакль: что-то где-то постоянно происходит, и это, собственно, можно посмотреть. Например, с 11:00 горизонтальный творческий коллектив плесневых грибков «Мицелий» проводит Фестиваль заплесневелого театра, в 16:30 режиссер будет чесать жопу у метро «Арбатская», а в 19:40 на остановке «Чистые пруды» начнется Второй метафизический заезд на трамвае «От Чистого к Универсальному». Вдруг вам по пути? Спектакль показывают недельными декадами, шестая длится с 19 по 28 ноября. Для участия нужно зарегистрироваться <a href="https://docs.google.com/forms/d/e/1FAIpQLScjPfw7QULmzMQk6YNoGMIBV_11vLzeOc7IyTi4AddryQOB-A/viewform?fbclid=IwAR0sFLJIPGRL-3ZZBaaITfMmaUHk0nbosJFZdD3rco4-xPPOcv-Ny1YVfhg">здесь</a>, и вам пришлют карту событий и расписание. Режиссер говорит, что к вечеру после просмотров появляется ощущение всемогущества.
-	
+«100 дней» — это тотальный спектакль: что-то где-то постоянно происходит, и это, собственно, можно посмотреть. Например, с 11:00 горизонтальный творческий коллектив плесневых грибков «Мицелий» проводит Фестиваль заплесневелого театра, в 16:30 режиссер будет чесать жопу у метро «Арбатская», а в 19:40 на остановке «Чистые пруды» начнется Второй метафизический заезд на трамвае «От Чистого к Универсальному». Вдруг вам по пути? Спектакль показывают недельными декадами, шестая длится с 19 по 28 ноября. Для участия нужно зарегистрироваться <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScjPfw7QULmzMQk6YNoGMIBV_11vLzeOc7IyTi4AddryQOB-A/viewform?fbclid=IwAR0sFLJIPGRL-3ZZBaaITfMmaUHk0nbosJFZdD3rco4-xPPOcv-Ny1YVfhg">здесь</a>, и вам пришлют карту событий и расписание. Режиссер говорит, что к вечеру после просмотров появляется ощущение всемогущества.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/ras-sta647.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Рас-стаемся»
-### <a href="https://mobiletheater.io/">mobiletheater.io</a><br>
+### <a target="_blank" href="https://mobiletheater.io/">mobiletheater.io</a><br>
 Женя Беркович, Мобильный художественный театр<br>
 В одиночестве, офлайн, 379 рублей
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Это аудиоспектакль, играется на Воробьевых горах по пути от метро до смотровой площадки. Одно из самых красивых мест Москвы — особенно сейчас, осенью. Сама история происходит в Праге, она про отношения Марины Цветаевой и Константина Родзевича, который стал героем ее «Поэмы горы» и «Поэмы конца». И про рыбу по-чешски. Лучше смотреть на закате, это добавит моменту драматичности. Можно даже пустить слезу, ведь всегда так горько, когда людям приходится спускаться с горы любви и расставаться навсегда.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/2020-11-15-23-15-29.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «К себе. Нежно»
-### <a href="http://ksebenezhno.space/">ksebenezhno.space</a><br>
+### <a target="_blank" href="http://ksebenezhno.space/">ksebenezhno.space</a><br>
 Вика Привалова, Полина Хлынова<br>
 Онлайн, 1800 рублей
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Нам сложно себя любить, сложно уделять себе время. Иногда, чтобы провести полтора часа наедине с собой, нужно заплатить, тогда меньше вероятность снова отложить эту возможность ничего не делать и просто посидеть, подумать, повспоминать. Спектакль происходит на закрытой платформе, где создательницы рассказывают о своих перипетиях в отношениях с собой, делятся инструкциями по выживанию и задают вопросы. Большинство зрителей начинают плакать на первом же.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/lock320.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Love.Lockdown»
-### <a href="https://wowwowwow.ru/lockdown/">wowwowwow.ru</a><br>
+### <a target="_blank" href="https://wowwowwow.ru/lockdown/">wowwowwow.ru</a><br>
 Schaubühne Berlin и «Импресарио»<br>
 Онлайн, бесплатно, но можно поддержать создателей любой суммой
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Онлайн-спектакль по пьесе, которую британский драматург Дункан Макмиллан написал этой весной. Премьеру показали 25 мая, и, по сути, сейчас это просто получасовое видео на немецком с русскими субтитрами, но вы без труда поверите, что эта ситуация разыгрывается прямо сейчас перед вами в зуме. Если еще не успели, посмотрите. Очень романтично, жизненно, просто и точно. И длится всего лишь полчаса.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/leto.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Невидимое лето»
-### <a href="https://royalcourttheatre.com/invisible-summer/">royalcourttheatre.com</a><br>
+### <a target="_blank" href="https://royalcourttheatre.com/invisible-summer/">royalcourttheatre.com</a><br>
 Ив Ли (Eve Leigh), Рэйчел Бэгшоу (Rachel Bagshaw), «Ройал-Корт», Лондон<br>
 Онлайн, бесплатно, до 29 ноября
 
 </div>
 
-<section>
+<section class="mb-16">
 
-Спектакль, который по частям будет приходить в ваш почтовый ящик. В описании говорят, что это история про то, как пережить пандемию: наполовину страшилка, которую нужно читать вечером перед сном, наполовину призыв взять себя в руки и мобилизоваться. Трогательный формат для долгих зимних карантинных вечеров. У «Роял-Корта» еще есть <a href="https://royalcourttheatre.com/series/playwrights-podcast/">подкаст</a>. В нем суперуспешный драматург Саймон Стивенс, которого ставили в том числе Кэти Митчелл и Иво ван Хове, разговаривает с другими драматургами о жизни, работе и отношениях с театром.
-	
+Спектакль, который по частям будет приходить в ваш почтовый ящик. В описании говорят, что это история про то, как пережить пандемию: наполовину страшилка, которую нужно читать вечером перед сном, наполовину призыв взять себя в руки и мобилизоваться. Трогательный формат для долгих зимних карантинных вечеров. У «Роял-Корта» еще есть <a target="_blank" href="https://royalcourttheatre.com/series/playwrights-podcast/">подкаст</a>. В нем суперуспешный драматург Саймон Стивенс, которого ставили в том числе Кэти Митчелл и Иво ван Хове, разговаривает с другими драматургами о жизни, работе и отношениях с театром.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/shaksp.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Настольный Шекспир: домашняя версия»
-### <a href="https://www.youtube.com/playlist?list=PL-blz3DjyJIyhGeDEPROuy6WqwDd6mTKO">youtube.com</a><br>
+### <a target="_blank" href="https://www.youtube.com/playlist?list=PL-blz3DjyJIyhGeDEPROuy6WqwDd6mTKO">youtube.com</a><br>
 Forced Entertainment<br>
 Онлайн, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Британцы Forced Entertainment перенесли свой цикл «Полное собрание сочинений: Настольный Шекспир» в онлайн и играют спектакли со своих кухонь. В списке нет только «Двух знатных родичей», а так это абсолютно все пьесы Шекспира, есть даже «Тимон Афинский». Итак, моток скотча — это Офелия, а бутылка «Баллантайнса» — король Лир. Актеры не используют тексты пьес буквально, это сторителлинг, пересказ, в котором шампунь признается в любви горчице, ваза спорит с сиропом от кашля, а Brasso, жидкость для полировки металла, побеждает французов при Азенкуре. Довольно захватывающе.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/aiq.jpg" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «A.I.Q. Test»
-### <a href="http://aiq-test.ru/">aiq-test.ru</a><br>
+### <a target="_blank" href="http://aiq-test.ru/">aiq-test.ru</a><br>
 Габбилен Галычев<br>
 Онлайн, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Спектакль в гугл-формах заявлен как «выявление коэффициента искусственного интеллекта» (видимо, у того, кто проходит), но на деле исследует тему выбора, только непонятно, каким образом. То, как сформулированы ответы, вопросы, их очередность и риторика в целом, оставляет ощущение, что никакого исследования на самом деле не происходит. Формат хороший — жаль, наполнение не работает. Но, как говорит создатель, многим понравилось — может, и вы окажетесь в их числе?
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/avanes.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Next Waves Theater»
-### <a href="https://www.volksbuehne.berlin/de/programm/11035/">volksbuehne.berlin/de</a><br>
+### <a target="_blank" href="https://www.volksbuehne.berlin/de/programm/11035/">volksbuehne.berlin/de</a><br>
 «Армен Аванесян и враги», «Фольксбюне», Берлин<br>
 Онлайн, до 16 декабря, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
-Лаборатория с перформативными лекциями, исследующая будущее театра через новую четвертую стену — экран монитора. Армен Аванесян — современный австрийский философ, вернее сказать, мыслитель-суперзвезда, который давно вышел за пределы академической среды, много публикуется, читает лекции и делает художественные проекты. Помните выставку «Генеральная репетиция» фонда V-A-C в ММОМА? Аванесян написал сценарий для ее второго акта. 
+Лаборатория с перформативными лекциями, исследующая будущее театра через новую четвертую стену — экран монитора. Армен Аванесян — современный австрийский философ, вернее сказать, мыслитель-суперзвезда, который давно вышел за пределы академической среды, много публикуется, читает лекции и делает художественные проекты. Помните выставку «Генеральная репетиция» фонда V-A-C в ММОМА? Аванесян написал сценарий для ее второго акта.
 
-«Театр, преломленный через экран, — это не замена того, что есть, а перерождение. Реинкарнация театра в виртуальных пространствах — это новая волна, которая окажет сейсмический эффект», — говорится в манифесте лаборатории. Она длится уже несколько месяцев, осталось четыре выпуска. Девятый называется <a href="https://www.volksbuehne.berlin/en/programm/digital/11148/armen-avanessian-enemies-next-waves-theater-9-multimodality-study">«Мультимодальные исследования»</a>; ее авторы, Группа изучения аффективной динамики, по-разному работают с проблематикой безопасности коммуникаций, уязвимости, соучастия, в принципе сосуществования (это близко к тому, что делают <a href="https://teatralium.com/interviews/deufert_plischke/">deufert&plischke</a>). Десятый выпуск — инстаграм-перформанс <a href="https://www.volksbuehne.berlin/en/programm/digital/11376/armen-avanessian-enemies-next-waves-theater-10-a-trans-history-sung">«Транс-история спета»</a> о Кюбре Узун, попытка переписать историю транс-движения, основываясь на личном опыте стамбульской женщины-диджея. Одиннадцатая работа — <a href="https://www.volksbuehne.berlin/en/programm/digital/11378/armen-avanessian-enemies-next-waves-theater-11-metoharim">«Метохарим»</a>, онлайн-магазин сувениров из жизни, которой больше нет. Двенадцатая — <a href="https://www.volksbuehne.berlin/en/programm/digital/11380/armen-avanessian-enemies-next-waves-theater-12-rochambeau">«Рошамбо»</a>, интерактивная DIY-опера в вотсапе, названная в честь круизного лайнера, который доставил Марселя Дюшана в Нью-Йорк. Записи некоторых предыдущих выпусков есть на <a href="https://vimeo.com/user70007523">вимео</a>. У «Фольксбюне» вообще большая онлайн-программа с перформансами и лекциями на самые разные темы, следите за расписанием на сайте театра.
-	
+«Театр, преломленный через экран, — это не замена того, что есть, а перерождение. Реинкарнация театра в виртуальных пространствах — это новая волна, которая окажет сейсмический эффект», — говорится в манифесте лаборатории. Она длится уже несколько месяцев, осталось четыре выпуска. Девятый называется <a target="_blank" href="https://www.volksbuehne.berlin/en/programm/digital/11148/armen-avanessian-enemies-next-waves-theater-9-multimodality-study">«Мультимодальные исследования»</a>; ее авторы, Группа изучения аффективной динамики, по-разному работают с проблематикой безопасности коммуникаций, уязвимости, соучастия, в принципе сосуществования (это близко к тому, что делают <a target="_blank" href="https://teatralium.com/interviews/deufert_plischke/">deufert&plischke</a>). Десятый выпуск — инстаграм-перформанс <a target="_blank" href="https://www.volksbuehne.berlin/en/programm/digital/11376/armen-avanessian-enemies-next-waves-theater-10-a-trans-history-sung">«Транс-история спета»</a> о Кюбре Узун, попытка переписать историю транс-движения, основываясь на личном опыте стамбульской женщины-диджея. Одиннадцатая работа — <a target="_blank" href="https://www.volksbuehne.berlin/en/programm/digital/11378/armen-avanessian-enemies-next-waves-theater-11-metoharim">«Метохарим»</a>, онлайн-магазин сувениров из жизни, которой больше нет. Двенадцатая — <a target="_blank" href="https://www.volksbuehne.berlin/en/programm/digital/11380/armen-avanessian-enemies-next-waves-theater-12-rochambeau">«Рошамбо»</a>, интерактивная DIY-опера в вотсапе, названная в честь круизного лайнера, который доставил Марселя Дюшана в Нью-Йорк. Записи некоторых предыдущих выпусков есть на <a target="_blank" href="https://vimeo.com/user70007523">вимео</a>. У «Фольксбюне» вообще большая онлайн-программа с перформансами и лекциями на самые разные темы, следите за расписанием на сайте театра.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/good.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Покажи мне, как хорошо проводить время»
-### <a href="https://www.hebbel-am-ufer.de/en/programme/pdetail/gob-squad-show-me-a-good-time/?fbclid=960">hebbel-am-ufer.de</a><br>
+### <a target="_blank" href="https://www.hebbel-am-ufer.de/en/programme/pdetail/gob-squad-show-me-a-good-time/?fbclid=960">hebbel-am-ufer.de</a><br>
 Gob Squad, HAU, Берлин<br>
 Онлайн, 26, 27, 28 ноября, 5 евро за один день, и 10 — за три
 
 </div>
 
-<section>
+<section class="mb-16">
 
-Раньше HAU было три штуки, а теперь есть HAU4, и это стриминговая площадка. Первая версия спектакля «Show Me A Good Time» длилась 12 часов: один перформер обращался к людям по всему миру с пустой сцены HAU1, другие — с улиц Берлина и Шеффилда, третьи — из своих домов. Вторая версия будет длиться три дня по три часа, но снова будет пытаться ответить на вопрос «Где в этой новой реальности можно провести время, которое можно назвать хорошим, — на сцене, на улице или дома на диване?». У HAU тоже есть <a href="https://www.hebbel-am-ufer.de/en/programme/pdetail/4-beyond-the-end-of-the-world-with-tj-demos-kodwo-eshun-und-anjali-sagar/?fbclid=78%27A%3D0">подкаст</a>, называется «Будущее в огне: об экологии существования» (будущее и экология там — во множественном числе), и он про то, какие прогнозы есть у экофилософов на наш счет.
-	
+Раньше HAU было три штуки, а теперь есть HAU4, и это стриминговая площадка. Первая версия спектакля «Show Me A Good Time» длилась 12 часов: один перформер обращался к людям по всему миру с пустой сцены HAU1, другие — с улиц Берлина и Шеффилда, третьи — из своих домов. Вторая версия будет длиться три дня по три часа, но снова будет пытаться ответить на вопрос «Где в этой новой реальности можно провести время, которое можно назвать хорошим, — на сцене, на улице или дома на диване?». У HAU тоже есть <a target="_blank" href="https://www.hebbel-am-ufer.de/en/programme/pdetail/4-beyond-the-end-of-the-world-with-tj-demos-kodwo-eshun-und-anjali-sagar/?fbclid=78%27A%3D0">подкаст</a>, называется «Будущее в огне: об экологии существования» (будущее и экология там — во множественном числе), и он про то, какие прогнозы есть у экофилософов на наш счет.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/cards.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Safety Cards 2.0»
-### <a href="https://www.onassis.org/video/safety-cards-20-daniel-wetzel-rimini-protokoll">onassis.org</a><br>
+### <a target="_blank" href="https://www.onassis.org/video/safety-cards-20-daniel-wetzel-rimini-protokoll">onassis.org</a><br>
 Даниэль Ветцель, Rimini Protokoll<br>
 Онлайн, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
 У Даниэля Ветцеля есть привычка фотографировать карточки с правилами безопасности в самолетах, и вот теперь эти фотографии ему пригодились. Он изучает изображения, ищет смешные запреты, обращает внимание на вроде бы знакомые иконки, и эти образы настолько рабочие, что довольно быстро оказываешься в воображаемом самолете. Это одна из проверенных схем Rimini Protokoll — тщательно рассматривать очень привычные вещи и находить в них что-то неожиданное. Через три минуты начинает казаться, что это какое-то эзотерическое видео о том, что человечество заколдовано. Вопросов и правда возникает много.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/tutte.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Covid fan tutte»
-### <a href="https://operavision.eu/en/library/performances/operas/covid-fan-tutte-finnish-national-opera">operavision.eu</a><br>
+### <a target="_blank" href="https://operavision.eu/en/library/performances/operas/covid-fan-tutte-finnish-national-opera">operavision.eu</a><br>
 Юсси Никкиля (Jussi Nikkilä), Финский национальный театр оперы и балета<br>
 Онлайн, бесплатно, до 4 апреля 2021 года
 
 </div>
 
-<section>
+<section class="mb-16">
 
 «Così fan tutte» Моцарта переводится на русский как «Так поступают все женщины», и вот в этой финской версии получается вроде понятная, но еле уловимая игра с оригинальным названием. Вначале трое мужчин за утренними процедурами узнают про вирус и поют про то, что он никогда не доберется до Финляндии. А потом полтора часа правительство, эксперты и обычные финны пытаются справиться с пандемией. Постановка, которую невозможно представить в Большом театре.
-	
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/hack.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### Фестиваль HACKATHENS 2020
-### <a href="https://www.onassis.org/whats-on/hackathens-2020">onassis.org</a><br>
+### <a target="_blank" href="https://www.onassis.org/whats-on/hackathens-2020">onassis.org</a><br>
 Культурный центр Онассиса, Афины<br>
 Онлайн, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
-Сентябрьский фестиваль афинского Культурного центра Онассиса про то, что будет дальше, ведь пандемия как будто останется с нами уже навсегда. Кураторы отобрали пять онлайн-перформансов, которые работают с темой коллективного воображения по поводу будущего. В <a href="https://www.onassis.org/video/solo">«Соло»</a> нужно активировать свой третий глаз: это воображаемое приложение, которое помогает прочувствовать течение времени и стимулирует выброс окситоцина. <a href="https://www.onassis.org/video/skourleti-realitat">«Реальность»</a> — про то, как карантин освежает отношения. <a href="https://www.onassis.org/video/if-delivery-girl-hot-wake-me">«Если девушка из доставки секси, разбуди меня»</a> — эротическая АСМР-комедия наоборот про невозможность близости в период, когда все вынуждены сидеть в изоляции. В мокьюментари-видео <a href="https://www.onassis.org/video/home-work">«Дом / Работа»</a> рассказывается про двух женщин, которые съехались на время пандемии и стали жить и работать вместе. И наконец, <a href="https://www.onassis.org/whats-on/hackathens-2020/great-bar-sky-christina-chrysanthopoulou-olga-chatzifoti">«Классный бар на небесах»</a> — это игра, в которой вы становитесь афинянином в альтернативной версии греческой столицы после 2020 года. К слову, у центра Онассиса есть <a href="https://www.youtube.com/OnassisFoundationChannel">ютуб-канал</a>, и там много записей перформансов, лекций и дискуссий.
-	
+Сентябрьский фестиваль афинского Культурного центра Онассиса про то, что будет дальше, ведь пандемия как будто останется с нами уже навсегда. Кураторы отобрали пять онлайн-перформансов, которые работают с темой коллективного воображения по поводу будущего. В <a target="_blank" href="https://www.onassis.org/video/solo">«Соло»</a> нужно активировать свой третий глаз: это воображаемое приложение, которое помогает прочувствовать течение времени и стимулирует выброс окситоцина. <a target="_blank" href="https://www.onassis.org/video/skourleti-realitat">«Реальность»</a> — про то, как карантин освежает отношения. <a target="_blank" href="https://www.onassis.org/video/if-delivery-girl-hot-wake-me">«Если девушка из доставки секси, разбуди меня»</a> — эротическая АСМР-комедия наоборот про невозможность близости в период, когда все вынуждены сидеть в изоляции. В мокьюментари-видео <a target="_blank" href="https://www.onassis.org/video/home-work">«Дом / Работа»</a> рассказывается про двух женщин, которые съехались на время пандемии и стали жить и работать вместе. И наконец, <a target="_blank" href="https://www.onassis.org/whats-on/hackathens-2020/great-bar-sky-christina-chrysanthopoulou-olga-chatzifoti">«Классный бар на небесах»</a> — это игра, в которой вы становитесь афинянином в альтернативной версии греческой столицы после 2020 года. К слову, у центра Онассиса есть <a target="_blank" href="https://www.youtube.com/OnassisFoundationChannel">ютуб-канал</a>, и там много записей перформансов, лекций и дискуссий.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #93FDCE" >
 	<img src="https://img.techpowerup.org/201123/1000.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### «Тысяча партитур. Пьесы для здесь, сейчас и попозже»
-### <a href="https://1000scores.com/">1000scores.com</a><br>
+### <a target="_blank" href="https://1000scores.com/">1000scores.com</a><br>
 Хельгард Хауг (Helgard Haug), Давид Хельбих (David Helbich) и Корнелиус Пушке (Cornelius Puschke), Rimini Protokoll<br>
 Онлайн, до 16 июня 2021 года, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
-В 2020-м любители спектаклей с инструкциями предлагают вам самим поставить что-то для себя в домашних условиях, стать персонажами написанных нами же пьес. Например, работа Даны Касперсен <a href="https://1000scores.com/portfolio-items/dana-caspersen-we-are-not-doomed-an-act-of-de-polarization-for-whatever-comes-next/">«Мы не обречены: акт деполяризации, что бы там дальше ни случилось»</a> посвящена президентским выборам в США. Чтобы разыграть спектакль по этому тексту, вам нужны два стула, бумага и карандаш. Для постановки текста <a href="https://1000scores.com/portfolio-items/davis-freeman-13-kisses/">«13 поцелуев»</a> Дэвиса Фримана вам потребуется партнер, которого вы будете целовать. <a href="https://1000scores.com/portfolio-items/david-helbich-somethings-cannot-be-undone-others-can/">«Некоторые вещи нельзя повернуть вспять. Некоторые можно»</a> Давида Хельбиха — это партитура для вас, смартфона и бокала вина. Просто заходите на сайт и выбирайте, что бы вы хотели поставить сегодня.
-	
+В 2020-м любители спектаклей с инструкциями предлагают вам самим поставить что-то для себя в домашних условиях, стать персонажами написанных нами же пьес. Например, работа Даны Касперсен <a target="_blank" href="https://1000scores.com/portfolio-items/dana-caspersen-we-are-not-doomed-an-act-of-de-polarization-for-whatever-comes-next/">«Мы не обречены: акт деполяризации, что бы там дальше ни случилось»</a> посвящена президентским выборам в США. Чтобы разыграть спектакль по этому тексту, вам нужны два стула, бумага и карандаш. Для постановки текста <a target="_blank" href="https://1000scores.com/portfolio-items/davis-freeman-13-kisses/">«13 поцелуев»</a> Дэвиса Фримана вам потребуется партнер, которого вы будете целовать. <a target="_blank" href="https://1000scores.com/portfolio-items/david-helbich-somethings-cannot-be-undone-others-can/">«Некоторые вещи нельзя повернуть вспять. Некоторые можно»</a> Давида Хельбиха — это партитура для вас, смартфона и бокала вина. Просто заходите на сайт и выбирайте, что бы вы хотели поставить сегодня.
+
 </section>
 
 <div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4" style="background: #ffccdb" >
 	<img src="https://img.techpowerup.org/201123/yaeji.png" alt="ppPPp" class="w-64 mx-auto rounded-full my-1 mt-8 skewed elevation-0" />
-	
+
 ### БОНУС: «Yaeji in Place»
-### <a href="https://www.youtube.com/watch?v=-252jKXdXyE">youtube.com</a><br>
+### <a target="_blank" href="https://www.youtube.com/watch?v=-252jKXdXyE">youtube.com</a><br>
 Yaeji, Boiler Room<br>
 Онлайн, бесплатно
 
 </div>
 
-<section>
+<section class="mb-16">
 
 Просто сет очень крутой кореянки Yaeji, которая родилась в Штатах и сейчас живет в Бруклине. Если б она хотела, могла бы назвать это театром.
-	
+
 </section>
