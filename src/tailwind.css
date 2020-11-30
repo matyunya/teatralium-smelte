@@ -194,6 +194,10 @@ ul {
   }
 }
 
+.grayscale {
+  filter: grayscale();
+}
+
 .hued {
   animation: hue-rotate 8s infinite;
 }
