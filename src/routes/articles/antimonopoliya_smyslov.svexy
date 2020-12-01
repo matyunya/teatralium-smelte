@@ -18,7 +18,7 @@ date: 1 декабря 2020
 
 <section>
 
-<div class="my-4 py-4" style="background: #FEF033">
+<div class="mb-12 py-4" style="background: #FEF033">
 
 Этот материал — часть <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">спецпроекта «Табу на нелюбовь»</a> Фонда «Четверг» и «Театралия». Мы рассказываем о феномене нелюбви к детям, сложностях родительства, общественном осуждении матерей и ждем текстов, которые могут стать основой для театральных проектов об этом.{.font-mono .text-center .text-sm .mb-8}
 
@@ -30,7 +30,7 @@ date: 1 декабря 2020
 
 </section>
 
-<div class="p-6" style="background: #FEF033">
+<div class="p-6 mb-12" style="background: #FEF033">
 
 <Image
 	src="https://i.postimg.cc/ZYXGtXKT/paula-modersohn-becker-reclining-mother-and-child-2-1906-trivium-art-history-1.jpg"
