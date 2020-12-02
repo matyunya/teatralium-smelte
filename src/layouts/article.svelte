@@ -98,6 +98,7 @@
   <meta
     property="og:description"
     content="{post.description.replace(/\n/g, '')} | Театралий" />
+  <title>{post.title.replace(/\n/g, '')}</title>
   <meta property="og:title" content={post.title.replace(/\n/g, '')} />
   <meta property="og:url" content="https://teatralium.com/{post.url}" />
   <meta
