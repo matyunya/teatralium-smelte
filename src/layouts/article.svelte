@@ -115,7 +115,7 @@
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
     <h1 class="text-center uppercase mb-10 pt-10">
-      {#if name === "antimonopoliya_smyslov"}
+      {#if name === 'antimonopoliya_smyslov'}
         <div
           class="small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8
           w-auto">
