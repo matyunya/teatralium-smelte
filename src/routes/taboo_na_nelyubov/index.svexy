@@ -34,7 +34,7 @@ published: true
 <LyubovHead />
 
 <div class="mb-6 h-screen sm:px-32 flex flex-col justify-center trans-bg shadow pb-4">
-  <div class="border border-black small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8 w-auto">♦спецпроект</div>
+  <div class="small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8 w-auto">спецпроект</div>
   <h1 class="text-center text-3xl uppercase mb-10 z-10">
     Табу на нелюбовь
   </h1>
