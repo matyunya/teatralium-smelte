@@ -226,6 +226,13 @@ ul {
     @apply flex-col my-4;
   }
 
+  .small {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    display: block;
+    @apply mt-1;
+  }
+
   #postinternet_art .gallery .small,
   #postinternet_art .gallery .wrapper {
     @apply w-full;
@@ -237,6 +244,10 @@ ul {
 
   .gallery img {
     max-width: 100%;
+  }
+
+  .lead {
+    font-size: 1.2rem;
   }
 
   .gallery .wrapper {
