@@ -115,6 +115,13 @@
 {#if !hasCover}
   <div class="mb-6 cover mx-auto flex flex-col justify-center {coverClass}">
     <h1 class="text-center uppercase mb-10 pt-10">
+      {#if name === "antimonopoliya_smyslov"}
+        <div
+          class="small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8
+          w-auto">
+          спецпроект
+        </div>
+      {/if}
       <span class={subClass}>
         {@html customTitle || title.split(':')[0]}
       </span>
@@ -303,12 +310,6 @@
     {:else if name === 'teatr_online_2020'}
       <Image
         src="https://img.techpowerup.org/201123/online2020main.png"
-        alt={post.title}
-        class="object-cover elevation-0 h-screen" />
-    {:else if name === 'antimonopoliya_smyslov'}
-      <div class="small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8 w-auto">спецпроект</div>
-      <Image
-        src="images/taboorudnev.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {/if}

@@ -7,6 +7,7 @@ title: Антимонополия смыслов
 description: Как театр помогает обсуждать запретные темы
 date: 1 декабря 2020
 image: /share/taboorudnev.png
+coverClass: "border-alert-500 border-4"
 ---
 
 ```js exec

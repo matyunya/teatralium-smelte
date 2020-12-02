@@ -86,7 +86,7 @@ module.exports = {
       ligatures: true, // whether to generate ligature utilities
       componentPrefix: "c-" // the prefix to use for text style classes
     }),
-    function({ addUtilities }) {
+    function ({ addUtilities }) {
       return addUtilities({
         [".border-box"]: {
           boxSizing: "border-box"
