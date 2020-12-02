@@ -305,6 +305,11 @@
         src="https://img.techpowerup.org/201123/online2020main.png"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'antimonopoliya_smyslov'}
+      <Image
+        src="images/taboorudnev.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}

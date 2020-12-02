@@ -1,5 +1,5 @@
 ---
-layout: ./index.svelte
+layout: ../index.svelte
 published: true
 ---
 
@@ -34,6 +34,7 @@ published: true
 <LyubovHead />
 
 <div class="mb-6 h-screen sm:px-32 flex flex-col justify-center trans-bg shadow pb-4">
+  <div class="border border-black small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8 w-auto">♦спецпроект</div>
   <h1 class="text-center text-3xl uppercase mb-10 z-10">
     Табу на нелюбовь
   </h1>
@@ -92,7 +93,9 @@ published: true
 
 </div>
 
-<div class="cursor-not-allowed pointer-events-none text-gray-600 grayscale flex w-full md:w-3/5 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+<div class="flex w-full md:w-3/5 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<a href="/taboo_na_nelyubov/antimonopoliya_smyslov" class="no-underline">
 
 <img lazy src="https://i.pinimg.com/564x/ce/c6/bb/cec6bbaded4059dcfe74a8dc7618c709.jpg" class="">
 
@@ -100,7 +103,10 @@ published: true
 
 Театральный критик Павел Руднев объясняет, почему театр — подходящее место для разговора на табурованные темы, и разбирает российские и мировые примеры таких спектаклей.
 
+</a>
+
 </div>
+
 
 <div class="cursor-not-allowed pointer-events-none text-gray-600 grayscale flex w-full md:w-2/5 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
 
