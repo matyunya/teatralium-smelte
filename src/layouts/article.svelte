@@ -306,6 +306,7 @@
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {:else if name === 'antimonopoliya_smyslov'}
+      <div class="small-caps p-1 tracking-widest font-mono text-sm mx-auto mb-8 w-auto">спецпроект</div>
       <Image
         src="images/taboorudnev.jpg"
         alt={post.title}
