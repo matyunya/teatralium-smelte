@@ -1,11 +1,11 @@
 ---
 published: true
-author: Виктория Костюкевич
-url: articles/***
+author: Антон Хитров
+url: taboo_na_nelyubov/o_chem_molchit_teatr
 type: article
-title: «Я ушла веселенькая, потому что зрителям понравилось»
-description: Виктория Костюкевич — о создании фестиваля новой драмы во Владивостоке
-date: 15 июня 2020
+title: title: О чем молчит театр?
+description: 5 важных тем, на которые очень не хватает спектаклей
+date: 3 декабря 2020
 ---
 
 ```js exec
@@ -14,27 +14,24 @@ date: 15 июня 2020
   import Note from "components/Note.svelte";
 ```
 
-NANINANI {.lead}
+На самом деле в России выходит столько спектаклей, что при большом желании можно найти театральный проект абсолютно на любую хоть сколько-нибудь резонансную тему — если не в актуальной афише, то, по крайней мере, в архиве за последний десяток лет. Но некоторые вопросы заслуживают куда больше внимания, чем им уделяется сейчас. Театральный критик Антон Хитров выбрал пять самых, на его взгляд, важных и перспективных. {.lead}
 
 <section>
 
-<Note left>
-NOTE NOTE
-</Note>
+<div class="mb-12 py-4" style="background: #FEF033">
+
+Этот материал — часть <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">спецпроекта «Табу на нелюбовь»</a> Фонда «Четверг» и «Театралия». Мы рассказываем о феномене нелюбви к детям, сложностях родительства, общественном осуждении матерей и ждем текстов, которые могут стать основой для театральных проектов об этом.{.font-mono .text-center .text-sm .mb-8}
+
+</div>
 
 PPPP
 
-<Video id="eiIKqIu-T1g" />
+<div class="my-12 py-4" style="background: #FEF033">
 
-<Image
-  src="images/iphuck/333.jpg"
-  alt="alt"
-/>
+  <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">«Табу на нелюбовь»</a>{.font-mono .text-center .text-sm .mb-8}
 
-# H1
+  <img src="https://i.postimg.cc/Y0kZjMbT/2020-12-02-23-22-30.png" alt="ppPPp" class="w-64 mx-auto hued rounded-full my-1 mt-8 skewed elevation-0" />
 
-## H2
-
-### H3
+</div>
 
 </section>
