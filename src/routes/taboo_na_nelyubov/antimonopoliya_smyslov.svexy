@@ -105,7 +105,7 @@ coverClass: "border-alert-500 border-4 sm:p-2"
 
 <div class="my-12 py-4" style="background: #FEF033">
 
-  <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">«Табу на нелюбовь»</a>{.font-mono .text-center .text-sm .mb-8}
+  <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">«Табу на нелюбовь»</a><br>Читайте, пишите и присылайте нам пьесы.{.font-mono .text-center .text-sm .mb-8}
 
   <img src="https://i.postimg.cc/Y0kZjMbT/2020-12-02-23-22-30.png" alt="ppPPp" class="w-64 mx-auto hued rounded-full my-1 mt-8 skewed elevation-0" />
 
