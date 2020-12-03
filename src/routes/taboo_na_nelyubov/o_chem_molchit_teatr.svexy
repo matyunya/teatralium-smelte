@@ -1,0 +1,40 @@
+---
+published: true
+author: Виктория Костюкевич
+url: articles/***
+type: article
+title: «Я ушла веселенькая, потому что зрителям понравилось»
+description: Виктория Костюкевич — о создании фестиваля новой драмы во Владивостоке
+date: 15 июня 2020
+---
+
+```js exec
+  import Image from "svelte-image";
+  import Video from "components/Video.svelte";
+  import Note from "components/Note.svelte";
+```
+
+NANINANI {.lead}
+
+<section>
+
+<Note left>
+NOTE NOTE
+</Note>
+
+PPPP
+
+<Video id="eiIKqIu-T1g" />
+
+<Image
+  src="images/iphuck/333.jpg"
+  alt="alt"
+/>
+
+# H1
+
+## H2
+
+### H3
+
+</section>
