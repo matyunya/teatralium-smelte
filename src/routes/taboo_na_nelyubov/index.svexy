@@ -73,13 +73,17 @@ published: true
 <div id="spets" class="flex md:flex-wrap md:flex-row flex-col items-stretch justify-between max-w-5xl mx-auto mt-16 font-mono">
 
 
-<div class="cursor-not-allowed pointer-events-none text-gray-600 grayscale flex w-full md:w-1/3 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+<div class="flex w-full md:w-1/3 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<a href="/taboo_na_nelyubov/o_chem_molchit_teatr" class="no-underline">
 
 <img lazy src="https://i.pinimg.com/originals/a1/8c/58/a18c58f2139d6530510f022c11a39fd2.gif" class="">
 
 ### Хватит избегать {.font-mono .mb-4 .italic}
 
 Журналист, театральный критик Антон Хитров перечисляет темы, которых российский театр все еще избегает, но самое время перестать. {.text-lg}
+
+</a>
 
 </div>
 
