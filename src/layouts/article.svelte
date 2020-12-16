@@ -313,6 +313,11 @@
         src="https://img.techpowerup.org/201123/online2020main.png"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'drag_queens'}
+      <Image
+        src="https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-fur-texture.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}
