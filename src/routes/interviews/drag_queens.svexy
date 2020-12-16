@@ -18,16 +18,27 @@ date: 15 декабря 2020
 
 <section>
 
-<div class="text-center p-8 uppercase tracking-wider mt-4 mb-12 leading-4">
+<div class="text-center text-secondary-800 p-8 uppercase tracking-wider mt-4 mb-12 leading-4">
 
 # Vanessa Viper
 <a target="_blank" href="https://www.instagram.com/vanessa.viper/">@vanessa.viper</a>
 
+</div>
+
+</section>
+
+<div class="bg-secondary-100 p-8 uppercase tracking-wider mt-4 mb-0 leading-4">
 <img src="https://i.postimg.cc/tJbbsRsj/vanessa.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-8 mt-8" />
+	
+</div>
+
+<div class="text-center bg-primary-100 p-8 uppercase tracking-wider mt-0 mb-12 leading-4">
 
 #### «У меня день рождения 27 марта — в День театра»
 
 </div>
+
+<section>
 
 Мне 29 лет, я родом с Севера. В 2008 году переехал в Тюмень, поступил на инженера, окончил университет с красным дипломом и работал инженером на электростанции. И сейчас продолжаю, но уже два года — в Питере.
 
@@ -47,7 +58,7 @@ date: 15 декабря 2020
 
 </section>
 
-<div class="gallery">
+<div class="gallery bg-secondary-100">
   <div class="small">
   	<Image src="https://i.postimg.cc/YCY7kmnS/2020-12-13-10-55-27.png" alt="vanessa" />
 	</div>
@@ -71,11 +82,23 @@ date: 15 декабря 2020
 # Ellisha Fox
 <a target="_blank" href="https://www.instagram.com/ellishafox/">@ellishafox</a>
 
+</div>
+
+</section>
+
+<div class="bg-secondary-100 p-8 uppercase tracking-wider mt-4 mb-0 leading-4">
+	
 <img src="https://i.postimg.cc/Bv3B7dPv/fox.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-8 mt-8" />
+	
+</div>
+
+<div class="text-center bg-primary-100 p-8 uppercase tracking-wider mt-0 mb-12 leading-4">
 
 #### «Это задача искусства — открывать границы, показывать людям новые карты»
 
 </div>
+
+<section>
 
 Я артист бойлеска, хотя люблю брать на вооружение фишки дрэг-квин. Мне нравится переодеваться в женское. Иногда хожу так на тусовки в клубы, но без силиконовых накладок на грудь. Я не перевоплощаюсь полностью в женщину, стараюсь совмещать мужское и женское. Над моей пластикой работает друг, хореограф Ваня. Во мне достаточно много мужского, и он пытается это из меня выбить.
 
@@ -87,7 +110,7 @@ date: 15 декабря 2020
 
 </section>
 
-<div class="gallery">
+<div class="gallery bg-secondary-100">
   <div class="small">
   	<Image src="https://i.postimg.cc/9QmfxbFh/2020-12-13-11-28-38.png" alt="fox" />
 	</div>
@@ -115,11 +138,23 @@ date: 15 декабря 2020
 # Lady J.
 <a target="_blank" href="https://www.instagram.com/lady_jstar/">@lady_jstar</a>
 
+</div>
+
+</section>
+
+<div class="bg-secondary-100 p-8 uppercase tracking-wider mt-4 mb-0 leading-4">
+	
 <img src="https://i.postimg.cc/vZQWcw81/jstar.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-8 mt-8" />
+	
+</div>
+
+<div class="text-center bg-primary-100 p-8 uppercase tracking-wider mt-0 mb-12 leading-4">
 
 #### «В клубе твой театр на хер никому не уперся»
 
 </div>
+
+<section>
 
 Я из очень маленького городка на юге Урала. Там и сейчас культура дрэга не очень развита, а в 2012 году, когда я начинал, все было совсем плохо. На местечковых вечеринках для радужной братии собирались трансухи местного разлива (говорить «дрэг-артистки» про людей, которые являются просто трансухами, у меня язык не поворачивается). В какой-то момент я подумал: «Опа, а я же могу лучше». Так и меня затянуло в дрэг-тусовку. 
 
@@ -131,7 +166,7 @@ date: 15 декабря 2020
 	
 </section>
 
-<div class="gallery">
+<div class="gallery bg-secondary-100">
   <div class="small">
   	<Image src="https://i.postimg.cc/PJvD54vc/2020-12-13-11-48-40.png" alt="jstar" />
 	</div>
@@ -159,11 +194,23 @@ date: 15 декабря 2020
 # Lorina Rey
 <a target="_blank" href="https://www.instagram.com/lorina_rey/">@lorina_rey</a>
 
+</div>
+
+</section>
+
+<div class="bg-secondary-100 p-8 uppercase tracking-wider mt-4 mb-0 leading-4">
+	
 <img src="https://i.postimg.cc/pLhn9VbL/lorina.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-8 mt-8" />
+	
+</div>
+
+<div class="text-center bg-primary-100 p-8 uppercase tracking-wider mt-0 mb-12 leading-4">
 
 #### «Дрэг в России застрял где-то в 90-х»
 
 </div>
+
+<section>
 
 Меня зовут Лоран, я стилист по волосам, колорист, мейкап-артист. А также дрэг-королева Лорина Рэй, и дрэг занимает большую часть моей жизни. Именно в дрэге я могу разгуляться на полную катушку и творить без каких-либо барьеров и табу. Я особо не придаю значения позиционированию себя, вопросу, как ко мне обращаться — «он» или «она». Мне кажется, это не так важно, главное — то, что ты делаешь.
  
@@ -171,7 +218,7 @@ date: 15 декабря 2020
 	
 </section>
 
-<div class="gallery">
+<div class="gallery bg-secondary-100">
   <div class="small">
   	<Image src="https://i.postimg.cc/SQfLqKk0/2020-12-16-14-15-17.png" alt="lorina" />
 	</div>
@@ -193,11 +240,23 @@ date: 15 декабря 2020
 # Desire Debosh
 <a target="_blank" href="https://www.instagram.com/desiredebosh/">@desiredebosh</a>
 
+</div>
+
+</section>
+
+<div class="bg-secondary-100 p-8 uppercase tracking-wider mt-4 mb-0 leading-4">
+	
 <img src="https://i.postimg.cc/fTXGMFBS/desire.gif" alt="ppPPp" class="w-64 mx-auto rounded-full my-8 mt-8" />
+	
+</div>
+
+<div class="text-center bg-primary-100 p-8 uppercase tracking-wider mt-0 mb-12 leading-4">
 
 #### «Это мое альтер эго, которое хочет высказать все, что Руслан в настоящей жизни себе позволить не может»
 
 </div>
+
+<section>
 
 Мне 25, и, получается, я одна из главных и старых трансух Тюмени. Я директор EVALON PROMO GROUP — это объединение не только дрэг-, но и травести-артистов, которые выступают с пародиями на нашу эстраду, фрик-шоу, аниматоров. 
 
@@ -207,7 +266,7 @@ date: 15 декабря 2020
 
 </section>
 
-<div class="gallery">
+<div class="gallery bg-secondary-100">
   <div class="small">
   	<Image src="https://i.postimg.cc/nrrW8SMr/2020-12-16-15-29-37.png" alt="Desire" />
 	</div>
