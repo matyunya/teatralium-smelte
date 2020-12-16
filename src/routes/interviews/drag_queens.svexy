@@ -59,7 +59,7 @@ image: https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-
 
 </section>
 
-<div class="gallery bg-secondary-100">
+<div class="gallery bg-secondary-100 hued">
 	<Image src="https://i.postimg.cc/YCY7kmnS/2020-12-13-10-55-27.png" alt="vanessa" />
 	<Image src="https://i.postimg.cc/bwghsjPX/2020-12-13-10-56-10.png" alt="vanessa" />
 </div>
@@ -107,7 +107,7 @@ image: https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-
 
 </section>
 
-<div class="gallery bg-secondary-100">
+<div class="gallery bg-secondary-100 hued">
 	<Image src="https://i.postimg.cc/9QmfxbFh/2020-12-13-11-28-38.png" alt="fox" />
 	<Image src="https://i.postimg.cc/y8L82RkS/2020-12-13-11-29-18.png" alt="fox" />
 </div>
@@ -159,7 +159,7 @@ image: https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-
 
 </section>
 
-<div class="gallery bg-secondary-100">
+<div class="gallery bg-secondary-100 hued">
 	<Image src="https://i.postimg.cc/PJvD54vc/2020-12-13-11-48-40.png" alt="jstar" />
 	<Image src="https://i.postimg.cc/NMS4DL13/2020-12-13-11-51-13.png" alt="jstar" />
 </div>
@@ -207,7 +207,7 @@ image: https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-
 
 </section>
 
-<div class="gallery bg-secondary-100">
+<div class="gallery bg-secondary-100 hued">
 	<Image src="https://i.postimg.cc/SQfLqKk0/2020-12-16-14-15-17.png" alt="lorina" />
 	<Image src="https://i.postimg.cc/t4wWDZt6/2020-12-16-14-16-45.png" alt="lorina" />
 </div>
@@ -251,7 +251,7 @@ image: https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-
 
 </section>
 
-<div class="gallery bg-secondary-100">
+<div class="gallery bg-secondary-100 hued">
 	<Image src="https://i.postimg.cc/nrrW8SMr/2020-12-16-15-29-37.png" alt="Desire" />
 	<Image src="https://i.postimg.cc/L5JxQq0Z/2020-12-16-15-39-23.png" alt="Desire" />
 </div>
