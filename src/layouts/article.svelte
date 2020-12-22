@@ -133,7 +133,7 @@
       </span>
     </h2>
 
-    <Date {post} />
+    <Date class={subClass} {post} />
   </div>
 
   <div class="absolute w-screen top-0 left-0 bg h-screen">
@@ -316,6 +316,11 @@
     {:else if name === 'drag_queens'}
       <Image
         src="https://www.photos-public-domain.com/wp-content/uploads/2011/09/lavender-fur-texture.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
+    {:else if name === 'horosho_ploho_poraznomu'}
+      <Image
+        src="images/horoshoplphomain.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {/if}
