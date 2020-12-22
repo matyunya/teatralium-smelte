@@ -21,7 +21,7 @@
   }
 </script>
 
-<div class="{$$props.class || ""} date mx-auto max-w-xs">
+<div class="{$$props.class || ''} date mx-auto max-w-xs">
   <div class="rounded-full px-4">
     <span>{post.date || ''}{hasAuthor(post) ? ',' : ''}</span>
     <span>
