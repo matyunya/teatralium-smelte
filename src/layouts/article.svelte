@@ -323,6 +323,11 @@
         src="images/horoshoplphomain.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'kakie_peremeny_esli_dazhe_pogovorit_ob_ehtom_nelzya'}
+      <Image
+        src="images/taboodramaturgimain.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}

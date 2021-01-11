@@ -138,13 +138,17 @@ published: true
 
 </div>
 
-<div class="cursor-not-allowed pointer-events-none text-gray-600 grayscale flex w-full md:w-1/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+<div class="flex w-full md:w-1/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<a href="/taboo_na_nelyubov/kakie_peremeny_esli_dazhe_pogovorit_ob_ehtom_nelzya" class="no-underline">
 
 <Image src="https://64.media.tumblr.com/ba1b4c763330abcc15f8d0576e8fee23/tumblr_pitq5bFKvf1vzsfz8o1_640.jpg" class="" />
 
 ### «Просто еще одна хорошая тема для театра» {.italic .font-mono .font-normal .text-lg}
 
 Драматурги и режиссеры — о том, как совмещать художественное и социальное в театральных текстах, и возможностях драматургии в разговоре на сложные темы. {.md:text-sm}
+
+</a>
 
 </div>
 
