@@ -330,7 +330,7 @@
         class="object-cover elevation-0 h-screen" />
     {:else if name === 'vse_lyudi_takovy_bog_s_nimi_so_vsemi'}
       <Image
-        src="share/share/koonen.jpg"
+        src="share/koonen.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {/if}
