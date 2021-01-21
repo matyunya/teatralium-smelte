@@ -9,7 +9,7 @@ subtitle: Большое интервью с Викой Приваловой о�
 description: "Большое интервью с режиссером об откровениях в работе и жизни"
 date: 19 января 2021
 coverClass: "border-alert-500 border-4 sm:p-2"
-image: /share/vikashare.png
+image: /share/vikashare1.png
 ---
 
 ```js exec
