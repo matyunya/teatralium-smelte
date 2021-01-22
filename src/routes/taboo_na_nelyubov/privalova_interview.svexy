@@ -8,7 +8,7 @@ customTitle: "«Я делаю невидимое видимым»"
 subtitle: Большое интервью с Викой Приваловой о нужных спектаклях и о том, как их делать
 description: "Большое интервью с режиссером о нужных спектаклях и о том, как их делать"
 date: 19 января 2021
-coverClass: "border-alert-500 border-4 sm:p-2"
+coverClass: "border-alert-500 border-4 sm:pt-16 md:pt-10"
 image: /share/vikashare1.png
 ---
 
