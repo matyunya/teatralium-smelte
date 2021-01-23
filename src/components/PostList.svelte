@@ -90,7 +90,7 @@
 
 {#if $page && $page.path === '/'}
   <div
-    class="w-full px-8 font-mono tracking widest pb-8"
+    class="w-full px-2 font-mono tracking widest pb-8"
     style="background: #FFF00A">
     <a href="/taboo_na_nelyubov/" class="no-underline">
       <section>
