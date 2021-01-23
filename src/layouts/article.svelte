@@ -55,9 +55,11 @@
     font-style: italic;
   }
 
-  .cover {
-    height: calc(100vh - 6rem);
-    max-width: 1200px;
+  @media (min-width: 640px) {
+    .cover {
+      height: calc(100vh - 6rem);
+      max-width: 1200px;
+    }
   }
 
   .bg {
