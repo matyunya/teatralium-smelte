@@ -41,8 +41,8 @@ published: true
   <Image class="rounded-full" src="images/ava-n.jpg" />
 </div>
 </div>
-
-<div class="bg-secondary-900 text-alert-100 flex items-center flex-1 w-1/2">
+<a href="https://github.com/matyunya">
+<div class="bg-secondary-900 text-alert-100 flex items-center flex-1 w-1/2 cursor-pointer hover:bg-secondary-800 hover:underline">
 <div class="pl-4 w-2/3">
 <span>Максим Матюнин</span>
 <span class="text-left small">разработчик</span>
@@ -51,6 +51,7 @@ published: true
   <Image class="rounded-full" src="images/ava-m.jpg" />
 </div>
 </div>
+</a>
 
 </div>
 
