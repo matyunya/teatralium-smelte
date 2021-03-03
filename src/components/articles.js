@@ -34,6 +34,7 @@ import postinternet_art from "meta/articles/postinternet_art.json";
 import sem_yazykov_kazahstanskogo_teatra from "meta/articles/sem_yazykov_kazahstanskogo_teatra.json";
 import teatr_online_2020 from "meta/articles/teatr_online_2020.json";
 import vse_lyudi_takovy_bog_s_nimi_so_vsemi from "meta/articles/vse_lyudi_takovy_bog_s_nimi_so_vsemi.json";
+import zhizn_prodolzhaetsya_no_vremya_ostanovilos from "meta/articles/zhizn_prodolzhaetsya_no_vremya_ostanovilos.json";
 
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import sheshepop from "meta/interviews/sheshepop.json";
@@ -76,6 +77,7 @@ import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  zhizn_prodolzhaetsya_no_vremya_ostanovilos,
   vse_lyudi_takovy_bog_s_nimi_so_vsemi,
   drag_queens,
   teatr_online_2020,

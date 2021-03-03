@@ -1381,6 +1381,11 @@ bluebird@^3.5.1:
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.1.tgz#df70e302b471d7473489acf26a93d63b53f874de"
   integrity sha512-DdmyoGCleJnkbp3nkbxTLJ18rjDsE4yCggEwKNXkeV123sPNfOCYeDoeuOY+F2FrSjO1YXcTU+dsy96KMy+gcg==
 
+blurhash@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/blurhash/-/blurhash-1.1.3.tgz#dc325af7da836d07a0861d830bdd63694382483e"
+  integrity sha512-yUhPJvXexbqbyijCIE/T2NCXcj9iNPhWmOKbPTuR/cm7Q5snXYIfnVnz6m7MWOXxODMz/Cr3UcVkRdHiuDVRDw==
+
 bmp-js@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/bmp-js/-/bmp-js-0.1.0.tgz#e05a63f796a6c1ff25f4771ec7adadc148c07233"
@@ -6469,12 +6474,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-svelte-image@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.2.7.tgz#ab03372ecc20afbae84e2693756030eb2508417c"
-  integrity sha512-/d2Qf9ZIZ/4qeguvcTO0u65vkh91AgXCSNT7sgELKPQvCzH47gvo0eRpMIJtZIPMtZflnvhvU8biIwFps4SZAA==
+svelte-image@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/svelte-image/-/svelte-image-0.2.9.tgz#09b766697f32b20a84150f52f3b7e9cdb41c9c8d"
+  integrity sha512-2hspz8mDBCaJ78Xp2ibc+pPFnX5sUfqPa0Wb53knYAjPMtSojQi4sFVXjRmcC/oFJ6C2sop0pTnSHmjm/7kTCg==
   dependencies:
     axios "^0.19.2"
+    blurhash "^1.1.3"
     potrace latest
     sharp latest
     svelte latest
