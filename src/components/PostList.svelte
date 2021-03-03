@@ -94,19 +94,20 @@
   {#each items as post, i}
     <PostPreview {post} {i} />
     {#if $page && $page.path === '/' && i === 2}
-      <div class="w-full font-mono py-8" style="background: #FFF00A">
+      <div class="w-full font-mono py-8 mt-8" style="background: #FFF00A">
         <a href="/taboo_na_nelyubov/" class="no-underline">
           <section>
             <h2
-              class="font-mono text-3xl uppercase tracking-widest text-center mb-8
-              pt-8">
+              class="font-mono text-3xl uppercase tracking-widest text-center
+              mb-8 pt-8">
               «Табу на нелюбовь»
             </h2>
             <div class="text-center mb-8 text-sm">
               Спецпроект «Театралия» и Фонда «Четверг»
             </div>
             <div
-              class="flex flex-col md:flex-row items-center justify-center text-sm">
+              class="flex flex-col md:flex-row items-center justify-center
+              text-sm">
               <img
                 src="https://i.postimg.cc/Y0kZjMbT/2020-12-02-23-22-30.png"
                 alt="ppPPp"
@@ -114,12 +115,12 @@
               <div class="mt-4 md:mt-0">
                 <div>
                   Общество требует от детей безусловной любви к родителям, от
-                  родителя — автоматической любви к своему ребенку. Нелюбовь к детям
-                  табуирована, и мы пытаемся понять, что нам делать с этим табу.
-                  Наши авторы — театроведы, блогеры, драматурги, режиссеры, родители
-                  и нет — разбираются, как говорить о сложных темах в театре, и
-                  делятся опытом. А мы ждем ваши пьесы, лучшая из которых будет
-                  поставлена.
+                  родителя — автоматической любви к своему ребенку. Нелюбовь к
+                  детям табуирована, и мы пытаемся понять, что нам делать с этим
+                  табу. Наши авторы — театроведы, блогеры, драматурги,
+                  режиссеры, родители и нет — разбираются, как говорить о
+                  сложных темах в театре, и делятся опытом. А мы ждем ваши
+                  пьесы, лучшая из которых будет поставлена.
                 </div>
               </div>
             </div>
