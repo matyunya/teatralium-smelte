@@ -19,17 +19,17 @@ image: share/tabooartshare.png
 
 <section>
 
-<Note bg="transparent"><Image src="https://www.nlobooks.ru/upload/iblock/adf/adfb22ca57df644f3ccd70cb7c889147.jpg" /></Note>
-
 <div class="mb-24 py-4" style="background: #FEF033">
 
 Этот материал — часть <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">спецпроекта «Табу на нелюбовь»</a> Фонда «Четверг» и «Театралия». Несколько месяцев мы рассказывали о феномене нелюбви к детям, сложностях родительства, общественном осуждении матерей и собирали ваши пьесы про это. Мы получили сотню текстов, лучшие из которых будут опубликованы и поставлены.{.font-mono .text-center .text-sm .mb-4}
 
 </div>
 
+<Note bg="transparent" top="90"><Image src="https://www.nlobooks.ru/upload/iblock/adf/adfb22ca57df644f3ccd70cb7c889147.jpg" /></Note>
+
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -41,7 +41,7 @@ image: share/tabooartshare.png
 
 <br>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-16" style="background: #e5f4ee">
 
 <section>
 
@@ -51,8 +51,6 @@ image: share/tabooartshare.png
 
 </section>
 	</div>
-
-<br>
 
 <section>
 
@@ -100,6 +98,9 @@ image: share/tabooartshare.png
 	</div>
 </div>
 
+<br>
+<br>
+	
 <section>
 
 # Идентичность. Женская история
@@ -119,7 +120,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -149,7 +150,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -168,7 +169,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -185,7 +186,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -208,7 +209,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -229,7 +230,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 pb-2 mb-8" style="background: #e5f4ee">
 
 <section>
 
@@ -273,7 +274,7 @@ image: share/tabooartshare.png
 
 </section>
 
-<div class="text-secondary-800 py-8" style="background: #e5f4ee">
+<div class="text-secondary-800 py-8 mb-8" style="background: #e5f4ee">
 
 <section>
 
