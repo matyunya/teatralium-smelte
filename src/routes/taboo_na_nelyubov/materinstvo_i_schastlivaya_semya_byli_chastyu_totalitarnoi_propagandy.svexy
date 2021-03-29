@@ -7,6 +7,7 @@ title: «Материнство и счастливая семья были ча
 description: Женская идентичность в советском искусстве и театре
 date: 28 марта 2021
 image: share/tabooartshare.png
+coverClass: text-white
 ---
 
 ```js exec
@@ -100,7 +101,7 @@ image: share/tabooartshare.png
 
 <br>
 <br>
-	
+
 <section>
 
 # Идентичность. Женская история
