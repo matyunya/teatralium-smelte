@@ -133,13 +133,17 @@ published: true
 
 </div>
 
-<div class="cursor-not-allowed pointer-events-none text-gray-600 grayscale flex w-full md:w-3/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+<div class="flex w-full md:w-3/4 flex-col px-2 md:px-6 mb-2 md:mb-12 trans-bg">
+
+<a href="/taboo_na_nelyubov/materinstvo_i_schastlivaya_semya_byli_chastyu_totalitarnoi_propagandy" class="no-underline">
 
 <Image src="https://vintagestockphotos.com/sample/65493/two-costumes.jpg" class="" />
 
-### Мазерхуд {.text-2xl .font-mono}
+### «Материнство и счастливая семья были частью тоталитарной пропаганды» {.text-2xl .font-mono}
 
-Разбираемся, как менялся образ материнства в культуре и способ говорить на темы, связанные со сложностями родительства. {.text-xl}
+Женская идентичность в советском искусстве и театре {.text-xl}
+
+</a>
 
 </div>
 

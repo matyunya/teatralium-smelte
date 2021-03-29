@@ -335,6 +335,11 @@
         src="share/koonen.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'materinstvo_i_schastlivaya_semya_byli_chastyu_totalitarnoi_propagandy'}
+      <Image
+        src="images/taboomain.jpg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {:else if name === 'zhizn_prodolzhaetsya_no_vremya_ostanovilos'}
       <Image
         src="images/sapphiresteelmain.jpg"
