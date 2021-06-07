@@ -345,6 +345,11 @@
         src="images/sapphiresteelmain.jpg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
+    {:else if name === 'materinskiy_18_procentov'}
+      <Image
+        src="images/18procentovmain.jpeg"
+        alt={post.title}
+        class="object-cover elevation-0 h-screen" />
     {/if}
   </div>
 {/if}
