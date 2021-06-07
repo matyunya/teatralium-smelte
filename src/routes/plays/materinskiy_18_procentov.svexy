@@ -15,13 +15,13 @@ image: test
   import Note from "components/Note.svelte";
 ```
 	
-Эта пьеса — победитель опен колла второго сезона проекта «Гуманитарный театр» Фонда «Четверг». июня спектакль «18 %» впервые покажут{.lead}
+Эта пьеса — победитель опен колла второго сезона проекта «Гуманитарный театр» Фонда «Четверг» и спецпроекта «Табу на нелюбовь» на «Театралии». июня спектакль «18 %» впервые покажут{.lead}
 
 <section>
 
 <div class="mb-24 py-4" style="background: #FEF033">
 
-<p class="font-mono text-center text-sm mb-4">Этот материал — часть <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">спецпроекта «Табу на нелюбовь»</a> Фонда «Четверг» и «Театралия». Несколько месяцев мы рассказывали о феномене нелюбви к детям, сложностях родительства, общественном осуждении матерей и собирали ваши пьесы про это. <br> Внимание. В тексте присутствует нецензурная лексика и сцены описания насилия. Если для вас это неприемлемо, пожалуйста, почитайте, <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/antimonopoliya_smyslov/">почему театр — подходящее место для обсуждения сложных тем</a>.</p>
+<p class="font-mono text-center text-sm mb-4">В <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/">спецпроекте «Табу на нелюбовь»</a> мы несколько месяцев рассказывали о феномене нелюбви к детям, сложностях родительства, общественном осуждении матерей и собирали пьесы про это. <br> Внимание. В тексте присутствует нецензурная лексика и сцены описания насилия. Если для вас это неприемлемо, пожалуйста, почитайте, <a target="_blank" href="https://teatralium.com/taboo_na_nelyubov/antimonopoliya_smyslov/">почему театр — подходящее место для обсуждения сложных тем</a>.</p>
 
 </div>
 
@@ -35,8 +35,18 @@ image: test
 - СОИСКАТЕЛИ.
 
 <br>
-	
+<br>
+
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 1.
+
+</div>
+
+<section>
 
 <i>(Проговориться)</i>
 
@@ -66,8 +76,17 @@ image: test
 <i>Кто-то забирает другую собаку и тащит за собой. Собака лает. Кто-то бьет собаку по туловищу. Собака хрипит. Фонари горят ярко, потому что какие-то жители жаловались на плохую освещенность. Другие жители ходят по дворам и ищут собаку. Кричат. Никому это не нравится. Кто-то из жителей звонит в управляющую компанию и говорит, что он за естественное освещение. Утром и днем везде расклеиваются объявления о пропаже собаки. Их наклеивают поверх объявлений о пропаже кошек и птиц. В этом районе те имеют меньшее значение.</i>
 
 <br>
-	
+
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 2.
+
+</div>
+
+<section>
 
 Одна женщина стоит возле подъезда и ждет. Часто курит. Подъезжает машина. Там тот, кого она ждет. Он выходит. Оба стоят и курят перед подъездом, хотя ей нужно, чтобы он поднялся. Он не торопится, потому что знает – всему свое время.{.text-2xl .pb-6}
 
@@ -97,7 +116,16 @@ image: test
 
 Звонят в дверь. Он открывает. Полицейские. Заходят. Идут на кухню курить. Им не мешают. Семья ждет дальнейших указаний. Полицейские расходятся по комнатам. Начинаются долгие разговоры и заполнение бумаг. Он прощается, улыбается, говорит одобряющие слова, еще раз прощается, выходит из квартиры. На улице продолжают искать собаку.{.text-2xl .pb-6}
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 3.
+
+</div>
+
+<section>
 
 Телефон обязательно взять. Не представляю себя с фотоальбомом в руках, который подарили на 8 марта в 1 классе. Розовый. Мальчикам зеленые дарили. На 23 февраля.{.font-mono}
 
@@ -150,7 +178,16 @@ image: test
 
 Хозяева других животных решили наблюдать за ней, потому что собака не виновата в хозяине.{.text-2xl .pb-6}
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 4.
+
+</div>
+
+<section>
 
 Специалист, который всегда знает, когда он необходим, вовремя делает объезд подведомственной территории и останавливается там, где предполагается опасная ситуация. Он смотрит в окна, делает отметки и фотографии. Он смотрит на время, останавливает машину. Он ждет. Ему мешают люди, которые ищут собак. Они путаются под ногами.{.font-mono}
 
@@ -180,7 +217,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 5.
+
+</div>
+
+<section>
 
 Иру брать с собой? А можно еще подумать? А вдруг после четырнадцати еще что-то будет, о чем мне никто еще не сказал?{.font-mono}
 
@@ -270,7 +316,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 6.
+
+</div>
+
+<section>
 
 <b>СПЕЦИАЛИСТ.</b> Просто нужно понять, для чего тебе это?)))
 
@@ -321,7 +376,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 7.
+
+</div>
+
+<section>
 
 <b>СПЕЦИАЛИСТ.</b> <i>На девочку нужно составить характеристику из мест, где она часто бывает, и специалист собирает все данные. Специалиста раздражает, что никто ребенка совершенно не знает, и редактирует присланное.</i>
 
@@ -365,7 +429,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 8.
+
+</div>
+
+<section>
 
 Специалист делает перестановку в ее комнате. Как у себя в квартире.{.font-mono}
 
@@ -431,7 +504,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 9.
+
+</div>
+
+<section>
 
 Ну, вот. Теперь я в чужих трусах.{.font-mono}
 
@@ -445,7 +527,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 10.
+
+</div>
+
+<section>
 
 Давай по чесноку. Финальный день отпуска. Радуешься или нет? Тому, что завтра в понедельник на работу. Радуешься или наоборот?{.font-mono}
 
@@ -487,7 +578,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 11.
+
+</div>
+
+<section>
 
 <b>В суде.</b> <i>Мальчик говорит тихо, потому что его, конечно, все пугает. Его хорошо слышно. Акустика в судах всегда хорошая.</i>
 
@@ -526,8 +626,17 @@ image: test
 — Меня зовут Вероника, мне 32 года, я из Зеленограда, по профессии много кем являюсь, одно из направлений патологоанатом, сейчас работаю в магазине кассиром, хочется зарабатывать больше, осуществить свои мечты, купить машину, отдельную квартиру и тд. Я участвую в конкурсе, сделала репосты. Жду результаты. А если я выиграю, то можно вместо айфона взять деньги?{.font-mono}
 
 <br>
-	
+
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 12.
+
+</div>
+
+<section>
 
 Расческа, полотенца, зубная щетка – личные предметы гигиены.{.font-mono}
 
@@ -573,7 +682,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 13.
+
+</div>
+
+<section>
 
 На основе нашего интеллектуального труда партнеры нашей команды создают свои системы и получают результаты.
 
@@ -623,7 +741,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 14.
+
+</div>
+
+<section>
 
 Во время веревочного тренинга есть такое упражнение: встать спинами друг к другу, сесть на землю пятой точкой и потом встать. Не опираясь ни за что руками.
 
@@ -699,7 +826,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 15.
+
+</div>
+
+<section>
 
 Приют для бездомных животных. Фонарей вообще нет. Как они тут что-то могут разглядеть?{.font-mono}
 
@@ -711,7 +847,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 16.
+
+</div>
+
+<section>
 
 <i>— Ты мудак, у***ще. Я убила месяц, а у меня ни***. Где деньги мои? Я, б***ь, никуда не поехала. Что ты за х***ю несешь? Мне надо деньги отдавать, а их нет. Их просто вообще нет. А должны были. Ты сказал. Я все сделала правильно. Я вложилась. У меня ничего нет. Переводи на карту. Срочно. У тебя два часа. Иначе я все расскажу.</i>
 
@@ -725,7 +870,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 17.
+
+</div>
+
+<section>
 
 <b>ДЕВОЧКИ.</b>
 
@@ -782,8 +936,17 @@ image: test
 <i>— Не надо.</i>
 
 <br>
-	
+
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 18.
+
+</div>
+
+<section>
 
 - если вы мама в декрете
 - если вы не хотите проводить серую жизнь в офисе
@@ -802,7 +965,16 @@ image: test
 
 <br>
 
+</section>
+
+<div class="text-center p-2 tracking-wider mt-4 mb-4 leading-4" style="background: #e5f4ee">
+<img src="https://i.pinimg.com/originals/65/10/2a/65102ae8ecd3f6a5f5c0b4dcd247bc48.gif" alt="ppPPp" class="w-32 mx-auto rounded-full my-1 mt-8" />
+
 # 19.
+
+</div>
+
+<section>
 
 <b>СПЕЦИАЛИСТ.</b> Я говорю, что не буду заниматься этим вопросом, потому что здесь не зона моей ответственности. Я редко отказываю, но вообще – где проходит эта граница? Когда ты должен сказать, что это уже не касается тебя. Мне будет что-то за то, что я не буду это делать? Я не говорю, что отстраняюсь, просто считаю, что нужно уметь делегировать. Это как раз тот случай. Я прихожу на площадку для собак. Я называю им адреса. Я предлагаю им каталоги. С некоторыми мы обмениваемся телефонами.
 
