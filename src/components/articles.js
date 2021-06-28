@@ -74,10 +74,12 @@ import mestnye from "meta/plays/mestnye.json";
 import pomolvka from "meta/plays/pomolvka.json";
 import fioletoviy_sneg from "meta/plays/fioletoviy_sneg.json";
 import materinskiy_18_procentov from "meta/plays/materinskiy_18_procentov.json";
+import my_osuzhdali_osuzhdaem_i_budem_osuzhdat from "meta/plays/my_osuzhdali_osuzhdaem_i_budem_osuzhdat.json";
 
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  my_osuzhdali_osuzhdaem_i_budem_osuzhdat,
   materinskiy_18_procentov,
   zhizn_prodolzhaetsya_no_vremya_ostanovilos,
   vse_lyudi_takovy_bog_s_nimi_so_vsemi,
