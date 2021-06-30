@@ -15,9 +15,9 @@
       return `${text()}:&nbsp;${post.author}</a>`;
     }
 
-    return `${text()}:&nbsp;<a href=${translit(post.author)}>${
-      post.author.replace(',', ',<br>')
-    }</a>`;
+    return `${text()}:&nbsp;<a href=${translit(
+      post.author
+    )}>${post.author.replace(",", ",<br>")}</a>`;
   }
 </script>
 
