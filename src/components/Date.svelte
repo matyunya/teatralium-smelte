@@ -16,7 +16,7 @@
     }
 
     return `${text()}:&nbsp;<a href=${translit(post.author)}>${
-      post.author
+      post.author.replace(',', ',<br>')
     }</a>`;
   }
 </script>

@@ -7,7 +7,7 @@ title: Театр + харассмент = ❤️
 description: А cancel culture — это охота на ведьм
 date: 30 июня 2021
 coverClass: text-white
-image: /share/theater.jpg
+image: /share/harassment.jpeg
 ---
 
 ```js exec
@@ -20,7 +20,7 @@ image: /share/theater.jpg
 
 <section>
 
-**Обложка: <span class="bg-alert-500">Miriam Cahn</span>**
+<div class="w-full text-center"><strong>Обложка:</strong> <span class="bg-alert-500">Miriam Cahn</span></div>
 
 <br>
 <br>
@@ -130,8 +130,8 @@ image: /share/theater.jpg
 
 <section>
 
-<img src="https://i.pinimg.com/originals/2f/f1/36/2ff13665c0c2d620461ec57625ac418e.gif" alt="ppPPp" class="w-120 mx-auto rounded-full my-16 mt-16" />
-scorpiondagger.tumblr.com
+<img src="https://i.pinimg.com/originals/2f/f1/36/2ff13665c0c2d620461ec57625ac418e.gif" alt="ppPPp" class="w-120 mx-auto rounded-full mt-16 mt-16" />
+<span class="mb-16 text-sm">scorpiondagger.tumblr.com</span>
 
 </section>
 

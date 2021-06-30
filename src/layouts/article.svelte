@@ -357,7 +357,7 @@
         class="object-cover elevation-0 h-screen" />
     {:else if name === 'theater_harassment_love'}
       <Image
-        src="images/theater.jpg"
+        src="images/harassment.jpeg"
         alt={post.title}
         class="object-cover elevation-0 h-screen" />
     {/if}
