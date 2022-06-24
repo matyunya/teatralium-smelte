@@ -1,0 +1,1 @@
+function t(t){var r=t.title,e=t.subtitle,i=t.description;if(t.useDescription)return i;if(null!=e)return e;if(r.includes(":")){var s=r.split(":")[1].trim();return"".concat(s[0].toUpperCase()).concat(s.slice(1))}return"."===i.substr(-1)?i.slice(0,-1):i}export{t as s};

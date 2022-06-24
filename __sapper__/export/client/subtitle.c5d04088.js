@@ -1,0 +1,1 @@
+function t({title:t,subtitle:e,description:i,useDescription:r}){if(r)return i;if(null!=e)return e;if(t.includes(":")){const e=t.split(":")[1].trim();return`${e[0].toUpperCase()}${e.slice(1)}`}return"."===i.substr(-1)?i.slice(0,-1):i}export{t as s};
