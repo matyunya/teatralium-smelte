@@ -26,7 +26,7 @@
     "compression": "^1.7.1",
     "express": "^4.17.1",
     "markdown-it-attrs": "^3.0.1",
-    "mdsvex": "git://github.com/matyunya/mdsvex#6696300a74fcd48c5845096e7334bf283859a208",
+    "mdsvex": "https://github.com/matyunya/mdsvex#6696300a74fcd48c5845096e7334bf283859a208",
     "sirv": "^0.4.0",
     "smelte": "^0.1.18",
     "svelte-image": "^0.2.9",
