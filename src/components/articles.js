@@ -46,6 +46,7 @@ import contemporary_artists from "meta/interviews/contemporary_artists.json";
 import deufert_plischke from "meta/interviews/deufert_plischke.json";
 import devyanostye from "meta/interviews/devyanostye.json";
 import drag_queens from "meta/interviews/drag_queens.json";
+import frolova_knam from "meta/interviews/frolova_knam.json";
 import ivan_vyrypaev_protiv_kritikov from "meta/interviews/ivan_vyrypaev_protiv_kritikov.json";
 import kritiki from "meta/interviews/kritiki.json";
 import miloserdie from "meta/interviews/miloserdie.json";
@@ -83,6 +84,7 @@ import pomolvka from "meta/plays/pomolvka.json";
 import idite_na from "meta/tests/idite_na.json";
 
 export default [
+  frolova_knam,
   teatr_i_voina,
   partizany,
   gruppa_prodlennogo_dnya,
